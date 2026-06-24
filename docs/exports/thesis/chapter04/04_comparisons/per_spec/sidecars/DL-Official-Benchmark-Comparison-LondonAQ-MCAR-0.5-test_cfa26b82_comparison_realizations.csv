@@ -1,0 +1,41 @@
+result_id,realization_id,algorithm_name,family,metric_key,metric_value,rank_within_realization
+053e4955-4593-488e-8c37-637ab752bee5,test_r000,Simple LSTM,dl_temporal,mae,20.878062659828725,3
+0d0fc3f2-3817-49e7-90d9-9d26fd657d25,test_r001,Simple GRU,dl_temporal,mae,20.95382912875357,3
+1124cfca-0821-462a-914b-4c7fc379c58e,test_r002,Simple GRU,dl_temporal,mae,20.810817525147712,1
+126f4253-91d4-4ed7-9fd2-6e93105a9c3b,test_r003,Simple RNN,dl_temporal,mae,21.02507796242654,2
+12b510cf-fe27-41e9-af2c-0be676f9cad4,test_r000,SAITS,dl_temporal,mae,21.08558756539381,4
+14523644-aedd-4554-9585-fd2e1c176932,test_r000,Simple RNN,dl_temporal,mae,20.865354342542116,2
+15d1794e-b063-4ce3-a515-0c0b2d88ab72,test_r000,SAITS-LC,dl_temporal,mae,21.308426795388716,5
+1b6f6694-fc1d-4198-af98-2238f7b733e5,test_r002,SAITS,dl_temporal,mae,21.104699631988453,4
+21bb1349-60ae-430f-92f1-6d0f65b7545d,test_r002,SAITS-LC,dl_temporal,mae,21.28548753986721,5
+24e7b6b9-635d-4d42-b524-6e1e1d441039,test_r001,Simple RNN,dl_temporal,mae,20.90650348573303,2
+2cdc09b1-3c39-41bc-b72a-d167b33bca91,test_r001,Simple LSTM,dl_temporal,mae,20.849975393055967,1
+3004de1c-279a-48de-93b6-90619b20ec2e,test_r003,Simple LSTM,dl_temporal,mae,21.061993840220488,3
+3367011b-d457-46a2-a36d-8bea78f16ba0,test_r001,SAITS-LCH,dl_temporal,mae,21.606864661318205,7
+35eb91fc-ea6e-4606-b72b-7394efa19fd2,test_r001,SAITS-LC,dl_temporal,mae,21.188133372235406,5
+43d17592-5de3-4ecb-98be-2ebd382c5625,test_r001,GRU-D,dl_temporal,mae,21.56045196622836,6
+450ca708-e8f4-4204-854c-1109627f0756,test_r000,Simple GRU,dl_temporal,mae,20.68677186952613,1
+4e4a2269-fc1e-4bea-9a80-321c4eea4a66,test_r003,SAITS-LC,dl_temporal,mae,21.33501986717121,5
+6c736196-851d-4cdc-8ae5-baba6344bfb2,test_r000,SAITS-LCH,dl_temporal,mae,21.628480503833774,7
+6cdc5a28-0098-4d8a-9d8d-7063cfa364cc,test_r004,SAITS-LC,dl_temporal,mae,21.06759774607713,5
+6efcad5a-bc29-4811-9373-ee7949839553,test_r003,SAITS,dl_temporal,mae,21.152270135506907,4
+733af39c-ad1c-491b-8736-1e84e52a7df7,test_r000,BRITS,dl_temporal,mae,25.91625764072148,8
+7f0dd15f-e131-478a-8567-2bab260a4fe9,test_r003,BRITS,dl_temporal,mae,26.003939147659043,8
+8091e7eb-ad21-4dc6-8579-b2184a5d3b23,test_r004,Simple LSTM,dl_temporal,mae,20.9945670511082,4
+86188690-73c4-4119-8ae4-9d71a66893dc,test_r002,BRITS,dl_temporal,mae,26.011050376707853,8
+87fb35c2-80e4-4b2c-8d5c-5cafd672ad50,test_r001,SAITS,dl_temporal,mae,21.04928660983607,4
+9ba563af-33b8-4dc6-a843-f64a4b82281c,test_r004,BRITS,dl_temporal,mae,25.92918510725402,8
+a129abbf-a23a-42aa-878b-5fdcb7ab5791,test_r003,GRU-D,dl_temporal,mae,21.788197405995657,7
+a32b67c8-f28b-4f73-bd50-47aab7caf3d1,test_r004,Simple GRU,dl_temporal,mae,20.915629609301646,1
+a4a21a5b-7f8f-4e44-ab2c-c254153427b9,test_r004,SAITS-LCH,dl_temporal,mae,21.55485251758897,6
+ae910016-8c4c-4ac7-958f-63434344fae5,test_r001,BRITS,dl_temporal,mae,25.836798010367193,8
+af87c15d-672e-49ce-8e05-9078c59fdf12,test_r002,GRU-D,dl_temporal,mae,21.976217248027282,7
+b4ba2dae-3218-4f71-bb9b-e0d4e845de40,test_r003,Simple GRU,dl_temporal,mae,20.78918105438989,1
+b4bc2f83-2d00-4960-be49-21082f9291a0,test_r004,GRU-D,dl_temporal,mae,21.573368244031116,7
+b5580b9d-910e-459e-910f-d6529d00005e,test_r004,SAITS,dl_temporal,mae,20.979508879469964,3
+cb517ab1-ab83-4869-9078-4984d85fb814,test_r002,SAITS-LCH,dl_temporal,mae,21.64430661660009,6
+d6a047a9-a752-4470-82f0-135d1a3cd889,test_r004,Simple RNN,dl_temporal,mae,20.91626299202329,2
+d75fcdff-bbe4-44b9-abf4-481f8a040056,test_r003,SAITS-LCH,dl_temporal,mae,21.602856593655208,6
+e3b9bba4-161e-4dae-a9c2-86c2344608b6,test_r002,Simple LSTM,dl_temporal,mae,20.948391997721654,2
+e601010e-534d-45e7-b9bf-dc9d4f363372,test_r000,GRU-D,dl_temporal,mae,21.561761090785172,6
+f9adc580-1152-4f4b-b17a-2f19f9005f4f,test_r002,Simple RNN,dl_temporal,mae,20.96987592009682,3

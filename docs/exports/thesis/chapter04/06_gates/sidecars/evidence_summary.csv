@@ -1,0 +1,11 @@
+pack,overall_status,figures_actual,figures_expected,figures_status,sidecars_actual,sidecars_expected,sidecars_status,spec_links_actual,spec_links_expected,spec_links_status,storyboards_actual,storyboards_expected,storyboards_status,schedule_actual,schedule_expected,schedule_status,notes
+01 Dataset characterization,PASS,6,5,PASS,5,1,PASS,0,0,N/A,0,0,N/A,0,0,N/A,Core dataset figures + guide sidecars.
+02 Missingness characterization,PASS,73,10,PASS,75,10,PASS,0,0,N/A,0,0,N/A,0,0,N/A,Includes realized-rate and mask-bank characterization artifacts.
+03 Algorithm lifecycle,PASS,6,5,PASS,3,1,PASS,0,0,N/A,0,0,N/A,0,0,N/A,Training evidence figures + diagnosis summary sidecars.
+04 Comparisons — baselines,PASS,8,7,PASS,0,0,N/A,0,0,N/A,0,0,N/A,0,0,N/A,Lot-level baseline comparison figures.
+04 Comparisons — DL temporal,PASS,8,7,PASS,0,0,N/A,0,0,N/A,0,0,N/A,0,0,N/A,"Lot-level DL comparison figures, diagnosis excluded."
+04 Comparisons — baselines + DL,PASS,8,7,PASS,0,0,N/A,0,0,N/A,0,0,N/A,0,0,N/A,Joint official comparison lot.
+04 Per-spec — classical,PASS,18,18,PASS,45,45,PASS,9,9,PASS,0,0,N/A,0,0,N/A,"9 classical specs × (2 figs, 5 sidecars)."
+04 Per-spec — DL,PASS,18,18,PASS,45,45,PASS,9,9,PASS,0,0,N/A,0,0,N/A,"9 DL specs × (2 figs, 5 sidecars)."
+05 Storyboards — classical,PASS,0,0,N/A,0,0,N/A,0,0,N/A,18,18,PASS,0,0,N/A,Classical storyboards are audited for presence only; DL loop schedule is not applicable.
+05 Storyboards — DL,PASS,0,0,N/A,0,0,N/A,0,0,N/A,18,18,PASS,9,9,PASS,DL storyboards should expose 3-loop schedule evidence where applicable.

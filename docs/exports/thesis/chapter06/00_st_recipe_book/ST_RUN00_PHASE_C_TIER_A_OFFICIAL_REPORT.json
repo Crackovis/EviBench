@@ -1,0 +1,101 @@
+{
+  "campaign_id": "phase_c_tier_a_official",
+  "recipe_book_id": "official_londonaq_st_benchmark",
+  "recipe_profile": "st_londonaq_tier_a_scientific_v1",
+  "dataset_id": "london_aq",
+  "graph_policy": "correlation_train_v1",
+  "training_tier": "scientific",
+  "epochs_requested": 100,
+  "early_stopping_enabled": true,
+  "patience": 15,
+  "min_delta": 0.0001,
+  "min_epochs_before_early_stop": 50,
+  "checkpoint_policy": "best_validation_loss",
+  "validation_policy": "masked_validation_support",
+  "official_campaign_launched": true,
+  "official_tier_a_campaign_complete": true,
+  "official_tier_a_ready_for_thesis": true,
+  "planned_container_runs": 24,
+  "completed_container_runs": 24,
+  "failed_container_runs": 0,
+  "total_db_runs_expected": 72,
+  "total_db_runs_found": 72,
+  "total_db_runs_completed": 72,
+  "total_db_runs_failed": 0,
+  "planned_evaluation_cells": 120,
+  "completed_evaluation_cells": 120,
+  "failed_evaluation_cells": 0,
+  "total_db_results_expected": 360,
+  "total_db_results_found": 360,
+  "planned_run_count": 120,
+  "completed_run_count": 120,
+  "failed_run_count": 0,
+  "all_expected_containers_complete": true,
+  "all_expected_cells_complete": true,
+  "all_expected_cells_match_plan": true,
+  "all_metrics_present": true,
+  "all_artifacts_complete": true,
+  "all_convergence_passed_or_accepted": true,
+  "all_training_adequate": true,
+  "algorithm_ids": [
+    "dcrnn",
+    "grin",
+    "ignnk",
+    "stgcn"
+  ],
+  "variant_ids": [
+    "dcgru_reconstruction_v1",
+    "mpgru_v1",
+    "dgc_kriging_v1",
+    "stconv_v1"
+  ],
+  "recipe_ids": [
+    "official_londonaq_st_benchmark:mar:30",
+    "official_londonaq_st_benchmark:mcar:30",
+    "official_londonaq_st_benchmark:mnar:30",
+    "official_londonaq_st_benchmark:node_holdout:30",
+    "official_londonaq_st_benchmark:sensor_dropout:30",
+    "official_londonaq_st_benchmark:spatial_block:30"
+  ],
+  "realization_ids": [
+    "r001",
+    "r002",
+    "r003",
+    "r004",
+    "r005"
+  ],
+  "realization_ids_db": [
+    "test_r000",
+    "test_r001",
+    "test_r002",
+    "test_r003",
+    "test_r004"
+  ],
+  "algorithm_count": 4,
+  "recipe_count": 6,
+  "realization_count": 5,
+  "plan_source": "docs\\exports\\thesis\\chapter06\\00_st_recipe_book\\ST_TIER_A_PLAN_DRY_RUN.json",
+  "plan_fingerprint": "sha256:f3c9504c61d4fbc97e553a32ed36728e44ea827c8e73069a5d4061fb3ad20029",
+  "blockers": [],
+  "warnings": [],
+  "generated_at": "2026-05-20T11:13:42.301504+00:00",
+  "verdict": "PHASE_C_COMPLETE_READY_FOR_THESIS_EXPORT",
+  "_notes": {
+    "container_vs_cell": "Each 'container' = 1 unique (algorithm_id, mask_family) pair from the orchestrator perspective. Each container spawned 3 DB runs (different random seed groups). Each 'evaluation cell' = 1 (algorithm_id, mask_family, realization_id) triple. Each cell has 3 DB results (one per seed group). Total DB runs = 72 (24 containers × 3). Total DB results = 360 (120 cells × 3).",
+    "realization_mapping": {
+      "r001": "test_r000",
+      "r002": "test_r001",
+      "r003": "test_r002",
+      "r004": "test_r003",
+      "r005": "test_r004"
+    },
+    "masking_id_mapping": {
+      "mar": "st:mar:0.3",
+      "mcar": "st:mcar:0.3",
+      "mnar": "st:mnar:0.3",
+      "node_holdout": "st:node_holdout:0.3",
+      "sensor_dropout": "st:sensor_dropout:0.3",
+      "spatial_block": "st:spatial_block:0.3"
+    }
+  }
+}

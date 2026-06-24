@@ -1,0 +1,7 @@
+Usage: python -m imputebench results result export-bundle [OPTIONS] RESULT_ID
+
+  Export a reproducibility bundle (zip) for a result.
+
+Options:
+  --output TEXT  Path to zip file output
+  -h, --help     Show this message and exit.

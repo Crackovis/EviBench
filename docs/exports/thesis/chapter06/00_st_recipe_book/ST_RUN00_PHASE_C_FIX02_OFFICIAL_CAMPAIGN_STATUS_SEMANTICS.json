@@ -1,0 +1,103 @@
+{
+  "spec": "ST-RUN00-PHASE-C-FIX02_OFFICIAL_CAMPAIGN_STATUS_SEMANTICS",
+  "title": "Official Tier A Campaign Status Semantics Before Manual Launch",
+  "generated_at": "2026-05-20T09:35:31.1585695Z",
+  "verdict": "LAUNCH_READY_WITH_CORRECT_OFFICIAL_CAMPAIGN_STATUS",
+  "official_campaign_launched": false,
+  "root_cause": {
+    "id": "RC-1",
+    "label": "Loose inventory inference for official campaign status",
+    "description": "SCI-FIX09 computed official Tier A launch/completion from broad completed-result inventory heuristics. This allowed generic spatiotemporal results and dry-run-adjacent inventory to be interpreted as evidence that the official 120-run campaign had already been launched and completed."
+  },
+  "semantic_fix": {
+    "official_status_source_policy": "explicit_report_only",
+    "accepted_sources": [
+      "docs/exports/thesis/chapter06/00_st_recipe_book/ST_RUN00_PHASE_C_TIER_A_OFFICIAL_REPORT.json",
+      "docs/exports/thesis/chapter06/00_st_recipe_book/ST_RUN00_PHASE_C_OFFICIAL_STATUS.json",
+      "docs/exports/thesis/chapter06/00_st_recipe_book/ST_RUN00_PHASE_C_CAMPAIGN_MANIFEST.json"
+    ],
+    "rule_when_missing": {
+      "official_campaign_launched": false,
+      "official_tier_a_campaign_complete": false,
+      "official_tier_a_ready_for_thesis": false
+    },
+    "calibration_rule": {
+      "calibration_scientific_ready": true,
+      "interpretation": "Calibration and evidence infrastructure may be ready before official Phase C launch."
+    }
+  },
+  "official_status_source_audit": {
+    "tier_a_plan_rows": 120,
+    "official_report_present": false,
+    "official_status_present": false,
+    "campaign_manifest_present": false,
+    "resolved_source": null,
+    "resolved_blockers": [
+      "official_campaign_status_report_missing"
+    ]
+  },
+  "final_sci_fix09_state": {
+    "global_status": "passed",
+    "scientific_ready": true,
+    "calibration_scientific_ready": true,
+    "official_campaign_launched": false,
+    "official_tier_a_campaign_complete": false,
+    "official_tier_a_ready_for_thesis": false,
+    "allowed_calibration_claims": [
+      "calibration readiness claim",
+      "infrastructure readiness claim",
+      "plugin/gate/evidence readiness claim",
+      "Phase B calibration claim"
+    ],
+    "allowed_official_tier_a_claims": []
+  },
+  "markdown_semantics": {
+    "claim_upgrade_summary": "Calibration-level claims are allowed when scientific_ready=true but official campaign evidence is absent.",
+    "official_claim_upgrade": "Blocked until validated 120/120 official report exists.",
+    "next_actions": "Launch official campaign manually, materialize explicit official status report, then re-run SCI-FIX09."
+  },
+  "launch_preparation_status": {
+    "decision": "LAUNCH_READY",
+    "official_campaign_launched": false,
+    "final_launch_command_present": true,
+    "target_run_count_from_dry_run_plan": 120
+  },
+  "final_launch_command": "python -m imputebench st experiment run --tier a --dataset-id london_aq --graph-policy correlation_train_v1 --realizations 5 --epochs 100 --early-stopping --patience 15 --min-delta 0.0001 --min-epochs-before-early-stop 50 --checkpoint-policy best_validation_loss --validation-policy masked_validation_support --skip-completed --progress text --event-log data/logs/phase_c_v2_events.jsonl --progress-file data/logs/phase_c_v2_progress.json",
+  "code_changes": [
+    {
+      "file": "imputebench/services/spatiotemporal/st_scientific_gate_service.py",
+      "change": "Replaced loose ResultService-based official campaign inference with explicit official report/status/manifest semantics. Added official source/blocker fields and separated calibration-level claims from official Tier A thesis claims."
+    },
+    {
+      "file": "imputebench/domain/spatiotemporal/scientific_gate.py",
+      "change": "Extended STScientificGateReport with explicit official campaign status source, blockers, warnings, and claim-scope fields."
+    },
+    {
+      "file": "imputebench/cli/st_cmd.py",
+      "change": "Redirected scientific_ready gate exports to canonical 09_scientific_gate output to avoid duplicate stale SCIENTIFIC_GATE artifacts under 06_st_gates."
+    },
+    {
+      "file": "imputebench/services/spatiotemporal/chapter06_readme_service.py",
+      "change": "Clarified that launch-preparation artifacts are historical pre-launch records and not proof that the official campaign has already been launched."
+    }
+  ],
+  "tests": {
+    "files": [
+      "tests/spatiotemporal/test_phase_c_official_campaign_status_semantics.py",
+      "tests/spatiotemporal/test_st_scientific_gate.py",
+      "tests/spatiotemporal/test_phase_c_report_reconciliation.py",
+      "tests/spatiotemporal/test_phase_c_canonical_report_alignment.py"
+    ],
+    "result": "PASS",
+    "expected_coverage": [
+      "dry-run plan does not imply launch",
+      "calibration readiness does not imply official completion",
+      "official report completion requires 120/120 completed, 0 failed, exact plan match",
+      "Markdown and JSON stay aligned on official campaign semantics"
+    ]
+  },
+  "confirmation": {
+    "official_campaign_launched_by_this_repair": false,
+    "statement": "No official 120-run Phase C campaign was launched during FIX02. The repair changed semantics, tests, and canonical reports only."
+  }
+}

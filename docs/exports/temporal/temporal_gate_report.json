@@ -1,0 +1,36 @@
+{
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "errors": [],
+  "failed_gates": 0,
+  "gate_id": "temporal_gate_20260624155946",
+  "gate_results": [
+    {
+      "gate": "recipe_book_valid",
+      "message": "official_londonaq_classical_benchmark",
+      "passed": true
+    },
+    {
+      "gate": "dataset_bound",
+      "message": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+      "passed": true
+    },
+    {
+      "gate": "evidence_manifest",
+      "message": "docs\\exports\\temporal\\temporal_evidence_manifest.json",
+      "passed": true
+    },
+    {
+      "gate": "no_paper_faithful_dl_claim",
+      "message": "reports certify implementation evidence, not paper-faithful DL reproduction",
+      "passed": true
+    }
+  ],
+  "passed_gates": 4,
+  "payload": {},
+  "profile": "temporal_thesis_ready",
+  "recipe_book_id": "official_londonaq_classical_benchmark",
+  "status": "pass",
+  "total_gates": 4,
+  "warning_gates": 0,
+  "warnings": []
+}

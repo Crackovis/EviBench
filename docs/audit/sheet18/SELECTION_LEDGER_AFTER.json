@@ -1,0 +1,29 @@
+{
+  "schema": "imputebench.sheet18-audit.selection-ledger/v1",
+  "status": "validated_by_tests_and_pack_contract",
+  "official_export_rerun": false,
+  "guarantees": {
+    "database_unique_count_known": true,
+    "exact_cap_accepted": true,
+    "over_limit_blocked": true,
+    "source_plan_count_matches_selection_count": true,
+    "source_reader_delta_explained": true,
+    "silent_truncation": 0
+  },
+  "generated_pack_fields": [
+    "database_matches",
+    "database_unique_results",
+    "selection_selected",
+    "selection_excluded",
+    "source_plan_targets",
+    "source_manifest_target_ids",
+    "source_summary_success",
+    "source_reader_results",
+    "cohort_count",
+    "storyboard_requested",
+    "storyboard_available",
+    "storyboard_diagnostic",
+    "storyboard_blocked"
+  ],
+  "fabricated_counts": false
+}

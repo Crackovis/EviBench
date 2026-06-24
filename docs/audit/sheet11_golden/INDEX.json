@@ -1,0 +1,240 @@
+{
+  "head_state": "efc6df03 (code) / 2b2ad9ac (specs added)",
+  "help_contracts": [
+    {
+      "args": "--help",
+      "exit_code": 0,
+      "slug": "help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 1496
+    },
+    {
+      "args": "results --help",
+      "exit_code": 0,
+      "slug": "results__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 562
+    },
+    {
+      "args": "results result --help",
+      "exit_code": 0,
+      "slug": "results__result__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 768
+    },
+    {
+      "args": "results result list --help",
+      "exit_code": 0,
+      "slug": "results__result__list__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 183
+    },
+    {
+      "args": "results result show --help",
+      "exit_code": 0,
+      "slug": "results__result__show__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 163
+    },
+    {
+      "args": "results result delete --help",
+      "exit_code": 0,
+      "slug": "results__result__delete__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 172
+    },
+    {
+      "args": "results result bulk-delete --help",
+      "exit_code": 0,
+      "slug": "results__result__bulk-delete__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 383
+    },
+    {
+      "args": "results result export-bundle --help",
+      "exit_code": 0,
+      "slug": "results__result__export-bundle__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 229
+    },
+    {
+      "args": "results result export-training-evidence --help",
+      "exit_code": 0,
+      "slug": "results__result__export-training-evidence__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 634
+    },
+    {
+      "args": "results result spatial-show --help",
+      "exit_code": 0,
+      "slug": "results__result__spatial-show__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 224
+    },
+    {
+      "args": "results result export-spatial --help",
+      "exit_code": 0,
+      "slug": "results__result__export-spatial__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 303
+    },
+    {
+      "args": "results compare --help",
+      "exit_code": 0,
+      "slug": "results__compare__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 488
+    },
+    {
+      "args": "results compare list --help",
+      "exit_code": 0,
+      "slug": "results__compare__list__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 437
+    },
+    {
+      "args": "results compare show --help",
+      "exit_code": 0,
+      "slug": "results__compare__show__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 215
+    },
+    {
+      "args": "results compare delete --help",
+      "exit_code": 0,
+      "slug": "results__compare__delete__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 440
+    },
+    {
+      "args": "results view --help",
+      "exit_code": 0,
+      "slug": "results__view__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 1164
+    },
+    {
+      "args": "results gate --help",
+      "exit_code": 0,
+      "slug": "results__gate__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 735
+    },
+    {
+      "args": "experiment --help",
+      "exit_code": 0,
+      "slug": "experiment__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 520
+    },
+    {
+      "args": "experiment run --help",
+      "exit_code": 0,
+      "slug": "experiment__run__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 756
+    },
+    {
+      "args": "experiment run show --help",
+      "exit_code": 0,
+      "slug": "experiment__run__show__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 292
+    },
+    {
+      "args": "experiment run list --help",
+      "exit_code": 0,
+      "slug": "experiment__run__list__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 318
+    },
+    {
+      "args": "experiment temporal --help",
+      "exit_code": 0,
+      "slug": "experiment__temporal__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 1408
+    },
+    {
+      "args": "experiment temporal evidence --help",
+      "exit_code": 0,
+      "slug": "experiment__temporal__evidence__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 370
+    },
+    {
+      "args": "experiment st --help",
+      "exit_code": 0,
+      "slug": "experiment__st__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 1842
+    },
+    {
+      "args": "experiment st evidence --help",
+      "exit_code": 0,
+      "slug": "experiment__st__evidence__help",
+      "stderr_bytes": 0,
+      "stdout_bytes": 509
+    }
+  ],
+  "phase": "11-00",
+  "purpose": "golden freeze of legacy command contracts before Sheet 11",
+  "read_only_calls": [
+    {
+      "args": "results result list",
+      "exit_code": 0,
+      "slug": "results__result__list",
+      "stderr_bytes": 0,
+      "stdout_bytes": 132835
+    },
+    {
+      "args": "results compare list",
+      "exit_code": 0,
+      "slug": "results__compare__list",
+      "stderr_bytes": 0,
+      "stdout_bytes": 196
+    },
+    {
+      "args": "experiment run list --limit 10",
+      "exit_code": 0,
+      "slug": "experiment__run__list__limit__10",
+      "stderr_bytes": 0,
+      "stdout_bytes": 3168
+    },
+    {
+      "args": "experiment run show 3d02b53a-294f-4db8-91e1-f0a4d39e68c7 --format table",
+      "exit_code": 0,
+      "slug": "experiment__run__show__3d02b53a-294f-4db8-91e1-f0a4d39e68c7__format__table",
+      "stderr_bytes": 0,
+      "stdout_bytes": 4886
+    },
+    {
+      "args": "experiment run show 3d02b53a-294f-4db8-91e1-f0a4d39e68c7 --format json",
+      "exit_code": 0,
+      "slug": "experiment__run__show__3d02b53a-294f-4db8-91e1-f0a4d39e68c7__format__json",
+      "stderr_bytes": 0,
+      "stdout_bytes": 7508
+    },
+    {
+      "args": "results result show 7dc94779-26f3-4f9c-a760-72380cb2150f",
+      "exit_code": 0,
+      "slug": "results__result__show__7dc94779-26f3-4f9c-a760-72380cb2150f",
+      "stderr_bytes": 0,
+      "stdout_bytes": 18715
+    }
+  ],
+  "representative_ids": {
+    "result_id": "7dc94779-26f3-4f9c-a760-72380cb2150f",
+    "run_id": "3d02b53a-294f-4db8-91e1-f0a4d39e68c7"
+  },
+  "schema": {
+    "count_artifact_records": 964,
+    "count_comparison_specs": 0,
+    "count_results": 855,
+    "count_runs": 178,
+    "database_path": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\data\\metadata.db",
+    "declared_schema_version": 8,
+    "live_schema_version": 8,
+    "results_has_recipe_lineage": false
+  }
+}

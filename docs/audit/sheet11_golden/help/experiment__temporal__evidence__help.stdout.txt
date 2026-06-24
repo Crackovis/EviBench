@@ -1,0 +1,11 @@
+Usage: python -m imputebench experiment temporal evidence [OPTIONS] COMMAND
+                                                          [ARGS]...
+
+  Export temporal figures, tables, and evidence manifests.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  export   Export temporal evidence artifacts.
+  inspect  Inspect an exported temporal evidence directory.

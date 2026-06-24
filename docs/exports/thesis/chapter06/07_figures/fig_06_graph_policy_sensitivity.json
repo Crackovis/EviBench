@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-05-20T10:46:47.773204+00:00",
+  "figure_id": "fig_06_graph_policy_sensitivity",
+  "status": "blocked",
+  "claim_level": "blocked",
+  "is_placeholder": false,
+  "source_results": [],
+  "source_tables": [
+    "04_st_comparisons/graph_policy_sensitivity_table"
+  ],
+  "source_mask_banks": [],
+  "caveats": [
+    "graph_policy_sensitivity_fixed_support_missing",
+    "Graph-policy sensitivity not plotted.",
+    "No fixed-support comparison group was available.",
+    "",
+    "Excluded policies (dimensional mismatch):",
+    "  - grid_8n_v1 (224 nodes vs 140 for others)",
+    "",
+    "Remaining policies compared: grid_4n_v1, distance_knn_v1, correlation_train_v1",
+    "",
+    "Required conditions (all must hold within a group):",
+    "  \u2022 same algorithm_id",
+    "  \u2022 same benchmark_realization_id",
+    "  \u2022 same evaluation_support_fingerprint",
+    "  \u2022 at least 2 distinct graph_policy values",
+    "",
+    "This block is correct \u2014 do not force this figure."
+  ],
+  "reason": "graph_policy_sensitivity_fixed_support_missing",
+  "validity_policy": "same_algorithm_same_realization_same_hidden_support_different_graph_policy",
+  "group_count": 0,
+  "png_path": "docs\\exports\\thesis\\chapter06\\07_figures\\fig_06_graph_policy_sensitivity.png",
+  "svg_path": "docs\\exports\\thesis\\chapter06\\07_figures\\fig_06_graph_policy_sensitivity.svg"
+}

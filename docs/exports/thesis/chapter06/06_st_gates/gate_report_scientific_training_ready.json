@@ -1,0 +1,35 @@
+{
+  "profile": "scientific_training_ready",
+  "status": "pass",
+  "generated_at": "2026-05-20T09:47:43.954092+00:00",
+  "checks": [
+    {
+      "check": "algorithms_assessed",
+      "passed": true,
+      "message": "assessed 4 algorithm(s)"
+    },
+    {
+      "check": "training_adequacy_grin",
+      "passed": true,
+      "message": "adequate=True"
+    },
+    {
+      "check": "training_adequacy_stgcn",
+      "passed": true,
+      "message": "adequate=True"
+    },
+    {
+      "check": "training_adequacy_ignnk",
+      "passed": true,
+      "message": "adequate=True"
+    },
+    {
+      "check": "training_adequacy_dcrnn",
+      "passed": true,
+      "message": "adequate=True"
+    }
+  ],
+  "blocking_reasons": [],
+  "training_tier": "scientific",
+  "policy_version": "SCI-FIX02"
+}

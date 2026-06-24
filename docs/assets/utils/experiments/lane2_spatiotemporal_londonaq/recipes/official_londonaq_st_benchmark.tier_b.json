@@ -1,0 +1,712 @@
+{
+  "profile_id": "st_londonaq_tier_b_scientific_v1",
+  "recipe_book_id": "official_londonaq_st_benchmark",
+  "recipes": [
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.1,
+      "mask_scenario": "mcar",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_mcar10_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:mcar:10",
+      "role": "parity_core",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.3,
+      "mask_scenario": "mcar",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_mcar30_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:mcar:30",
+      "role": "parity_core",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.5,
+      "mask_scenario": "mcar",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_mcar50_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:mcar:50",
+      "role": "parity_stress",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.1,
+      "mask_scenario": "mar",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_mar10_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:mar:10",
+      "role": "parity_core",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.3,
+      "mask_scenario": "mar",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_mar30_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:mar:30",
+      "role": "parity_core",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.5,
+      "mask_scenario": "mar",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_mar50_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:mar:50",
+      "role": "parity_stress",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.1,
+      "mask_scenario": "mnar",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_mnar10_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:mnar:10",
+      "role": "parity_core",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.3,
+      "mask_scenario": "mnar",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_mnar30_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:mnar:30",
+      "role": "parity_core",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.5,
+      "mask_scenario": "mnar",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_mnar50_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:mnar:50",
+      "role": "parity_stress",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.3,
+      "mask_scenario": "spatial_block",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_spatialblock30_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:spatial_block:30",
+      "role": "spatial_core",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.5,
+      "mask_scenario": "spatial_block",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_spatialblock50_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:spatial_block:50",
+      "role": "spatial_stress",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.3,
+      "mask_scenario": "sensor_dropout",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_sensordropout30_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:sensor_dropout:30",
+      "role": "spatial_core",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.5,
+      "mask_scenario": "sensor_dropout",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_sensordropout50_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:sensor_dropout:50",
+      "role": "spatial_stress",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.3,
+      "mask_scenario": "node_holdout",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_nodeholdout30_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:node_holdout:30",
+      "role": "kriging_core",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    },
+    {
+      "algorithm_ids": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "blockers": [],
+      "corrected_variants": {
+        "dcrnn": "dcgru_reconstruction_v1",
+        "grin": "mpgru_v1",
+        "ignnk": "dgc_kriging_v1",
+        "stgcn": "stconv_v1"
+      },
+      "dataset_id": "londonaq",
+      "epochs": 100,
+      "expected_outputs": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ],
+      "graph_policy": "grid_4n_v1",
+      "mask_rate": 0.5,
+      "mask_scenario": "node_holdout",
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "plan_name": "st_benchmark_official_londonaq_nodeholdout50_test",
+      "ranking_metric": "rmse_global",
+      "realization_count": 5,
+      "recipe_id": "official_londonaq_st_benchmark:node_holdout:50",
+      "role": "kriging_stress",
+      "seed_base": 1729,
+      "split_mode": "temporal",
+      "tier": "tier_b",
+      "training_tier": "scientific",
+      "warnings": [
+        "tier_b_not_recommended_before_tier_a"
+      ],
+      "window_length": 24,
+      "window_stride": 12
+    }
+  ],
+  "tier": "tier_b"
+}

@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-05-10T22:01:54.468871+00:00",
+  "summary": {
+    "canonical_count": 17,
+    "total_registered": 17,
+    "duplicate_count": 0,
+    "execution_ready_count": 17
+  },
+  "entries": [
+    {
+      "algorithm_id": "plugin:brits",
+      "name": "BRITS",
+      "family": "dl_temporal",
+      "role": "deep_learning_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:gru",
+      "name": "Simple GRU",
+      "family": "dl_temporal",
+      "role": "deep_learning_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:gru_d",
+      "name": "GRU-D",
+      "family": "dl_temporal",
+      "role": "deep_learning_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:lstm",
+      "name": "Simple LSTM",
+      "family": "dl_temporal",
+      "role": "deep_learning_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:rnn",
+      "name": "Simple RNN",
+      "family": "dl_temporal",
+      "role": "deep_learning_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:saits",
+      "name": "SAITS",
+      "family": "dl_temporal",
+      "role": "deep_learning_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:saits_lc",
+      "name": "SAITS-LC",
+      "family": "dl_temporal",
+      "role": "deep_learning_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:saits_lch",
+      "name": "SAITS-LCH",
+      "family": "dl_temporal",
+      "role": "deep_learning_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:backward_fill",
+      "name": "BackwardFill",
+      "family": "classical",
+      "role": "classical_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:exponential_smoothing",
+      "name": "ExponentialSmoothing",
+      "family": "classical",
+      "role": "classical_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:moving_average",
+      "name": "MovingAverage",
+      "family": "classical",
+      "role": "classical_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:nearest_interpolation",
+      "name": "NearestInterpolation",
+      "family": "classical",
+      "role": "classical_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:seasonal_naive",
+      "name": "SeasonalNaive",
+      "family": "classical",
+      "role": "classical_reference",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:linear_interpolation",
+      "name": "LinearInterpolation",
+      "family": "naive",
+      "role": "baseline",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:locf",
+      "name": "LOCF",
+      "family": "naive",
+      "role": "baseline",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:mean",
+      "name": "Mean",
+      "family": "naive",
+      "role": "baseline",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    },
+    {
+      "algorithm_id": "plugin:median",
+      "name": "Median",
+      "family": "naive",
+      "role": "baseline",
+      "ad0_evidence_status": "partial",
+      "resolved_audit_status": "execution_ready",
+      "is_canonical": true,
+      "is_duplicate": false
+    }
+  ]
+}

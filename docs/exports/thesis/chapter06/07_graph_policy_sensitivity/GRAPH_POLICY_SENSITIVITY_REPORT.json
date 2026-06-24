@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-05-18T15:13:23.993307+00:00",
+  "policy_version": "SCI-FIX07",
+  "profile_id": "fixed_support_graph_policy_sensitivity_v1",
+  "groups": [],
+  "global_status": "not_available",
+  "global_blockers": [
+    "scientific_runs_missing",
+    "metrics_missing"
+  ],
+  "warnings": [
+    "The fixed-support graph-policy sensitivity protocol is not available because scientific runs and scientific metrics have not yet been produced."
+  ]
+}

@@ -1,0 +1,10 @@
+Usage: python -m imputebench results compare delete [OPTIONS] COMPARISON_ID
+
+  Delete only a ComparisonSpec, leaving results and artifacts intact.
+
+Options:
+  --force / --no-force   Delete without interactive confirmation.  [default:
+                         no-force]
+  --dry-run              Show the deletion impact without mutating storage.
+  --format [table|json]  [default: table]
+  -h, --help             Show this message and exit.

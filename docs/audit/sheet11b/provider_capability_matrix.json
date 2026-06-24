@@ -1,0 +1,496 @@
+{
+  "core_result": {
+    "provider_version": "1",
+    "descriptors": [
+      {
+        "item_id": "result_summary",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "summary",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "summary"
+      },
+      {
+        "item_id": "metric_table",
+        "formats": [
+          "csv",
+          "json",
+          "markdown"
+        ],
+        "category": "tables",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "split_metric_table",
+        "formats": [
+          "csv",
+          "json",
+          "markdown"
+        ],
+        "category": "tables",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "pollutant_metric_table",
+        "formats": [
+          "csv",
+          "json",
+          "markdown"
+        ],
+        "category": "tables",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "supporting"
+      },
+      {
+        "item_id": "node_metric_summary",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "tables",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "supporting"
+      },
+      {
+        "item_id": "runtime_breakdown",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "runtime",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "supporting"
+      },
+      {
+        "item_id": "artifact_inventory",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "provenance"
+      },
+      {
+        "item_id": "provenance_manifest",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "provenance",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "provenance"
+      },
+      {
+        "item_id": "comparison_ready_signal",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "summary",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "primary"
+      }
+    ],
+    "overrides_export": false
+  },
+  "training": {
+    "provider_version": "1",
+    "descriptors": [
+      {
+        "item_id": "training_evidence_pack",
+        "formats": [
+          "json"
+        ],
+        "category": "training",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "training_curve_data",
+        "formats": [
+          "csv",
+          "json"
+        ],
+        "category": "training",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "supporting"
+      },
+      {
+        "item_id": "training_curve_figure",
+        "formats": [
+          "png"
+        ],
+        "category": "training",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "supporting"
+      },
+      {
+        "item_id": "checkpoint_selection",
+        "formats": [
+          "json"
+        ],
+        "category": "training",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "training_runtime_summary",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "training",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "supporting"
+      }
+    ],
+    "overrides_export": false
+  },
+  "temporal": {
+    "provider_version": "1",
+    "descriptors": [
+      {
+        "item_id": "temporal_evidence_manifest",
+        "formats": [
+          "json"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "mask_artifact",
+        "formats": [
+          "npy"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "supporting"
+      },
+      {
+        "item_id": "prediction_sample",
+        "formats": [
+          "npy",
+          "csv"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "supporting"
+      },
+      {
+        "item_id": "mask_visualization",
+        "formats": [
+          "png"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result"
+        ],
+        "claim_relevance": "supporting"
+      }
+    ],
+    "overrides_export": false
+  },
+  "spatiotemporal": {
+    "provider_version": "1",
+    "descriptors": [
+      {
+        "item_id": "graph_characterization",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "spatial_missingness_characterization",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "st_algorithm_lifecycle",
+        "formats": [
+          "json"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "st_comparison_pack",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "st_storyboard_pack",
+        "formats": [
+          "json",
+          "markdown"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "st_gate_pack",
+        "formats": [
+          "json"
+        ],
+        "category": "gates",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "st_figure_pack",
+        "formats": [
+          "png"
+        ],
+        "category": "figures",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "st_gallery",
+        "formats": [
+          "png",
+          "markdown"
+        ],
+        "category": "figures",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "st_scientific_evidence_profile",
+        "formats": [
+          "json"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "st_chapter_manifest",
+        "formats": [
+          "json"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "primary"
+      }
+    ],
+    "overrides_export": false
+  },
+  "comparison": {
+    "provider_version": "1",
+    "descriptors": [
+      {
+        "item_id": "comparison_table",
+        "formats": [
+          "csv",
+          "json",
+          "markdown"
+        ],
+        "category": "tables",
+        "target_types": [
+          "comparison"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "ranking_table",
+        "formats": [
+          "csv",
+          "json",
+          "markdown"
+        ],
+        "category": "tables",
+        "target_types": [
+          "comparison"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "comparison_visual_payload",
+        "formats": [
+          "json",
+          "png"
+        ],
+        "category": "figures",
+        "target_types": [
+          "comparison"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "runtime_cohort_table",
+        "formats": [
+          "csv",
+          "json",
+          "markdown"
+        ],
+        "category": "runtime",
+        "target_types": [
+          "comparison"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "comparison_storyboard",
+        "formats": [
+          "markdown",
+          "json"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "comparison"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "comparison_gate_verdict",
+        "formats": [
+          "json"
+        ],
+        "category": "gates",
+        "target_types": [
+          "comparison"
+        ],
+        "claim_relevance": "primary"
+      },
+      {
+        "item_id": "comparison_export_context",
+        "formats": [
+          "json"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "comparison"
+        ],
+        "claim_relevance": "provenance"
+      }
+    ],
+    "overrides_export": false
+  },
+  "storyboard": {
+    "provider_version": "1",
+    "descriptors": [
+      {
+        "item_id": "result_storyboard",
+        "formats": [
+          "markdown",
+          "json"
+        ],
+        "category": "manifests",
+        "target_types": [
+          "result",
+          "run"
+        ],
+        "claim_relevance": "supporting"
+      }
+    ],
+    "overrides_export": false
+  },
+  "gate": {
+    "provider_version": "1",
+    "descriptors": [
+      {
+        "item_id": "evidence_completeness_gate",
+        "formats": [
+          "json"
+        ],
+        "category": "gates",
+        "target_types": [
+          "result",
+          "run",
+          "comparison"
+        ],
+        "claim_relevance": "primary"
+      }
+    ],
+    "overrides_export": false
+  }
+}

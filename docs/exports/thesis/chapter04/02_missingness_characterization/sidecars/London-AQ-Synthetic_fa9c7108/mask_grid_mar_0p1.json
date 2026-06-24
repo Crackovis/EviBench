@@ -1,0 +1,78 @@
+{
+  "figure_id": "5927c1e4-7b9e-4a0b-98a0-e0c7a08bdcb4_mask_realization_grid_test_r000",
+  "figure_kind": "mask_realization_grid",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "bank_id": "5927c1e4-7b9e-4a0b-98a0-e0c7a08bdcb4",
+  "realization_id": "test_r000",
+  "semantic_scope": "mask_realization",
+  "mechanism": "mar",
+  "target_rate": 0.1,
+  "split": "test",
+  "realized_rate": 0.07660714285714286,
+  "mask_shape": [
+    600,
+    10,
+    14,
+    4
+  ],
+  "source_realization_count": 5,
+  "source_paths": [
+    "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r000\\mask.npy",
+    "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r000"
+  ],
+  "data_access_mode": "mask_array",
+  "caption_draft": "Mask Realization Grid \u2014 mar at target rate 0.1 (test split), realization test_r000.",
+  "evidence_grade": "reportable",
+  "payload_summary": {
+    "keys": [
+      "artifact_path",
+      "artifact_paths",
+      "bank_id",
+      "blocking_reasons",
+      "data_access_status",
+      "dataset_id",
+      "figure_kind",
+      "grid_values",
+      "mask_bank_id",
+      "mask_grid",
+      "mask_shape",
+      "mechanism",
+      "payload_status",
+      "realization_count",
+      "realization_id",
+      "realized_rate",
+      "selected_pollutant",
+      "selected_timestep",
+      "source_realization_count",
+      "source_realization_ids",
+      "source_status",
+      "split",
+      "target_rate",
+      "warnings"
+    ],
+    "mask_grid": {
+      "type": "list",
+      "length": 10,
+      "shape_hint": [
+        10,
+        14
+      ]
+    },
+    "grid_values": {
+      "type": "list",
+      "length": 10,
+      "shape_hint": [
+        10,
+        14
+      ]
+    }
+  },
+  "generated_at": "2026-05-10T22:02:14.350156+00:00",
+  "figure_status": "ready",
+  "payload_status": "ready",
+  "data_access_status": "array_available",
+  "alias_keys_used": [],
+  "blocking_reasons": [],
+  "warnings": [],
+  "thesis_candidate": true
+}

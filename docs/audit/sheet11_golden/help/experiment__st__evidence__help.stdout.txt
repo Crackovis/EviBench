@@ -1,0 +1,13 @@
+Usage: python -m imputebench experiment st evidence [OPTIONS] COMMAND
+                                                    [ARGS]...
+
+  Spatio-temporal evidence export commands.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  audit         Audit the structure of the Chapter 06 evidence export pack.
+  export        Export the Chapter 06 ST evidence pack.
+  mirror        Mirror Chapter 06 ST evidence into Mddocx-friendly...
+  visual-audit  Audit the visual grammar of Chapter 06 ST figures.

@@ -1,0 +1,18 @@
+{
+  "environment": {
+    "cpu_count": 20,
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.9"
+  },
+  "implementation_status": {
+    "file_io_parallel": true,
+    "framework_chart_process_rendering": true,
+    "hashing_parallel": true,
+    "max_workers_one_sequential": true,
+    "source_export_parallel_default": false,
+    "storyboard_copy_parallel": true
+  },
+  "note": "No 400-result benchmark was executed in this turn. Use scripts/benchmark_human_export_parallel.py to generate measured runs into this file.",
+  "runs": [],
+  "schema": "imputebench.human-export-parallel-benchmark/v1"
+}

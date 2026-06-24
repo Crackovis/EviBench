@@ -1,0 +1,5 @@
+algorithm_id,variant_id,training_tier,adequate,epochs_requested,epochs_completed,min_epochs_required,seed_policy_ok,history_present,checkpoint_policy_present,device_record_present,blocking_reasons,warnings
+grin,mpgru_v1,scientific,True,50,100,50,True,True,True,True,[],[]
+stgcn,stconv_v1,scientific,True,50,100,50,True,True,True,True,[],[]
+ignnk,dgc_kriging_v1,scientific,True,50,100,50,True,True,True,True,[],[]
+dcrnn,dcgru_reconstruction_v1,scientific,True,50,100,50,True,True,True,True,[],[]

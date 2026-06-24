@@ -1,0 +1,1358 @@
+{
+  "pack_id": "missingness_fa9c7108_176e_4c68_840d_6acf3a3e59e4_official_thesis_core",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "dataset_name": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "profile": "thesis_core",
+  "created_at": "2026-05-10T22:02:13.124545+00:00",
+  "figure_count": 11,
+  "exported_count": 11,
+  "blocked_count": 0,
+  "degraded_count": 0,
+  "filtered_blocked_count": 0,
+  "mechanisms": [
+    "mar",
+    "mcar",
+    "mnar"
+  ],
+  "rates": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "splits": [
+    "test"
+  ],
+  "realizations": [
+    "test_r000"
+  ],
+  "gate_status": "thesis_ready",
+  "warnings": [],
+  "figures": [
+    {
+      "figure_kind": "missingness_mechanism_table",
+      "mechanism": "",
+      "target_rate": -1.0,
+      "split": "",
+      "realization_id": "",
+      "bank_id": "5927c1e4-7b9e-4a0b-98a0-e0c7a08bdcb4",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mechanism_summary_thesis.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mechanism_summary_thesis.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mechanism_summary_thesis.json"
+      },
+      "payload_keys": [
+        "artifact_paths",
+        "bank_id",
+        "dataset_id",
+        "families",
+        "mask_bank_id",
+        "mechanism",
+        "mechanisms",
+        "payload_status",
+        "realization_count",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "splits",
+        "target_rate",
+        "target_rates",
+        "warnings"
+      ],
+      "source_paths": [
+        "registered_dataset:fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r004"
+      ],
+      "semantic_scope": "mask_bank_or_filtered_group",
+      "data_access_mode": "mask_metadata",
+      "data_access_status": "mask_metadata",
+      "caption_draft": "Missingness Mechanism Table \u2014  at target rate -1.",
+      "payload_summary": {
+        "keys": [
+          "artifact_paths",
+          "bank_id",
+          "dataset_id",
+          "families",
+          "mask_bank_id",
+          "mechanism",
+          "mechanisms",
+          "payload_status",
+          "realization_count",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "splits",
+          "target_rate",
+          "target_rates",
+          "warnings"
+        ],
+        "families": {
+          "type": "list",
+          "length": 9,
+          "shape_hint": [
+            9
+          ]
+        }
+      },
+      "figure_status": "ready"
+    },
+    {
+      "figure_kind": "realized_rate_distribution",
+      "mechanism": "",
+      "target_rate": -1.0,
+      "split": "",
+      "realization_id": "",
+      "bank_id": "5927c1e4-7b9e-4a0b-98a0-e0c7a08bdcb4",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "rate_distribution_thesis.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "rate_distribution_thesis.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\rate_distribution_thesis.json"
+      },
+      "payload_keys": [
+        "artifact_paths",
+        "bank_id",
+        "dataset_id",
+        "mask_bank_id",
+        "mechanism",
+        "mechanisms",
+        "payload_status",
+        "rates",
+        "realization_count",
+        "realized_rates",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "target_rates",
+        "warnings"
+      ],
+      "source_paths": [
+        "registered_dataset:fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r004",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r004",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r004",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r004",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r004",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r004",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r004",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r004",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r004"
+      ],
+      "semantic_scope": "mask_bank_or_filtered_group",
+      "data_access_mode": "mask_metadata",
+      "data_access_status": "mask_metadata",
+      "caption_draft": "Realized Rate Distribution \u2014  at target rate -1.",
+      "payload_summary": {
+        "keys": [
+          "artifact_paths",
+          "bank_id",
+          "dataset_id",
+          "mask_bank_id",
+          "mechanism",
+          "mechanisms",
+          "payload_status",
+          "rates",
+          "realization_count",
+          "realized_rates",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "target_rates",
+          "warnings"
+        ],
+        "rates": {
+          "type": "list",
+          "length": 45,
+          "shape_hint": [
+            45
+          ]
+        },
+        "realized_rates": {
+          "type": "list",
+          "length": 45,
+          "shape_hint": [
+            45
+          ]
+        }
+      },
+      "figure_status": "ready"
+    },
+    {
+      "figure_kind": "mask_realization_grid",
+      "mechanism": "mar",
+      "target_rate": 0.1,
+      "split": "test",
+      "realization_id": "test_r000",
+      "bank_id": "5927c1e4-7b9e-4a0b-98a0-e0c7a08bdcb4",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mask_grid_mar_0p1.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mask_grid_mar_0p1.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mask_grid_mar_0p1.json"
+      },
+      "payload_keys": [
+        "artifact_path",
+        "artifact_paths",
+        "bank_id",
+        "blocking_reasons",
+        "data_access_status",
+        "dataset_id",
+        "figure_kind",
+        "grid_values",
+        "mask_bank_id",
+        "mask_grid",
+        "mask_shape",
+        "mechanism",
+        "payload_status",
+        "realization_count",
+        "realization_id",
+        "realized_rate",
+        "selected_pollutant",
+        "selected_timestep",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "warnings"
+      ],
+      "source_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r000\\mask.npy",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\10\\test\\test_r000"
+      ],
+      "semantic_scope": "mask_realization",
+      "data_access_mode": "mask_array",
+      "data_access_status": "array_available",
+      "caption_draft": "Mask Realization Grid \u2014 mar at target rate 0.1 (test split), realization test_r000.",
+      "payload_summary": {
+        "keys": [
+          "artifact_path",
+          "artifact_paths",
+          "bank_id",
+          "blocking_reasons",
+          "data_access_status",
+          "dataset_id",
+          "figure_kind",
+          "grid_values",
+          "mask_bank_id",
+          "mask_grid",
+          "mask_shape",
+          "mechanism",
+          "payload_status",
+          "realization_count",
+          "realization_id",
+          "realized_rate",
+          "selected_pollutant",
+          "selected_timestep",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "warnings"
+        ],
+        "mask_grid": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        },
+        "grid_values": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        }
+      },
+      "figure_status": "ready",
+      "realized_rate": 0.07660714285714286,
+      "mask_shape": [
+        600,
+        10,
+        14,
+        4
+      ]
+    },
+    {
+      "figure_kind": "mask_realization_grid",
+      "mechanism": "mar",
+      "target_rate": 0.3,
+      "split": "test",
+      "realization_id": "test_r000",
+      "bank_id": "e27a0ef1-0535-49e0-95ec-83d30b05a85b",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mask_grid_mar_0p3.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mask_grid_mar_0p3.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mask_grid_mar_0p3.json"
+      },
+      "payload_keys": [
+        "artifact_path",
+        "artifact_paths",
+        "bank_id",
+        "blocking_reasons",
+        "data_access_status",
+        "dataset_id",
+        "figure_kind",
+        "grid_values",
+        "mask_bank_id",
+        "mask_grid",
+        "mask_shape",
+        "mechanism",
+        "payload_status",
+        "realization_count",
+        "realization_id",
+        "realized_rate",
+        "selected_pollutant",
+        "selected_timestep",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "warnings"
+      ],
+      "source_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r000\\mask.npy",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r000"
+      ],
+      "semantic_scope": "mask_realization",
+      "data_access_mode": "mask_array",
+      "data_access_status": "array_available",
+      "caption_draft": "Mask Realization Grid \u2014 mar at target rate 0.3 (test split), realization test_r000.",
+      "payload_summary": {
+        "keys": [
+          "artifact_path",
+          "artifact_paths",
+          "bank_id",
+          "blocking_reasons",
+          "data_access_status",
+          "dataset_id",
+          "figure_kind",
+          "grid_values",
+          "mask_bank_id",
+          "mask_grid",
+          "mask_shape",
+          "mechanism",
+          "payload_status",
+          "realization_count",
+          "realization_id",
+          "realized_rate",
+          "selected_pollutant",
+          "selected_timestep",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "warnings"
+        ],
+        "mask_grid": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        },
+        "grid_values": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        }
+      },
+      "figure_status": "ready",
+      "realized_rate": 0.2300357142857143,
+      "mask_shape": [
+        600,
+        10,
+        14,
+        4
+      ]
+    },
+    {
+      "figure_kind": "mask_realization_grid",
+      "mechanism": "mar",
+      "target_rate": 0.5,
+      "split": "test",
+      "realization_id": "test_r000",
+      "bank_id": "f83e327a-449b-4654-b39b-ebb8cc1ae4a5",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mask_grid_mar_0p5.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mask_grid_mar_0p5.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mask_grid_mar_0p5.json"
+      },
+      "payload_keys": [
+        "artifact_path",
+        "artifact_paths",
+        "bank_id",
+        "blocking_reasons",
+        "data_access_status",
+        "dataset_id",
+        "figure_kind",
+        "grid_values",
+        "mask_bank_id",
+        "mask_grid",
+        "mask_shape",
+        "mechanism",
+        "payload_status",
+        "realization_count",
+        "realization_id",
+        "realized_rate",
+        "selected_pollutant",
+        "selected_timestep",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "warnings"
+      ],
+      "source_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r000\\mask.npy",
+        "data\\benchmark_mask_banks\\official_londonaq\\mar\\50\\test\\test_r000"
+      ],
+      "semantic_scope": "mask_realization",
+      "data_access_mode": "mask_array",
+      "data_access_status": "array_available",
+      "caption_draft": "Mask Realization Grid \u2014 mar at target rate 0.5 (test split), realization test_r000.",
+      "payload_summary": {
+        "keys": [
+          "artifact_path",
+          "artifact_paths",
+          "bank_id",
+          "blocking_reasons",
+          "data_access_status",
+          "dataset_id",
+          "figure_kind",
+          "grid_values",
+          "mask_bank_id",
+          "mask_grid",
+          "mask_shape",
+          "mechanism",
+          "payload_status",
+          "realization_count",
+          "realization_id",
+          "realized_rate",
+          "selected_pollutant",
+          "selected_timestep",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "warnings"
+        ],
+        "mask_grid": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        },
+        "grid_values": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        }
+      },
+      "figure_status": "ready",
+      "realized_rate": 0.38621428571428573,
+      "mask_shape": [
+        600,
+        10,
+        14,
+        4
+      ]
+    },
+    {
+      "figure_kind": "mask_realization_grid",
+      "mechanism": "mcar",
+      "target_rate": 0.1,
+      "split": "test",
+      "realization_id": "test_r000",
+      "bank_id": "1a7990cb-93b2-4dd5-a24f-be634fdd2117",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mask_grid_mcar_0p1.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mask_grid_mcar_0p1.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mask_grid_mcar_0p1.json"
+      },
+      "payload_keys": [
+        "artifact_path",
+        "artifact_paths",
+        "bank_id",
+        "blocking_reasons",
+        "data_access_status",
+        "dataset_id",
+        "figure_kind",
+        "grid_values",
+        "mask_bank_id",
+        "mask_grid",
+        "mask_shape",
+        "mechanism",
+        "payload_status",
+        "realization_count",
+        "realization_id",
+        "realized_rate",
+        "selected_pollutant",
+        "selected_timestep",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "warnings"
+      ],
+      "source_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r000\\mask.npy",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r000"
+      ],
+      "semantic_scope": "mask_realization",
+      "data_access_mode": "mask_array",
+      "data_access_status": "array_available",
+      "caption_draft": "Mask Realization Grid \u2014 mcar at target rate 0.1 (test split), realization test_r000.",
+      "payload_summary": {
+        "keys": [
+          "artifact_path",
+          "artifact_paths",
+          "bank_id",
+          "blocking_reasons",
+          "data_access_status",
+          "dataset_id",
+          "figure_kind",
+          "grid_values",
+          "mask_bank_id",
+          "mask_grid",
+          "mask_shape",
+          "mechanism",
+          "payload_status",
+          "realization_count",
+          "realization_id",
+          "realized_rate",
+          "selected_pollutant",
+          "selected_timestep",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "warnings"
+        ],
+        "mask_grid": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        },
+        "grid_values": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        }
+      },
+      "figure_status": "ready",
+      "realized_rate": 0.10094940476190477,
+      "mask_shape": [
+        600,
+        10,
+        14,
+        4
+      ]
+    },
+    {
+      "figure_kind": "mask_realization_grid",
+      "mechanism": "mcar",
+      "target_rate": 0.3,
+      "split": "test",
+      "realization_id": "test_r000",
+      "bank_id": "b5aaf87f-0018-45ff-8ee0-f03272a804e9",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mask_grid_mcar_0p3.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mask_grid_mcar_0p3.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mask_grid_mcar_0p3.json"
+      },
+      "payload_keys": [
+        "artifact_path",
+        "artifact_paths",
+        "bank_id",
+        "blocking_reasons",
+        "data_access_status",
+        "dataset_id",
+        "figure_kind",
+        "grid_values",
+        "mask_bank_id",
+        "mask_grid",
+        "mask_shape",
+        "mechanism",
+        "payload_status",
+        "realization_count",
+        "realization_id",
+        "realized_rate",
+        "selected_pollutant",
+        "selected_timestep",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "warnings"
+      ],
+      "source_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r000\\mask.npy",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r000"
+      ],
+      "semantic_scope": "mask_realization",
+      "data_access_mode": "mask_array",
+      "data_access_status": "array_available",
+      "caption_draft": "Mask Realization Grid \u2014 mcar at target rate 0.3 (test split), realization test_r000.",
+      "payload_summary": {
+        "keys": [
+          "artifact_path",
+          "artifact_paths",
+          "bank_id",
+          "blocking_reasons",
+          "data_access_status",
+          "dataset_id",
+          "figure_kind",
+          "grid_values",
+          "mask_bank_id",
+          "mask_grid",
+          "mask_shape",
+          "mechanism",
+          "payload_status",
+          "realization_count",
+          "realization_id",
+          "realized_rate",
+          "selected_pollutant",
+          "selected_timestep",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "warnings"
+        ],
+        "mask_grid": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        },
+        "grid_values": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        }
+      },
+      "figure_status": "ready",
+      "realized_rate": 0.30044940476190474,
+      "mask_shape": [
+        600,
+        10,
+        14,
+        4
+      ]
+    },
+    {
+      "figure_kind": "mask_realization_grid",
+      "mechanism": "mcar",
+      "target_rate": 0.5,
+      "split": "test",
+      "realization_id": "test_r000",
+      "bank_id": "ab3eea8d-60ba-4514-9a83-fdb043c7340e",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mask_grid_mcar_0p5.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mask_grid_mcar_0p5.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mask_grid_mcar_0p5.json"
+      },
+      "payload_keys": [
+        "artifact_path",
+        "artifact_paths",
+        "bank_id",
+        "blocking_reasons",
+        "data_access_status",
+        "dataset_id",
+        "figure_kind",
+        "grid_values",
+        "mask_bank_id",
+        "mask_grid",
+        "mask_shape",
+        "mechanism",
+        "payload_status",
+        "realization_count",
+        "realization_id",
+        "realized_rate",
+        "selected_pollutant",
+        "selected_timestep",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "warnings"
+      ],
+      "source_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r000\\mask.npy",
+        "data\\benchmark_mask_banks\\official_londonaq\\mcar\\50\\test\\test_r000"
+      ],
+      "semantic_scope": "mask_realization",
+      "data_access_mode": "mask_array",
+      "data_access_status": "array_available",
+      "caption_draft": "Mask Realization Grid \u2014 mcar at target rate 0.5 (test split), realization test_r000.",
+      "payload_summary": {
+        "keys": [
+          "artifact_path",
+          "artifact_paths",
+          "bank_id",
+          "blocking_reasons",
+          "data_access_status",
+          "dataset_id",
+          "figure_kind",
+          "grid_values",
+          "mask_bank_id",
+          "mask_grid",
+          "mask_shape",
+          "mechanism",
+          "payload_status",
+          "realization_count",
+          "realization_id",
+          "realized_rate",
+          "selected_pollutant",
+          "selected_timestep",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "warnings"
+        ],
+        "mask_grid": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        },
+        "grid_values": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        }
+      },
+      "figure_status": "ready",
+      "realized_rate": 0.5000952380952381,
+      "mask_shape": [
+        600,
+        10,
+        14,
+        4
+      ]
+    },
+    {
+      "figure_kind": "mask_realization_grid",
+      "mechanism": "mnar",
+      "target_rate": 0.1,
+      "split": "test",
+      "realization_id": "test_r000",
+      "bank_id": "9dab2ffa-d9f7-4282-9ea6-21b3a50681e2",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mask_grid_mnar_0p1.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mask_grid_mnar_0p1.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mask_grid_mnar_0p1.json"
+      },
+      "payload_keys": [
+        "artifact_path",
+        "artifact_paths",
+        "bank_id",
+        "blocking_reasons",
+        "data_access_status",
+        "dataset_id",
+        "figure_kind",
+        "grid_values",
+        "mask_bank_id",
+        "mask_grid",
+        "mask_shape",
+        "mechanism",
+        "payload_status",
+        "realization_count",
+        "realization_id",
+        "realized_rate",
+        "selected_pollutant",
+        "selected_timestep",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "warnings"
+      ],
+      "source_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r000\\mask.npy",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\10\\test\\test_r000"
+      ],
+      "semantic_scope": "mask_realization",
+      "data_access_mode": "mask_array",
+      "data_access_status": "array_available",
+      "caption_draft": "Mask Realization Grid \u2014 mnar at target rate 0.1 (test split), realization test_r000.",
+      "payload_summary": {
+        "keys": [
+          "artifact_path",
+          "artifact_paths",
+          "bank_id",
+          "blocking_reasons",
+          "data_access_status",
+          "dataset_id",
+          "figure_kind",
+          "grid_values",
+          "mask_bank_id",
+          "mask_grid",
+          "mask_shape",
+          "mechanism",
+          "payload_status",
+          "realization_count",
+          "realization_id",
+          "realized_rate",
+          "selected_pollutant",
+          "selected_timestep",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "warnings"
+        ],
+        "mask_grid": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        },
+        "grid_values": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        }
+      },
+      "figure_status": "ready",
+      "realized_rate": 0.04678869047619048,
+      "mask_shape": [
+        600,
+        10,
+        14,
+        4
+      ]
+    },
+    {
+      "figure_kind": "mask_realization_grid",
+      "mechanism": "mnar",
+      "target_rate": 0.3,
+      "split": "test",
+      "realization_id": "test_r000",
+      "bank_id": "8216aee1-f796-41e4-9d0e-cadd7de13eef",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mask_grid_mnar_0p3.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mask_grid_mnar_0p3.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mask_grid_mnar_0p3.json"
+      },
+      "payload_keys": [
+        "artifact_path",
+        "artifact_paths",
+        "bank_id",
+        "blocking_reasons",
+        "data_access_status",
+        "dataset_id",
+        "figure_kind",
+        "grid_values",
+        "mask_bank_id",
+        "mask_grid",
+        "mask_shape",
+        "mechanism",
+        "payload_status",
+        "realization_count",
+        "realization_id",
+        "realized_rate",
+        "selected_pollutant",
+        "selected_timestep",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "warnings"
+      ],
+      "source_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r000\\mask.npy",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\30\\test\\test_r000"
+      ],
+      "semantic_scope": "mask_realization",
+      "data_access_mode": "mask_array",
+      "data_access_status": "array_available",
+      "caption_draft": "Mask Realization Grid \u2014 mnar at target rate 0.3 (test split), realization test_r000.",
+      "payload_summary": {
+        "keys": [
+          "artifact_path",
+          "artifact_paths",
+          "bank_id",
+          "blocking_reasons",
+          "data_access_status",
+          "dataset_id",
+          "figure_kind",
+          "grid_values",
+          "mask_bank_id",
+          "mask_grid",
+          "mask_shape",
+          "mechanism",
+          "payload_status",
+          "realization_count",
+          "realization_id",
+          "realized_rate",
+          "selected_pollutant",
+          "selected_timestep",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "warnings"
+        ],
+        "mask_grid": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        },
+        "grid_values": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        }
+      },
+      "figure_status": "ready",
+      "realized_rate": 0.14122619047619048,
+      "mask_shape": [
+        600,
+        10,
+        14,
+        4
+      ]
+    },
+    {
+      "figure_kind": "mask_realization_grid",
+      "mechanism": "mnar",
+      "target_rate": 0.5,
+      "split": "test",
+      "realization_id": "test_r000",
+      "bank_id": "c0dcc302-e1c7-4150-9ca2-6f2b8435c527",
+      "artifact_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r000",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r001",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r002",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r003",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r004"
+      ],
+      "source_status": "ready",
+      "source_warnings": [],
+      "source_realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "source_realization_count": 5,
+      "export_name": "mask_grid_mnar_0p5.png",
+      "payload_status": "ready",
+      "thesis_candidate": true,
+      "export_status": "exported",
+      "blocking_reasons": [],
+      "warnings": [],
+      "paths": {
+        "png": "mask_grid_mnar_0p5.png",
+        "sidecar": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\sidecars\\London-AQ-Synthetic_fa9c7108\\mask_grid_mnar_0p5.json"
+      },
+      "payload_keys": [
+        "artifact_path",
+        "artifact_paths",
+        "bank_id",
+        "blocking_reasons",
+        "data_access_status",
+        "dataset_id",
+        "figure_kind",
+        "grid_values",
+        "mask_bank_id",
+        "mask_grid",
+        "mask_shape",
+        "mechanism",
+        "payload_status",
+        "realization_count",
+        "realization_id",
+        "realized_rate",
+        "selected_pollutant",
+        "selected_timestep",
+        "source_realization_count",
+        "source_realization_ids",
+        "source_status",
+        "split",
+        "target_rate",
+        "warnings"
+      ],
+      "source_paths": [
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r000\\mask.npy",
+        "data\\benchmark_mask_banks\\official_londonaq\\mnar\\50\\test\\test_r000"
+      ],
+      "semantic_scope": "mask_realization",
+      "data_access_mode": "mask_array",
+      "data_access_status": "array_available",
+      "caption_draft": "Mask Realization Grid \u2014 mnar at target rate 0.5 (test split), realization test_r000.",
+      "payload_summary": {
+        "keys": [
+          "artifact_path",
+          "artifact_paths",
+          "bank_id",
+          "blocking_reasons",
+          "data_access_status",
+          "dataset_id",
+          "figure_kind",
+          "grid_values",
+          "mask_bank_id",
+          "mask_grid",
+          "mask_shape",
+          "mechanism",
+          "payload_status",
+          "realization_count",
+          "realization_id",
+          "realized_rate",
+          "selected_pollutant",
+          "selected_timestep",
+          "source_realization_count",
+          "source_realization_ids",
+          "source_status",
+          "split",
+          "target_rate",
+          "warnings"
+        ],
+        "mask_grid": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        },
+        "grid_values": {
+          "type": "list",
+          "length": 10,
+          "shape_hint": [
+            10,
+            14
+          ]
+        }
+      },
+      "figure_status": "ready",
+      "realized_rate": 0.23592559523809523,
+      "mask_shape": [
+        600,
+        10,
+        14,
+        4
+      ]
+    }
+  ]
+}

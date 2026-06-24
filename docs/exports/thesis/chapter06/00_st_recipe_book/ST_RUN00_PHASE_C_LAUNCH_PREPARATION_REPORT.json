@@ -1,0 +1,181 @@
+{
+  "report_id": "ST_RUN00_PHASE_C_LAUNCH_PREPARATION_REPORT",
+  "report_version": "V2",
+  "generated_at": "2026-05-19T10:43:38.783980+00:00",
+  "policy_phase": "Phase C \u2014 Tier A Official Scientific Campaign",
+  "decision": "LAUNCH_READY",
+  "official_campaign_launched": false,
+  "sections": {
+    "1_precondition_gate_results": {
+      "scientific_gate": {
+        "status": "passed",
+        "scientific_ready": true,
+        "global_blocking_reasons": [],
+        "policy_version": "SCI-FIX09",
+        "generated_at": "2026-05-19T09:35:47.394070+00:00"
+      },
+      "convergence_gate": {
+        "status": "passed",
+        "all_algorithms_convergence_passed": true,
+        "validation_loss_present_in_all": true,
+        "convergence_caveated_in_strict_mode": false,
+        "assessments": [
+          {
+            "algorithm_id": "grin",
+            "variant_id": "mpgru_v1",
+            "status": "convergence_passed",
+            "first_val_loss": 1787.97,
+            "final_val_loss": 1804.91
+          },
+          {
+            "algorithm_id": "stgcn",
+            "variant_id": "stconv_v1",
+            "status": "convergence_passed",
+            "first_val_loss": 1785.81,
+            "final_val_loss": 1804.3
+          },
+          {
+            "algorithm_id": "ignnk",
+            "variant_id": "dgc_kriging_v1",
+            "status": "convergence_passed",
+            "first_val_loss": 13175.95,
+            "final_val_loss": 1801.79
+          },
+          {
+            "algorithm_id": "dcrnn",
+            "variant_id": "dcgru_reconstruction_v1",
+            "status": "convergence_passed",
+            "first_val_loss": 1831.98,
+            "final_val_loss": 1804.84
+          }
+        ]
+      },
+      "training_adequacy_gate": {
+        "status": "passed",
+        "all_algorithms_adequate": true,
+        "policy_version": "SCI-FIX02",
+        "calibration_epochs": 50
+      },
+      "train_only_correlation_graph_gate": {
+        "status": "pass",
+        "policy_version": "SCI-FIX06",
+        "graph_id": "graph_london_aq_correlation_train_v1_1691d107",
+        "correlation_source": "train_only"
+      }
+    },
+    "2_campaign_plan_summary": {
+      "algorithm_count": 4,
+      "recipe_count": 6,
+      "realization_count": 5,
+      "total_runs": 120,
+      "graph_policy": "correlation_train_v1",
+      "training_tier": "scientific",
+      "epochs_requested": 100,
+      "dataset_id": "london_aq",
+      "algorithms": [
+        {
+          "algorithm_id": "stgcn",
+          "corrected_variant": "stconv_v1"
+        },
+        {
+          "algorithm_id": "grin",
+          "corrected_variant": "mpgru_v1"
+        },
+        {
+          "algorithm_id": "ignnk",
+          "corrected_variant": "dgc_kriging_v1"
+        },
+        {
+          "algorithm_id": "dcrnn",
+          "corrected_variant": "dcgru_reconstruction_v1"
+        }
+      ],
+      "recipes": [
+        "official_londonaq_st_benchmark:mcar:30",
+        "official_londonaq_st_benchmark:mar:30",
+        "official_londonaq_st_benchmark:mnar:30",
+        "official_londonaq_st_benchmark:spatial_block:30",
+        "official_londonaq_st_benchmark:sensor_dropout:30",
+        "official_londonaq_st_benchmark:node_holdout:30"
+      ],
+      "realizations": [
+        "r001",
+        "r002",
+        "r003",
+        "r004",
+        "r005"
+      ]
+    },
+    "3_plan_file_paths": {
+      "json": "docs/exports/thesis/chapter06/00_st_recipe_book/ST_RUN00_PHASE_C_V2_DRY_RUN_PLAN.json",
+      "csv": "docs/exports/thesis/chapter06/00_st_recipe_book/ST_RUN00_PHASE_C_V2_DRY_RUN_PLAN.csv",
+      "row_count": 120
+    },
+    "4_training_policy": {
+      "training_tier": "scientific",
+      "epochs_requested": 100,
+      "minimum_scientific_epochs": 50,
+      "epochs_below_minimum_rejected": true,
+      "verified_rejection_command": "python -m imputebench st recipe plan --profile tier_a --epochs 3",
+      "verified_rejection_exit_code": 1,
+      "verified_rejection_error": "scientific_epochs_below_minimum"
+    },
+    "5_early_stopping_policy": {
+      "enabled": true,
+      "patience": 15,
+      "min_delta": 0.0001,
+      "min_epochs_before_early_stop": 50,
+      "implementation_file": "plugins/_st_graph_validation.py",
+      "implementation_class": "STEarlyStoppingState",
+      "helpers": [
+        "make_st_early_stopping",
+        "st_early_stopping_step",
+        "restore_best_checkpoint"
+      ],
+      "plugins_wired": [
+        "stgcn/algorithm.py",
+        "grin/algorithm.py",
+        "ignnk/algorithm.py",
+        "dcrnn/algorithm.py"
+      ],
+      "checkpoint_policy": "best_validation_loss",
+      "warm_up_rationale": "IGNNK validation drops 13175->1801 over 50 epochs; warm-up prevents premature stop before meaningful convergence"
+    },
+    "6_validation_policy": {
+      "validation_policy": "masked_validation_support",
+      "validation_metric": "masked_mse",
+      "holdout_rate": 0.1,
+      "holdout_seed": 43,
+      "calibration_fingerprint": "sha256:9ef336159f17a3f4251bb2d7ee3a8c1f3f1d1858edcd61fbd22e704f1cf6ef35",
+      "overlap_with_test_mask": false
+    },
+    "7_logging_and_progress": {
+      "progress_flag_supported": true,
+      "event_log_flag_supported": true,
+      "progress_file_flag_supported": true,
+      "skip_completed_flag_supported": true,
+      "recommended_event_log": "data/logs/phase_c_v2_events.jsonl",
+      "recommended_progress_file": "data/logs/phase_c_v2_progress.json",
+      "event_types": [
+        "completed",
+        "failed",
+        "skipped"
+      ]
+    },
+    "8_resume_and_skip_completed": {
+      "skip_completed": true,
+      "safe_to_restart": true,
+      "mechanism": "Checks for existing COMPLETED result before executing each run; skips if found",
+      "implementation_file": "imputebench/services/spatiotemporal/st_experiment_orchestrator.py"
+    },
+    "9_known_caveats": [
+      "Claim policy remains diagnostic_only; no imputation quality claims may be made.",
+      "SCI-FIX07 graph sensitivity is optional and not included in Phase C.",
+      "IGNNK validation loss starts high (~13k) and drops rapidly during the first 50 epochs; this is expected.",
+      "JSONL event log uses append mode across restarts; do not truncate between runs of the same campaign.",
+      "Early stopping range is ~65-100 epochs per run depending on validation curve."
+    ],
+    "10_no_launch_statement": "No official Phase C campaign was launched during this preparation. The user must execute the final launch command manually."
+  },
+  "final_launch_command": "python -m imputebench st experiment run --tier a --dataset-id london_aq --graph-policy correlation_train_v1 --realizations 5 --epochs 100 --early-stopping --patience 15 --min-delta 0.0001 --min-epochs-before-early-stop 50 --checkpoint-policy best_validation_loss --validation-policy masked_validation_support --skip-completed --progress text --event-log data/logs/phase_c_v2_events.jsonl --progress-file data/logs/phase_c_v2_progress.json"
+}

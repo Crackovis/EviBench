@@ -1,0 +1,30 @@
+Usage: python -m imputebench experiment temporal [OPTIONS] COMMAND [ARGS]...
+
+  Temporal benchmark orchestration commands.
+
+  The temporal command group is the CLI-first entry point for recipe-book-
+  driven temporal imputation experiments. It resolves official recipe books,
+  prepares mask banks and experiment contracts, materializes plans, executes
+  classical or deep-learning temporal runs, exports evidence, evaluates gates,
+  and writes machine-readable progress reports.
+
+  Invariant:
+    CLI builds and certifies; GUI reads and displays.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  recipe      Discover and inspect temporal recipe books.
+  prepare     Dry-run, materialize, and verify temporal benchmark...
+  experiment  Run, resume, reset, and certify temporal experiments.
+  evidence    Export temporal figures, tables, and evidence manifests.
+  gate        Run and report temporal readiness gates.
+  preflight   Validate environment, recipes, plugins, masks, and optional...
+  lifecycle   Inspect DL lifecycle policies and phase records.
+  report      Regenerate temporal README and summary reports.
+
+  Examples: python -m imputebench temporal recipe list python -m imputebench
+  temporal prepare dry-run --recipe-book official_londonaq_classical_benchmark
+  --tier smoke python -m imputebench temporal experiment run --recipe-book
+  official_londonaq_dl_benchmark --tier smoke

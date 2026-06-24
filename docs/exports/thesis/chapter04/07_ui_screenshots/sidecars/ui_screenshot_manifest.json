@@ -1,0 +1,148 @@
+{
+  "manifest_id": "ch04_ui_screenshot_manifest",
+  "chapter": "04",
+  "section": "07_ui_screenshots",
+  "description": "Catalog of all UI screenshots captured for Chapter 04 evidence, linking each capture to its UI surface, thesis section, and JSON sidecar.",
+  "generated_at": "2026-05-10T15:20:00",
+  "capture_protocol": {
+    "browser": "Edge/Chrome",
+    "viewport": "1440×1000",
+    "zoom": "100%",
+    "theme": "EviBench default (light)"
+  },
+  "destination": {
+    "repo": "Scopes/EvalBatch3[2025-2026]/Revisions/Thesis/v0.2",
+    "rendering_figures": "rendering/7-figures/chapter04/ui/",
+    "assets_evidence": "rendering/2-body/lane1/04/assets/evidence/07_ui_screenshots/"
+  },
+  "summary": {
+    "total_ui_surfaces": 10,
+    "total_screenshot_files": 13,
+    "long_screenshot_variants": 3,
+    "primary_body_figures": 6,
+    "supplementary": 4,
+    "sidecars_generated": 16
+  },
+  "screenshots": [
+    {
+      "id": "UI-01",
+      "ui_surface": "Home / Sidebar Navigation",
+      "primary_file": "ch04_UI-01_home_page.png",
+      "sidecar": "sidecars/ch04_UI-01_home_page.json",
+      "thesis_section": "4.3 Software Design",
+      "body_role": "supplementary",
+      "variants": [
+        {
+          "file": "long_screenshot/ch04_UI-01_navigation_workbench_structure_long_screenshot.png",
+          "sidecar": "sidecars/ch04_UI-01_navigation_workbench_structure_long_screenshot.json",
+          "role": "supplementary_annex"
+        }
+      ]
+    },
+    {
+      "id": "UI-02",
+      "ui_surface": "Experiment Runs / Plan Creation",
+      "primary_file": null,
+      "cut_files": [
+        {
+          "file": "ch04_UI-02_experiment_runs_plan_creation_cut1.png",
+          "sidecar": "sidecars/ch04_UI-02_experiment_runs_plan_creation_cut1.json"
+        },
+        {
+          "file": "ch04_UI-02_experiment_runs_plan_creation_cut2.png",
+          "sidecar": "sidecars/ch04_UI-02_experiment_runs_plan_creation_cut2.json"
+        }
+      ],
+      "thesis_section": "4.4 Experimental Setup",
+      "body_role": "primary",
+      "variants": [
+        {
+          "file": "long_screenshot/ch04_UI-02_experiment_runs_plan_creation_long_screenshot.png",
+          "sidecar": "sidecars/ch04_UI-02_experiment_runs_plan_creation_long_screenshot.json",
+          "role": "supplementary_annex"
+        }
+      ]
+    },
+    {
+      "id": "UI-03",
+      "ui_surface": "Benchmark Assets / Mask Bank",
+      "primary_file": "ch04_UI-03_benchmark_assets_mask_bank.png",
+      "sidecar": "sidecars/ch04_UI-03_benchmark_assets_mask_bank.json",
+      "thesis_section": "4.2 System Design",
+      "body_role": "primary",
+      "cut_files": [
+        {
+          "file": "ch04_UI-03_benchmark_assets_mask_bank_row_details_sample_cut1.png",
+          "sidecar": "sidecars/ch04_UI-03_benchmark_assets_mask_bank_row_details_sample_cut1.json"
+        },
+        {
+          "file": "ch04_UI-03_benchmark_assets_mask_bank_row_details_sample_cut2.png",
+          "sidecar": "sidecars/ch04_UI-03_benchmark_assets_mask_bank_row_details_sample_cut2.json"
+        }
+      ],
+      "variants": [
+        {
+          "file": "long_screenshot/ch04_UI-03_benchmark_assets_mask_bank_row_details_sample_long_screenshot.png",
+          "sidecar": "sidecars/ch04_UI-03_benchmark_assets_mask_bank_row_details_sample_long_screenshot.json",
+          "role": "supplementary_annex"
+        }
+      ]
+    },
+    {
+      "id": "UI-04",
+      "ui_surface": "Execution Console / Lifecycle Monitor",
+      "primary_file": "ch04_UI-04_execution_console_lifecycle.png",
+      "sidecar": "sidecars/ch04_UI-04_execution_console_lifecycle.json",
+      "thesis_section": "4.4 Execution Protocol",
+      "body_role": "supplementary"
+    },
+    {
+      "id": "UI-05",
+      "ui_surface": "Results Navigator",
+      "primary_file": "ch04_UI-05_results_navigator_detail.png",
+      "sidecar": "sidecars/ch04_UI-05_results_navigator_detail.json",
+      "thesis_section": "4.5 Result Inspection",
+      "body_role": "primary"
+    },
+    {
+      "id": "UI-06",
+      "ui_surface": "Comparison Studio",
+      "primary_file": "ch04_UI-06_comparison_studio_official_ranking.png",
+      "sidecar": "sidecars/ch04_UI-06_comparison_studio_official_ranking.json",
+      "thesis_section": "4.6 Comparative and Ablation Analysis",
+      "body_role": "primary"
+    },
+    {
+      "id": "UI-07",
+      "ui_surface": "Figure Factory",
+      "primary_file": "ch04_UI-07_figure_factory_export_queue.png",
+      "sidecar": "sidecars/ch04_UI-07_figure_factory_export_queue.json",
+      "thesis_section": "4.3 / 4.6 Evidence Extraction",
+      "body_role": "primary"
+    },
+    {
+      "id": "UI-08",
+      "ui_surface": "Thesis Evidence Dashboard",
+      "primary_file": "ch04_UI-08_thesis_evidence_dashboard_readiness.png",
+      "sidecar": "sidecars/ch04_UI-08_thesis_evidence_dashboard_readiness.json",
+      "thesis_section": "4.7 Implementation Lessons",
+      "body_role": "primary"
+    },
+    {
+      "id": "UI-09",
+      "ui_surface": "Evidence Completeness Gate",
+      "primary_file": "ch04_UI-09_evidence_gate_claim_control.png",
+      "sidecar": "sidecars/ch04_UI-09_evidence_gate_claim_control.json",
+      "thesis_section": "4.7 Evidence Discipline",
+      "body_role": "supplementary"
+    },
+    {
+      "id": "UI-10",
+      "ui_surface": "System Diagnostics",
+      "primary_file": "ch04_UI-10_system_readiness_environment.png",
+      "sidecar": "sidecars/ch04_UI-10_system_readiness_environment.json",
+      "thesis_section": "4.3 Reproducibility Caveat",
+      "body_role": "supplementary"
+    }
+  ]
+}

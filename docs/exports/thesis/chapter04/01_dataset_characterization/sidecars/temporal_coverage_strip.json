@@ -1,0 +1,29 @@
+{
+  "figure_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_temporal_coverage_strip",
+  "figure_kind": "temporal_coverage_strip",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "semantic_scope": "dataset_metadata",
+  "temporal_steps": 600,
+  "temporal_resolution": "1min",
+  "source_paths": [
+    "registered_dataset:fa9c7108-176e-4c68-840d-6acf3a3e59e4"
+  ],
+  "data_access_mode": "metadata_only",
+  "caption_draft": "Figure fa9c7108-176e-4c68-840d-6acf3a3e59e4_f1: Temporal coverage \u2014 600 timesteps (08:00-17:59) at 1min resolution.",
+  "evidence_grade": "reportable",
+  "payload_summary": {
+    "keys": [
+      "n_steps",
+      "range",
+      "resolution"
+    ]
+  },
+  "generated_at": "2026-05-10T22:02:11.483114+00:00",
+  "figure_status": "reportable",
+  "payload_status": "ready",
+  "data_access_status": "metadata_only",
+  "alias_keys_used": [],
+  "blocking_reasons": [],
+  "warnings": [],
+  "thesis_candidate": true
+}

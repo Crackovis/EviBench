@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-05-10T22:02:10.890746+00:00",
+  "exclude_diagnosis": true,
+  "rule": "train/validation DL records are lifecycle evidence only; test-phase records are required for performance claims",
+  "allowed_claim": "Deep-learning models followed a documented train-validation-test lifecycle.",
+  "blocked_claim": "Train/validation diagnostic records are final test-performance evidence."
+}

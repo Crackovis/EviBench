@@ -1,0 +1,34 @@
+{
+  "figure_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_pollutant_distribution_panel",
+  "figure_kind": "pollutant_distribution_panel",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "semantic_scope": "dataset_sampled_window",
+  "profile_mode": "sampled_window",
+  "source_paths": [
+    "registered_dataset:fa9c7108-176e-4c68-840d-6acf3a3e59e4"
+  ],
+  "data_access_mode": "sampled_window",
+  "caption_draft": "Figure fa9c7108-176e-4c68-840d-6acf3a3e59e4_f2: Pollutant distribution panel (sampled_window) \u2014 4 pollutants profiled.",
+  "evidence_grade": "reportable",
+  "payload_summary": {
+    "keys": [
+      "profile_mode",
+      "profiles"
+    ],
+    "profiles": {
+      "type": "list",
+      "length": 4,
+      "shape_hint": [
+        4
+      ]
+    }
+  },
+  "generated_at": "2026-05-10T22:02:11.913029+00:00",
+  "figure_status": "reportable",
+  "payload_status": "ready",
+  "data_access_status": "sampled_window",
+  "alias_keys_used": [],
+  "blocking_reasons": [],
+  "warnings": [],
+  "thesis_candidate": true
+}

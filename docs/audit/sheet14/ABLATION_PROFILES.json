@@ -1,0 +1,54 @@
+{
+  "sheet": 14,
+  "plugin": "dacpi",
+  "note": "Ablation profiles are benchmark CONFIGURATIONS bound to one DACPI plugin, not alternate plugin code paths (Sheet 14 §25.3). Each profile is an explicit, persisted config override layered on the plugin default_config. Bind every profile and every baseline to a SINGLE shared mask bank realization before any comparative interpretation (§25.1).",
+  "baselines_required": [
+    "linear_interpolation",
+    "nearest_interpolation"
+  ],
+  "profiles": {
+    "DACPI-L": {
+      "enabled_components": ["linear"],
+      "bounds_policy": "empirical_train"
+    },
+    "DACPI-LP": {
+      "enabled_components": ["linear", "periodic"],
+      "bounds_policy": "empirical_train"
+    },
+    "DACPI-LC": {
+      "enabled_components": ["linear", "cross"],
+      "bounds_policy": "empirical_train"
+    },
+    "DACPI-FULL": {
+      "enabled_components": ["linear", "periodic", "cross"],
+      "bounds_policy": "empirical_train"
+    },
+    "DACPI-NOCLIP": {
+      "enabled_components": ["linear", "periodic", "cross"],
+      "bounds_policy": "none"
+    }
+  },
+  "gap_strata": ["1-2", "3-5", "6-15", "16-30", "31-60", "61+"],
+  "per_pollutant_metrics": [
+    "mae",
+    "rmse",
+    "hidden_count",
+    "gap_count",
+    "periodic_availability_rate",
+    "cross_availability_rate",
+    "fallback_rate",
+    "clipping_rate"
+  ],
+  "same_support_invariants": [
+    "dataset_snapshot",
+    "station_view",
+    "train_validation_test_split",
+    "mask_bank",
+    "mask_realization",
+    "evaluation_support",
+    "metric_implementation",
+    "normalization_boundary",
+    "pollutant_order"
+  ],
+  "claim_gate": "No comparative or superiority claim is authorized until a same-support run over the shared mask bank produces complete global, per-pollutant, and gap-bucket metrics for all baselines and profiles with zero failed runs. Until then only implementation claims (deterministic combination, observed-value preservation, contract/leakage test pass) are permitted."
+}

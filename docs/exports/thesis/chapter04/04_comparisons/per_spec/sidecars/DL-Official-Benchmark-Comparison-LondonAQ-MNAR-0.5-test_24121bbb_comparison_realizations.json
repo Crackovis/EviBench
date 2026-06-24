@@ -1,0 +1,367 @@
+{
+  "spec_id": "24121bbb-e347-4d5b-9dba-fca257398841",
+  "ranking_metric": "mae_global",
+  "metric_key": "mae",
+  "rows": [
+    {
+      "result_id": "10ee2907-d258-42e9-b4b3-f4372544492a",
+      "realization_id": "test_r000",
+      "algorithm_name": "SAITS-LC",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 25.65307986865349,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "1b2cb25a-4559-4553-bc11-320defdf733d",
+      "realization_id": "test_r003",
+      "algorithm_name": "BRITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 37.79508341616458,
+      "rank_within_realization": 8
+    },
+    {
+      "result_id": "204a97a3-3576-4114-a14a-f5bc24de5803",
+      "realization_id": "test_r002",
+      "algorithm_name": "Simple GRU",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 33.311784557266584,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "2d1f1bed-72f6-46e1-8a92-f08b6e60b51c",
+      "realization_id": "test_r004",
+      "algorithm_name": "GRU-D",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 34.5478925153601,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "30ea6623-250b-4c34-bbe3-e9853ebb96d5",
+      "realization_id": "test_r004",
+      "algorithm_name": "Simple RNN",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 32.05623467366668,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "31228ea5-c721-4312-b405-27105b0e0781",
+      "realization_id": "test_r003",
+      "algorithm_name": "SAITS-LCH",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 24.817682118109754,
+      "rank_within_realization": 2
+    },
+    {
+      "result_id": "37ca6cbe-b27f-4d5d-8936-901a12cb9526",
+      "realization_id": "test_r003",
+      "algorithm_name": "Simple LSTM",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 31.052534141791565,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "41df81b5-b4b5-4f0c-8fd5-b750fdde6d73",
+      "realization_id": "test_r004",
+      "algorithm_name": "Simple LSTM",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 30.97121929954332,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "4a15a715-1751-4726-804d-17ab71e84fe0",
+      "realization_id": "test_r001",
+      "algorithm_name": "SAITS-LCH",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 24.738176971683572,
+      "rank_within_realization": 2
+    },
+    {
+      "result_id": "4c586fc2-b0df-4b3c-b3d4-2b61fa10f151",
+      "realization_id": "test_r000",
+      "algorithm_name": "Simple GRU",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 33.474660395092044,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "56666eb1-ff5f-4ddc-9776-94b5cf980882",
+      "realization_id": "test_r001",
+      "algorithm_name": "SAITS-LC",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 25.49217390175685,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "576cb6c0-0ed2-49dd-8b43-5d0ff2eef0a0",
+      "realization_id": "test_r002",
+      "algorithm_name": "SAITS-LC",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 25.633463270952763,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "6cee78da-f1b3-4998-a365-55e4afea8511",
+      "realization_id": "test_r003",
+      "algorithm_name": "Simple GRU",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 33.66927172164024,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "6d3cf99f-324c-4dfa-8aaa-9a90ede5ada7",
+      "realization_id": "test_r002",
+      "algorithm_name": "Simple LSTM",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 31.28499923709205,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "6f0738d7-b301-4ae3-9d7c-5c74c4746711",
+      "realization_id": "test_r002",
+      "algorithm_name": "BRITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 37.83303520340555,
+      "rank_within_realization": 8
+    },
+    {
+      "result_id": "7794f99a-dde0-40fc-a1e5-4d58b57b09bf",
+      "realization_id": "test_r001",
+      "algorithm_name": "SAITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 23.983299989890874,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "87919d7c-0d4b-46aa-9da6-98e54a0dfdd9",
+      "realization_id": "test_r000",
+      "algorithm_name": "BRITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 37.692058830864866,
+      "rank_within_realization": 8
+    },
+    {
+      "result_id": "8976f472-af1b-40ee-848a-45dd323f3436",
+      "realization_id": "test_r000",
+      "algorithm_name": "Simple LSTM",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 31.04630832336188,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "8b309449-150c-451c-9b98-113dde0ae651",
+      "realization_id": "test_r004",
+      "algorithm_name": "Simple GRU",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 33.00566011147637,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "9afcc7e3-d606-49ab-b473-13a816d119cc",
+      "realization_id": "test_r001",
+      "algorithm_name": "GRU-D",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 34.760953232399956,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "9bd598e6-2ced-4fc8-b520-c61592447fef",
+      "realization_id": "test_r001",
+      "algorithm_name": "Simple LSTM",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 30.815909279135695,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "9e5db74b-0653-4cb6-ae49-c3cecde3458b",
+      "realization_id": "test_r004",
+      "algorithm_name": "SAITS-LC",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 25.462498725780385,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "a2a3cbdd-3fd1-44c5-accf-fbfa19942683",
+      "realization_id": "test_r004",
+      "algorithm_name": "BRITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 37.73741662268562,
+      "rank_within_realization": 8
+    },
+    {
+      "result_id": "b31c8b43-1f79-4841-95d1-938fe312cb3d",
+      "realization_id": "test_r002",
+      "algorithm_name": "SAITS-LCH",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 24.724548961288775,
+      "rank_within_realization": 2
+    },
+    {
+      "result_id": "b3da77a4-f1e8-4ff8-9d2f-dea87d78a41b",
+      "realization_id": "test_r000",
+      "algorithm_name": "Simple RNN",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 32.25801879995964,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "c1224952-482a-478d-b712-de667d61764b",
+      "realization_id": "test_r001",
+      "algorithm_name": "BRITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 37.65693298777348,
+      "rank_within_realization": 8
+    },
+    {
+      "result_id": "c3f8df90-b25b-4c3f-a043-11ecbe59f839",
+      "realization_id": "test_r003",
+      "algorithm_name": "GRU-D",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 35.51358349717854,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "c57c0036-eca6-40b0-99e6-c677c141202e",
+      "realization_id": "test_r002",
+      "algorithm_name": "Simple RNN",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 32.318698794133425,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "c88e85a3-89f6-42e3-8f62-db022b62c141",
+      "realization_id": "test_r001",
+      "algorithm_name": "Simple GRU",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 32.78915445274106,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "ca6cd2fe-cbca-41d0-ad47-e79d836bb99e",
+      "realization_id": "test_r003",
+      "algorithm_name": "Simple RNN",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 32.19390242835052,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "cf0dd4e3-491c-4c1e-829b-b872ec212740",
+      "realization_id": "test_r003",
+      "algorithm_name": "SAITS-LC",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 25.709113055740122,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "d91aa5e8-7b47-4795-a893-e89b662a6ad9",
+      "realization_id": "test_r000",
+      "algorithm_name": "SAITS-LCH",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 24.629620033707873,
+      "rank_within_realization": 2
+    },
+    {
+      "result_id": "dceedd30-0b1b-4ab6-b8fd-770628c80093",
+      "realization_id": "test_r001",
+      "algorithm_name": "Simple RNN",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 31.966750375523702,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "e390bc10-4401-4423-8fee-8883c66f3794",
+      "realization_id": "test_r000",
+      "algorithm_name": "GRU-D",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 35.26949654912702,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "e7907faf-e5b9-4bfe-8991-dca5007c544b",
+      "realization_id": "test_r000",
+      "algorithm_name": "SAITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 24.05444570221482,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "e9d6fc61-bd2e-415c-b56d-ba1b455b1993",
+      "realization_id": "test_r002",
+      "algorithm_name": "SAITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 24.024908164193715,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "f033f5d9-9e5c-40d0-85fe-57540e11fed5",
+      "realization_id": "test_r004",
+      "algorithm_name": "SAITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 23.725625846509875,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "f62a43e2-567e-4af3-aa92-1e6e4a034369",
+      "realization_id": "test_r002",
+      "algorithm_name": "GRU-D",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 35.06484197292625,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "fb005413-b7f0-47e6-a16f-eab895593a0e",
+      "realization_id": "test_r003",
+      "algorithm_name": "SAITS",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 24.173348217814993,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "feebf075-4a0a-4ab8-b6fa-c28d650c2105",
+      "realization_id": "test_r004",
+      "algorithm_name": "SAITS-LCH",
+      "family": "dl_temporal",
+      "metric_key": "mae",
+      "metric_value": 24.501488914335532,
+      "rank_within_realization": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Usage: python -m imputebench results gate [OPTIONS] COMMAND [ARGS]...
+
+  Evidence Completeness Gate.
+
+  Evaluate whether evidence objects meet thesis-grade completeness criteria
+  before export.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  comparison  Evaluate gate for a comparison spec.
+  dashboard   Evaluate gate for all dashboard comparisons.
+  storyboard  Evaluate gate for a storyboard JSON file.
+
+  Examples: imputebench results gate comparison spec_abc --profile
+  thesis_ready imputebench results gate comparison spec_abc --profile
+  reportable --json imputebench results gate storyboard sb_def.json --profile
+  reproducibility_bundle imputebench results gate dashboard --profile
+  reportable --limit 100

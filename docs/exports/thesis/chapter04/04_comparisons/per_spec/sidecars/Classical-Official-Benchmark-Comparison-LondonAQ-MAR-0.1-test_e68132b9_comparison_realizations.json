@@ -1,0 +1,412 @@
+{
+  "spec_id": "e68132b9-78c0-4fb9-93e8-ba071176460e",
+  "ranking_metric": "mae_global",
+  "metric_key": "mae",
+  "rows": [
+    {
+      "result_id": "05635c7a-5ffd-4280-a0d0-f863e1c6ead6",
+      "realization_id": "test_r000",
+      "algorithm_name": "ExponentialSmoothing",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.2683192354082338,
+      "rank_within_realization": 2
+    },
+    {
+      "result_id": "139a06ba-b1e1-4d35-ae6e-0e1b7e44795c",
+      "realization_id": "test_r002",
+      "algorithm_name": "BackwardFill",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.182282741738066,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "13de0fdb-3415-4d6a-8869-9ab03259107b",
+      "realization_id": "test_r002",
+      "algorithm_name": "ExponentialSmoothing",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 1.9464122676516606,
+      "rank_within_realization": 2
+    },
+    {
+      "result_id": "174c291c-d7de-44ce-80f8-9bbf5a8db436",
+      "realization_id": "test_r002",
+      "algorithm_name": "LinearInterpolation",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 1.8851021448971268,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "241cfe6d-8fee-41c1-841d-502e3e4ce79c",
+      "realization_id": "test_r000",
+      "algorithm_name": "LinearInterpolation",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 2.178796943796944,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "2b781f8e-3a03-49f9-9f23-45a962e38322",
+      "realization_id": "test_r002",
+      "algorithm_name": "SeasonalNaive",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 5.195104039167687,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "332a3387-6615-4e35-b369-b83ec87d0bee",
+      "realization_id": "test_r001",
+      "algorithm_name": "LinearInterpolation",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 2.0458245884053916,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "3456f148-fb51-47bd-a49c-4207476d00a3",
+      "realization_id": "test_r004",
+      "algorithm_name": "ExponentialSmoothing",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.1459872441287904,
+      "rank_within_realization": 2
+    },
+    {
+      "result_id": "3b32ddcd-9184-480d-8fb9-608aa9eb00c1",
+      "realization_id": "test_r001",
+      "algorithm_name": "Mean",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 13.59129401661511,
+      "rank_within_realization": 9
+    },
+    {
+      "result_id": "456a065f-f428-4048-aa58-c33747afe753",
+      "realization_id": "test_r003",
+      "algorithm_name": "LOCF",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 2.222843822843823,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "45f4a400-db83-4979-b6a0-b1144c5ba369",
+      "realization_id": "test_r004",
+      "algorithm_name": "LOCF",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 2.36714462129528,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "4a46e99e-44c7-4e13-a4dc-0ebe71b8c254",
+      "realization_id": "test_r004",
+      "algorithm_name": "SeasonalNaive",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 5.625480241492865,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "53959c8d-31cf-443e-ad5d-aa45857f6b50",
+      "realization_id": "test_r003",
+      "algorithm_name": "LinearInterpolation",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 1.9208093758093758,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "53c36144-b03c-4e3a-a6d4-46c5c831dfff",
+      "realization_id": "test_r001",
+      "algorithm_name": "SeasonalNaive",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 5.627186231985449,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "554e1a79-ba51-4ab1-8612-de12b20db9ba",
+      "realization_id": "test_r003",
+      "algorithm_name": "Median",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 12.608003108003109,
+      "rank_within_realization": 8
+    },
+    {
+      "result_id": "5ac83449-5f03-44f8-9649-da68dda785c2",
+      "realization_id": "test_r000",
+      "algorithm_name": "BackwardFill",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.542074592074592,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "69728f97-1523-4049-999d-314165cd0388",
+      "realization_id": "test_r000",
+      "algorithm_name": "Median",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 14.527738927738929,
+      "rank_within_realization": 8
+    },
+    {
+      "result_id": "7141fa77-ccb0-48fa-b987-f21eca743ac6",
+      "realization_id": "test_r000",
+      "algorithm_name": "NearestInterpolation",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.497319347319347,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "77efa5cf-e521-493e-bd32-2ed6546d98b7",
+      "realization_id": "test_r000",
+      "algorithm_name": "Mean",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 15.505367993180819,
+      "rank_within_realization": 9
+    },
+    {
+      "result_id": "80b57acb-352e-40d9-9810-0b1e5cb13877",
+      "realization_id": "test_r002",
+      "algorithm_name": "Mean",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 12.177936403561764,
+      "rank_within_realization": 9
+    },
+    {
+      "result_id": "81f2019b-b582-41f0-9165-9af8b5dbb537",
+      "realization_id": "test_r003",
+      "algorithm_name": "NearestInterpolation",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.2042735042735044,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "85f400ef-a5ad-4c1d-a290-1611f07ffef7",
+      "realization_id": "test_r003",
+      "algorithm_name": "ExponentialSmoothing",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 1.9718921413408117,
+      "rank_within_realization": 2
+    },
+    {
+      "result_id": "90334c85-8312-4e4b-b1c5-41ff7069bbf2",
+      "realization_id": "test_r004",
+      "algorithm_name": "MovingAverage",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.2065724478594952,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "956e39dc-303c-4479-bff6-599a6f8d40a9",
+      "realization_id": "test_r001",
+      "algorithm_name": "NearestInterpolation",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.362249895060865,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "9607e74e-045e-46bc-a2d9-7a8f2eaba84a",
+      "realization_id": "test_r002",
+      "algorithm_name": "NearestInterpolation",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.1611689106487146,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "98e9ffbb-cd5d-4a28-9b51-81d33dc53d17",
+      "realization_id": "test_r000",
+      "algorithm_name": "MovingAverage",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.341025641025641,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "9d181c4b-c225-45f1-a3c2-f0076c3255c8",
+      "realization_id": "test_r004",
+      "algorithm_name": "Median",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 13.08527716794731,
+      "rank_within_realization": 8
+    },
+    {
+      "result_id": "a1c81cf7-ef79-455a-a611-1d99d4c46734",
+      "realization_id": "test_r004",
+      "algorithm_name": "Mean",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 13.631911391142348,
+      "rank_within_realization": 9
+    },
+    {
+      "result_id": "a6c1373d-8dc2-448f-9ef4-f177cbde8ebd",
+      "realization_id": "test_r004",
+      "algorithm_name": "BackwardFill",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.381517563117453,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "aad82e89-46ee-413a-bf01-6623a34e7cff",
+      "realization_id": "test_r001",
+      "algorithm_name": "Median",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 12.973205540786344,
+      "rank_within_realization": 8
+    },
+    {
+      "result_id": "b2eecdf0-7d06-405d-90c9-45fa579fd3e5",
+      "realization_id": "test_r004",
+      "algorithm_name": "NearestInterpolation",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.3515024698133917,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "b3748dbd-8a70-44ad-a0ff-cb53c934f8ea",
+      "realization_id": "test_r001",
+      "algorithm_name": "MovingAverage",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.206292850146915,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "b6c007d0-9ea2-44fb-bf78-4ed62097bf4f",
+      "realization_id": "test_r002",
+      "algorithm_name": "LOCF",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 2.172674418604651,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "ccaa241c-81b3-4299-8238-6ca155137a06",
+      "realization_id": "test_r001",
+      "algorithm_name": "LOCF",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 2.3842871134741848,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "ce12410f-2cad-4a7c-a658-7a186272b6c7",
+      "realization_id": "test_r000",
+      "algorithm_name": "LOCF",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 2.5218337218337217,
+      "rank_within_realization": 5
+    },
+    {
+      "result_id": "ce655f7b-4d1c-419e-86b1-771d60d1e215",
+      "realization_id": "test_r003",
+      "algorithm_name": "MovingAverage",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.0455710955710957,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "ce83167d-b9a0-4393-8956-37ea840bca7f",
+      "realization_id": "test_r001",
+      "algorithm_name": "ExponentialSmoothing",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.1370583231712836,
+      "rank_within_realization": 2
+    },
+    {
+      "result_id": "cedceed2-d3f1-4d41-9f12-811fe99977fa",
+      "realization_id": "test_r000",
+      "algorithm_name": "SeasonalNaive",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 6.284110334110334,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "d9e2e398-1e97-4678-9e6b-8f40b81066ec",
+      "realization_id": "test_r003",
+      "algorithm_name": "SeasonalNaive",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 5.136790986790987,
+      "rank_within_realization": 7
+    },
+    {
+      "result_id": "de48b90a-8c81-41ee-8b58-0fdac6014d64",
+      "realization_id": "test_r003",
+      "algorithm_name": "Mean",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 12.74170393998252,
+      "rank_within_realization": 9
+    },
+    {
+      "result_id": "dfa9f0eb-c4ee-423c-bdf2-7b826dad93d2",
+      "realization_id": "test_r001",
+      "algorithm_name": "BackwardFill",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.4003428011753183,
+      "rank_within_realization": 6
+    },
+    {
+      "result_id": "e26936de-04b0-4ab5-bc25-e6a53f3b2452",
+      "realization_id": "test_r002",
+      "algorithm_name": "MovingAverage",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.0040238678090576,
+      "rank_within_realization": 3
+    },
+    {
+      "result_id": "eb2529fb-7e23-4d70-8d4a-378ed95deecc",
+      "realization_id": "test_r003",
+      "algorithm_name": "BackwardFill",
+      "family": "classical",
+      "metric_key": "mae",
+      "metric_value": 2.1973581973581973,
+      "rank_within_realization": 4
+    },
+    {
+      "result_id": "ed8f7723-e965-435a-b740-f93c4ecd0f96",
+      "realization_id": "test_r004",
+      "algorithm_name": "LinearInterpolation",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 2.037971094035858,
+      "rank_within_realization": 1
+    },
+    {
+      "result_id": "f62b1f1d-7bee-46c1-90c3-9530b5a418e3",
+      "realization_id": "test_r002",
+      "algorithm_name": "Median",
+      "family": "naive",
+      "metric_key": "mae",
+      "metric_value": 11.297276621787026,
+      "rank_within_realization": 8
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "imputebench.arma-performance-report/v1",
+  "profile": "official_bounded",
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "machine": "AMD64",
+    "os": "Windows"
+  },
+  "library_versions": {
+    "python": "3.10.15",
+    "numpy": "2.2.6",
+    "statsmodels": "0.14.6"
+  },
+  "input": {
+    "shape": [
+      240,
+      4
+    ],
+    "missingness_rate": 0.3,
+    "seed": 1729,
+    "masked_count": 288
+  },
+  "timings_seconds": {
+    "fit": 24.1216,
+    "impute": 0.0175,
+    "fit_elapsed_internal": 21.2943,
+    "per_series_elapsed_seconds": [
+      9.1106,
+      4.0333,
+      4.1044,
+      4.0366
+    ]
+  },
+  "budget": {
+    "search_profile": "official_bounded",
+    "candidate_count": 4,
+    "fit_attempt_count": 4,
+    "timeout_count": 0,
+    "series_budget_exhausted_count": 0,
+    "global_budget_exhausted": false,
+    "fallback_count": 0
+  },
+  "selected_orders": [
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "summary": {
+    "n_series": 4,
+    "n_fit_success": 4,
+    "n_fallback": 0,
+    "n_stationary": 4,
+    "n_differenced": 4,
+    "n_failures": 0
+  },
+  "generated_at": "2026-06-16T22:03:17+0800"
+}

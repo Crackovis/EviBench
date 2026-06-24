@@ -1,0 +1,26 @@
+Usage: python -m imputebench results view [OPTIONS] COMMAND [ARGS]...
+
+  Manage spatial viewers.
+
+  Create, export, and animate spatial visualizations of imputation results on
+  geographic maps.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  contact-sheet        Generate a contact sheet grid of all viewer frames.
+  create               Create a single-frame spatial viewer.
+  create-comparison    Create a side-by-side comparison viewer.
+  create-temporal      Create a temporal viewer spanning multiple timesteps.
+  export               Export a viewer frame as an image.
+  export-animation     Export a temporal viewer as an animated GIF.
+  export-comparison    Export a comparison viewer as an annotated image.
+  export-frames        Export all frames of a temporal viewer as...
+  show                 Show full viewer payload as JSON.
+  show-comparison      Show full comparison viewer payload as JSON.
+  summary              Show temporal summary statistics for a viewer.
+  timesteps            Show timestep metadata for a viewer.
+  validate-comparison  Validate that two results are compatible for...
+
+  Example: imputebench viewer list

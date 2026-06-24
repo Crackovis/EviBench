@@ -1,0 +1,187 @@
+contract:
+  kind: imputebench.data-construction-contract
+  schema_version: 1.0.0
+  title: London AQ Synthetic — annual canonical snapshot
+
+dataset:
+  name: London AQ Synthetic
+  slug: london_aq_synthetic
+  version: 1.0.0
+  description: Synthetic London air-quality tensor for imputation benchmarks.
+  nature: synthetic
+  tags: [london, air-quality, synthetic, environmental]
+  immutable_snapshot: true
+
+source:
+  format: netcdf
+  path: london_aq_synthetic.nc
+  adapter: builtin.netcdf.v1
+  import_mode: copy
+  data_variable: air_quality
+  source_axis_order: [time, grid_row, grid_col, pollutant]
+  coordinate_variables:
+    time: time
+    grid_row: grid_row
+    grid_col: grid_col
+    variable: pollutant
+  decode_cf: true
+
+tensor:
+  canonical_axis_order: [time, grid_row, grid_col, variable]
+  shape: [8760, 14, 10, 5]
+  source_dtype: float32
+  canonical_dtype: float64
+  allow_axis_reorder: true
+  allow_safe_dtype_cast: true
+  memory_order: C
+  canonical_missing_value: NaN
+
+dimensions:
+  time:
+    source_name: time
+    source_index: 0
+    size: 8760
+    semantic_type: temporal
+    coordinate:
+      encoding: cf_datetime
+      source_variable: time
+      unit: hours since 2019-01-01 00:00:00
+      calendar: proleptic_gregorian
+      start: 2019-01-01T00:00:00Z
+      end: 2019-12-31T23:00:00Z
+      expected_frequency: PT1H
+      monotonicity: strictly_increasing
+      regularity: regular
+      allow_duplicates: false
+  grid_row:
+    source_name: grid_row
+    source_index: 1
+    size: 14
+    semantic_type: spatial_row
+    coordinate:
+      encoding: index
+      source_variable: grid_row
+      minimum: 0
+      maximum: 13
+      coordinate_system: grid_index
+  grid_col:
+    source_name: grid_col
+    source_index: 2
+    size: 10
+    semantic_type: spatial_col
+    coordinate:
+      encoding: index
+      source_variable: grid_col
+      minimum: 0
+      maximum: 9
+      coordinate_system: grid_index
+  variable:
+    source_name: pollutant
+    source_index: 3
+    size: 5
+    semantic_type: measured_variable
+    coordinate:
+      encoding: labels
+      source_variable: pollutant
+      labels: [PM2.5, PM10, NO2, O3, SO2]
+      case_sensitive: false
+
+variables:
+  - id: pm25
+    source_label: PM2.5
+    display_name: PM2.5
+    unit: ug/m3
+    valid_range: {minimum: 0.0, maximum: 1000.0, inclusive_minimum: true, inclusive_maximum: true}
+  - id: pm10
+    source_label: PM10
+    display_name: PM10
+    unit: ug/m3
+    valid_range: {minimum: 0.0, maximum: 1500.0, inclusive_minimum: true, inclusive_maximum: true}
+  - id: no2
+    source_label: NO2
+    display_name: Nitrogen dioxide
+    unit: ppb
+    valid_range: {minimum: 0.0, maximum: 1000.0, inclusive_minimum: true, inclusive_maximum: true}
+  - id: o3
+    source_label: O3
+    display_name: Ozone
+    unit: ppb
+    valid_range: {minimum: 0.0, maximum: 1000.0, inclusive_minimum: true, inclusive_maximum: true}
+  - id: so2
+    source_label: SO2
+    display_name: Sulfur dioxide
+    unit: ppb
+    valid_range: {minimum: 0.0, maximum: 1000.0, inclusive_minimum: true, inclusive_maximum: true}
+
+missing_data:
+  representations: [nan]
+  sentinels: []
+  canonical_representation: nan
+  reject_infinity: true
+  allow_missing: true
+  maximum_fraction_global: 0.50
+  maximum_fraction_per_variable: {pm25: 0.50, pm10: 0.50, no2: 0.50, o3: 0.50, so2: 0.50}
+  maximum_consecutive_gap: null
+
+station_selection:
+  methods: [grid_coordinates, station_id]
+  default_method: grid_coordinates
+  grid_coordinates:
+    row_parameter: row
+    col_parameter: col
+    row_bounds: [0, 13]
+    col_bounds: [0, 9]
+  station_id:
+    index_source: embedded
+    source_variable: station_id
+    sidecar_path: null
+    id_field: station_id
+    row_field: grid_row
+    col_field: grid_col
+    display_name_field: station_name
+    require_unique_ids: true
+  active_cell_policy: all
+  active_mask: null
+  default_station: null
+
+provenance:
+  source_name: London AQ Synthetic
+  source_uri: null
+  publisher: EviBench
+  collection_method: ""
+  generation_method: ST-LSTM with seasonal decomposition informed by London Air Quality Network patterns.
+  generated_by: EviBench research pipeline
+  citation: Takoudjou et al. (2025), EviBench Technical Report
+  doi: null
+  license: CC-BY-4.0
+  license_uri: https://creativecommons.org/licenses/by/4.0/
+  temporal_coverage: {start: 2019-01-01T00:00:00Z, end: 2019-12-31T23:00:00Z}
+  geographic_coverage: {name: London synthetic sensor grid}
+  processing_history: []
+  contact: {}
+
+validation:
+  mode: strict
+  full_scan: true
+  reject_unknown_fields: true
+  reject_extra_source_variables: false
+  reject_extra_variable_labels: true
+  reject_undeclared_missing_values: true
+  reject_out_of_range: true
+  reject_empty_time_axis: true
+  reject_empty_active_nodes: true
+  max_error_examples: 20
+  range_tolerance: 0.0
+  frequency_tolerance_seconds: 0.0
+  checksum_required: false
+  station_index_required: true
+
+lane_defaults:
+  lane1:
+    view_policy: station_required
+    preserve_rank: true
+    output_shape: [time, 1, 1, variable]
+  lane2:
+    view_policy: full_grid
+
+extensions: {}

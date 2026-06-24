@@ -1,0 +1,10 @@
+Usage: python -m imputebench results result export-spatial 
+           [OPTIONS] RESULT_ID
+
+  Export spatial visualization payload to a JSON file.
+
+Options:
+  --format [json]
+  --metric [mae|rmse]
+  --output TEXT        Output path for spatial payload
+  -h, --help           Show this message and exit.

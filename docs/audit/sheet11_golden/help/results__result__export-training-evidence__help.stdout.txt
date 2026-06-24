@@ -1,0 +1,12 @@
+Usage: python -m imputebench results result export-training-evidence 
+           [OPTIONS] [RESULT_ID]
+
+Options:
+  --run TEXT                      Export all eligible result training evidence
+                                  for a run.
+  --phase [train|validate|test|all]
+                                  Batch-mode phase filter.  [default: train]
+  --algorithm-id TEXT             Optional algorithm filter in batch mode.
+  --output-dir TEXT               Export directory root. Defaults to the
+                                  Chapter 04 training evidence pack path.
+  -h, --help                      Show this message and exit.

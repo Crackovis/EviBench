@@ -1,0 +1,17 @@
+{
+  "figure_id": "training_curve",
+  "status": "diagnostic_single_point",
+  "reason": "insufficient_training_history_points",
+  "claim_level": "blocked",
+  "is_placeholder": true,
+  "created_at": "2026-05-20T10:43:34.288147+00:00",
+  "source_results": [
+    "23c210e6-9e6e-435f-87ba-eaf2b43fae36"
+  ],
+  "source_tables": [],
+  "source_mask_banks": [],
+  "caveats": [
+    "insufficient_training_history_points"
+  ],
+  "history_point_count": 1
+}

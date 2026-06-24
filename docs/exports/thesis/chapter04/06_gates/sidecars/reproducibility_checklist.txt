@@ -1,0 +1,33 @@
+====================================================================
+  CHAPTER 04 EVIDENCE PACK CHECKLIST
+====================================================================
+
+Overall rows: 10  |  PASS=10  PARTIAL=0  FAIL=0
+
+Per-pack summary:
+--------------------------------------------------------------------
+- 01 Dataset characterization: PASS  [figures=PASS, sidecars=PASS, spec_links=N/A, storyboards=N/A, schedule=N/A]
+  note: Core dataset figures + guide sidecars.
+- 02 Missingness characterization: PASS  [figures=PASS, sidecars=PASS, spec_links=N/A, storyboards=N/A, schedule=N/A]
+  note: Includes realized-rate and mask-bank characterization artifacts.
+- 03 Algorithm lifecycle: PASS  [figures=PASS, sidecars=PASS, spec_links=N/A, storyboards=N/A, schedule=N/A]
+  note: Training evidence figures + diagnosis summary sidecars.
+- 04 Comparisons — baselines: PASS  [figures=PASS, sidecars=N/A, spec_links=N/A, storyboards=N/A, schedule=N/A]
+  note: Lot-level baseline comparison figures.
+- 04 Comparisons — DL temporal: PASS  [figures=PASS, sidecars=N/A, spec_links=N/A, storyboards=N/A, schedule=N/A]
+  note: Lot-level DL comparison figures, diagnosis excluded.
+- 04 Comparisons — baselines + DL: PASS  [figures=PASS, sidecars=N/A, spec_links=N/A, storyboards=N/A, schedule=N/A]
+  note: Joint official comparison lot.
+- 04 Per-spec — classical: PASS  [figures=PASS, sidecars=PASS, spec_links=PASS, storyboards=N/A, schedule=N/A]
+  note: 9 classical specs × (2 figs, 5 sidecars).
+- 04 Per-spec — DL: PASS  [figures=PASS, sidecars=PASS, spec_links=PASS, storyboards=N/A, schedule=N/A]
+  note: 9 DL specs × (2 figs, 5 sidecars).
+- 05 Storyboards — classical: PASS  [figures=N/A, sidecars=N/A, spec_links=N/A, storyboards=PASS, schedule=N/A]
+  note: Classical storyboards are audited for presence only; DL loop schedule is not applicable.
+- 05 Storyboards — DL: PASS  [figures=N/A, sidecars=N/A, spec_links=N/A, storyboards=PASS, schedule=PASS]
+  note: DL storyboards should expose 3-loop schedule evidence where applicable.
+
+Interpretation:
+- This report audits Chapter 04 export packs, not the whole results database.
+- 'Spec Links' means official comparison specs still point to existing result rows.
+- 'DL Schedule' means storyboard schedule evidence is present for all DL specs and not_applicable for classical ones.

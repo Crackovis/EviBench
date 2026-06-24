@@ -1,0 +1,715 @@
+{
+  "storyboard_id": "storyboard_comparison_458a1870_20260509235959",
+  "scope": "comparison",
+  "title": "Classical Official Benchmark Comparison — LondonAQ — MCAR 0.3 — test",
+  "subtitle": "Comparison storyboard for 458a1870-020e-4b…",
+  "status": "incomplete",
+  "evidence_grade": "exploratory",
+  "comparison_spec_id": "458a1870-020e-4bb6-940f-e0394005aee8",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "benchmark_contract_id": "92d7695f-23ab-46d7-8573-c30d7d5ba6ee",
+  "mask_bank_id": "b5aaf87f-0018-45ff-8ee0-f03272a804e9",
+  "result_ids": [
+    "015ea937-9a58-45c5-8299-d58cb0576626",
+    "b80295ba-2d77-412f-8445-4a442742c72f",
+    "044bd044-7bb5-4ed5-86ec-d0eddff7c119",
+    "8b64310e-a77d-4069-9686-b67c9b1cc3fa",
+    "babfcd1b-f70f-4627-a872-84f2292ac273",
+    "5f250d33-d62f-425c-8f42-9755d65c1f50",
+    "ce5e9ce4-a095-442f-bd9d-b2bd6bd6f6e2",
+    "329146bc-ff56-4319-874d-c17fd6559b80",
+    "1b8b567c-53a3-46bf-b52d-da649ed40171",
+    "e0c4fd7d-b75d-423f-9a0c-312bf9ed3c40",
+    "38b84f3f-7ffa-4c3a-aaa8-7d8930667f8b",
+    "55c6a5fa-eabf-480f-a2fb-2379a678100a",
+    "96b8d260-9ec8-43ae-bc56-410d507c4545",
+    "85e246d7-5869-4273-b28b-063060ecbd22",
+    "efae9d49-a991-4148-bc0a-2a4171206bbe",
+    "a100a9bb-fd3d-42e6-aeca-362e95260170",
+    "dca3b4ad-b04b-49bf-9c55-d8847f8846e4",
+    "3d24a2f0-d5b8-47f4-8071-f0ecffad19c2",
+    "4b71959f-e067-4fe8-8134-2a0b7b90d143",
+    "dbc20163-7581-4ebd-80ae-58f55d51c594",
+    "f176ff40-2119-4aef-a01b-9e04b7a45add",
+    "81987a31-77bd-4951-95be-cf8f02170e88",
+    "c22bda50-dea8-44d0-a50f-c9314d0d3966",
+    "788e7b17-8057-4018-942e-f931bb6bcab7",
+    "3f9920fd-f07b-4947-b7d2-c90b2139b8d6",
+    "d905cd2e-0471-438f-abd7-c8eae5f1de5d",
+    "64276e34-7c79-4352-9d8b-830cb2c21657",
+    "ca08f369-f0e7-4dbd-9f3d-4b07ccdd8a4e",
+    "0682db84-661d-42ff-b900-d8c6af5d9a0a",
+    "83acfaa6-8fe7-472c-9ef1-c7a5783918ab",
+    "481cdcf1-74b8-445d-b13a-cf2f90483fe1",
+    "c6023aca-27a2-4adf-bb24-a1401d014259",
+    "e3ce0278-33b4-4510-b3ad-69e46af66136",
+    "a0c289f6-7976-4701-8807-ede613b37181",
+    "d47f0059-30ec-4f7d-b4b9-df35b7d51471",
+    "81bd9ce4-6f29-4b6c-809a-8b64d4d7968d",
+    "e625b7ca-3d11-4cf8-8b32-f842cb412819",
+    "51943124-2f59-4ebf-8963-ba092e280f86",
+    "8da9e7c6-d859-4619-9be9-18c481ea6bdd",
+    "c3ae9036-c147-4a2a-a008-7a6b601eaa1d",
+    "f76c90e2-18fc-4cd7-a07f-d11126939646",
+    "e3c39401-a7ba-496a-8d67-e3e3caa2391b",
+    "0ee9b686-3357-48e0-91cb-e5c6b3b0b68a",
+    "8349f5b6-88c6-482a-b57b-b49c051004e6",
+    "09f92ad7-e3af-40ae-8175-00466f11e9f1"
+  ],
+  "sections": [
+    {
+      "section_id": "experimental_context",
+      "title": "Experimental Context",
+      "purpose": "Dataset, missingness mechanism, and mask bank characterization.",
+      "status": "ready",
+      "bullets": [
+        "Dataset ID: fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+        "Missingness mechanism: mcar",
+        "Missingness rate: 30.00%",
+        "Benchmark realization count: 5",
+        "Benchmark realizations are distinct from training curriculum loops.",
+        "Shared support fingerprints: 1"
+      ],
+      "claims": [],
+      "figure_slots": [
+        {
+          "slot_id": "ds_fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_dataset_summary_table",
+          "role": "dataset_summary",
+          "title": "Dataset Summary Table",
+          "required": true,
+          "status": "available",
+          "figure_kind": "dataset_summary_table",
+          "figure_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_dataset_summary_table",
+          "export_path": "docs\\exports\\thesis\\chapter04\\01_dataset_characterization\\figures\\dataset_summary_table.png",
+          "sidecar_path": "",
+          "caption_draft": "Table fa9c7108-176e-4c68-840d-6acf3a3e59e4_t1: Dataset characterisation summary for London AQ Synthetic (synthetic).",
+          "source_refs": [
+            {
+              "source_type": "figure_spec",
+              "source_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_dataset_summary_table",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        },
+        {
+          "slot_id": "ds_fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_temporal_coverage_strip",
+          "role": "dataset_temporal_coverage",
+          "title": "Temporal Coverage Strip",
+          "required": false,
+          "status": "available",
+          "figure_kind": "temporal_coverage_strip",
+          "figure_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_temporal_coverage_strip",
+          "export_path": "docs\\exports\\thesis\\chapter04\\01_dataset_characterization\\figures\\temporal_coverage_strip.png",
+          "sidecar_path": "",
+          "caption_draft": "Figure fa9c7108-176e-4c68-840d-6acf3a3e59e4_f1: Temporal coverage — 600 timesteps (08:00-17:59) at 1min resolution.",
+          "source_refs": [
+            {
+              "source_type": "figure_spec",
+              "source_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_temporal_coverage_strip",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        },
+        {
+          "slot_id": "ds_fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_pollutant_distribution_panel",
+          "role": "pollutant_distribution",
+          "title": "Pollutant Distribution Panel",
+          "required": false,
+          "status": "available",
+          "figure_kind": "pollutant_distribution_panel",
+          "figure_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_pollutant_distribution_panel",
+          "export_path": "docs\\exports\\thesis\\chapter04\\01_dataset_characterization\\figures\\pollutant_distribution_panel.png",
+          "sidecar_path": "",
+          "caption_draft": "Figure fa9c7108-176e-4c68-840d-6acf3a3e59e4_f2: Pollutant distribution panel (sampled_window) — 4 pollutants profiled.",
+          "source_refs": [
+            {
+              "source_type": "figure_spec",
+              "source_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_pollutant_distribution_panel",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        },
+        {
+          "slot_id": "ds_fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_pollutant_sample_timeseries",
+          "role": "dataset_temporal_coverage",
+          "title": "Pollutant Sample Timeseries",
+          "required": false,
+          "status": "available",
+          "figure_kind": "pollutant_sample_timeseries",
+          "figure_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_pollutant_sample_timeseries",
+          "export_path": "docs\\exports\\thesis\\chapter04\\01_dataset_characterization\\figures\\pollutant_sample_timeseries.png",
+          "sidecar_path": "",
+          "caption_draft": "Figure fa9c7108-176e-4c68-840d-6acf3a3e59e4_f3: Sample timeseries for NO — per-timestep spatial mean over 120 timesteps.",
+          "source_refs": [
+            {
+              "source_type": "figure_spec",
+              "source_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_pollutant_sample_timeseries",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        },
+        {
+          "slot_id": "ds_fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_spatial_grid_snapshot",
+          "role": "dataset_summary",
+          "title": "Spatial Grid Snapshot",
+          "required": false,
+          "status": "available",
+          "figure_kind": "spatial_grid_snapshot",
+          "figure_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_spatial_grid_snapshot",
+          "export_path": "docs\\exports\\thesis\\chapter04\\01_dataset_characterization\\figures\\spatial_grid_snapshot.png",
+          "sidecar_path": "",
+          "caption_draft": "Figure fa9c7108-176e-4c68-840d-6acf3a3e59e4_f4: Spatial snapshot at t=0 for NO — 10×14 grid.",
+          "source_refs": [
+            {
+              "source_type": "figure_spec",
+              "source_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_spatial_grid_snapshot",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        },
+        {
+          "slot_id": "ms_b5aaf87f-0018-45ff-8ee0-f03272a804e9_realized_rate_bar_chart",
+          "role": "missingness_rate",
+          "title": "Realized Rate Comparison",
+          "required": true,
+          "status": "available",
+          "figure_kind": "realized_rate_bar_chart",
+          "figure_id": "b5aaf87f-0018-45ff-8ee0-f03272a804e9_realized_rate_bar_chart",
+          "export_path": "docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\figures\\London-AQ-Synthetic_fa9c7108\\realized_rate_bar_chart_mar_0p1_test.png",
+          "sidecar_path": "",
+          "caption_draft": "Missingness characterization for mask bank 'Official LondonAQ Mask Bank — MCAR 0.3 — test': mcar masks on the test phase, 5 realizations, target rate 0.3, realized rate range 0.2983–0.3005. This summary uses mask metadata only and does not inspect the full mask arrays.",
+          "source_refs": [
+            {
+              "source_type": "figure_spec",
+              "source_id": "b5aaf87f-0018-45ff-8ee0-f03272a804e9_realized_rate_bar_chart",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        },
+        {
+          "slot_id": "ms_b5aaf87f-0018-45ff-8ee0-f03272a804e9_realized_rate_distribution",
+          "role": "missingness_rate",
+          "title": "Realized Rate Distribution",
+          "required": false,
+          "status": "available",
+          "figure_kind": "realized_rate_distribution",
+          "figure_id": "b5aaf87f-0018-45ff-8ee0-f03272a804e9_realized_rate_distribution",
+          "export_path": "docs\\exports\\thesis\\chapter04\\02_missingness_characterization\\figures\\London-AQ-Synthetic_fa9c7108\\realized_rate_distribution_mar_0p1_test.png",
+          "sidecar_path": "",
+          "caption_draft": "Missingness characterization for mask bank 'Official LondonAQ Mask Bank — MCAR 0.3 — test': mcar masks on the test phase, 5 realizations, target rate 0.3, realized rate range 0.2983–0.3005. This summary uses mask metadata only and does not inspect the full mask arrays.",
+          "source_refs": [
+            {
+              "source_type": "figure_spec",
+              "source_id": "b5aaf87f-0018-45ff-8ee0-f03272a804e9_realized_rate_distribution",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        }
+      ],
+      "table_slots": [
+        {
+          "slot_id": "mask_bank_summary_table",
+          "role": "mask_bank_summary_table",
+          "title": "Mask Bank Summary Table",
+          "required": true,
+          "status": "available",
+          "table_kind": "",
+          "rows": [],
+          "caption_draft": "",
+          "missing_reason": ""
+        },
+        {
+          "slot_id": "mask_bank_summary_table",
+          "role": "mask_bank_summary_table",
+          "title": "Mask Bank Summary Table",
+          "required": true,
+          "status": "available",
+          "table_kind": "",
+          "rows": [],
+          "caption_draft": "",
+          "missing_reason": ""
+        }
+      ],
+      "caveats": [],
+      "next_actions": [],
+      "max_training_loops": null,
+      "actual_training_loop_count": null,
+      "selected_training_loop_index": null,
+      "selected_train_realization_index": null,
+      "selected_validation_realization_index": null,
+      "training_loop_stop_reason": "",
+      "selection_metric": "",
+      "best_validation_metric_value": null,
+      "training_loop_trace_table": [],
+      "training_loop_schedule_mode": "",
+      "training_loop_schedule_summary": "",
+      "training_loop_schedule_table": [],
+      "training_loop_schedule_caveats": [],
+      "missingness_lifecycle_id": "",
+      "training_loop_schedule_hash": "",
+      "backend_curriculum_mode": "",
+      "schedule_summary": "",
+      "claim_scope": ""
+    },
+    {
+      "section_id": "compared_methods",
+      "title": "Compared Methods",
+      "purpose": "Algorithm set, families, execution classes, and contract parity.",
+      "status": "ready",
+      "bullets": [
+        "Algorithm count: 9",
+        "Families: classical",
+        "Execution classes: classical",
+        "Benchmark contract parity: confirmed"
+      ],
+      "claims": [],
+      "figure_slots": [
+        {
+          "slot_id": "comparison_ranking",
+          "role": "comparison_ranking",
+          "title": "Algorithm Ranking",
+          "required": true,
+          "status": "available",
+          "figure_kind": "comparison_ranking",
+          "figure_id": "comparison_ranking_458a1870-020e-4bb6-940f-e0394005aee8",
+          "export_path": "docs\\exports\\thesis\\chapter04\\04_comparisons\\per_spec\\figures\\Classical-Official-Benchmark-Comparison-LondonAQ-MCAR-0.3-test_458a1870_comparison_ranking.png",
+          "sidecar_path": "",
+          "caption_draft": "",
+          "source_refs": [
+            {
+              "source_type": "comparison_spec",
+              "source_id": "458a1870-020e-4bb6-940f-e0394005aee8",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        }
+      ],
+      "table_slots": [
+        {
+          "slot_id": "algorithm_metric_ranking",
+          "role": "algorithm_metric_ranking",
+          "title": "Algorithm Metric Ranking",
+          "required": true,
+          "status": "available",
+          "table_kind": "",
+          "rows": [],
+          "caption_draft": "",
+          "missing_reason": ""
+        }
+      ],
+      "caveats": [],
+      "next_actions": [],
+      "max_training_loops": null,
+      "actual_training_loop_count": null,
+      "selected_training_loop_index": null,
+      "selected_train_realization_index": null,
+      "selected_validation_realization_index": null,
+      "training_loop_stop_reason": "",
+      "selection_metric": "",
+      "best_validation_metric_value": null,
+      "training_loop_trace_table": [],
+      "training_loop_schedule_mode": "",
+      "training_loop_schedule_summary": "",
+      "training_loop_schedule_table": [],
+      "training_loop_schedule_caveats": [],
+      "missingness_lifecycle_id": "",
+      "training_loop_schedule_hash": "",
+      "backend_curriculum_mode": "",
+      "schedule_summary": "",
+      "claim_scope": ""
+    },
+    {
+      "section_id": "training_evidence",
+      "title": "Training Evidence",
+      "purpose": "Training convergence and selection evidence for DL/ML results.",
+      "status": "not_applicable",
+      "bullets": [
+        "Training evidence pack service unavailable or V7 pack not built."
+      ],
+      "claims": [],
+      "figure_slots": [
+        {
+          "slot_id": "training_curve",
+          "role": "training_curve",
+          "title": "Training Curves",
+          "required": false,
+          "status": "missing",
+          "figure_kind": "training_curve",
+          "figure_id": "training_curve",
+          "export_path": "",
+          "sidecar_path": "",
+          "caption_draft": "",
+          "source_refs": [],
+          "missing_reason": ""
+        }
+      ],
+      "table_slots": [],
+      "caveats": [],
+      "next_actions": [],
+      "max_training_loops": null,
+      "actual_training_loop_count": null,
+      "selected_training_loop_index": null,
+      "selected_train_realization_index": null,
+      "selected_validation_realization_index": null,
+      "training_loop_stop_reason": "",
+      "selection_metric": "",
+      "best_validation_metric_value": null,
+      "training_loop_trace_table": [],
+      "training_loop_schedule_mode": "",
+      "training_loop_schedule_summary": "",
+      "training_loop_schedule_table": [],
+      "training_loop_schedule_caveats": [],
+      "missingness_lifecycle_id": "",
+      "training_loop_schedule_hash": "",
+      "backend_curriculum_mode": "",
+      "schedule_summary": "",
+      "claim_scope": ""
+    },
+    {
+      "section_id": "training_missingness_schedule",
+      "title": "Training Missingness Schedule",
+      "purpose": "Training loop schedule evidence: uniform or custom missingness protocol across training loops.",
+      "status": "incomplete",
+      "bullets": [
+        "Training curriculum mode: unknown",
+        "Maximum training curriculum loops: unknown",
+        "Selected loop index: unknown"
+      ],
+      "claims": [],
+      "figure_slots": [],
+      "table_slots": [
+        {
+          "slot_id": "training_loop_schedule_table",
+          "role": "training_loop_schedule_table",
+          "title": "Training Loop Schedule Table",
+          "required": true,
+          "status": "missing",
+          "table_kind": "",
+          "rows": [],
+          "caption_draft": "",
+          "missing_reason": ""
+        }
+      ],
+      "caveats": [],
+      "next_actions": [],
+      "max_training_loops": null,
+      "actual_training_loop_count": null,
+      "selected_training_loop_index": null,
+      "selected_train_realization_index": null,
+      "selected_validation_realization_index": null,
+      "training_loop_stop_reason": "",
+      "selection_metric": "",
+      "best_validation_metric_value": null,
+      "training_loop_trace_table": [],
+      "training_loop_schedule_mode": "",
+      "training_loop_schedule_summary": "",
+      "training_loop_schedule_table": [],
+      "training_loop_schedule_caveats": [],
+      "missingness_lifecycle_id": "",
+      "training_loop_schedule_hash": "",
+      "backend_curriculum_mode": "",
+      "schedule_summary": "",
+      "claim_scope": ""
+    },
+    {
+      "section_id": "benchmark_results",
+      "title": "Benchmark Results",
+      "purpose": "Primary metric, ranking, and distribution evidence.",
+      "status": "ready",
+      "bullets": [
+        "Primary metric: mae_global",
+        "Ranking scope: algorithm",
+        "Realization scope: shared_contract_ready"
+      ],
+      "claims": [],
+      "figure_slots": [
+        {
+          "slot_id": "comparison_ranking",
+          "role": "comparison_ranking",
+          "title": "Algorithm Ranking",
+          "required": true,
+          "status": "available",
+          "figure_kind": "comparison_ranking",
+          "figure_id": "comparison_ranking_458a1870-020e-4bb6-940f-e0394005aee8",
+          "export_path": "docs\\exports\\thesis\\chapter04\\04_comparisons\\per_spec\\figures\\Classical-Official-Benchmark-Comparison-LondonAQ-MCAR-0.3-test_458a1870_comparison_ranking.png",
+          "sidecar_path": "",
+          "caption_draft": "",
+          "source_refs": [
+            {
+              "source_type": "comparison_spec",
+              "source_id": "458a1870-020e-4bb6-940f-e0394005aee8",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        },
+        {
+          "slot_id": "comparison_distribution",
+          "role": "comparison_distribution",
+          "title": "Metric Distribution",
+          "required": false,
+          "status": "available",
+          "figure_kind": "comparison_distribution",
+          "figure_id": "comparison_distribution_458a1870-020e-4bb6-940f-e0394005aee8",
+          "export_path": "docs\\exports\\thesis\\chapter04\\04_comparisons\\per_spec\\figures\\Classical-Official-Benchmark-Comparison-LondonAQ-MCAR-0.3-test_458a1870_comparison_distribution.png",
+          "sidecar_path": "",
+          "caption_draft": "",
+          "source_refs": [
+            {
+              "source_type": "comparison_spec",
+              "source_id": "458a1870-020e-4bb6-940f-e0394005aee8",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        }
+      ],
+      "table_slots": [
+        {
+          "slot_id": "algorithm_metric_ranking",
+          "role": "algorithm_metric_ranking",
+          "title": "Algorithm Metric Ranking",
+          "required": true,
+          "status": "available",
+          "table_kind": "",
+          "rows": [],
+          "caption_draft": "",
+          "missing_reason": ""
+        }
+      ],
+      "caveats": [],
+      "next_actions": [],
+      "max_training_loops": null,
+      "actual_training_loop_count": null,
+      "selected_training_loop_index": null,
+      "selected_train_realization_index": null,
+      "selected_validation_realization_index": null,
+      "training_loop_stop_reason": "",
+      "selection_metric": "",
+      "best_validation_metric_value": null,
+      "training_loop_trace_table": [],
+      "training_loop_schedule_mode": "",
+      "training_loop_schedule_summary": "",
+      "training_loop_schedule_table": [],
+      "training_loop_schedule_caveats": [],
+      "missingness_lifecycle_id": "",
+      "training_loop_schedule_hash": "",
+      "backend_curriculum_mode": "",
+      "schedule_summary": "",
+      "claim_scope": ""
+    },
+    {
+      "section_id": "claims_and_caveats",
+      "title": "Claims and Caveats",
+      "purpose": "Claims taxonomy from V3 schema claim profile and export policy.",
+      "status": "usable_with_caveats",
+      "bullets": [
+        "Claim level: exploratory",
+        "Allowed claims: metric values may be inspected, artifact availability may be reported, result cohort may be described",
+        "Blocked claims: algorithm X is best, deep learning is superior, classical methods are superior, SAITS outperforms all baselines, result is generalizable beyond this dataset, ranking superiority, family superiority, generalization, thesis-ready conclusion"
+      ],
+      "claims": [],
+      "figure_slots": [
+        {
+          "slot_id": "comparison_claim_table",
+          "role": "comparison_claim_table",
+          "title": "Comparison Claim Table",
+          "required": true,
+          "status": "available",
+          "figure_kind": "comparison_claim_table",
+          "figure_id": "comparison_ranking_458a1870-020e-4bb6-940f-e0394005aee8",
+          "export_path": "docs\\exports\\thesis\\chapter04\\04_comparisons\\per_spec\\figures\\Classical-Official-Benchmark-Comparison-LondonAQ-MCAR-0.3-test_458a1870_comparison_ranking.png",
+          "sidecar_path": "",
+          "caption_draft": "",
+          "source_refs": [
+            {
+              "source_type": "comparison_spec",
+              "source_id": "458a1870-020e-4bb6-940f-e0394005aee8",
+              "label": "",
+              "status": "unknown",
+              "evidence_kind": "",
+              "path": "",
+              "raw": {}
+            }
+          ],
+          "missing_reason": ""
+        }
+      ],
+      "table_slots": [
+        {
+          "slot_id": "comparison_claim_table",
+          "role": "comparison_claim_table",
+          "title": "Comparison Claim Table",
+          "required": true,
+          "status": "available",
+          "table_kind": "",
+          "rows": [],
+          "caption_draft": "",
+          "missing_reason": ""
+        }
+      ],
+      "caveats": [],
+      "next_actions": [],
+      "max_training_loops": null,
+      "actual_training_loop_count": null,
+      "selected_training_loop_index": null,
+      "selected_train_realization_index": null,
+      "selected_validation_realization_index": null,
+      "training_loop_stop_reason": "",
+      "selection_metric": "",
+      "best_validation_metric_value": null,
+      "training_loop_trace_table": [],
+      "training_loop_schedule_mode": "",
+      "training_loop_schedule_summary": "",
+      "training_loop_schedule_table": [],
+      "training_loop_schedule_caveats": [],
+      "missingness_lifecycle_id": "",
+      "training_loop_schedule_hash": "",
+      "backend_curriculum_mode": "",
+      "schedule_summary": "",
+      "claim_scope": ""
+    },
+    {
+      "section_id": "reproducibility",
+      "title": "Reproducibility",
+      "purpose": "Figure/sidecar availability, artifact catalog status, and git timestamp.",
+      "status": "ready",
+      "bullets": [
+        "Figures available: 11",
+        "Sidecars available: 0",
+        "Artifact catalog: not indexed",
+        "Git commit timestamp: not available"
+      ],
+      "claims": [],
+      "figure_slots": [],
+      "table_slots": [
+        {
+          "slot_id": "reproducibility_table",
+          "role": "reproducibility_table",
+          "title": "Reproducibility Table",
+          "required": true,
+          "status": "available",
+          "table_kind": "",
+          "rows": [],
+          "caption_draft": "",
+          "missing_reason": ""
+        }
+      ],
+      "caveats": [],
+      "next_actions": [],
+      "max_training_loops": null,
+      "actual_training_loop_count": null,
+      "selected_training_loop_index": null,
+      "selected_train_realization_index": null,
+      "selected_validation_realization_index": null,
+      "training_loop_stop_reason": "",
+      "selection_metric": "",
+      "best_validation_metric_value": null,
+      "training_loop_trace_table": [],
+      "training_loop_schedule_mode": "",
+      "training_loop_schedule_summary": "",
+      "training_loop_schedule_table": [],
+      "training_loop_schedule_caveats": [],
+      "missingness_lifecycle_id": "",
+      "training_loop_schedule_hash": "",
+      "backend_curriculum_mode": "",
+      "schedule_summary": "",
+      "claim_scope": ""
+    }
+  ],
+  "source_refs": [
+    {
+      "source_type": "comparison_spec",
+      "source_id": "458a1870-020e-4bb6-940f-e0394005aee8",
+      "label": "Comparison Spec 458a1870",
+      "status": "available",
+      "evidence_kind": "",
+      "path": "",
+      "raw": {}
+    },
+    {
+      "source_type": "dataset",
+      "source_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+      "label": "Dataset fa9c7108",
+      "status": "available",
+      "evidence_kind": "",
+      "path": "",
+      "raw": {}
+    },
+    {
+      "source_type": "benchmark_contract",
+      "source_id": "92d7695f-23ab-46d7-8573-c30d7d5ba6ee",
+      "label": "Contract 92d7695f",
+      "status": "available",
+      "evidence_kind": "",
+      "path": "",
+      "raw": {}
+    },
+    {
+      "source_type": "mask_bank",
+      "source_id": "b5aaf87f-0018-45ff-8ee0-f03272a804e9",
+      "label": "Mask Bank b5aaf87f",
+      "status": "available",
+      "evidence_kind": "",
+      "path": "",
+      "raw": {}
+    }
+  ],
+  "global_claims": [],
+  "missing_evidence": [
+    "Training Curves (training_curve)",
+    "Training Loop Schedule Table (training_loop_schedule_table)"
+  ],
+  "recommended_next_actions": [
+    "Generate missing figures and sidecars to reach export-ready state."
+  ],
+  "generated_at": "20260509235959"
+}

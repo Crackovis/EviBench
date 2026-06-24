@@ -1,0 +1,21 @@
+{
+  "algorithm_order": [
+    "stgcn",
+    "grin",
+    "ignnk",
+    "dcrnn"
+  ],
+  "recipe_book_id": "official_londonaq_st_benchmark",
+  "stage_order": [
+    "recipe_validate",
+    "recipe_materialize",
+    "graph_ready",
+    "smoke",
+    "calibration",
+    "tier_a_scientific",
+    "evidence_export",
+    "scientific_gate",
+    "graph_sensitivity_optional",
+    "tier_b_optional"
+  ]
+}

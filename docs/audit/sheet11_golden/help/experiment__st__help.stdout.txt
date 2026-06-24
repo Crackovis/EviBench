@@ -1,0 +1,34 @@
+Usage: python -m imputebench experiment st [OPTIONS] COMMAND [ARGS]...
+
+  Spatio-temporal lane commands.
+
+  Build graph assets, inspect tensors, create spatial mask banks, generate ST
+  experiment plans, execute runs, and export evidence.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  audit                 ST database and evidence audit commands.
+  chapter06-readme      Generate (or refresh) the comprehensive README.md...
+  compare               Materialize graph-aware ST comparison tables.
+  env                   Report Python / PyTorch / CUDA environment for...
+  evidence              Spatio-temporal evidence export commands.
+  experiment            Orchestrated ST experiment lifecycle: reset, run,...
+  figures               Manage the Chapter 06 extended figure gallery.
+  gate                  Evaluate ST readiness gates and persist a report.
+  graph                 Graph asset construction and inspection.
+  mask-bank             Spatio-temporal benchmark mask bank commands.
+  plan                  Official ST plan generation commands.
+  preflight             Validate the ST environment before plan creation...
+  readiness             Official ST readiness reporting commands.
+  recipe                ST recipe-book orchestration commands (dry-run...
+  regenerate-chapter06  One-shot regeneration of the full Chapter 06...
+  run                   Execute spatio-temporal runs with ST-specific...
+  scientific            SCI-FIX09 scientific readiness commands.
+  tensor                Graph tensor inspection commands.
+  training              Scientific training tier management commands...
+
+  Examples: imputebench st graph build --dataset-id london_aq --policy
+  grid_4n_v1 imputebench st graph inspect --graph-id <graph_id> imputebench st
+  tensor inspect --dataset-id london_aq --graph-id <graph_id>

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "definitions": {
+    "recipe": {
+      "properties": {
+        "algorithm_ids": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "corrected_variants": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        "dataset_id": {
+          "type": "string"
+        },
+        "epochs": {
+          "type": "integer"
+        },
+        "expected_outputs": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "graph_policy": {
+          "type": "string"
+        },
+        "mask_rate": {
+          "type": "number"
+        },
+        "mask_scenario": {
+          "type": "string"
+        },
+        "metrics": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "profile_id": {
+          "type": "string"
+        },
+        "realization_count": {
+          "type": "integer"
+        },
+        "recipe_book_id": {
+          "type": "string"
+        },
+        "recipe_id": {
+          "type": "string"
+        },
+        "tier": {
+          "type": "string"
+        },
+        "training_tier": {
+          "type": "string"
+        },
+        "window_length": {
+          "type": "integer"
+        },
+        "window_stride": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "recipe_id",
+        "dataset_id",
+        "algorithm_ids",
+        "corrected_variants",
+        "mask_scenario",
+        "mask_rate",
+        "realization_count",
+        "graph_policy",
+        "training_tier",
+        "epochs",
+        "window_length",
+        "window_stride",
+        "metrics",
+        "expected_outputs"
+      ],
+      "type": "object"
+    }
+  },
+  "policy_version": "ST-REC01",
+  "required_registry_files": [
+    "official_londonaq_st_benchmark.recipes.json",
+    "official_londonaq_st_benchmark.tier_a.json",
+    "official_londonaq_st_benchmark.tier_b.json",
+    "official_londonaq_st_benchmark.graph_sensitivity.json",
+    "official_londonaq_st_benchmark.execution_order.json",
+    "official_londonaq_st_benchmark.profiles.json",
+    "official_londonaq_st_benchmark.schema.json"
+  ],
+  "source_policy_version": "ST-REC00",
+  "title": "EviBench ST scientific recipe registry contract",
+  "type": "object"
+}

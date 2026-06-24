@@ -1,0 +1,47 @@
+{
+  "figure_id": "e27a0ef1-0535-49e0-95ec-83d30b05a85b_mask_bank_summary_table",
+  "figure_kind": "mask_bank_summary_table",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "bank_id": "e27a0ef1-0535-49e0-95ec-83d30b05a85b",
+  "realization_id": "",
+  "semantic_scope": "mask_bank_or_filtered_group",
+  "mechanism": "mar",
+  "target_rate": 0.3,
+  "split": "test",
+  "source_realization_count": 5,
+  "source_paths": [
+    "registered_dataset:fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r000",
+    "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r001",
+    "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r002",
+    "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r003",
+    "data\\benchmark_mask_banks\\official_londonaq\\mar\\30\\test\\test_r004"
+  ],
+  "data_access_mode": "mask_metadata",
+  "caption_draft": "Mask Bank Summary Table \u2014 mar at target rate 0.3 (test split).",
+  "evidence_grade": "reportable",
+  "payload_summary": {
+    "keys": [
+      "artifact_paths",
+      "bank_id",
+      "dataset_id",
+      "mask_bank_id",
+      "mask_family",
+      "mechanism",
+      "realization_count",
+      "source_realization_count",
+      "source_realization_ids",
+      "source_status",
+      "split",
+      "target_rate"
+    ]
+  },
+  "generated_at": "2026-05-10T03:00:59.364589+00:00",
+  "figure_status": "ready",
+  "payload_status": "ready",
+  "data_access_status": "mask_metadata",
+  "alias_keys_used": [],
+  "blocking_reasons": [],
+  "warnings": [],
+  "thesis_candidate": true
+}

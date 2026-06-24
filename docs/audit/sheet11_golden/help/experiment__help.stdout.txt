@@ -1,0 +1,16 @@
+Usage: python -m imputebench experiment [OPTIONS] COMMAND [ARGS]...
+
+  Design and execute imputation experiments.
+
+  The experiment domain aggregates run management, recipe books, temporal
+  benchmark orchestration, and spatio-temporal lane commands into a single
+  command tree.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  recipe    Manage experiment recipe books
+  run       Manage experiment runs.
+  st        Spatio-temporal lane commands.
+  temporal  Temporal benchmark orchestration commands.

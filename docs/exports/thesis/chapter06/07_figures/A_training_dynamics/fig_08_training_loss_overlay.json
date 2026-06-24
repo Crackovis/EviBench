@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-20T11:22:54.744861+00:00",
+  "figure_id": "fig_08_training_loss_overlay",
+  "status": "ready",
+  "claim_level": "descriptive",
+  "is_placeholder": false,
+  "source_results": [],
+  "source_tables": [
+    "03_st_algorithm_lifecycle"
+  ],
+  "caveats": [
+    "Loss normalised to first-epoch value; absolute magnitudes differ across algorithms."
+  ],
+  "normalisation": "per_algorithm_first_epoch_loss",
+  "algorithm_count": 4,
+  "png_path": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_08_training_loss_overlay.png",
+  "svg_path": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_08_training_loss_overlay.svg"
+}

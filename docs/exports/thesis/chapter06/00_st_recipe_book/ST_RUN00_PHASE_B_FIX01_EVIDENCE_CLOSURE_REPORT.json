@@ -1,0 +1,94 @@
+{
+  "phase": "ST-RUN00-PHASE-B-FIX01",
+  "status": "completed",
+  "decision": "READY_FOR_PHASE_C_WITH_CAVEATS",
+  "scientific_ready": false,
+  "input_runs": [
+    {
+      "algorithm": "stgcn",
+      "variant": "stconv_v1",
+      "run_id": "de78cace-1137-4fe3-b3bd-81dfbed63031"
+    },
+    {
+      "algorithm": "grin",
+      "variant": "mpgru_v1",
+      "run_id": "224ca9b0-d930-4ba1-bf13-dff240699e68"
+    },
+    {
+      "algorithm": "ignnk",
+      "variant": "dgc_kriging_v1",
+      "run_id": "ecaceee9-e7c3-4cf3-bdab-8f43e24a2d04"
+    },
+    {
+      "algorithm": "dcrnn",
+      "variant": "dcgru_reconstruction_v1",
+      "run_id": "62591452-9f48-4858-9b50-0b18a8112f82"
+    }
+  ],
+  "before_blockers": [
+    "seed_policy_not_persisted",
+    "optimizer_config_missing",
+    "device_record_missing",
+    "loss_explosion_detected",
+    "ignnk_first_final_loss_missing",
+    "scientific_run_not_found",
+    "metrics_missing",
+    "artifact_completeness_report_missing",
+    "artifact_completeness_failed",
+    "mask_support_metadata_missing"
+  ],
+  "after_blockers": [
+    "convergence_caveated_in_strict_mode",
+    "validation_loss_missing"
+  ],
+  "metadata_fields_persisted": [
+    "algorithm_seed",
+    "mask_seed",
+    "split_seed",
+    "optimizer_name",
+    "learning_rate",
+    "weight_decay",
+    "batch_size",
+    "device_requested",
+    "device_used",
+    "training_history_path",
+    "training_config_fingerprint",
+    "checkpoint_policy",
+    "selected_checkpoint"
+  ],
+  "metrics_discovered": {
+    "source": "data/metadata.db results table",
+    "per_run_fields": [
+      "mae",
+      "rmse",
+      "hidden_count",
+      "valid_hidden_count"
+    ],
+    "hidden_count": 100951,
+    "valid_hidden_count": 100951
+  },
+  "artifact_completeness": {
+    "report": "docs/exports/thesis/chapter06/06_st_gates/artifact_completeness_report.json",
+    "status": "complete"
+  },
+  "convergence": {
+    "report": "docs/exports/thesis/chapter06/06_st_gates/convergence_report.json",
+    "status_after_fix": "convergence_caveated",
+    "remaining_warning": "validation_loss_missing"
+  },
+  "final_gate": {
+    "report": "docs/exports/thesis/chapter06/09_scientific_gate/SCIENTIFIC_GATE_REPORT.json",
+    "blockers_report": "docs/exports/thesis/chapter06/09_scientific_gate/SCIENTIFIC_GATE_BLOCKERS.json",
+    "scientific_ready": false,
+    "global_status": "failed"
+  },
+  "validation": {
+    "targeted_tests": [
+      "tests/spatiotemporal/test_phase_b_training_metadata_persistence.py",
+      "tests/spatiotemporal/test_convergence_explosion_logic.py",
+      "tests/spatiotemporal/test_scientific_evidence_phase_b_discovery.py",
+      "tests/spatiotemporal/test_scientific_gate_phase_b_reporting.py"
+    ],
+    "targeted_suite_result": "152 passed, 1 skipped"
+  }
+}

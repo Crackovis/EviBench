@@ -1,0 +1,66 @@
+{
+  "figure_id": "1a7990cb-93b2-4dd5-a24f-be634fdd2117_realized_rate_bar_chart",
+  "figure_kind": "realized_rate_bar_chart",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "bank_id": "1a7990cb-93b2-4dd5-a24f-be634fdd2117",
+  "realization_id": "",
+  "semantic_scope": "mask_bank_or_filtered_group",
+  "mechanism": "mcar",
+  "target_rate": 0.1,
+  "split": "test",
+  "source_realization_count": 5,
+  "source_paths": [
+    "registered_dataset:fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r000",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r001",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r002",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r003",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\10\\test\\test_r004"
+  ],
+  "data_access_mode": "mask_metadata",
+  "caption_draft": "Realized Rate Bar Chart \u2014 mcar at target rate 0.1 (test split).",
+  "evidence_grade": "reportable",
+  "payload_summary": {
+    "keys": [
+      "artifact_paths",
+      "bank_id",
+      "dataset_id",
+      "mask_bank_id",
+      "mechanism",
+      "mechanisms",
+      "payload_status",
+      "rates",
+      "realization_count",
+      "realized_rates",
+      "source_realization_count",
+      "source_realization_ids",
+      "source_status",
+      "split",
+      "target_rate",
+      "target_rates",
+      "warnings"
+    ],
+    "rates": {
+      "type": "list",
+      "length": 5,
+      "shape_hint": [
+        5
+      ]
+    },
+    "realized_rates": {
+      "type": "list",
+      "length": 5,
+      "shape_hint": [
+        5
+      ]
+    }
+  },
+  "generated_at": "2026-05-10T03:01:03.867056+00:00",
+  "figure_status": "ready",
+  "payload_status": "ready",
+  "data_access_status": "mask_metadata",
+  "alias_keys_used": [],
+  "blocking_reasons": [],
+  "warnings": [],
+  "thesis_candidate": true
+}

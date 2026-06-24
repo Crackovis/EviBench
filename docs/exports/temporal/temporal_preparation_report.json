@@ -1,0 +1,468 @@
+{
+  "comparison_specs_created": 3,
+  "contracts_created": 0,
+  "contracts_existing": 3,
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "drafts_created": 0,
+  "errors": [],
+  "mask_banks_created": 0,
+  "mask_banks_existing": 3,
+  "payload": {
+    "failed_step": "",
+    "plan": {
+      "algorithm_ids": [
+        "linear_interpolation",
+        "nearest_interpolation",
+        "dacpi",
+        "arma"
+      ],
+      "contract_specs": [
+        {
+          "algorithm_family_scope": "classical_temporal",
+          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+          "existing_contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
+          "experiment_type": "Classical",
+          "family": "mcar",
+          "issues": [],
+          "mask_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+          "metric_scope": "global+pollutant+node",
+          "name": "Official LondonAQ Benchmark Contract \u2014 MCAR 0.5 \u2014 test",
+          "payload": {},
+          "phase": "test",
+          "rate": 0.5,
+          "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+          "requested_execution_class": "classical",
+          "selection_phase_scope": [
+            "validation"
+          ],
+          "status": "existing",
+          "warnings": []
+        },
+        {
+          "algorithm_family_scope": "classical_temporal",
+          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+          "existing_contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
+          "experiment_type": "Classical",
+          "family": "mar",
+          "issues": [],
+          "mask_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+          "metric_scope": "global+pollutant+node",
+          "name": "Official LondonAQ Benchmark Contract \u2014 MAR 0.5 \u2014 test",
+          "payload": {},
+          "phase": "test",
+          "rate": 0.5,
+          "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+          "requested_execution_class": "classical",
+          "selection_phase_scope": [
+            "validation"
+          ],
+          "status": "existing",
+          "warnings": []
+        },
+        {
+          "algorithm_family_scope": "classical_temporal",
+          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+          "existing_contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
+          "experiment_type": "Classical",
+          "family": "mnar",
+          "issues": [],
+          "mask_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+          "metric_scope": "global+pollutant+node",
+          "name": "Official LondonAQ Benchmark Contract \u2014 MNAR 0.5 \u2014 test",
+          "payload": {},
+          "phase": "test",
+          "rate": 0.5,
+          "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+          "requested_execution_class": "classical",
+          "selection_phase_scope": [
+            "validation"
+          ],
+          "status": "existing",
+          "warnings": []
+        }
+      ],
+      "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+      "global_issues": [],
+      "global_warnings": [],
+      "mask_bank_specs": [
+        {
+          "artifact_dir": "data/benchmark_mask_banks/official_londonaq/mcar/50/test",
+          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+          "existing_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+          "family": "mcar",
+          "issues": [],
+          "match_quality": "exact",
+          "n_realizations": 5,
+          "name": "Official LondonAQ Mask Bank \u2014 MCAR 0.5 \u2014 test",
+          "observed_only": true,
+          "payload": {},
+          "phase": "test",
+          "rate": 0.5,
+          "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+          "seed_base": 1729,
+          "status": "existing",
+          "warnings": []
+        },
+        {
+          "artifact_dir": "data/benchmark_mask_banks/official_londonaq/mar/50/test",
+          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+          "existing_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+          "family": "mar",
+          "issues": [],
+          "match_quality": "exact",
+          "n_realizations": 5,
+          "name": "Official LondonAQ Mask Bank \u2014 MAR 0.5 \u2014 test",
+          "observed_only": true,
+          "payload": {},
+          "phase": "test",
+          "rate": 0.5,
+          "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+          "seed_base": 2729,
+          "status": "existing",
+          "warnings": []
+        },
+        {
+          "artifact_dir": "data/benchmark_mask_banks/official_londonaq/mnar/50/test",
+          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+          "existing_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+          "family": "mnar",
+          "issues": [],
+          "match_quality": "exact",
+          "n_realizations": 5,
+          "name": "Official LondonAQ Mask Bank \u2014 MNAR 0.5 \u2014 test",
+          "observed_only": true,
+          "payload": {},
+          "phase": "test",
+          "rate": 0.5,
+          "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+          "seed_base": 3729,
+          "status": "existing",
+          "warnings": []
+        }
+      ],
+      "one_click_available": true,
+      "payload": {
+        "recipe_build_states": {
+          "official_londonaq_classical_benchmark:mar:50": {
+            "bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+            "bank_issues": [],
+            "bank_status": "exact",
+            "contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
+            "contract_issues": [],
+            "contract_status": "exact",
+            "next_build_step": "create_plan"
+          },
+          "official_londonaq_classical_benchmark:mcar:50": {
+            "bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+            "bank_issues": [],
+            "bank_status": "exact",
+            "contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
+            "contract_issues": [],
+            "contract_status": "exact",
+            "next_build_step": "create_plan"
+          },
+          "official_londonaq_classical_benchmark:mnar:50": {
+            "bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+            "bank_issues": [],
+            "bank_status": "exact",
+            "contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
+            "contract_issues": [],
+            "contract_status": "exact",
+            "next_build_step": "create_plan"
+          }
+        }
+      },
+      "recipe_book_id": "official_londonaq_classical_benchmark",
+      "safe_to_create_comparisons": true,
+      "safe_to_create_contracts": false,
+      "safe_to_create_mask_banks": false,
+      "safe_to_create_plans": true,
+      "selected_recipe_ids": [
+        "official_londonaq_classical_benchmark:mcar:50",
+        "official_londonaq_classical_benchmark:mar:50",
+        "official_londonaq_classical_benchmark:mnar:50"
+      ],
+      "steps": [
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 3,
+          "issues": [],
+          "label": "Mask banks",
+          "object_type": "mask_bank",
+          "payload": {},
+          "recipe_ids": [
+            "official_londonaq_classical_benchmark:mcar:50",
+            "official_londonaq_classical_benchmark:mar:50",
+            "official_londonaq_classical_benchmark:mnar:50"
+          ],
+          "status": "done",
+          "step_key": "mask_banks",
+          "warnings": []
+        },
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 3,
+          "issues": [],
+          "label": "Benchmark contracts",
+          "object_type": "benchmark_contract",
+          "payload": {},
+          "recipe_ids": [
+            "official_londonaq_classical_benchmark:mcar:50",
+            "official_londonaq_classical_benchmark:mar:50",
+            "official_londonaq_classical_benchmark:mnar:50"
+          ],
+          "status": "done",
+          "step_key": "benchmark_contracts",
+          "warnings": []
+        },
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 3,
+          "issues": [],
+          "label": "Drafts / Templates",
+          "object_type": "draft",
+          "payload": {},
+          "recipe_ids": [
+            "official_londonaq_classical_benchmark:mcar:50",
+            "official_londonaq_classical_benchmark:mar:50",
+            "official_londonaq_classical_benchmark:mnar:50"
+          ],
+          "status": "done",
+          "step_key": "drafts_templates",
+          "warnings": []
+        },
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 3,
+          "issues": [],
+          "label": "Experiment plans",
+          "object_type": "plan",
+          "payload": {},
+          "recipe_ids": [
+            "official_londonaq_classical_benchmark:mcar:50",
+            "official_londonaq_classical_benchmark:mar:50",
+            "official_londonaq_classical_benchmark:mnar:50"
+          ],
+          "status": "done",
+          "step_key": "plans",
+          "warnings": []
+        },
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 3,
+          "issues": [],
+          "label": "Comparison benchmark shells",
+          "object_type": "comparison_shell",
+          "payload": {},
+          "recipe_ids": [
+            "official_londonaq_classical_benchmark:mcar:50",
+            "official_londonaq_classical_benchmark:mar:50",
+            "official_londonaq_classical_benchmark:mnar:50"
+          ],
+          "status": "done",
+          "step_key": "comparison_shells",
+          "warnings": []
+        }
+      ]
+    },
+    "prepared_binding_count": 3,
+    "prepared_bindings": {
+      "official_londonaq_classical_benchmark:mar:50": {
+        "benchmark_contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
+        "benchmark_mask_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+        "benchmark_phase_scope": [
+          "test"
+        ],
+        "benchmark_realization_ids": [
+          "test_r000",
+          "test_r001",
+          "test_r002",
+          "test_r003",
+          "test_r004"
+        ],
+        "benchmark_selection_phase_scope": [
+          "validation"
+        ],
+        "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+        "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+        "family": "mar",
+        "rate": 0.5,
+        "recipe_book_id": "official_londonaq_classical_benchmark",
+        "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+        "shared_benchmark_required": true
+      },
+      "official_londonaq_classical_benchmark:mcar:50": {
+        "benchmark_contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
+        "benchmark_mask_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+        "benchmark_phase_scope": [
+          "test"
+        ],
+        "benchmark_realization_ids": [
+          "test_r000",
+          "test_r001",
+          "test_r002",
+          "test_r003",
+          "test_r004"
+        ],
+        "benchmark_selection_phase_scope": [
+          "validation"
+        ],
+        "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+        "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+        "family": "mcar",
+        "rate": 0.5,
+        "recipe_book_id": "official_londonaq_classical_benchmark",
+        "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+        "shared_benchmark_required": true
+      },
+      "official_londonaq_classical_benchmark:mnar:50": {
+        "benchmark_contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
+        "benchmark_mask_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+        "benchmark_phase_scope": [
+          "test"
+        ],
+        "benchmark_realization_ids": [
+          "test_r000",
+          "test_r001",
+          "test_r002",
+          "test_r003",
+          "test_r004"
+        ],
+        "benchmark_selection_phase_scope": [
+          "validation"
+        ],
+        "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+        "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+        "family": "mnar",
+        "rate": 0.5,
+        "recipe_book_id": "official_londonaq_classical_benchmark",
+        "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+        "shared_benchmark_required": true
+      }
+    },
+    "result": {
+      "action_key": "prepare_all_safe",
+      "created_comparison_spec_ids": [
+        "0f0a5418-25bb-43de-b471-6540cd634c7b",
+        "848aad9d-0895-490d-a7b4-d658bebe22bc",
+        "56bb9557-1cf8-452d-bb38-a675448b237c"
+      ],
+      "created_contract_ids": [],
+      "created_draft_ids": [],
+      "created_mask_bank_ids": [],
+      "created_plan_ids": [],
+      "created_template_ids": [],
+      "errors": [],
+      "payload": {
+        "created_by_step": {
+          "comparison_specs": [
+            "0f0a5418-25bb-43de-b471-6540cd634c7b",
+            "848aad9d-0895-490d-a7b4-d658bebe22bc",
+            "56bb9557-1cf8-452d-bb38-a675448b237c"
+          ],
+          "contracts": [],
+          "drafts": [],
+          "mask_banks": [],
+          "plans": [],
+          "templates": []
+        },
+        "failed_step": "",
+        "final_blockers": [],
+        "prepared_bindings": {
+          "official_londonaq_classical_benchmark:mar:50": {
+            "benchmark_contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
+            "benchmark_mask_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+            "benchmark_phase_scope": [
+              "test"
+            ],
+            "benchmark_realization_ids": [
+              "test_r000",
+              "test_r001",
+              "test_r002",
+              "test_r003",
+              "test_r004"
+            ],
+            "benchmark_selection_phase_scope": [
+              "validation"
+            ],
+            "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+            "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+            "family": "mar",
+            "rate": 0.5,
+            "recipe_book_id": "official_londonaq_classical_benchmark",
+            "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+            "shared_benchmark_required": true
+          },
+          "official_londonaq_classical_benchmark:mcar:50": {
+            "benchmark_contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
+            "benchmark_mask_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+            "benchmark_phase_scope": [
+              "test"
+            ],
+            "benchmark_realization_ids": [
+              "test_r000",
+              "test_r001",
+              "test_r002",
+              "test_r003",
+              "test_r004"
+            ],
+            "benchmark_selection_phase_scope": [
+              "validation"
+            ],
+            "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+            "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+            "family": "mcar",
+            "rate": 0.5,
+            "recipe_book_id": "official_londonaq_classical_benchmark",
+            "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+            "shared_benchmark_required": true
+          },
+          "official_londonaq_classical_benchmark:mnar:50": {
+            "benchmark_contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
+            "benchmark_mask_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+            "benchmark_phase_scope": [
+              "test"
+            ],
+            "benchmark_realization_ids": [
+              "test_r000",
+              "test_r001",
+              "test_r002",
+              "test_r003",
+              "test_r004"
+            ],
+            "benchmark_selection_phase_scope": [
+              "validation"
+            ],
+            "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+            "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+            "family": "mnar",
+            "rate": 0.5,
+            "recipe_book_id": "official_londonaq_classical_benchmark",
+            "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+            "shared_benchmark_required": true
+          }
+        }
+      },
+      "skipped": [],
+      "warnings": [
+        "No missing drafts found.",
+        "No safe plan creation candidates found."
+      ]
+    },
+    "selected_recipe_count": 3
+  },
+  "plans_created": 0,
+  "plans_existing": 0,
+  "recipe_book_id": "official_londonaq_classical_benchmark",
+  "status": "ready",
+  "templates_created": 0,
+  "warnings": [
+    "No missing drafts found.",
+    "No safe plan creation candidates found."
+  ]
+}

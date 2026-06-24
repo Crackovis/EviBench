@@ -1,0 +1,14 @@
+{
+  "screenshot_id": "UI-09",
+  "filename": "ch04_UI-09_evidence_gate_claim_control.png",
+  "ui_surface": "Evidence Completeness Gate",
+  "capture_context": "Evidence completeness gate page with official comparison tab, select-based comparison picker, gate profile selector (reportable), verdict card with PASS status (score 1.00, 0 failed/0 blocking), pass/warning/not-evaluated check groups, and recommended actions.",
+  "chapter_target": "4.7 Evidence Discipline",
+  "evidence_role": "Demonstrates the gate-based claim control mechanism: before any result or comparison enters thesis evidence, it passes through rule checks (R01–R20) that verify completeness, reproducibility, and claim readiness.",
+  "source_repo": "Crackovis/Experimentations/Interfaces/EviBench",
+  "generated_from": "manual screenshot",
+  "captured_at": "2026-05-10T15:07:41",
+  "caveats": [
+    "UX redesigned from raw UUID entry to select-based picker with tab layout for screenshot-readiness"
+  ]
+}

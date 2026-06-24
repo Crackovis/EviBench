@@ -1,0 +1,52 @@
+check_id,label,status,required,severity,source_component,blocking_reasons,warnings,evidence_paths,algorithm_id
+sci_fix08_profile_ready,SCI-FIX08 scientific evidence profile present,passed,True,error,SCI-FIX08,[],[],['docs\\exports\\thesis\\chapter06\\08_scientific_evidence_profile\\SCIENTIFIC_EVIDENCE_PROFILE.json'],
+claim_policy_ready,SCI-FIX01 claim policy ready,passed,True,error,SCI-FIX01,[],[],[],
+algorithm_cards_ready,SCI-FIX05 algorithm cards ready,passed,True,error,SCI-FIX05,[],[],[],
+train_only_correlation_graph_ready,SCI-FIX06 train-only correlation graph ready,passed,True,error,SCI-FIX06,[],[],[],
+scientific_training_ready,SCI-FIX02 scientific training ready,passed,True,error,SCI-FIX02,[],[],[],
+convergence_ready,SCI-FIX03 convergence ready (strict),passed,True,error,SCI-FIX03,[],[],[],
+metric_coverage_ready,"Metric coverage ready (RMSE/MAE, scientific tier)",passed,True,error,SCI-FIX08,[],[],[],
+mask_support_ready,Mask/support coverage metadata ready,passed,True,error,SCI-FIX08,[],[],[],
+artifact_completeness_ready,"Artifact completeness ready (predictions, metrics, training histories, configs)",passed,True,error,SCI-FIX08,[],[],[],
+comparison_validity_ready,Comparison validity ready,passed,False,warning,SCI-FIX08,[],[],[],
+claim_matrix_present,SCI-FIX08 claim matrix present,passed,True,error,SCI-FIX08,[],[],[],
+plugin_contract_grin,Plugin contract ready: grin,passed,True,error,SCI-FIX00,[],[],[],grin
+claim_policy_grin,Claim policy ready: grin,passed,True,error,SCI-FIX01,[],[],[],grin
+algorithm_cards_grin,Algorithm cards ready: grin,passed,True,error,SCI-FIX05,[],[],[],grin
+corrected_variant_grin,Corrected variant used: grin (mpgru_v1),passed,True,error,SCI-FIX05,[],[],[],grin
+scientific_training_grin,Scientific training ready: grin,passed,True,error,SCI-FIX02,[],[],[],grin
+convergence_grin,Convergence passed: grin,passed,True,error,SCI-FIX03,[],[],[],grin
+metrics_grin,Scientific metrics present: grin,passed,True,error,SCI-FIX08,[],[],[],grin
+mask_support_grin,Mask/support metadata present: grin,passed,True,error,SCI-FIX08,[],[],[],grin
+graph_evidence_grin,Graph evidence present: grin,passed,True,error,SCI-FIX06,[],[],[],grin
+artifacts_grin,Artifacts complete: grin,passed,True,error,SCI-FIX08,[],[],[],grin
+plugin_contract_stgcn,Plugin contract ready: stgcn,passed,True,error,SCI-FIX00,[],[],[],stgcn
+claim_policy_stgcn,Claim policy ready: stgcn,passed,True,error,SCI-FIX01,[],[],[],stgcn
+algorithm_cards_stgcn,Algorithm cards ready: stgcn,passed,True,error,SCI-FIX05,[],[],[],stgcn
+corrected_variant_stgcn,Corrected variant used: stgcn (stconv_v1),passed,True,error,SCI-FIX05,[],[],[],stgcn
+scientific_training_stgcn,Scientific training ready: stgcn,passed,True,error,SCI-FIX02,[],[],[],stgcn
+convergence_stgcn,Convergence passed: stgcn,passed,True,error,SCI-FIX03,[],[],[],stgcn
+metrics_stgcn,Scientific metrics present: stgcn,passed,True,error,SCI-FIX08,[],[],[],stgcn
+mask_support_stgcn,Mask/support metadata present: stgcn,passed,True,error,SCI-FIX08,[],[],[],stgcn
+graph_evidence_stgcn,Graph evidence present: stgcn,passed,True,error,SCI-FIX06,[],[],[],stgcn
+artifacts_stgcn,Artifacts complete: stgcn,passed,True,error,SCI-FIX08,[],[],[],stgcn
+plugin_contract_ignnk,Plugin contract ready: ignnk,passed,True,error,SCI-FIX00,[],[],[],ignnk
+claim_policy_ignnk,Claim policy ready: ignnk,passed,True,error,SCI-FIX01,[],[],[],ignnk
+algorithm_cards_ignnk,Algorithm cards ready: ignnk,passed,True,error,SCI-FIX05,[],[],[],ignnk
+corrected_variant_ignnk,Corrected variant used: ignnk (dgc_kriging_v1),passed,True,error,SCI-FIX05,[],[],[],ignnk
+scientific_training_ignnk,Scientific training ready: ignnk,passed,True,error,SCI-FIX02,[],[],[],ignnk
+convergence_ignnk,Convergence passed: ignnk,passed,True,error,SCI-FIX03,[],[],[],ignnk
+metrics_ignnk,Scientific metrics present: ignnk,passed,True,error,SCI-FIX08,[],[],[],ignnk
+mask_support_ignnk,Mask/support metadata present: ignnk,passed,True,error,SCI-FIX08,[],[],[],ignnk
+graph_evidence_ignnk,Graph evidence present: ignnk,passed,True,error,SCI-FIX06,[],[],[],ignnk
+artifacts_ignnk,Artifacts complete: ignnk,passed,True,error,SCI-FIX08,[],[],[],ignnk
+plugin_contract_dcrnn,Plugin contract ready: dcrnn,passed,True,error,SCI-FIX00,[],[],[],dcrnn
+claim_policy_dcrnn,Claim policy ready: dcrnn,passed,True,error,SCI-FIX01,[],[],[],dcrnn
+algorithm_cards_dcrnn,Algorithm cards ready: dcrnn,passed,True,error,SCI-FIX05,[],[],[],dcrnn
+corrected_variant_dcrnn,Corrected variant used: dcrnn (dcgru_reconstruction_v1),passed,True,error,SCI-FIX05,[],[],[],dcrnn
+scientific_training_dcrnn,Scientific training ready: dcrnn,passed,True,error,SCI-FIX02,[],[],[],dcrnn
+convergence_dcrnn,Convergence passed: dcrnn,passed,True,error,SCI-FIX03,[],[],[],dcrnn
+metrics_dcrnn,Scientific metrics present: dcrnn,passed,True,error,SCI-FIX08,[],[],[],dcrnn
+mask_support_dcrnn,Mask/support metadata present: dcrnn,passed,True,error,SCI-FIX08,[],[],[],dcrnn
+graph_evidence_dcrnn,Graph evidence present: dcrnn,passed,True,error,SCI-FIX06,[],[],[],dcrnn
+artifacts_dcrnn,Artifacts complete: dcrnn,passed,True,error,SCI-FIX08,[],[],[],dcrnn

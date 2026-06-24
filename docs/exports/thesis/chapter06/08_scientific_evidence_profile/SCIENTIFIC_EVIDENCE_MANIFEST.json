@@ -1,0 +1,19 @@
+{
+  "profile_id": "st_scientific_evidence_v1",
+  "policy_version": "SCI-FIX08",
+  "generated_at": "2026-05-20T09:47:43.704421+00:00",
+  "algorithms_covered": [
+    "grin",
+    "stgcn",
+    "ignnk",
+    "dcrnn"
+  ],
+  "components_total": 16,
+  "components_present": 16,
+  "components_complete": 16,
+  "global_blocking_reasons": [],
+  "warnings": [],
+  "export_complete": true,
+  "scientific_ready_candidate": false,
+  "next_step": "SCI-FIX09 — final scientific gate"
+}

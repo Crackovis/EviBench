@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-05-20T10:46:45.703911+00:00",
+  "figure_id": "fig_03_node_holdout_spatial_map",
+  "status": "ready",
+  "claim_level": "descriptive",
+  "is_placeholder": false,
+  "source_results": [],
+  "source_tables": [],
+  "source_mask_banks": [
+    "21cf7f87-c4d4-4ae4-80f1-07ec03758216"
+  ],
+  "caveats": [],
+  "scope": "official_grid4n",
+  "graph_policy_scope": "grid_4n_v1",
+  "expected_realization_count": 5,
+  "observed_realization_count": 5,
+  "metric_visualized": "mean_node_missing_rate",
+  "aggregation": "mean_across_realizations",
+  "value_min": 0.0,
+  "value_max": 0.8,
+  "is_uniform": "False",
+  "source_realizations": [
+    "test_r000",
+    "test_r001",
+    "test_r002",
+    "test_r003",
+    "test_r004"
+  ],
+  "support_fingerprints": [
+    "sha256:ef2003550325843003c883a4685c4711856d8372643cc9b9a498ffa59a5b1b66",
+    "sha256:d2c2465dca2a20fe607454932b5de3f32402cafb2dfcebb7d5fbe5308228f752",
+    "sha256:71f2bed0a810ee7d01bb0ef7f6ed88a7271883612fb7a7359e3814bacd261ab0",
+    "sha256:45c962cc3231ebfe400a94a48f5505a217ac997dc42aa51b63f1204824a8cf41",
+    "sha256:312c43e06dcd7d68b37eaaacdeb08b5f81152908d31060d6d468fdc0ed56ffdf"
+  ],
+  "grid_shape": [
+    10,
+    14
+  ],
+  "png_path": "docs\\exports\\thesis\\chapter06\\07_figures\\fig_03_node_holdout_spatial_map.png",
+  "svg_path": "docs\\exports\\thesis\\chapter06\\07_figures\\fig_03_node_holdout_spatial_map.svg"
+}

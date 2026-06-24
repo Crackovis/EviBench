@@ -1,0 +1,14 @@
+{
+  "screenshot_id": "UI-10",
+  "filename": "ch04_UI-10_system_readiness_environment.png",
+  "ui_surface": "System Diagnostics",
+  "capture_context": "System diagnostics surface showing technical environment verification: runtime integrity checks, path locality validation, artifact hygiene status, dependency health, workflow activity snapshot (informational only), and cleanup preview section.",
+  "chapter_target": "4.3 Reproducibility Caveat",
+  "evidence_role": "Documents the technical environment and reproducibility conditions — NOT a scientific verdict, but a maintenance/diagnostic surface for the evidence pipeline operator.",
+  "source_repo": "Crackovis/Experimentations/Interfaces/EviBench",
+  "generated_from": "manual screenshot",
+  "captured_at": "2026-05-10T14:34:03",
+  "caveats": [
+    "Page renamed from 'System Readiness' to 'System Diagnostics' to clarify it is a technical maintenance surface, not a scientific claim"
+  ]
+}

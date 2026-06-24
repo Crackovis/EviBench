@@ -1,0 +1,31 @@
+Usage: python -m imputebench [OPTIONS] COMMAND [ARGS]...
+
+  Scientific benchmarking CLI for data imputation experiments.
+
+  Create datasets, register algorithms, design masking scenarios, execute
+  experiment runs, compare results, and audit payload integrity -- all from
+  the command line.
+
+Options:
+  --version                       Show the version and exit.
+  --progress / --no-progress      Show or hide terminal progress. Default:
+                                  auto-detect.
+  --progress-backend [auto|tqdm|rich|silent]
+                                  Terminal progress backend. Default: auto.
+  --progress-event-log FILE       Write structured progress events as JSONL.
+  --no-deprecation-warnings       Suppress migration deprecation warnings.
+  -h, --help                      Show this message and exit.
+
+Commands:
+  admin       Operational health, configuration, and maintenance.
+  data        Data domain — datasets, masking scenarios, ingestion,...
+  experiment  Design and execute imputation experiments.
+  lab         Interactive lab controls.
+  methods     Methods domain — algorithms and plugins for imputation.
+  results     Results domain — result artifacts, comparisons, viewers,...
+  study
+  thesis      Generate thesis evidence packs and publication-quality...
+
+  Reference:  docs/CLI_Reference.md Examples:   imputebench lab start
+  imputebench data dataset list   imputebench admin audit ui-payload-baseline
+  --static-only --format both   imputebench admin migrate

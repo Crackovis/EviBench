@@ -1,0 +1,64 @@
+{
+  "assessments": [
+    {
+      "algorithm_id": "grin",
+      "variant_id": "mpgru_v1",
+      "training_tier": "scientific",
+      "adequate": true,
+      "epochs_requested": 50,
+      "epochs_completed": 100,
+      "min_epochs_required": 50,
+      "seed_policy_ok": true,
+      "history_present": true,
+      "checkpoint_policy_present": true,
+      "device_record_present": true,
+      "blocking_reasons": [],
+      "warnings": []
+    },
+    {
+      "algorithm_id": "stgcn",
+      "variant_id": "stconv_v1",
+      "training_tier": "scientific",
+      "adequate": true,
+      "epochs_requested": 50,
+      "epochs_completed": 100,
+      "min_epochs_required": 50,
+      "seed_policy_ok": true,
+      "history_present": true,
+      "checkpoint_policy_present": true,
+      "device_record_present": true,
+      "blocking_reasons": [],
+      "warnings": []
+    },
+    {
+      "algorithm_id": "ignnk",
+      "variant_id": "dgc_kriging_v1",
+      "training_tier": "scientific",
+      "adequate": true,
+      "epochs_requested": 50,
+      "epochs_completed": 100,
+      "min_epochs_required": 50,
+      "seed_policy_ok": true,
+      "history_present": true,
+      "checkpoint_policy_present": true,
+      "device_record_present": true,
+      "blocking_reasons": [],
+      "warnings": []
+    },
+    {
+      "algorithm_id": "dcrnn",
+      "variant_id": "dcgru_reconstruction_v1",
+      "training_tier": "scientific",
+      "adequate": true,
+      "epochs_requested": 50,
+      "epochs_completed": 100,
+      "min_epochs_required": 50,
+      "seed_policy_ok": true,
+      "history_present": true,
+      "checkpoint_policy_present": true,
+      "device_record_present": true,
+      "blocking_reasons": [],
+      "warnings": []
+    }
+  ]
+}

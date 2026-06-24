@@ -1,0 +1,721 @@
+{
+  "generated_at": "2026-05-20T11:14:04.545823+00:00",
+  "policy_version": "SCI-FIX09",
+  "profile_id": "scientific_ready",
+  "global_status": "passed",
+  "scientific_ready": true,
+  "calibration_scientific_ready": true,
+  "official_tier_a_campaign_complete": true,
+  "official_tier_a_ready_for_thesis": true,
+  "official_campaign_launched": true,
+  "official_campaign_status_source": "docs\\exports\\thesis\\chapter06\\00_st_recipe_book\\ST_RUN00_PHASE_C_TIER_A_OFFICIAL_REPORT.json",
+  "official_campaign_status_blockers": [],
+  "official_campaign_status_warnings": [],
+  "allowed_calibration_claims": [
+    "calibration readiness claim",
+    "infrastructure readiness claim",
+    "plugin/gate/evidence readiness claim",
+    "Phase B calibration claim"
+  ],
+  "allowed_official_tier_a_claims": [
+    "bounded EviBench ST benchmark claim",
+    "controlled comparison claim",
+    "metric summary claim under stated conditions",
+    "training adequacy claim",
+    "convergence-checked claim",
+    "train-only graph construction claim"
+  ],
+  "global_blocking_reasons": [],
+  "warnings": [
+    "fixed_support_graph_policy_sensitivity_not_run: SCI-FIX07 is optional and not required by this gate profile."
+  ],
+  "global_checks": [
+    {
+      "check_id": "sci_fix08_profile_ready",
+      "label": "SCI-FIX08 scientific evidence profile present",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX08",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": [
+        "docs\\exports\\thesis\\chapter06\\08_scientific_evidence_profile\\SCIENTIFIC_EVIDENCE_PROFILE.json"
+      ]
+    },
+    {
+      "check_id": "claim_policy_ready",
+      "label": "SCI-FIX01 claim policy ready",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX01",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    },
+    {
+      "check_id": "algorithm_cards_ready",
+      "label": "SCI-FIX05 algorithm cards ready",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX05",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    },
+    {
+      "check_id": "train_only_correlation_graph_ready",
+      "label": "SCI-FIX06 train-only correlation graph ready",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX06",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    },
+    {
+      "check_id": "scientific_training_ready",
+      "label": "SCI-FIX02 scientific training ready",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX02",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    },
+    {
+      "check_id": "convergence_ready",
+      "label": "SCI-FIX03 convergence ready (strict)",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX03",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    },
+    {
+      "check_id": "metric_coverage_ready",
+      "label": "Metric coverage ready (RMSE/MAE, scientific tier)",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX08",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    },
+    {
+      "check_id": "mask_support_ready",
+      "label": "Mask/support coverage metadata ready",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX08",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    },
+    {
+      "check_id": "artifact_completeness_ready",
+      "label": "Artifact completeness ready (predictions, metrics, training histories, configs)",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX08",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    },
+    {
+      "check_id": "comparison_validity_ready",
+      "label": "Comparison validity ready",
+      "status": "passed",
+      "required": false,
+      "severity": "warning",
+      "source_component": "SCI-FIX08",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    },
+    {
+      "check_id": "claim_matrix_present",
+      "label": "SCI-FIX08 claim matrix present",
+      "status": "passed",
+      "required": true,
+      "severity": "error",
+      "source_component": "SCI-FIX08",
+      "blocking_reasons": [],
+      "warnings": [],
+      "evidence_paths": []
+    }
+  ],
+  "algorithm_assessments": [
+    {
+      "algorithm_id": "grin",
+      "variant_id": "mpgru_v1",
+      "status": "passed",
+      "checks": [
+        {
+          "check_id": "plugin_contract_grin",
+          "label": "Plugin contract ready: grin",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX00",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "claim_policy_grin",
+          "label": "Claim policy ready: grin",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX01",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "algorithm_cards_grin",
+          "label": "Algorithm cards ready: grin",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX05",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "corrected_variant_grin",
+          "label": "Corrected variant used: grin (mpgru_v1)",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX05",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "scientific_training_grin",
+          "label": "Scientific training ready: grin",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX02",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "convergence_grin",
+          "label": "Convergence passed: grin",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX03",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "metrics_grin",
+          "label": "Scientific metrics present: grin",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "mask_support_grin",
+          "label": "Mask/support metadata present: grin",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "graph_evidence_grin",
+          "label": "Graph evidence present: grin",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX06",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "artifacts_grin",
+          "label": "Artifacts complete: grin",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        }
+      ],
+      "blocking_reasons": [],
+      "warnings": [],
+      "allowed_claims": [
+        "bounded EviBench ST benchmark claim",
+        "controlled comparison claim",
+        "metric summary claim under stated conditions",
+        "training adequacy claim",
+        "convergence-checked claim",
+        "train-only graph construction claim"
+      ],
+      "blocked_claims": [
+        "universal algorithm superiority",
+        "state-of-the-art claim",
+        "deployment generalization",
+        "paper result reproduction",
+        "paper-faithful claim",
+        "unseen graph transfer claim unless separately validated",
+        "state-of-the-art GRIN performance reproduced"
+      ]
+    },
+    {
+      "algorithm_id": "stgcn",
+      "variant_id": "stconv_v1",
+      "status": "passed",
+      "checks": [
+        {
+          "check_id": "plugin_contract_stgcn",
+          "label": "Plugin contract ready: stgcn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX00",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "claim_policy_stgcn",
+          "label": "Claim policy ready: stgcn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX01",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "algorithm_cards_stgcn",
+          "label": "Algorithm cards ready: stgcn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX05",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "corrected_variant_stgcn",
+          "label": "Corrected variant used: stgcn (stconv_v1)",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX05",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "scientific_training_stgcn",
+          "label": "Scientific training ready: stgcn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX02",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "convergence_stgcn",
+          "label": "Convergence passed: stgcn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX03",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "metrics_stgcn",
+          "label": "Scientific metrics present: stgcn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "mask_support_stgcn",
+          "label": "Mask/support metadata present: stgcn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "graph_evidence_stgcn",
+          "label": "Graph evidence present: stgcn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX06",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "artifacts_stgcn",
+          "label": "Artifacts complete: stgcn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        }
+      ],
+      "blocking_reasons": [],
+      "warnings": [],
+      "allowed_claims": [
+        "bounded EviBench ST benchmark claim",
+        "controlled comparison claim",
+        "metric summary claim under stated conditions",
+        "training adequacy claim",
+        "convergence-checked claim",
+        "train-only graph construction claim"
+      ],
+      "blocked_claims": [
+        "universal algorithm superiority",
+        "state-of-the-art claim",
+        "deployment generalization",
+        "paper result reproduction",
+        "paper-faithful claim",
+        "unseen graph transfer claim unless separately validated",
+        "original STGCN forecasting experiment reproduced"
+      ]
+    },
+    {
+      "algorithm_id": "ignnk",
+      "variant_id": "dgc_kriging_v1",
+      "status": "passed",
+      "checks": [
+        {
+          "check_id": "plugin_contract_ignnk",
+          "label": "Plugin contract ready: ignnk",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX00",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "claim_policy_ignnk",
+          "label": "Claim policy ready: ignnk",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX01",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "algorithm_cards_ignnk",
+          "label": "Algorithm cards ready: ignnk",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX05",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "corrected_variant_ignnk",
+          "label": "Corrected variant used: ignnk (dgc_kriging_v1)",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX05",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "scientific_training_ignnk",
+          "label": "Scientific training ready: ignnk",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX02",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "convergence_ignnk",
+          "label": "Convergence passed: ignnk",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX03",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "metrics_ignnk",
+          "label": "Scientific metrics present: ignnk",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "mask_support_ignnk",
+          "label": "Mask/support metadata present: ignnk",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "graph_evidence_ignnk",
+          "label": "Graph evidence present: ignnk",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX06",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "artifacts_ignnk",
+          "label": "Artifacts complete: ignnk",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        }
+      ],
+      "blocking_reasons": [],
+      "warnings": [],
+      "allowed_claims": [
+        "bounded EviBench ST benchmark claim",
+        "controlled comparison claim",
+        "metric summary claim under stated conditions",
+        "training adequacy claim",
+        "convergence-checked claim",
+        "train-only graph construction claim"
+      ],
+      "blocked_claims": [
+        "universal algorithm superiority",
+        "state-of-the-art claim",
+        "deployment generalization",
+        "paper result reproduction",
+        "paper-faithful claim",
+        "unseen graph transfer claim unless separately validated",
+        "unseen graph transfer validated",
+        "deployment-level virtual sensing validated"
+      ]
+    },
+    {
+      "algorithm_id": "dcrnn",
+      "variant_id": "dcgru_reconstruction_v1",
+      "status": "passed",
+      "checks": [
+        {
+          "check_id": "plugin_contract_dcrnn",
+          "label": "Plugin contract ready: dcrnn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX00",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "claim_policy_dcrnn",
+          "label": "Claim policy ready: dcrnn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX01",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "algorithm_cards_dcrnn",
+          "label": "Algorithm cards ready: dcrnn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX05",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "corrected_variant_dcrnn",
+          "label": "Corrected variant used: dcrnn (dcgru_reconstruction_v1)",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX05",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "scientific_training_dcrnn",
+          "label": "Scientific training ready: dcrnn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX02",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "convergence_dcrnn",
+          "label": "Convergence passed: dcrnn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX03",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "metrics_dcrnn",
+          "label": "Scientific metrics present: dcrnn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "mask_support_dcrnn",
+          "label": "Mask/support metadata present: dcrnn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "graph_evidence_dcrnn",
+          "label": "Graph evidence present: dcrnn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX06",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        },
+        {
+          "check_id": "artifacts_dcrnn",
+          "label": "Artifacts complete: dcrnn",
+          "status": "passed",
+          "required": true,
+          "severity": "error",
+          "source_component": "SCI-FIX08",
+          "blocking_reasons": [],
+          "warnings": [],
+          "evidence_paths": []
+        }
+      ],
+      "blocking_reasons": [],
+      "warnings": [],
+      "allowed_claims": [
+        "bounded EviBench ST benchmark claim",
+        "controlled comparison claim",
+        "metric summary claim under stated conditions",
+        "training adequacy claim",
+        "convergence-checked claim",
+        "train-only graph construction claim"
+      ],
+      "blocked_claims": [
+        "universal algorithm superiority",
+        "state-of-the-art claim",
+        "deployment generalization",
+        "paper result reproduction",
+        "paper-faithful claim",
+        "unseen graph transfer claim unless separately validated",
+        "original DCRNN seq2seq forecasting experiment reproduced",
+        "scheduled sampling evaluated in reconstruction variant"
+      ]
+    }
+  ],
+  "allowed_when_passed": [
+    "bounded EviBench ST benchmark claim",
+    "controlled comparison claim",
+    "metric summary claim under stated conditions",
+    "training adequacy claim",
+    "convergence-checked claim",
+    "train-only graph construction claim"
+  ],
+  "permanently_blocked": [
+    "universal algorithm superiority",
+    "state-of-the-art claim",
+    "deployment generalization",
+    "paper result reproduction",
+    "paper-faithful claim",
+    "unseen graph transfer claim unless separately validated"
+  ]
+}

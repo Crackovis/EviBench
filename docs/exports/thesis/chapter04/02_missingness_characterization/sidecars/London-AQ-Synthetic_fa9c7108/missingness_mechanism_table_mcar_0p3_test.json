@@ -1,0 +1,59 @@
+{
+  "figure_id": "b5aaf87f-0018-45ff-8ee0-f03272a804e9_missingness_mechanism_table",
+  "figure_kind": "missingness_mechanism_table",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "bank_id": "b5aaf87f-0018-45ff-8ee0-f03272a804e9",
+  "realization_id": "",
+  "semantic_scope": "mask_bank_or_filtered_group",
+  "mechanism": "mcar",
+  "target_rate": 0.3,
+  "split": "test",
+  "source_realization_count": 5,
+  "source_paths": [
+    "registered_dataset:fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r000",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r001",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r002",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r003",
+    "data\\benchmark_mask_banks\\official_londonaq\\mcar\\30\\test\\test_r004"
+  ],
+  "data_access_mode": "mask_metadata",
+  "caption_draft": "Missingness Mechanism Table \u2014 mcar at target rate 0.3 (test split).",
+  "evidence_grade": "reportable",
+  "payload_summary": {
+    "keys": [
+      "artifact_paths",
+      "bank_id",
+      "dataset_id",
+      "families",
+      "mask_bank_id",
+      "mechanism",
+      "mechanisms",
+      "payload_status",
+      "realization_count",
+      "source_realization_count",
+      "source_realization_ids",
+      "source_status",
+      "split",
+      "splits",
+      "target_rate",
+      "target_rates",
+      "warnings"
+    ],
+    "families": {
+      "type": "list",
+      "length": 1,
+      "shape_hint": [
+        1
+      ]
+    }
+  },
+  "generated_at": "2026-05-10T03:01:05.665216+00:00",
+  "figure_status": "ready",
+  "payload_status": "ready",
+  "data_access_status": "mask_metadata",
+  "alias_keys_used": [],
+  "blocking_reasons": [],
+  "warnings": [],
+  "thesis_candidate": true
+}

@@ -1,0 +1,24 @@
+Usage: python -m imputebench experiment run [OPTIONS] COMMAND [ARGS]...
+
+  Manage experiment runs.
+
+  Create, list, show, execute, monitor status, and delete runs that combine
+  datasets, algorithms, and masking scenarios into benchmark results.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  bulk-delete
+  create       Create a new experiment run plan.
+  delete
+  execute      Execute an experiment run and display results.
+  execute-all
+  list
+  show
+  status       Show the status of an experiment run.
+
+  Examples: imputebench experiment run list imputebench experiment run show
+  RUN_ID imputebench experiment run delete RUN_ID --dry-run imputebench
+  experiment run create --dataset ds_xxx --algorithms alg_xxx --masking
+  mask_xxx

@@ -1,0 +1,243 @@
+{
+  "id": "3d02b53a-294f-4db8-91e1-f0a4d39e68c7",
+  "name": "official_londonaq_classical_benchmark:mcar:30:LinearInterpolation:r001",
+  "configuration": {
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "algorithm_ids": [
+      "8a14caf0-0c41-4987-a269-feef8d60c750"
+    ],
+    "masking_ids": [
+      "7209b9da-6aaa-49a5-8b82-9f559962b1f5"
+    ],
+    "metric_names": [
+      "mae",
+      "rmse"
+    ],
+    "config_overrides": {},
+    "algorithm_overrides": {},
+    "split_config": {},
+    "window_config": {},
+    "train_config": {},
+    "masking_protocol_config": {},
+    "reproducibility_config": {},
+    "artifact_config": {},
+    "requested_execution_class": "classical",
+    "compute_device_snapshot": "CPU (GPU requested but unavailable)",
+    "missingness_protocol_hash": "",
+    "missingness_protocol_schema_version": null,
+    "training_missingness_strategy": null,
+    "validation_selection_mask_policy": null,
+    "test_posture": null,
+    "masking_authority": "masking_ids",
+    "missingness_preset_ids": [],
+    "selected_checkpoint_paths": {}
+  },
+  "dataset": {
+    "id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "name": "London AQ Synthetic",
+    "description": "Updated via CLI test",
+    "format": "dat-tsv",
+    "pollutants": [
+      "NO",
+      "NO2",
+      "O3",
+      "SO2"
+    ],
+    "pollutant_count": 4,
+    "spatial": {
+      "layout": "grid",
+      "rows": 10,
+      "cols": 14,
+      "n_nodes": 140
+    },
+    "temporal": {
+      "n_steps": 600,
+      "resolution": "1min",
+      "range": "08:00-17:59"
+    },
+    "nature": "synthetic",
+    "tags": [
+      "london",
+      "thesis-v0.2",
+      "phase1"
+    ],
+    "created_at": "2026-05-07T12:05:24.444793+00:00"
+  },
+  "algorithms": [
+    {
+      "id": "8a14caf0-0c41-4987-a269-feef8d60c750",
+      "name": "LinearInterpolation",
+      "family": "naive",
+      "version": "1.0.0",
+      "description": "Linear interpolation: fill missing values using linear interpolation between observed points.",
+      "entry_point": "plugin:H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\plugins\\linear_interpolation",
+      "tags": [
+        "temporal",
+        "interpolation",
+        "baseline"
+      ],
+      "dependencies": [],
+      "default_config": {}
+    }
+  ],
+  "maskings": [
+    {
+      "id": "7209b9da-6aaa-49a5-8b82-9f559962b1f5",
+      "name": "Temporal-mcar-30",
+      "type": "mcar",
+      "rate": 0.3,
+      "params": {},
+      "description": ""
+    }
+  ],
+  "status": {
+    "overall": "COMPLETED",
+    "train": "pending",
+    "validation": "pending",
+    "test": "pending",
+    "last_error": ""
+  },
+  "lifecycle": {
+    "state": "",
+    "history": [],
+    "dl_lifecycle_matrix": [],
+    "dl_lifecycle_gate_report": {}
+  },
+  "timestamps": {
+    "created_at": "2026-06-13T20:22:50.790940+00:00",
+    "updated_at": "2026-06-13T20:22:51.061272+00:00"
+  },
+  "results": {
+    "count": 1,
+    "ids": [
+      "7dc94779-26f3-4f9c-a760-72380cb2150f"
+    ],
+    "included": true,
+    "items": [
+      {
+        "id": "7dc94779-26f3-4f9c-a760-72380cb2150f",
+        "algorithm_id": "8a14caf0-0c41-4987-a269-feef8d60c750",
+        "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+        "masking_id": "7209b9da-6aaa-49a5-8b82-9f559962b1f5",
+        "status": "COMPLETED",
+        "metrics": {
+          "mae": 1.853816921225433,
+          "rmse": 2.5247442927996704,
+          "runtime_s": 0.04490869999972347
+        },
+        "split_metrics": {},
+        "phase_key": "execute",
+        "created_at": "2026-06-13T20:22:51.061272+00:00",
+        "completed_at": "2026-06-13T20:22:51.061119+00:00",
+        "artifact_paths": {
+          "predictions_path": "repo://data/results/3d02b53a-294f-4db8-91e1-f0a4d39e68c7/7dc94779-26f3-4f9c-a760-72380cb2150f/X_imputed.npy",
+          "artifacts_path": "repo://data/results/3d02b53a-294f-4db8-91e1-f0a4d39e68c7/7dc94779-26f3-4f9c-a760-72380cb2150f",
+          "best_checkpoint_path": "",
+          "selected_checkpoint_path": "",
+          "training_history_path": "",
+          "normalization_artifact_path": "",
+          "prediction_artifact_path": "",
+          "mask_artifact_path": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\data\\artifacts\\3d02b53a-294f-4db8-91e1-f0a4d39e68c7\\8a14caf0-0c41-4987-a269-feef8d60c750\\masking\\7209b9da-6aaa-49a5-8b82-9f559962b1f5\\test",
+          "selection_mask_artifact_path": "",
+          "benchmark_validation_mask_artifact_path": "",
+          "test_mask_artifact_path": ""
+        },
+        "timing": {
+          "runtime_s": 0.04490869999972347,
+          "runtime_summary_payload": {
+            "phase": "execute",
+            "timing_span_ids": [
+              "adc73457-6e98-4a18-8a59-e732412ac2d9",
+              "9aa082c5-99e5-40d7-8e27-edac1e240783",
+              "12520487-ed24-4c19-9717-35bc585d487a",
+              "6cc3abe1-840b-45e4-89a5-ed7504dca408",
+              "dac74401-0144-423f-93d8-3e07a66af96a"
+            ],
+            "primary_timing_span_id": "adc73457-6e98-4a18-8a59-e732412ac2d9",
+            "timing_source": "runtime_timing_spans",
+            "input_shape": [
+              600,
+              10,
+              14,
+              4
+            ],
+            "output_shape": [
+              600,
+              10,
+              14,
+              4
+            ],
+            "mask_count": 100942,
+            "evaluated_points": 100942,
+            "effective_evaluation_support": "full_dataset",
+            "support_slice_start": 0,
+            "support_slice_end": 600,
+            "support_source": "dataset_runtime_provider",
+            "full_dataset_shape": [
+              600,
+              10,
+              14,
+              4
+            ],
+            "effective_input_shape": [
+              600,
+              10,
+              14,
+              4
+            ],
+            "effective_mask_shape": [
+              600,
+              10,
+              14,
+              4
+            ],
+            "timing_span_count": 5,
+            "runtime_total_ms": 76.2531,
+            "runtime_fit_ms": 0.6464,
+            "runtime_inference_ms": 45.3173,
+            "runtime_metrics_ms": 23.2791,
+            "runtime_persistence_ms": 0.0,
+            "runtime_seconds": 0.076253
+          },
+          "best_epoch": null,
+          "stop_epoch": null,
+          "epoch_budget": null,
+          "stop_reason": ""
+        }
+      }
+    ],
+    "truncated": false
+  },
+  "artifacts": {
+    "result_count": 1,
+    "path_counts": {
+      "predictions_path": 1,
+      "artifacts_path": 1,
+      "best_checkpoint_path": 0,
+      "selected_checkpoint_path": 0,
+      "training_history_path": 0,
+      "normalization_artifact_path": 0,
+      "prediction_artifact_path": 0,
+      "mask_artifact_path": 1,
+      "selection_mask_artifact_path": 0,
+      "benchmark_validation_mask_artifact_path": 0,
+      "test_mask_artifact_path": 0
+    }
+  },
+  "timing": {
+    "result_count": 1,
+    "runtime_s_total": 0.04490869999972347,
+    "runtime_s_min": 0.04490869999972347,
+    "runtime_s_max": 0.04490869999972347
+  },
+  "benchmark": {
+    "contract_id": "",
+    "mask_bank_id": "",
+    "realization_ids": [],
+    "evaluation_support_fingerprint": "",
+    "shared_benchmark_required": false,
+    "phase_scope": [],
+    "selection_phase_scope": [],
+    "selector_mode": ""
+  }
+}

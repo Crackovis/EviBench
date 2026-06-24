@@ -1,0 +1,30 @@
+{
+  "spec_command_note": "The spec's prepare status command is not available in this CLI build; prepare dry-run was used as the equivalent non-mutating validation.",
+  "command": "python -m imputebench experiment temporal prepare dry-run --recipe-book official_londonaq_classical_benchmark --tier a --dataset-id london_aq --output-dir docs/exports/temporal",
+  "result": {
+    "recipe_book_id": "official_londonaq_classical_benchmark",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "status": "ready",
+    "mask_banks_existing": 6,
+    "contracts_existing": 6,
+    "errors": [],
+    "warnings": [
+      "No missing mask banks - all already exist.",
+      "No pending contracts with a ready mask bank."
+    ]
+  },
+  "mcar30": {
+    "recipe_id": "official_londonaq_classical_benchmark:mcar:30",
+    "mask_bank": {
+      "status": "exact",
+      "object_id": "cabf2377-f3e9-4b41-b24d-1d78a0f782b7",
+      "issues": []
+    },
+    "contract": {
+      "status": "exact",
+      "object_id": "4ccbfbe9-ab33-4ce6-a54c-063cf13c4009",
+      "issues": []
+    },
+    "next_build_step": "create_plan"
+  }
+}

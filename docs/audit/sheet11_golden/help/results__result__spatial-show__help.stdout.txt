@@ -1,0 +1,7 @@
+Usage: python -m imputebench results result spatial-show [OPTIONS] RESULT_ID
+
+  Display spatial heatmap values for a result in the terminal.
+
+Options:
+  --metric [mae|rmse]
+  -h, --help           Show this message and exit.

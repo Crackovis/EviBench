@@ -1,0 +1,152 @@
+{
+  "phase": "ST-RUN00-PHASE-A",
+  "status": "completed",
+  "operational_cli_ready": true,
+  "ready_for_phase_b_official_scientific_campaign": false,
+  "environment": {
+    "conda_env": "deeplearning",
+    "workspace": "Interfaces/EviBench"
+  },
+  "summary": {
+    "recipe_validate": "pass",
+    "recipe_materialization_verify": "pass",
+    "smoke_dry_run": "pass",
+    "tier_a_dry_run": "pass",
+    "scientific_epoch_guard_negative": "pass",
+    "graph_ready": "pass",
+    "correlation_train_guard": "verified_via_train_only_build",
+    "minimal_smoke_run": "pass",
+    "optional_all_four_smoke": "pass",
+    "scientific_evidence_export": "pass",
+    "scientific_evidence_export_ready": "pass",
+    "scientific_ready": false
+  },
+  "commands": {
+    "prerequisite_tests": [
+      "conda run -n deeplearning python -m pytest tests/spatiotemporal/test_st_recipe_book_contract.py tests/spatiotemporal/test_st_recipe_materialization.py tests/spatiotemporal/test_st_scientific_training_tier.py -q"
+    ],
+    "recipe_chain": [
+      "imputebench st recipe validate --recipe-book official_londonaq_st_benchmark --format json",
+      "imputebench st recipe verify-materialization --format json",
+      "imputebench st recipe plan --profile st_londonaq_smoke_v1 --epochs 2 --realizations 1 --graph-policy grid_4n_v1 --format json",
+      "imputebench st recipe plan --profile st_londonaq_tier_a_scientific_v1 --epochs 50 --realizations 3 --graph-policy grid_4n_v1 --format json",
+      "imputebench st recipe plan --profile st_londonaq_tier_a_scientific_v1 --epochs 3 --realizations 1 --graph-policy grid_4n_v1 --format json"
+    ],
+    "execution_chain": [
+      "imputebench st graph build --dataset-id london_aq --policy grid_4n_v1 --output-dir data\\benchmark_graphs\\phase_a_prefight",
+      "imputebench st graph build --dataset-id london_aq --policy correlation_train_v1 --output-dir data\\benchmark_graphs\\phase_a_prefight",
+      "imputebench st mask-bank create --dataset-id london_aq --family mcar --rate 0.3 --realizations 1 --graph-id graph_london_aq_grid_4n_v1_ff68c2f5 --graph-output-dir data\\benchmark_graphs\\phase_a_prefight --output-dir data\\benchmark_mask_banks\\phase_a_prefight\\st",
+      "imputebench st plan create --recipe official_londonaq_st_benchmark --tier smoke --dataset-id london_aq --graph-id graph_london_aq_grid_4n_v1_ff68c2f5 --graph-output-dir data\\benchmark_graphs\\phase_a_prefight --algorithm stgcn --mask-bank 69038d85-61c2-43ab-a5e5-0ec680aa00e2",
+      "imputebench st run execute --run-id 1a4d0218-673c-4f3e-89a9-a79daa9b31d8",
+      "imputebench st run execute --run-id de454b48-03de-467d-ab13-fbfab80cf3fb",
+      "imputebench st run execute --run-id 4b035601-2117-426e-8414-8d84cab4b381",
+      "imputebench st run execute --run-id 1ea02065-0075-43dd-811b-2a02de0fb99c"
+    ],
+    "evidence_and_gates": [
+      "imputebench st gate --profile graph_ready --graph-output-dir data\\benchmark_graphs\\phase_a_prefight",
+      "imputebench st evidence export --profile st_scientific_evidence_v1",
+      "imputebench st gate --profile scientific_evidence_export_ready",
+      "imputebench st gate --profile scientific_ready"
+    ]
+  },
+  "fixes": [
+    {
+      "issue": "CLI dataset slug resolution for graph and mask commands",
+      "files": [
+        "imputebench/cli/st_cmd.py",
+        "tests/spatiotemporal/test_st_graph_cli.py"
+      ]
+    },
+    {
+      "issue": "Execution runtime dataset slug resolution",
+      "files": [
+        "imputebench/services/execution/runtime/dataset_runtime_provider.py",
+        "imputebench/services/execution/orchestration/execution_plan_builder.py",
+        "tests/test_b2_execution_runtime_boundaries.py"
+      ]
+    },
+    {
+      "issue": "Spatio-temporal shared benchmark tasks incorrectly fell back to protocol masks",
+      "files": [
+        "imputebench/services/execution/orchestration/execution_plan_builder.py",
+        "tests/test_b2_execution_runtime_boundaries.py"
+      ]
+    },
+    {
+      "issue": "Plugin loader dynamic import bug for dataclass-based plugins",
+      "files": [
+        "imputebench/services/plugin_loader_service.py",
+        "tests/spatiotemporal/test_stgcn_manifest.py"
+      ]
+    },
+    {
+      "issue": "Invalid conservative STGCN claim_policy",
+      "files": [
+        "plugins/stgcn/imputebench_plugin.json"
+      ]
+    },
+    {
+      "issue": "Graph tensor adapter dataset slug resolution",
+      "files": [
+        "imputebench/services/spatiotemporal/londonaq_graph_adapter.py",
+        "tests/spatiotemporal/test_londonaq_graph_tensor_adapter.py"
+      ]
+    }
+  ],
+  "smoke_runs": [
+    {
+      "algorithm": "stgcn",
+      "variant": "stconv_v1",
+      "run_id": "1a4d0218-673c-4f3e-89a9-a79daa9b31d8",
+      "result_id": "1d565e51-8524-4ae4-8038-7b1a535d2982",
+      "artifact_dir": "data/artifacts/st_predictions/1a4d0218-673c-4f3e-89a9-a79daa9b31d8/1a4d0218-673c-4f3e-89a9-a79daa9b31d8_stgcn_protocol_test_r000_0"
+    },
+    {
+      "algorithm": "grin",
+      "variant": "mpgru_v1",
+      "run_id": "de454b48-03de-467d-ab13-fbfab80cf3fb",
+      "result_id": "2cc2c42c-59db-4acd-8ea8-1245161a9796",
+      "artifact_dir": "data/artifacts/st_predictions/de454b48-03de-467d-ab13-fbfab80cf3fb/de454b48-03de-467d-ab13-fbfab80cf3fb_grin_protocol_test_r000_0"
+    },
+    {
+      "algorithm": "ignnk",
+      "variant": "dgc_kriging_v1",
+      "run_id": "4b035601-2117-426e-8414-8d84cab4b381",
+      "result_id": "a58ff2fb-67a0-4237-8282-f2f81596688f",
+      "artifact_dir": "data/artifacts/st_predictions/4b035601-2117-426e-8414-8d84cab4b381/4b035601-2117-426e-8414-8d84cab4b381_ignnk_protocol_test_r000_0"
+    },
+    {
+      "algorithm": "dcrnn",
+      "variant": "dcgru_reconstruction_v1",
+      "run_id": "1ea02065-0075-43dd-811b-2a02de0fb99c",
+      "result_id": "23c210e6-9e6e-435f-87ba-eaf2b43fae36",
+      "artifact_dir": "data/artifacts/st_predictions/1ea02065-0075-43dd-811b-2a02de0fb99c/1ea02065-0075-43dd-811b-2a02de0fb99c_dcrnn_protocol_test_r000_0"
+    }
+  ],
+  "evidence_export": {
+    "profile_dir": "docs/exports/thesis/chapter06/08_scientific_evidence_profile",
+    "profile_json": "docs/exports/thesis/chapter06/08_scientific_evidence_profile/SCIENTIFIC_EVIDENCE_PROFILE.json",
+    "claim_matrix_json": "docs/exports/thesis/chapter06/08_scientific_evidence_profile/SCIENTIFIC_CLAIM_MATRIX.json",
+    "blockers_json": "docs/exports/thesis/chapter06/08_scientific_evidence_profile/SCIENTIFIC_BLOCKERS.json",
+    "scientific_ready_candidate": false
+  },
+  "final_gates": {
+    "graph_ready": "pass",
+    "scientific_evidence_export_ready": "pass",
+    "scientific_ready": false,
+    "scientific_ready_global_status": "failed"
+  },
+  "remaining_blockers": [
+    "algorithm_cards_not_ready",
+    "train_only_correlation_graph_not_ready",
+    "scientific_run_not_found",
+    "convergence_not_available",
+    "metrics_missing",
+    "artifact_completeness_failed",
+    "plugin_contract_not_ready still appears in final scientific gate"
+  ],
+  "recommendation": {
+    "status": "not_ready_for_phase_b_official_campaign",
+    "reason": "CLI execution chain is operational, but final scientific readiness still has non-scientific-run and readiness-layer blockers."
+  }
+}

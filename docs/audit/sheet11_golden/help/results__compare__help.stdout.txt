@@ -1,0 +1,14 @@
+Usage: python -m imputebench results compare [OPTIONS] COMMAND [ARGS]...
+
+  Manage Comparison Studio comparison specs.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  delete  Delete only a ComparisonSpec, leaving results and artifacts...
+  list    List persisted Comparison Studio specs.
+  show    Display a Comparison Studio spec.
+
+  Examples: imputebench compare list --active imputebench compare show
+  COMPARISON_ID imputebench compare delete COMPARISON_ID --dry-run

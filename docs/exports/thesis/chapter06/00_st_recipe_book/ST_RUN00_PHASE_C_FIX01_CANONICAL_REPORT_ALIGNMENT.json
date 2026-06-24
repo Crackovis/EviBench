@@ -1,0 +1,207 @@
+{
+  "spec": "ST-RUN00-PHASE-C-FIX01_CANONICAL_REPORT_ALIGNMENT",
+  "title": "Canonical Evidence Report Alignment Before Official Launch",
+  "generated_at": "2026-05-19T16:52:25+00:00",
+  "verdict": "LAUNCH_READY_AFTER_CANONICAL_REPORT_ALIGNMENT",
+  "official_campaign_launched": false,
+
+  "what_was_stale": [
+    "SCIENTIFIC_EVIDENCE_PROFILE.md showed Algorithm Card = ❌ for all four algorithms (grin, stgcn, ignnk, dcrnn)",
+    "SCIENTIFIC_EVIDENCE_PROFILE.md showed convergence_caveated for all four algorithms",
+    "SCIENTIFIC_EVIDENCE_PROFILE.md contained hardcoded pre-rerun wording in sections 9, 10, 11: 'metrics absent before the scientific rerun', 'artifact slots missing before the scientific rerun', 'mask bank metadata not yet discoverable'",
+    "SCIENTIFIC_GATE_REPORT.md/json showed global_status=BLOCKED despite 11/11 global checks passing",
+    "SCIENTIFIC_GATE_REPORT algorithm-level statuses were BLOCKED with algorithm_cards_not_ready for all four algorithms while global SCI-FIX05 check said PASS — internal contradiction",
+    "convergence_report.json showed convergence_caveated or validation_loss_missing because Phase C runs (100 epochs, no _validation_split injection) had overwritten training_record.json files with validation_loss=None"
+  ],
+
+  "root_causes_identified": [
+    {
+      "id": "RC-1",
+      "label": "Algorithm cards timing issue",
+      "description": "SCI-FIX08 algorithm_coverage.csv was generated at 14:00 UTC before algorithm_card_readiness_report.json existed (created 16:23 UTC). _load_algorithm_card_report() returned None so algorithm_card_ready=False for all algorithms."
+    },
+    {
+      "id": "RC-2",
+      "label": "Phase C training record overwrite",
+      "description": "Phase C runs (epochs=100, implementation_variant=None, no validation_split) overwrote data/st_scientific_training/{algo}/{variant}/training_record.json. All epoch_records had validation_loss=None. STConvergenceService had no backfill mechanism, so convergence was assessed as convergence_caveated or convergence_not_available instead of convergence_passed."
+    },
+    {
+      "id": "RC-3",
+      "label": "Hardcoded stale Markdown wording",
+      "description": "Sections 9, 10, 11 of _profile_to_markdown() in STScientificEvidenceExportService used static strings ('before the scientific rerun') that were always emitted regardless of actual profile data, violating spec 4.5."
+    },
+    {
+      "id": "RC-4",
+      "label": "Missing consistency guard in SCI-FIX09",
+      "description": "No guard existed to detect the contradiction where global algorithm_cards check (live STAlgorithmCardService) = PASS but algorithm-level check (stale CSV) = BLOCKED. Spec 4.4 required emitting internal_gate_consistency_error."
+    }
+  ],
+
+  "reports_regenerated": [
+    "docs/exports/thesis/chapter06/06_st_gates/algorithm_card_readiness_report.json (verified via: imputebench st gate --profile algorithm_cards_ready)",
+    "docs/exports/thesis/chapter06/06_st_gates/training_adequacy_report.json (via: imputebench st training adequacy report)",
+    "docs/exports/thesis/chapter06/06_st_gates/convergence_report.json (via: imputebench st training convergence report — with Phase B FIX02 backfill)",
+    "docs/exports/thesis/chapter06/08_scientific_evidence_profile/SCIENTIFIC_EVIDENCE_PROFILE.{json,md} + 14 coverage files (via: imputebench st evidence export --profile st_scientific_evidence_v1)",
+    "docs/exports/thesis/chapter06/09_scientific_gate/SCIENTIFIC_GATE_REPORT.{json,md} + CSV/blocker files (via: imputebench st scientific gate report)",
+    "docs/exports/thesis/chapter06/09_scientific_gate/ also verified via: imputebench st gate --profile scientific_ready"
+  ],
+
+  "sci_fix08_json_md_agreement": {
+    "status": "AGREE",
+    "algorithm_card_ready": {
+      "json": {"grin": true, "stgcn": true, "ignnk": true, "dcrnn": true},
+      "markdown_table": "all four show ✅ in Card column"
+    },
+    "convergence_status": {
+      "json": {
+        "grin": "convergence_passed",
+        "stgcn": "convergence_passed",
+        "ignnk": "convergence_passed",
+        "dcrnn": "convergence_passed"
+      },
+      "markdown": "all four show convergence_passed in Convergence Summary section"
+    },
+    "stale_wording_removed": true,
+    "stale_wording_notes": "Sections 9, 10, 11 now render dynamically from live profile data"
+  },
+
+  "sci_fix09_json_md_agreement": {
+    "status": "AGREE",
+    "global_status": {
+      "json": "passed",
+      "markdown": "contains `PASSED`"
+    },
+    "scientific_ready": {
+      "json": true,
+      "markdown": "shows YES"
+    },
+    "algorithm_statuses": {
+      "grin": {"json": "passed", "markdown": "PASSED"},
+      "stgcn": {"json": "passed", "markdown": "PASSED"},
+      "ignnk": {"json": "passed", "markdown": "PASSED"},
+      "dcrnn": {"json": "passed", "markdown": "PASSED"}
+    }
+  },
+
+  "algorithm_card_readiness": {
+    "grin": {"variant": "mpgru_v1", "ready": true},
+    "stgcn": {"variant": "stconv_v1", "ready": true},
+    "ignnk": {"variant": "dgc_kriging_v1", "ready": true},
+    "dcrnn": {"variant": "dcgru_reconstruction_v1", "ready": true}
+  },
+
+  "convergence_status": {
+    "grin": {
+      "variant": "mpgru_v1",
+      "status": "convergence_passed",
+      "first_val_loss": 1787.9725341796875,
+      "run_id": "224ca9b0-d930-4ba1-bf13-dff240699e68"
+    },
+    "stgcn": {
+      "variant": "stconv_v1",
+      "status": "convergence_passed",
+      "first_val_loss": 1785.808837890625,
+      "run_id": "de78cace-1137-4fe3-b3bd-81dfbed63031"
+    },
+    "ignnk": {
+      "variant": "dgc_kriging_v1",
+      "status": "convergence_passed",
+      "first_val_loss": 13175.94921875,
+      "run_id": "ecaceee9-e7c3-4cf3-bdab-8f43e24a2d04"
+    },
+    "dcrnn": {
+      "variant": "dcgru_reconstruction_v1",
+      "status": "convergence_passed",
+      "first_val_loss": 1831.984619140625,
+      "run_id": "62591452-9f48-4858-9b50-0b18a8112f82"
+    }
+  },
+
+  "launch_preparation_status": {
+    "decision": "LAUNCH_READY",
+    "planned_runs": 120,
+    "epochs_requested": 100,
+    "early_stopping": true,
+    "min_epochs_before_early_stop": 50,
+    "final_launch_command_present": true
+  },
+
+  "final_launch_command": "python -m imputebench st experiment run --tier a --dataset-id london_aq --graph-policy correlation_train_v1 --realizations 5 --epochs 100 --early-stopping --patience 15 --min-delta 0.0001 --min-epochs-before-early-stop 50 --checkpoint-policy best_validation_loss --validation-policy masked_validation_support --skip-completed --progress text --event-log data/logs/phase_c_v2_events.jsonl --progress-file data/logs/phase_c_v2_progress.json",
+
+  "official_campaign_launched_confirmation": "NO — the official 120-run Phase C campaign was NOT launched during this repair. No experiment was executed.",
+
+  "semantic_distinction": {
+    "phase_b_calibration_evidence": "clean",
+    "phase_c_official_campaign": "not_launched",
+    "phase_c_launch_preparation": "LAUNCH_READY",
+    "official_tier_a_ready_for_thesis": false,
+    "calibration_scientific_ready": true,
+    "official_tier_a_campaign_complete": false,
+    "official_campaign_launched": false
+  },
+
+  "code_changes": [
+    {
+      "file": "imputebench/services/spatiotemporal/st_convergence_service.py",
+      "change": "Added _backfill_validation_loss() and _load_phase_b_training_history() to recover Phase B FIX02 validation_loss from DB-indexed artifact directories when training_record.json has been overwritten by Phase C runs. Called in build_report() before assess_all_algorithms()."
+    },
+    {
+      "file": "imputebench/services/spatiotemporal/st_scientific_evidence_export_service.py",
+      "change": "Replaced hardcoded stale Markdown wording in sections 9, 10, 11 of _profile_to_markdown() with dynamic content rendered from live profile algorithm data."
+    },
+    {
+      "file": "imputebench/services/spatiotemporal/st_scientific_gate_service.py",
+      "change": "Added internal consistency guard (spec 4.4) after algorithm assessments: if global algorithm_cards_ready=PASS but any algorithm has algorithm_cards_not_ready in blocking_reasons, emit internal_gate_consistency_error."
+    },
+    {
+      "file": "tests/spatiotemporal/test_st_scientific_gate.py",
+      "change": "Replaced stale test_gate_blocked_before_scientific_rerun with test_gate_passes_after_phase_b_fix02_and_fix01_alignment reflecting the correct post-FIX01 state."
+    }
+  ],
+
+  "tests": {
+    "file": "tests/spatiotemporal/test_phase_c_canonical_report_alignment.py",
+    "total": 23,
+    "all_pass": true,
+    "test_names": [
+      "test_scifix08_algorithm_cards_not_missing_when_algorithm_card_report_passes",
+      "test_scifix08_no_algorithm_card_blockers",
+      "test_scifix08_all_four_algorithm_cards_ready_in_profile",
+      "test_scifix08_convergence_status_matches_current_convergence_report",
+      "test_scifix08_convergence_passed_for_all_algorithms",
+      "test_scifix08_no_stale_convergence_caveated_when_report_says_passed",
+      "test_scifix08_no_validation_loss_missing_caveats_after_backfill",
+      "test_scifix09_global_algorithm_card_pass_matches_algorithm_level_status",
+      "test_scifix09_no_algorithm_cards_not_ready_when_global_check_passes",
+      "test_scifix09_no_internal_gate_consistency_error",
+      "test_scifix09_all_four_algorithms_pass",
+      "test_scientific_evidence_markdown_matches_json_algorithm_card_status",
+      "test_scientific_evidence_markdown_no_stale_cards_missing_text",
+      "test_scientific_evidence_markdown_no_stale_prerun_wording",
+      "test_scientific_gate_markdown_matches_json_algorithm_status",
+      "test_scientific_gate_markdown_global_status_matches_json",
+      "test_scientific_evidence_markdown_convergence_section_no_stale_caveated",
+      "test_phase_c_launch_ready_does_not_conflict_with_canonical_gate_report",
+      "test_launch_prep_final_command_still_present",
+      "test_official_campaign_not_launched",
+      "test_official_tier_a_not_complete",
+      "test_calibration_ready_true_after_fix01",
+      "test_gate_reports_internal_consistency_error_when_global_and_algorithm_sources_disagree"
+    ],
+    "combined_gate_tests_passing": 85
+  },
+
+  "acceptance_criteria_check": {
+    "1_evidence_profile_card_checkmark_all_algorithms": "PASS — all 4 show algorithm_card_ready=True in JSON and ✅ in MD",
+    "2_evidence_profile_convergence_passed_all_algorithms": "PASS — all 4 show convergence_passed in JSON and MD",
+    "3_no_stale_metrics_absent_wording": "PASS — sections 9/10/11 now render dynamically; stale hardcoded strings removed",
+    "4_gate_report_no_algorithm_cards_not_ready": "PASS — all 4 algorithms have empty blocking_reasons",
+    "5_gate_report_internal_consistency": "PASS — global check and algorithm-level check both say algorithm cards are ready",
+    "6_phase_c_launch_preparation_launch_ready": "PASS — decision=LAUNCH_READY unchanged",
+    "7_official_campaign_launched_false": "PASS — official_campaign_launched=false",
+    "8_final_launch_command_present": "PASS — command present in launch_prep_report.json",
+    "9_canonical_json_md_agree": "PASS — verified for both SCI-FIX08 and SCI-FIX09",
+    "10_tests_pass": "PASS — 85 tests pass (62 pre-FIX01 + 23 new FIX01 tests)",
+    "11_no_official_campaign_launched": "PASS — no experiment runs executed during this repair"
+  }
+}

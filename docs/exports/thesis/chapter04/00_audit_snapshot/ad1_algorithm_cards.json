@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-05-10T22:01:54.468871+00:00",
+  "summary": {
+    "generated": 17
+  },
+  "entries": [
+    {
+      "algorithm_id": "plugin:brits",
+      "name": "BRITS",
+      "family": "dl_temporal",
+      "card_status": "generated",
+      "card_path": "cards/dl_temporal/brits.md"
+    },
+    {
+      "algorithm_id": "plugin:gru",
+      "name": "Simple GRU",
+      "family": "dl_temporal",
+      "card_status": "generated",
+      "card_path": "cards/dl_temporal/simple_gru.md"
+    },
+    {
+      "algorithm_id": "plugin:gru_d",
+      "name": "GRU-D",
+      "family": "dl_temporal",
+      "card_status": "generated",
+      "card_path": "cards/dl_temporal/gru_d.md"
+    },
+    {
+      "algorithm_id": "plugin:lstm",
+      "name": "Simple LSTM",
+      "family": "dl_temporal",
+      "card_status": "generated",
+      "card_path": "cards/dl_temporal/simple_lstm.md"
+    },
+    {
+      "algorithm_id": "plugin:rnn",
+      "name": "Simple RNN",
+      "family": "dl_temporal",
+      "card_status": "generated",
+      "card_path": "cards/dl_temporal/simple_rnn.md"
+    },
+    {
+      "algorithm_id": "plugin:saits",
+      "name": "SAITS",
+      "family": "dl_temporal",
+      "card_status": "generated",
+      "card_path": "cards/dl_temporal/saits.md"
+    },
+    {
+      "algorithm_id": "plugin:saits_lc",
+      "name": "SAITS-LC",
+      "family": "dl_temporal",
+      "card_status": "generated",
+      "card_path": "cards/dl_temporal/saits_lc.md"
+    },
+    {
+      "algorithm_id": "plugin:saits_lch",
+      "name": "SAITS-LCH",
+      "family": "dl_temporal",
+      "card_status": "generated",
+      "card_path": "cards/dl_temporal/saits_lch.md"
+    },
+    {
+      "algorithm_id": "plugin:backward_fill",
+      "name": "BackwardFill",
+      "family": "classical",
+      "card_status": "generated",
+      "card_path": "cards/classical/backwardfill.md"
+    },
+    {
+      "algorithm_id": "plugin:exponential_smoothing",
+      "name": "ExponentialSmoothing",
+      "family": "classical",
+      "card_status": "generated",
+      "card_path": "cards/classical/exponentialsmoothing.md"
+    },
+    {
+      "algorithm_id": "plugin:moving_average",
+      "name": "MovingAverage",
+      "family": "classical",
+      "card_status": "generated",
+      "card_path": "cards/classical/movingaverage.md"
+    },
+    {
+      "algorithm_id": "plugin:nearest_interpolation",
+      "name": "NearestInterpolation",
+      "family": "classical",
+      "card_status": "generated",
+      "card_path": "cards/classical/nearestinterpolation.md"
+    },
+    {
+      "algorithm_id": "plugin:seasonal_naive",
+      "name": "SeasonalNaive",
+      "family": "classical",
+      "card_status": "generated",
+      "card_path": "cards/classical/seasonalnaive.md"
+    },
+    {
+      "algorithm_id": "plugin:linear_interpolation",
+      "name": "LinearInterpolation",
+      "family": "naive",
+      "card_status": "generated",
+      "card_path": "cards/naive/linearinterpolation.md"
+    },
+    {
+      "algorithm_id": "plugin:locf",
+      "name": "LOCF",
+      "family": "naive",
+      "card_status": "generated",
+      "card_path": "cards/naive/locf.md"
+    },
+    {
+      "algorithm_id": "plugin:mean",
+      "name": "Mean",
+      "family": "naive",
+      "card_status": "generated",
+      "card_path": "cards/naive/mean.md"
+    },
+    {
+      "algorithm_id": "plugin:median",
+      "name": "Median",
+      "family": "naive",
+      "card_status": "generated",
+      "card_path": "cards/naive/median.md"
+    }
+  ]
+}

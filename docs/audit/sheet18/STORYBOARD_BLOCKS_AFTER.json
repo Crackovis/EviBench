@@ -1,0 +1,14 @@
+{
+  "schema": "imputebench.sheet18-audit.storyboard-blocks/v1",
+  "status": "validated_by_tests_and_pack_contract",
+  "official_export_rerun": false,
+  "guarantees": {
+    "station_original_projection_exact": true,
+    "station_mask_projection_exact": true,
+    "temporal_offsets_aligned": true,
+    "prediction_only_diagnostic_when_support_unresolved": true,
+    "blocked_storyboards_visible": true,
+    "fabricated_degradation_panels": 0
+  },
+  "fabricated_counts": false
+}

@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-05-20T09:47:43.898406+00:00",
+  "policy_version": "SCI-FIX08-artifact-completeness-v1",
+  "assessments": [
+    {
+      "algorithm_id": "grin",
+      "variant_id": "mpgru_v1",
+      "run_id": "224ca9b0-d930-4ba1-bf13-dff240699e68",
+      "result_id": "76a6e271-472c-465a-a391-3c883181160b",
+      "artifact_path": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\data\\artifacts\\st_predictions\\224ca9b0-d930-4ba1-bf13-dff240699e68\\224ca9b0-d930-4ba1-bf13-dff240699e68_grin_protocol_test_r000_0",
+      "artifact_checks": {
+        "prediction_artifact": true,
+        "metric_artifact": true,
+        "training_history": true,
+        "training_config": true,
+        "algorithm_manifest_snapshot": true,
+        "graph_metadata": true,
+        "mask_metadata": true,
+        "runtime_device_metadata": true,
+        "convergence_assessment": true,
+        "claim_assessment": true
+      },
+      "missing_artifacts": [],
+      "artifact_completeness_ready": "complete",
+      "status": "complete"
+    },
+    {
+      "algorithm_id": "stgcn",
+      "variant_id": "stconv_v1",
+      "run_id": "de78cace-1137-4fe3-b3bd-81dfbed63031",
+      "result_id": "d1aa4c82-89d0-4a92-94c0-a0253e3a3686",
+      "artifact_path": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\data\\artifacts\\st_predictions\\de78cace-1137-4fe3-b3bd-81dfbed63031\\de78cace-1137-4fe3-b3bd-81dfbed63031_stgcn_protocol_test_r000_0",
+      "artifact_checks": {
+        "prediction_artifact": true,
+        "metric_artifact": true,
+        "training_history": true,
+        "training_config": true,
+        "algorithm_manifest_snapshot": true,
+        "graph_metadata": true,
+        "mask_metadata": true,
+        "runtime_device_metadata": true,
+        "convergence_assessment": true,
+        "claim_assessment": true
+      },
+      "missing_artifacts": [],
+      "artifact_completeness_ready": "complete",
+      "status": "complete"
+    },
+    {
+      "algorithm_id": "ignnk",
+      "variant_id": "dgc_kriging_v1",
+      "run_id": "ecaceee9-e7c3-4cf3-bdab-8f43e24a2d04",
+      "result_id": "d1295247-9d73-4cb8-b366-55eb2e4fab6a",
+      "artifact_path": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\data\\artifacts\\st_predictions\\ecaceee9-e7c3-4cf3-bdab-8f43e24a2d04\\ecaceee9-e7c3-4cf3-bdab-8f43e24a2d04_ignnk_protocol_test_r000_0",
+      "artifact_checks": {
+        "prediction_artifact": true,
+        "metric_artifact": true,
+        "training_history": true,
+        "training_config": true,
+        "algorithm_manifest_snapshot": true,
+        "graph_metadata": true,
+        "mask_metadata": true,
+        "runtime_device_metadata": true,
+        "convergence_assessment": true,
+        "claim_assessment": true
+      },
+      "missing_artifacts": [],
+      "artifact_completeness_ready": "complete",
+      "status": "complete"
+    },
+    {
+      "algorithm_id": "dcrnn",
+      "variant_id": "dcgru_reconstruction_v1",
+      "run_id": "62591452-9f48-4858-9b50-0b18a8112f82",
+      "result_id": "81ad0d7a-bd11-4d89-b623-11870b528f8f",
+      "artifact_path": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\data\\artifacts\\st_predictions\\62591452-9f48-4858-9b50-0b18a8112f82\\62591452-9f48-4858-9b50-0b18a8112f82_dcrnn_protocol_test_r000_0",
+      "artifact_checks": {
+        "prediction_artifact": true,
+        "metric_artifact": true,
+        "training_history": true,
+        "training_config": true,
+        "algorithm_manifest_snapshot": true,
+        "graph_metadata": true,
+        "mask_metadata": true,
+        "runtime_device_metadata": true,
+        "convergence_assessment": true,
+        "claim_assessment": true
+      },
+      "missing_artifacts": [],
+      "artifact_completeness_ready": "complete",
+      "status": "complete"
+    }
+  ]
+}

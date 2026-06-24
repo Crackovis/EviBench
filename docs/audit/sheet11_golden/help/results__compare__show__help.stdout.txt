@@ -1,0 +1,7 @@
+Usage: python -m imputebench results compare show [OPTIONS] COMPARISON_ID
+
+  Display a Comparison Studio spec.
+
+Options:
+  --format [table|json]  [default: json]
+  -h, --help             Show this message and exit.

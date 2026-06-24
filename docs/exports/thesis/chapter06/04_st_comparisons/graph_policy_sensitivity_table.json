@@ -1,0 +1,9 @@
+[
+  {
+    "status": "blocked",
+    "reason": "graph_policy_sensitivity_fixed_support_missing",
+    "validity_policy": "same_algo_same_realization_same_support_different_graph",
+    "valid_group_count": 0,
+    "note": "grid_8n_v1 excluded (224 nodes vs 140 for other policies — fingerprint dimensionality mismatch)"
+  }
+]

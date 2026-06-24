@@ -1,0 +1,409 @@
+{
+  "certification_report_path": "docs\\exports\\temporal\\temporal_certification_report.json",
+  "classical_tasks": 12,
+  "completed_tasks": 12,
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "dl_tasks": 0,
+  "errors": [],
+  "event_log_path": "data/logs/temporal_events.jsonl",
+  "evidence_exported": true,
+  "failed_tasks": 0,
+  "gate_report_path": "docs\\exports\\temporal\\temporal_gate_report.json",
+  "gates_run": true,
+  "manifest_path": "",
+  "payload": {
+    "certification": {
+      "certification_id": "temporal_cert_20260624155946",
+      "certification_message": "Temporal evidence gates passed; certify implementation-level benchmark evidence.",
+      "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+      "errors": [],
+      "gate_report_id": "temporal_gate_20260624155946",
+      "payload": {
+        "gate_status": "pass"
+      },
+      "recipe_book_id": "official_londonaq_classical_benchmark",
+      "status": "certified",
+      "warnings": [
+        "Certification does not assert paper-faithful DL reproduction."
+      ]
+    },
+    "evidence": {
+      "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+      "errors": [],
+      "evidence_manifest_path": "docs\\exports\\temporal\\temporal_evidence_manifest.json",
+      "figures_count": 0,
+      "output_dir": "docs\\exports\\temporal",
+      "payload": {
+        "figures": [],
+        "tables": [
+          "docs\\exports\\temporal\\README.md"
+        ]
+      },
+      "profile_id": "temporal_official_v1",
+      "tables_count": 1,
+      "warnings": [
+        "No figures found"
+      ]
+    },
+    "gates": {
+      "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+      "errors": [],
+      "failed_gates": 0,
+      "gate_id": "temporal_gate_20260624155946",
+      "gate_results": [
+        {
+          "gate": "recipe_book_valid",
+          "message": "official_londonaq_classical_benchmark",
+          "passed": true
+        },
+        {
+          "gate": "dataset_bound",
+          "message": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+          "passed": true
+        },
+        {
+          "gate": "evidence_manifest",
+          "message": "docs\\exports\\temporal\\temporal_evidence_manifest.json",
+          "passed": true
+        },
+        {
+          "gate": "no_paper_faithful_dl_claim",
+          "message": "reports certify implementation evidence, not paper-faithful DL reproduction",
+          "passed": true
+        }
+      ],
+      "passed_gates": 4,
+      "payload": {},
+      "profile": "temporal_thesis_ready",
+      "recipe_book_id": "official_londonaq_classical_benchmark",
+      "status": "pass",
+      "total_gates": 4,
+      "warning_gates": 0,
+      "warnings": []
+    },
+    "preflight": {
+      "blocking_reasons": [],
+      "checks": [
+        {
+          "check": "dataset_exists",
+          "detail": "shape=(600, 10, 14, 4)",
+          "passed": true
+        },
+        {
+          "check": "algorithms_registered",
+          "detail": "algorithms=['linear_interpolation', 'nearest_interpolation', 'dacpi', 'arma']",
+          "passed": true
+        },
+        {
+          "check": "plugins_loadable",
+          "detail": "all discovered plugins validate",
+          "passed": true
+        },
+        {
+          "check": "mask_families_supported",
+          "detail": "families=['mar', 'mcar', 'mnar']",
+          "passed": true
+        },
+        {
+          "check": "metrics_supported",
+          "detail": "metrics=['mae', 'rmse']",
+          "passed": true
+        },
+        {
+          "check": "runner_available",
+          "detail": "ExperimentRunner.execute available",
+          "passed": true
+        }
+      ],
+      "status": "PASS"
+    },
+    "preparation": {
+      "comparison_specs_created": 3,
+      "contracts_created": 0,
+      "contracts_existing": 3,
+      "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+      "drafts_created": 0,
+      "errors": [],
+      "mask_banks_created": 0,
+      "mask_banks_existing": 3,
+      "payload": {
+        "failed_step": "",
+        "plan": {
+          "algorithm_ids": [
+            "linear_interpolation",
+            "nearest_interpolation",
+            "dacpi",
+            "arma"
+          ],
+          "contract_specs": [
+            "BenchmarkContractCreationSpec(recipe_id='official_londonaq_classical_benchmark:mcar:50', dataset_id='fa9c7108-176e-4c68-840d-6acf3a3e59e4', family='mcar', rate=0.5, phase='test', name='Official LondonAQ Benchmark Contract \u2014 MCAR 0.5 \u2014 test', mask_bank_id='01438d70-409e-452e-a589-b4f3a4ea7b49', existing_contract_id='b27a9f27-4c5e-486a-aeba-65f1c27a8fd2', metric_scope='global+pollutant+node', selection_phase_scope=('validation',), status='existing', requested_execution_class='classical', experiment_type='Classical', algorithm_family_scope='classical_temporal', issues=(), warnings=(), payload={})",
+            "BenchmarkContractCreationSpec(recipe_id='official_londonaq_classical_benchmark:mar:50', dataset_id='fa9c7108-176e-4c68-840d-6acf3a3e59e4', family='mar', rate=0.5, phase='test', name='Official LondonAQ Benchmark Contract \u2014 MAR 0.5 \u2014 test', mask_bank_id='74a3ea26-edce-4531-8269-6645f8379dd9', existing_contract_id='83197ea5-5553-4d4d-81ae-dafd802ffdc3', metric_scope='global+pollutant+node', selection_phase_scope=('validation',), status='existing', requested_execution_class='classical', experiment_type='Classical', algorithm_family_scope='classical_temporal', issues=(), warnings=(), payload={})",
+            "BenchmarkContractCreationSpec(recipe_id='official_londonaq_classical_benchmark:mnar:50', dataset_id='fa9c7108-176e-4c68-840d-6acf3a3e59e4', family='mnar', rate=0.5, phase='test', name='Official LondonAQ Benchmark Contract \u2014 MNAR 0.5 \u2014 test', mask_bank_id='4be0cc72-23ca-4da6-b9a6-52b318bb641f', existing_contract_id='cad30d3e-ddb8-4f44-b5d2-28c10a4c3537', metric_scope='global+pollutant+node', selection_phase_scope=('validation',), status='existing', requested_execution_class='classical', experiment_type='Classical', algorithm_family_scope='classical_temporal', issues=(), warnings=(), payload={})"
+          ],
+          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+          "global_issues": [],
+          "global_warnings": [],
+          "mask_bank_specs": [
+            "MaskBankGenerationSpec(recipe_id='official_londonaq_classical_benchmark:mcar:50', dataset_id='fa9c7108-176e-4c68-840d-6acf3a3e59e4', family='mcar', rate=0.5, phase='test', name='Official LondonAQ Mask Bank \u2014 MCAR 0.5 \u2014 test', artifact_dir='data/benchmark_mask_banks/official_londonaq/mcar/50/test', n_realizations=5, observed_only=True, seed_base=1729, status='existing', existing_bank_id='01438d70-409e-452e-a589-b4f3a4ea7b49', match_quality='exact', issues=(), warnings=(), payload={})",
+            "MaskBankGenerationSpec(recipe_id='official_londonaq_classical_benchmark:mar:50', dataset_id='fa9c7108-176e-4c68-840d-6acf3a3e59e4', family='mar', rate=0.5, phase='test', name='Official LondonAQ Mask Bank \u2014 MAR 0.5 \u2014 test', artifact_dir='data/benchmark_mask_banks/official_londonaq/mar/50/test', n_realizations=5, observed_only=True, seed_base=2729, status='existing', existing_bank_id='74a3ea26-edce-4531-8269-6645f8379dd9', match_quality='exact', issues=(), warnings=(), payload={})",
+            "MaskBankGenerationSpec(recipe_id='official_londonaq_classical_benchmark:mnar:50', dataset_id='fa9c7108-176e-4c68-840d-6acf3a3e59e4', family='mnar', rate=0.5, phase='test', name='Official LondonAQ Mask Bank \u2014 MNAR 0.5 \u2014 test', artifact_dir='data/benchmark_mask_banks/official_londonaq/mnar/50/test', n_realizations=5, observed_only=True, seed_base=3729, status='existing', existing_bank_id='4be0cc72-23ca-4da6-b9a6-52b318bb641f', match_quality='exact', issues=(), warnings=(), payload={})"
+          ],
+          "one_click_available": true,
+          "payload": {
+            "recipe_build_states": {
+              "official_londonaq_classical_benchmark:mar:50": {
+                "bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+                "bank_issues": [],
+                "bank_status": "exact",
+                "contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
+                "contract_issues": [],
+                "contract_status": "exact",
+                "next_build_step": "create_plan"
+              },
+              "official_londonaq_classical_benchmark:mcar:50": {
+                "bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+                "bank_issues": [],
+                "bank_status": "exact",
+                "contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
+                "contract_issues": [],
+                "contract_status": "exact",
+                "next_build_step": "create_plan"
+              },
+              "official_londonaq_classical_benchmark:mnar:50": {
+                "bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+                "bank_issues": [],
+                "bank_status": "exact",
+                "contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
+                "contract_issues": [],
+                "contract_status": "exact",
+                "next_build_step": "create_plan"
+              }
+            }
+          },
+          "recipe_book_id": "official_londonaq_classical_benchmark",
+          "safe_to_create_comparisons": true,
+          "safe_to_create_contracts": false,
+          "safe_to_create_mask_banks": false,
+          "safe_to_create_plans": true,
+          "selected_recipe_ids": [
+            "official_londonaq_classical_benchmark:mcar:50",
+            "official_londonaq_classical_benchmark:mar:50",
+            "official_londonaq_classical_benchmark:mnar:50"
+          ],
+          "steps": [
+            "PreparationAutomationStep(step_key='mask_banks', label='Mask banks', object_type='mask_bank', recipe_ids=('official_londonaq_classical_benchmark:mcar:50', 'official_londonaq_classical_benchmark:mar:50', 'official_londonaq_classical_benchmark:mnar:50'), eligible_count=0, blocked_count=0, existing_count=3, status='done', issues=(), warnings=(), payload={})",
+            "PreparationAutomationStep(step_key='benchmark_contracts', label='Benchmark contracts', object_type='benchmark_contract', recipe_ids=('official_londonaq_classical_benchmark:mcar:50', 'official_londonaq_classical_benchmark:mar:50', 'official_londonaq_classical_benchmark:mnar:50'), eligible_count=0, blocked_count=0, existing_count=3, status='done', issues=(), warnings=(), payload={})",
+            "PreparationAutomationStep(step_key='drafts_templates', label='Drafts / Templates', object_type='draft', recipe_ids=('official_londonaq_classical_benchmark:mcar:50', 'official_londonaq_classical_benchmark:mar:50', 'official_londonaq_classical_benchmark:mnar:50'), eligible_count=0, blocked_count=0, existing_count=3, status='done', issues=(), warnings=(), payload={})",
+            "PreparationAutomationStep(step_key='plans', label='Experiment plans', object_type='plan', recipe_ids=('official_londonaq_classical_benchmark:mcar:50', 'official_londonaq_classical_benchmark:mar:50', 'official_londonaq_classical_benchmark:mnar:50'), eligible_count=0, blocked_count=0, existing_count=3, status='done', issues=(), warnings=(), payload={})",
+            "PreparationAutomationStep(step_key='comparison_shells', label='Comparison benchmark shells', object_type='comparison_shell', recipe_ids=('official_londonaq_classical_benchmark:mcar:50', 'official_londonaq_classical_benchmark:mar:50', 'official_londonaq_classical_benchmark:mnar:50'), eligible_count=0, blocked_count=0, existing_count=3, status='done', issues=(), warnings=(), payload={})"
+          ]
+        },
+        "prepared_binding_count": 3,
+        "prepared_bindings": {
+          "official_londonaq_classical_benchmark:mar:50": {
+            "benchmark_contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
+            "benchmark_mask_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+            "benchmark_phase_scope": [
+              "test"
+            ],
+            "benchmark_realization_ids": [
+              "test_r000",
+              "test_r001",
+              "test_r002",
+              "test_r003",
+              "test_r004"
+            ],
+            "benchmark_selection_phase_scope": [
+              "validation"
+            ],
+            "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+            "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+            "family": "mar",
+            "rate": 0.5,
+            "recipe_book_id": "official_londonaq_classical_benchmark",
+            "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+            "shared_benchmark_required": true
+          },
+          "official_londonaq_classical_benchmark:mcar:50": {
+            "benchmark_contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
+            "benchmark_mask_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+            "benchmark_phase_scope": [
+              "test"
+            ],
+            "benchmark_realization_ids": [
+              "test_r000",
+              "test_r001",
+              "test_r002",
+              "test_r003",
+              "test_r004"
+            ],
+            "benchmark_selection_phase_scope": [
+              "validation"
+            ],
+            "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+            "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+            "family": "mcar",
+            "rate": 0.5,
+            "recipe_book_id": "official_londonaq_classical_benchmark",
+            "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+            "shared_benchmark_required": true
+          },
+          "official_londonaq_classical_benchmark:mnar:50": {
+            "benchmark_contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
+            "benchmark_mask_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+            "benchmark_phase_scope": [
+              "test"
+            ],
+            "benchmark_realization_ids": [
+              "test_r000",
+              "test_r001",
+              "test_r002",
+              "test_r003",
+              "test_r004"
+            ],
+            "benchmark_selection_phase_scope": [
+              "validation"
+            ],
+            "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+            "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+            "family": "mnar",
+            "rate": 0.5,
+            "recipe_book_id": "official_londonaq_classical_benchmark",
+            "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+            "shared_benchmark_required": true
+          }
+        },
+        "result": {
+          "action_key": "prepare_all_safe",
+          "created_comparison_spec_ids": [
+            "0f0a5418-25bb-43de-b471-6540cd634c7b",
+            "848aad9d-0895-490d-a7b4-d658bebe22bc",
+            "56bb9557-1cf8-452d-bb38-a675448b237c"
+          ],
+          "created_contract_ids": [],
+          "created_draft_ids": [],
+          "created_mask_bank_ids": [],
+          "created_plan_ids": [],
+          "created_template_ids": [],
+          "errors": [],
+          "payload": {
+            "created_by_step": {
+              "comparison_specs": [
+                "0f0a5418-25bb-43de-b471-6540cd634c7b",
+                "848aad9d-0895-490d-a7b4-d658bebe22bc",
+                "56bb9557-1cf8-452d-bb38-a675448b237c"
+              ],
+              "contracts": [],
+              "drafts": [],
+              "mask_banks": [],
+              "plans": [],
+              "templates": []
+            },
+            "failed_step": "",
+            "final_blockers": [],
+            "prepared_bindings": {
+              "official_londonaq_classical_benchmark:mar:50": {
+                "benchmark_contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
+                "benchmark_mask_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+                "benchmark_phase_scope": [
+                  "test"
+                ],
+                "benchmark_realization_ids": [
+                  "test_r000",
+                  "test_r001",
+                  "test_r002",
+                  "test_r003",
+                  "test_r004"
+                ],
+                "benchmark_selection_phase_scope": [
+                  "validation"
+                ],
+                "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+                "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+                "family": "mar",
+                "rate": 0.5,
+                "recipe_book_id": "official_londonaq_classical_benchmark",
+                "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+                "shared_benchmark_required": true
+              },
+              "official_londonaq_classical_benchmark:mcar:50": {
+                "benchmark_contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
+                "benchmark_mask_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+                "benchmark_phase_scope": [
+                  "test"
+                ],
+                "benchmark_realization_ids": [
+                  "test_r000",
+                  "test_r001",
+                  "test_r002",
+                  "test_r003",
+                  "test_r004"
+                ],
+                "benchmark_selection_phase_scope": [
+                  "validation"
+                ],
+                "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+                "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+                "family": "mcar",
+                "rate": 0.5,
+                "recipe_book_id": "official_londonaq_classical_benchmark",
+                "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+                "shared_benchmark_required": true
+              },
+              "official_londonaq_classical_benchmark:mnar:50": {
+                "benchmark_contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
+                "benchmark_mask_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+                "benchmark_phase_scope": [
+                  "test"
+                ],
+                "benchmark_realization_ids": [
+                  "test_r000",
+                  "test_r001",
+                  "test_r002",
+                  "test_r003",
+                  "test_r004"
+                ],
+                "benchmark_selection_phase_scope": [
+                  "validation"
+                ],
+                "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+                "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+                "family": "mnar",
+                "rate": 0.5,
+                "recipe_book_id": "official_londonaq_classical_benchmark",
+                "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+                "shared_benchmark_required": true
+              }
+            }
+          },
+          "skipped": [],
+          "warnings": [
+            "No missing drafts found.",
+            "No safe plan creation candidates found."
+          ]
+        },
+        "selected_recipe_count": 3
+      },
+      "plans_created": 0,
+      "plans_existing": 0,
+      "recipe_book_id": "official_londonaq_classical_benchmark",
+      "status": "ready",
+      "templates_created": 0,
+      "warnings": [
+        "No missing drafts found.",
+        "No safe plan creation candidates found."
+      ]
+    }
+  },
+  "preparation_report_path": "docs\\exports\\temporal\\temporal_preparation_report.json",
+  "progress_file_path": "data/logs/temporal_progress.json",
+  "recipe_book_id": "official_londonaq_classical_benchmark",
+  "skipped_tasks": 0,
+  "status": "completed",
+  "tier": "b",
+  "total_tasks": 12,
+  "warnings": [
+    "No missing drafts found.",
+    "No safe plan creation candidates found."
+  ]
+}

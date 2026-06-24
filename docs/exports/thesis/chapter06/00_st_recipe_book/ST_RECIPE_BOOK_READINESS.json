@@ -1,0 +1,14 @@
+{
+  "recipe_book_id": "official_londonaq_st_benchmark",
+  "status": "ready",
+  "recipe_count": 15,
+  "tier_a_count": 6,
+  "tier_b_count": 15,
+  "graph_sensitivity_count": 6,
+  "blockers": [],
+  "warnings": [
+    "gui_not_implemented",
+    "tier_b_not_recommended_before_tier_a",
+    "graph_sensitivity_requires_fixed_support"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "certification_id": "temporal_cert_20260624155946",
+  "certification_message": "Temporal evidence gates passed; certify implementation-level benchmark evidence.",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "errors": [],
+  "gate_report_id": "temporal_gate_20260624155946",
+  "payload": {
+    "gate_status": "pass"
+  },
+  "recipe_book_id": "official_londonaq_classical_benchmark",
+  "status": "certified",
+  "warnings": [
+    "Certification does not assert paper-faithful DL reproduction."
+  ]
+}

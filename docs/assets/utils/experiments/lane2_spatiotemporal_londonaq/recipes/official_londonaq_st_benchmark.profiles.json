@@ -1,0 +1,120 @@
+{
+  "policy_version": "ST-REC01",
+  "profiles": [
+    {
+      "default_algorithms": [
+        "stgcn"
+      ],
+      "default_epochs": 2,
+      "default_graph_policies": [
+        "grid_4n_v1"
+      ],
+      "default_realizations": 1,
+      "description": "Single-algorithm crash-proofing profile for ST lane bootstrap.",
+      "profile_id": "st_londonaq_smoke_v1",
+      "run_count_estimate": 1,
+      "scientific_claim_scope": "runtime_only",
+      "tier": "smoke",
+      "training_tier": "smoke"
+    },
+    {
+      "default_algorithms": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "default_epochs": 50,
+      "default_graph_policies": [
+        "grid_4n_v1"
+      ],
+      "default_realizations": 1,
+      "description": "Full-algorithm calibration profile before broader scientific execution.",
+      "profile_id": "st_londonaq_calibration_v1",
+      "run_count_estimate": 4,
+      "scientific_claim_scope": "pre_scientific_calibration",
+      "tier": "calibration",
+      "training_tier": "scientific"
+    },
+    {
+      "default_algorithms": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "default_epochs": 50,
+      "default_graph_policies": [
+        "correlation_train_v1"
+      ],
+      "default_realizations": 1,
+      "description": "Phase B scientific calibration: four corrected variants on mcar:30 with train-only correlation graph.",
+      "profile_id": "st_londonaq_calibration_scientific_v1",
+      "run_count_estimate": 4,
+      "scientific_claim_scope": "phase_b_calibration",
+      "tier": "calibration",
+      "training_tier": "scientific"
+    },
+    {
+      "default_algorithms": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "default_epochs": 50,
+      "default_graph_policies": [
+        "grid_4n_v1"
+      ],
+      "default_realizations": 3,
+      "description": "First scientific pass over the six canonical 30% recipe conditions.",
+      "profile_id": "st_londonaq_tier_a_scientific_v1",
+      "run_count_estimate": 72,
+      "scientific_claim_scope": "first_scientific_pass",
+      "tier": "tier_a",
+      "training_tier": "scientific"
+    },
+    {
+      "default_algorithms": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "default_epochs": 100,
+      "default_graph_policies": [
+        "grid_4n_v1"
+      ],
+      "default_realizations": 5,
+      "description": "Expanded scientific profile that adds 10% and 50% stress conditions.",
+      "profile_id": "st_londonaq_tier_b_scientific_v1",
+      "run_count_estimate": 300,
+      "scientific_claim_scope": "expanded_scientific_stress",
+      "tier": "tier_b",
+      "training_tier": "scientific"
+    },
+    {
+      "default_algorithms": [
+        "stgcn",
+        "grin",
+        "ignnk",
+        "dcrnn"
+      ],
+      "default_epochs": 50,
+      "default_graph_policies": [
+        "grid_4n_v1",
+        "distance_knn_v1",
+        "correlation_train_v1"
+      ],
+      "default_realizations": 3,
+      "description": "Optional graph-policy sensitivity profile on the Tier A recipe core.",
+      "profile_id": "st_londonaq_graph_sensitivity_v1",
+      "run_count_estimate": 216,
+      "scientific_claim_scope": "graph_policy_sensitivity",
+      "tier": "graph_sensitivity",
+      "training_tier": "scientific"
+    }
+  ],
+  "recipe_book_id": "official_londonaq_st_benchmark",
+  "source_policy_version": "ST-REC00"
+}

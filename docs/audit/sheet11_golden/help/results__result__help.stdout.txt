@@ -1,0 +1,21 @@
+Usage: python -m imputebench results result [OPTIONS] COMMAND [ARGS]...
+
+  Manage experiment results.
+
+  List, inspect, delete, and export results produced by experiment run
+  executions.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  bulk-delete
+  delete                    Delete a result and its associated artifacts.
+  export-bundle             Export a reproducibility bundle (zip) for a...
+  export-spatial            Export spatial visualization payload to a...
+  export-training-evidence
+  list                      List experiment results, optionally filtered...
+  show                      Show full details of a result as JSON.
+  spatial-show              Display spatial heatmap values for a result...
+
+  Example: imputebench result list

@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "recipe_book_id": "official_londonaq_st_benchmark",
+      "recipe_id": "official_londonaq_st_benchmark:mcar:30",
+      "recipe_profile": "st_londonaq_smoke_v1",
+      "recipe_policy_version": "ST-REC00",
+      "recipe_source_root": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq",
+      "algorithm_id": "stgcn",
+      "corrected_variant": "stconv_v1",
+      "variant_id": "stconv_v1",
+      "dataset_id": "londonaq",
+      "split_id": "official_v1",
+      "split_mode": "temporal",
+      "graph_policy": "grid_4n_v1",
+      "graph_fingerprint_required": true,
+      "mask_scenario": "mcar",
+      "mask_rate": 0.3,
+      "realization_id": "r001",
+      "realization_metadata": {
+        "realization_index": 0,
+        "seed_base": 1729,
+        "mask_seed": 1729
+      },
+      "mask_seed": 1729,
+      "support_fingerprint_required": true,
+      "training_tier": "smoke",
+      "epochs": 2,
+      "window_length": 24,
+      "window_stride": 12,
+      "metrics": [
+        "mae",
+        "rmse"
+      ],
+      "ranking_metric": "rmse_global",
+      "expected_artifacts": [
+        "training_config",
+        "training_history",
+        "prediction_artifact",
+        "metric_artifact",
+        "graph_metadata",
+        "mask_metadata",
+        "runtime_device_metadata"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "blockers": [],
+  "files": [
+    {
+      "checksum_sha256": "d863e03182eb40885610deb6e324511bededd5dfa1ba2a2d91dedd8ddd8a74af",
+      "file_id": "official_londonaq_st_benchmark.recipes.json",
+      "path": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes/official_londonaq_st_benchmark.recipes.json",
+      "profile_id": null,
+      "recipe_count": 15,
+      "required_for_run_planning": true,
+      "role": "recipes",
+      "row_count": 15,
+      "warnings": []
+    },
+    {
+      "checksum_sha256": "669d3371fe284758e8371faf82d943077ccd58dbca161d265920ccfe9dbc730c",
+      "file_id": "official_londonaq_st_benchmark.tier_a.json",
+      "path": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes/official_londonaq_st_benchmark.tier_a.json",
+      "profile_id": "st_londonaq_tier_a_scientific_v1",
+      "recipe_count": 6,
+      "required_for_run_planning": true,
+      "role": "tier_a",
+      "row_count": 6,
+      "warnings": []
+    },
+    {
+      "checksum_sha256": "c47238f885e7a6f8924ed134ff5549acd8fdd09947b663049be09f68a5b4ac61",
+      "file_id": "official_londonaq_st_benchmark.tier_b.json",
+      "path": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes/official_londonaq_st_benchmark.tier_b.json",
+      "profile_id": "st_londonaq_tier_b_scientific_v1",
+      "recipe_count": 15,
+      "required_for_run_planning": true,
+      "role": "tier_b",
+      "row_count": 15,
+      "warnings": []
+    },
+    {
+      "checksum_sha256": "a23822fb12c3cc0913948e66738f4c4f26eb5c4e8a49d4f7946673dd69ad0863",
+      "file_id": "official_londonaq_st_benchmark.graph_sensitivity.json",
+      "path": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes/official_londonaq_st_benchmark.graph_sensitivity.json",
+      "profile_id": "st_londonaq_graph_sensitivity_v1",
+      "recipe_count": 6,
+      "required_for_run_planning": true,
+      "role": "graph_sensitivity",
+      "row_count": 6,
+      "warnings": []
+    },
+    {
+      "checksum_sha256": "5ae371a50acbeedcc2be9414e697acb2137b45723cda5aec887e8bc37512a727",
+      "file_id": "official_londonaq_st_benchmark.execution_order.json",
+      "path": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes/official_londonaq_st_benchmark.execution_order.json",
+      "profile_id": null,
+      "recipe_count": null,
+      "required_for_run_planning": true,
+      "role": "execution_order",
+      "row_count": null,
+      "warnings": []
+    },
+    {
+      "checksum_sha256": "b90c51055a5a734f71ad4c5607b7444a5de77bf5b3405f3a2f4883f25eedc42f",
+      "file_id": "official_londonaq_st_benchmark.profiles.json",
+      "path": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes/official_londonaq_st_benchmark.profiles.json",
+      "profile_id": null,
+      "recipe_count": null,
+      "required_for_run_planning": true,
+      "role": "profiles",
+      "row_count": null,
+      "warnings": []
+    },
+    {
+      "checksum_sha256": "6086221c01ebb396cf3285c3ddc2b327fa18c194d50c998b3e42f0ffbf65bce0",
+      "file_id": "official_londonaq_st_benchmark.schema.json",
+      "path": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes/official_londonaq_st_benchmark.schema.json",
+      "profile_id": null,
+      "recipe_count": null,
+      "required_for_run_planning": true,
+      "role": "schema",
+      "row_count": null,
+      "warnings": []
+    },
+    {
+      "checksum_sha256": "806c889acd222c4bef0ee081966ec5cd6312e9d1a5c80a151010272925b1d7ea",
+      "file_id": "official_londonaq_st_benchmark.checksums.json",
+      "path": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes/official_londonaq_st_benchmark.checksums.json",
+      "profile_id": null,
+      "recipe_count": null,
+      "required_for_run_planning": false,
+      "role": "checksums",
+      "row_count": null,
+      "warnings": []
+    },
+    {
+      "checksum_sha256": "dbac7cd7d094fd9921d595d5c97af7352b6663555b221e50493f6303bc9d3401",
+      "file_id": "README.md",
+      "path": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes/README.md",
+      "profile_id": null,
+      "recipe_count": null,
+      "required_for_run_planning": false,
+      "role": "registry_readme",
+      "row_count": 40,
+      "warnings": []
+    }
+  ],
+  "generated_at": "2026-05-18T18:39:35.054342+00:00",
+  "materialization_fingerprint": "sha256:31e0247b5ef3a120392d60864baac2a996718ae2276cdc3d911b6e294bdf5aec",
+  "materialized_root": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/recipes",
+  "materializer_version": "st_recipe_materializer_v1",
+  "policy_version": "ST-REC01",
+  "recipe_book_id": "official_londonaq_st_benchmark",
+  "recipe_root": "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq",
+  "source_files": [
+    "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/README.md",
+    "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/OFFICIAL_ST_BENCHMARK_GRID.md",
+    "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/EXECUTION_AND_COMPARISON_PLAN.md",
+    "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/GRAPH_CONSTRUCTION_POLICY.md",
+    "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/SPATIAL_MISSINGNESS_PROTOCOL.md",
+    "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/PREPARATION_CHECKLIST.md",
+    "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/EXPECTED_OBJECTS.md",
+    "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/MODEL_SELECTION_RATIONALE.md",
+    "docs/assets/utils/experiments/lane2_spatiotemporal_londonaq/REFERENCES.md"
+  ],
+  "source_fingerprint": "sha256:5b24150f2c2c8d345bda343f83cda89dbac06a8b13bff3c548d35719fe825770",
+  "source_policy_version": "ST-REC00",
+  "warnings": [
+    "gui_not_implemented",
+    "tier_b_not_recommended_before_tier_a",
+    "graph_sensitivity_requires_fixed_support"
+  ]
+}

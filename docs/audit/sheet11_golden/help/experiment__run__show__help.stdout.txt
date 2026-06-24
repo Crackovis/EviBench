@@ -1,0 +1,7 @@
+Usage: python -m imputebench experiment run show [OPTIONS] RUN_ID
+
+Options:
+  --format [table|json]           [default: json]
+  --include-results / --no-include-results
+                                  [default: include-results]
+  -h, --help                      Show this message and exit.

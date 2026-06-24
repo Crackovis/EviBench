@@ -1,0 +1,11 @@
+Usage: python -m imputebench results compare list [OPTIONS]
+
+  List persisted Comparison Studio specs.
+
+Options:
+  --active               List active comparison specs (default).
+  --archived             List archived comparison specs.
+  --all                  List active and archived comparison specs.
+  --limit INTEGER        [default: 50]
+  --format [table|json]  [default: table]
+  -h, --help             Show this message and exit.

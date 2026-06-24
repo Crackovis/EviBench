@@ -1,0 +1,35 @@
+{
+  "profile": "train_only_correlation_graph_ready",
+  "status": "pass",
+  "generated_at": "2026-05-20T09:47:43.962775+00:00",
+  "checks": [
+    {
+      "check": "correlation_train_v1_graph_present",
+      "passed": true,
+      "message": "found 1 correlation_train_v1 graph(s)"
+    },
+    {
+      "check": "graph_asset_scientific_graph_london_aq_corr",
+      "passed": true,
+      "message": "train_only_correlation confirmed"
+    },
+    {
+      "check": "no_full_dataset_correlation_graphs_as_scientific",
+      "passed": true,
+      "message": "exploratory full-dataset graphs found: 0 (caveated, not scientific)"
+    }
+  ],
+  "blocking_reasons": [],
+  "correlation_train_v1_asset_count": 1,
+  "exploratory_full_dataset_asset_count": 0,
+  "asset_details": [
+    {
+      "graph_id": "graph_london_aq_correlation_train_v1_1691d107",
+      "passed": true,
+      "blocking": []
+    }
+  ],
+  "policy_version": "SCI-FIX06",
+  "claim_if_pass": "The correlation graph used by the scientific ST protocol is estimated from the training split only.",
+  "blocked_claim": "The full-dataset correlation graph is leakage-free."
+}

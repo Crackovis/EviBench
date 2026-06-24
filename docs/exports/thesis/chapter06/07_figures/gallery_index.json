@@ -1,0 +1,121 @@
+{
+  "gallery_title": "Chapter 06 \u2014 Extended Figure Gallery",
+  "generated_at": "2026-05-20T11:23:02.583481+00:00",
+  "figure_count": 12,
+  "sections": {
+    "training": {
+      "label": "A \u2014 Training Dynamics",
+      "subdir": "A_training_dynamics",
+      "figures": [
+        {
+          "figure_id": "fig_08",
+          "caption": "Training Loss Convergence Overlay \u2014 normalised mean \u00b1 1\u03c3 for all algorithms",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_08_training_loss_overlay.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_08_training_loss_overlay.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_08_training_loss_overlay.json"
+        },
+        {
+          "figure_id": "fig_09",
+          "caption": "Training Curves Spaghetti \u2014 individual runs (thin) + bold mean per algorithm",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_09_training_curve_spaghetti.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_09_training_curve_spaghetti.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_09_training_curve_spaghetti.json"
+        },
+        {
+          "figure_id": "fig_10",
+          "caption": "Training Curves Mean\u00b1Band \u2014 faceted 2\u00d72 grid per algorithm",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_10_training_curve_mean_band.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_10_training_curve_mean_band.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_10_training_curve_mean_band.json"
+        },
+        {
+          "figure_id": "fig_11",
+          "caption": "Final Training Loss Distribution \u2014 boxplot per algorithm",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_11_final_loss_boxplot.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_11_final_loss_boxplot.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\A_training_dynamics\\fig_11_final_loss_boxplot.json"
+        }
+      ]
+    },
+    "performance": {
+      "label": "B \u2014 Performance Distribution",
+      "subdir": "B_performance_distribution",
+      "figures": [
+        {
+          "figure_id": "fig_12",
+          "caption": "MAE Distribution \u2014 violin + box per algorithm (correlation_train_v1)",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\B_performance_distribution\\fig_12_mae_violin.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\B_performance_distribution\\fig_12_mae_violin.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\B_performance_distribution\\fig_12_mae_violin.json"
+        },
+        {
+          "figure_id": "fig_13",
+          "caption": "RMSE Distribution \u2014 violin + box per algorithm (correlation_train_v1)",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\B_performance_distribution\\fig_13_rmse_violin.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\B_performance_distribution\\fig_13_rmse_violin.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\B_performance_distribution\\fig_13_rmse_violin.json"
+        },
+        {
+          "figure_id": "fig_14",
+          "caption": "MAE vs RMSE Scatter \u2014 algorithm-coloured with 95 % confidence ellipses",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\B_performance_distribution\\fig_14_mae_rmse_scatter.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\B_performance_distribution\\fig_14_mae_rmse_scatter.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\B_performance_distribution\\fig_14_mae_rmse_scatter.json"
+        }
+      ]
+    },
+    "stability": {
+      "label": "C \u2014 Realization Stability",
+      "subdir": "C_realization_stability",
+      "figures": [
+        {
+          "figure_id": "fig_15",
+          "caption": "Realization Ranking Heatmap \u2014 algorithm rank per benchmark realization",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\C_realization_stability\\fig_15_realization_ranking_heatmap.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\C_realization_stability\\fig_15_realization_ranking_heatmap.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\C_realization_stability\\fig_15_realization_ranking_heatmap.json"
+        },
+        {
+          "figure_id": "fig_16",
+          "caption": "MAE Coefficient of Variation \u2014 realization stability bar chart",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\C_realization_stability\\fig_16_mae_cv_barplot.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\C_realization_stability\\fig_16_mae_cv_barplot.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\C_realization_stability\\fig_16_mae_cv_barplot.json"
+        }
+      ]
+    },
+    "runtime": {
+      "label": "D \u2014 Runtime & Efficiency",
+      "subdir": "D_runtime_efficiency",
+      "figures": [
+        {
+          "figure_id": "fig_17",
+          "caption": "Inference Time Distribution \u2014 boxplot per algorithm",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\D_runtime_efficiency\\fig_17_elapsed_seconds_boxplot.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\D_runtime_efficiency\\fig_17_elapsed_seconds_boxplot.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\D_runtime_efficiency\\fig_17_elapsed_seconds_boxplot.json"
+        },
+        {
+          "figure_id": "fig_18",
+          "caption": "Accuracy / Efficiency Pareto Frontier \u2014 mean RMSE vs mean inference time",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\D_runtime_efficiency\\fig_18_accuracy_efficiency_pareto.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\D_runtime_efficiency\\fig_18_accuracy_efficiency_pareto.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\D_runtime_efficiency\\fig_18_accuracy_efficiency_pareto.json"
+        }
+      ]
+    },
+    "gates": {
+      "label": "E \u2014 Scientific Evidence",
+      "subdir": "E_scientific_evidence",
+      "figures": [
+        {
+          "figure_id": "fig_19",
+          "caption": "Scientific Gate Checks Heatmap \u2014 pass / warn / fail per algorithm \u00d7 check",
+          "png": "docs\\exports\\thesis\\chapter06\\07_figures\\E_scientific_evidence\\fig_19_gate_checks_heatmap.png",
+          "svg": "docs\\exports\\thesis\\chapter06\\07_figures\\E_scientific_evidence\\fig_19_gate_checks_heatmap.svg",
+          "json": "docs\\exports\\thesis\\chapter06\\07_figures\\E_scientific_evidence\\fig_19_gate_checks_heatmap.json"
+        }
+      ]
+    }
+  }
+}

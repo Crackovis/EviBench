@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-05-20T10:46:44.133233+00:00",
+  "figure_id": "fig_01_adjacency_all_policies",
+  "status": "ready",
+  "claim_level": "descriptive",
+  "is_placeholder": false,
+  "source_results": [],
+  "source_tables": [
+    "01_graph_characterization/graph_policy_table"
+  ],
+  "source_mask_banks": [],
+  "caveats": [],
+  "graph_fingerprints": [
+    "sha256:ff68c2f545d16f90d1e3b4a9b00305d1b291b92f29d9cd1557f2a1e30e9bd432",
+    "sha256:e4d3c5194b5ac30ca62c968fa45e9a57741b8a9875a01227139f10ef74e5af74",
+    "sha256:6b6383b859dcb85551f221c474ed687de844cc3191dc4e5c368849578c13d4ce",
+    "sha256:1691d10769e12e8c48659d0a20c0fa0d8776aa38ccac0352c22d9b8373a26443"
+  ],
+  "policies_shown": [
+    "correlation_train_v1",
+    "distance_knn_v1",
+    "grid_4n_v1",
+    "grid_8n_v1"
+  ],
+  "png_path": "docs\\exports\\thesis\\chapter06\\07_figures\\fig_01_adjacency_all_policies.png",
+  "svg_path": "docs\\exports\\thesis\\chapter06\\07_figures\\fig_01_adjacency_all_policies.svg"
+}

@@ -1,0 +1,143 @@
+saits:
+  - key: saits_original
+    title: "SAITS: Self-Attention-based Imputation for Time Series"
+    authors: "Wenjie Du, David Cote & Yan Liu"
+    year: "2023"
+    venue: "Expert Systems with Applications"
+    url_or_doi: "https://doi.org/10.1016/j.eswa.2022.119619"
+    note: "Primary reference for SAITS."
+
+brits:
+  - key: brits_original
+    title: "BRITS: Bidirectional Recurrent Imputation for Time Series"
+    authors: "Wei Cao et al."
+    year: "2018"
+    venue: "NeurIPS 2018"
+    url_or_doi: "https://papers.nips.cc/paper_files/paper/2018/file/734e6bfcd358e25ac1db0a4241b95651-Paper.pdf"
+    note: "Primary reference for BRITS."
+
+gru_d:
+  - key: grud_original
+    title: "Recurrent Neural Networks for Multivariate Time Series with Missing Values"
+    authors: "Zhengping Che et al."
+    year: "2018"
+    venue: "Scientific Reports"
+    url_or_doi: "https://doi.org/10.1038/s41598-018-24271-9"
+    note: "Primary reference for GRU-D."
+
+saits_lc:
+  - key: saits_lc_internal_design
+    title: "SAITS-LC design note"
+    authors: "Steve / ImputeBench"
+    year: "2026"
+    venue: "Internal design evidence"
+    url_or_doi: ""
+    note: "Proposed local-context variant."
+
+saits_lch:
+  - key: saits_lch_internal_design
+    title: "SAITS-LCH design note"
+    authors: "Steve / ImputeBench"
+    year: "2026"
+    venue: "Internal design evidence"
+    url_or_doi: ""
+    note: "Proposed local-context + homeostasis variant."
+
+simple_rnn:
+  - key: rnn_reference
+    title: "Finding Structure in Time"
+    authors: "Jeffrey L. Elman"
+    year: "1990"
+    venue: "Cognitive Science"
+    url_or_doi: "https://doi.org/10.1207/s15516709cog1402_1"
+    note: "RNN baseline for time-series imputation."
+
+simple_lstm:
+  - key: lstm_original
+    title: "Long Short-Term Memory"
+    authors: "Hochreiter & Schmidhuber"
+    year: "1997"
+    venue: "Neural Computation"
+    url_or_doi: "https://doi.org/10.1162/neco.1997.9.8.1735"
+    note: "Long Short-Term Memory."
+
+simple_gru:
+  - key: gru_original
+    title: "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation"
+    authors: "Kyunghyun Cho et al."
+    year: "2014"
+    venue: "EMNLP"
+    url_or_doi: "https://aclanthology.org/D14-1179/"
+    note: "Gated Recurrent Unit."
+
+mean:
+  - key: simple_imputer_mean_docs
+    title: "SimpleImputer"
+    authors: "scikit-learn developers"
+    year: "2026"
+    venue: "scikit-learn API reference"
+    url_or_doi: "https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html"
+    note: "Official reference for mean imputation via strategy='mean'."
+
+median:
+  - key: simple_imputer_median_docs
+    title: "SimpleImputer"
+    authors: "scikit-learn developers"
+    year: "2026"
+    venue: "scikit-learn API reference"
+    url_or_doi: "https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html"
+    note: "Official reference for median imputation via strategy='median'."
+
+linearinterpolation:
+  - key: pandas_linear_interpolate_docs
+    title: "pandas.DataFrame.interpolate"
+    authors: "pandas developers"
+    year: "2026"
+    venue: "pandas API reference"
+    url_or_doi: "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.interpolate.html"
+    note: "Official reference for linear interpolation via method='linear'."
+
+locf:
+  - key: pandas_ffill_docs
+    title: "pandas.DataFrame.ffill"
+    authors: "pandas developers"
+    year: "2026"
+    venue: "pandas API reference"
+    url_or_doi: "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ffill.html"
+    note: "Official reference for last observation carried forward."
+
+backwardfill:
+  - key: pandas_bfill_docs
+    title: "pandas.DataFrame.bfill"
+    authors: "pandas developers"
+    year: "2026"
+    venue: "pandas API reference"
+    url_or_doi: "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.bfill.html"
+    note: "Official reference for next observation carried backward."
+
+nearestinterpolation:
+  - key: pandas_nearest_interpolate_docs
+    title: "pandas.DataFrame.interpolate"
+    authors: "pandas developers"
+    year: "2026"
+    venue: "pandas API reference"
+    url_or_doi: "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.interpolate.html"
+    note: "Official reference for nearest-neighbor interpolation via method='nearest'."
+
+exponentialsmoothing:
+  - key: statsmodels_exponential_smoothing_docs
+    title: "statsmodels.tsa.holtwinters.ExponentialSmoothing"
+    authors: "statsmodels developers"
+    year: "2026"
+    venue: "statsmodels API reference"
+    url_or_doi: "https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html"
+    note: "Official reference for exponential smoothing state-space formulation."
+
+knn:
+  - key: sklearn_knn_imputer_docs
+    title: "KNNImputer"
+    authors: "scikit-learn developers"
+    year: "2026"
+    venue: "scikit-learn API reference"
+    url_or_doi: "https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html"
+    note: "Official reference for k-nearest-neighbors imputation."

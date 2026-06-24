@@ -1,0 +1,96 @@
+{
+  "phase": "ST-RUN00-PHASE-B",
+  "status": "completed",
+  "recommendation": "NOT_READY_FOR_PHASE_C",
+  "cell": {
+    "dataset": "london_aq",
+    "recipe": "official_londonaq_st_benchmark:mcar:30",
+    "graph_policy": "correlation_train_v1",
+    "tier": "scientific",
+    "epochs": 50,
+    "realization": "r001"
+  },
+  "preflight": {
+    "algorithm_cards_ready": true,
+    "train_only_correlation_graph_ready": true,
+    "scientific_evidence_export_ready": true,
+    "scientific_ready_before_training": false,
+    "dry_run_exactly_4_runs": true,
+    "epochs_3_rejected": true,
+    "calibration_profile_added": true
+  },
+  "fixes_applied": [
+    "added st_londonaq_calibration_scientific_v1 profile",
+    "fixed Python 3.10 f-string syntax issue in st_recipe_materialization_service.py",
+    "passed train split bounds for correlation_train_v1 in orchestrator",
+    "normalized dataset-id compatibility in plan service",
+    "injected corrected implementation_variant into calibration train config",
+    "persisted/backfilled scientific training records under data/st_scientific_training",
+    "added CUDA cache cleanup between runs",
+    "fixed IGNNK corrected variant torch NameError"
+  ],
+  "runs": [
+    {
+      "algorithm": "stgcn",
+      "variant": "stconv_v1",
+      "run_id": "de78cace-1137-4fe3-b3bd-81dfbed63031",
+      "result_id": "b9ddfb22-ebf5-4f87-b6d2-8bf871476469",
+      "device_requested": "cuda",
+      "elapsed_seconds": 4.375,
+      "artifact_dir": "data/artifacts/st_predictions/de78cace-1137-4fe3-b3bd-81dfbed63031/de78cace-1137-4fe3-b3bd-81dfbed63031_stgcn_protocol_test_r000_0"
+    },
+    {
+      "algorithm": "grin",
+      "variant": "mpgru_v1",
+      "run_id": "224ca9b0-d930-4ba1-bf13-dff240699e68",
+      "result_id": "b015ecb5-868e-4e6d-abbc-11517b97e07a",
+      "device_requested": "cpu",
+      "elapsed_seconds": 2069.344000000001,
+      "artifact_dir": "data/artifacts/st_predictions/224ca9b0-d930-4ba1-bf13-dff240699e68/224ca9b0-d930-4ba1-bf13-dff240699e68_grin_protocol_test_r000_0"
+    },
+    {
+      "algorithm": "ignnk",
+      "variant": "dgc_kriging_v1",
+      "run_id": "ecaceee9-e7c3-4cf3-bdab-8f43e24a2d04",
+      "result_id": "ace4993e-406b-4b95-89af-785c8927c013",
+      "device_requested": "cpu",
+      "elapsed_seconds": 2.1559999999990396,
+      "artifact_dir": "data/artifacts/st_predictions/ecaceee9-e7c3-4cf3-bdab-8f43e24a2d04/ecaceee9-e7c3-4cf3-bdab-8f43e24a2d04_ignnk_protocol_test_r000_0"
+    },
+    {
+      "algorithm": "dcrnn",
+      "variant": "dcgru_reconstruction_v1",
+      "run_id": "62591452-9f48-4858-9b50-0b18a8112f82",
+      "result_id": "8f17eae8-23ec-48bb-af92-eb61bed87168",
+      "device_requested": "cpu",
+      "elapsed_seconds": 176.17100000000028,
+      "artifact_dir": "data/artifacts/st_predictions/62591452-9f48-4858-9b50-0b18a8112f82/62591452-9f48-4858-9b50-0b18a8112f82_dcrnn_protocol_test_r000_0"
+    }
+  ],
+  "training_records": [
+    "data/st_scientific_training/stgcn/stconv_v1/training_record.json",
+    "data/st_scientific_training/grin/mpgru_v1/training_record.json",
+    "data/st_scientific_training/ignnk/dgc_kriging_v1/training_record.json",
+    "data/st_scientific_training/dcrnn/dcgru_reconstruction_v1/training_record.json"
+  ],
+  "reports": {
+    "training_adequacy_report_json": "docs/exports/thesis/chapter06/06_st_gates/training_adequacy_report.json",
+    "convergence_report_json": "docs/exports/thesis/chapter06/06_st_gates/convergence_report.json",
+    "scientific_evidence_profile_json": "docs/exports/thesis/chapter06/08_scientific_evidence_profile/SCIENTIFIC_EVIDENCE_PROFILE.json",
+    "scientific_gate_dir": "docs/exports/thesis/chapter06/09_scientific_gate"
+  },
+  "final_state": {
+    "scientific_ready": false,
+    "scientific_gate_status": "FAILED"
+  },
+  "blockers": [
+    "seed_policy_not_persisted across all 4 algorithms",
+    "optimizer_config_missing for grin/stgcn/dcrnn",
+    "device_record_missing for stgcn adequacy record",
+    "strict convergence failed for grin/stgcn/dcrnn",
+    "strict convergence caveated for ignnk",
+    "metrics_missing",
+    "artifact_completeness_failed"
+  ],
+  "reporting_caveat": "SCI-FIX09 gate currently maps failed scientific_training_ready to scientific_run_not_found even when training records exist and adequacy blockers are metadata-related."
+}

@@ -1,0 +1,16 @@
+Usage: python -m imputebench results [OPTIONS] COMMAND [ARGS]...
+
+  Results domain — result artifacts, comparisons, viewers, evidence gates.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  compare  Manage Comparison Studio comparison specs.
+  gate     Evidence Completeness Gate.
+  result   Manage experiment results.
+  view     Manage spatial viewers.
+
+  Examples: imputebench results result list imputebench results compare list
+  imputebench results view show <viewer_id> imputebench results gate
+  comparison spec_abc --profile thesis_ready

@@ -1,0 +1,12 @@
+Usage: python -m imputebench results result bulk-delete [OPTIONS]
+
+Options:
+  --run-id TEXT
+  --status TEXT
+  --algorithm-id TEXT
+  --older-than-days INTEGER
+  --dry-run / --no-dry-run   [default: dry-run]
+  --execute / --no-execute   [default: no-execute]
+  --confirm-token TEXT
+  --format [table|json]      [default: table]
+  -h, --help                 Show this message and exit.

@@ -1,0 +1,64 @@
+{
+  "figure_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4_dataset_dataset_summary_table",
+  "figure_kind": "dataset_summary_table",
+  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+  "semantic_scope": "dataset_metadata",
+  "dataset_name": "London AQ Synthetic",
+  "dataset_nature": "synthetic",
+  "temporal_steps": 600,
+  "temporal_resolution": "1min",
+  "source_paths": [
+    "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\Takoudjou\\MasterDegree\\inControlScienceEngineering\\Experimentations\\Interfaces\\EviBench\\datasets\\london_aq_synthetic"
+  ],
+  "data_access_mode": "metadata_only",
+  "caption_draft": "Table fa9c7108-176e-4c68-840d-6acf3a3e59e4_t1: Dataset characterisation summary for London AQ Synthetic (synthetic).",
+  "evidence_grade": "reportable",
+  "payload_summary": {
+    "keys": [
+      "accessibility_status",
+      "dataset_id",
+      "dataset_name",
+      "dataset_nature",
+      "expected_shape",
+      "file_sizes",
+      "format",
+      "path_exists",
+      "pollutant_count",
+      "pollutants",
+      "resolved_path",
+      "spatial_cols",
+      "spatial_layout",
+      "spatial_nodes",
+      "spatial_rows",
+      "temporal_range",
+      "temporal_resolution",
+      "temporal_steps",
+      "warnings"
+    ],
+    "file_sizes": {
+      "type": "dict",
+      "keys": [
+        "NO",
+        "NO2",
+        "O3",
+        "SO2"
+      ],
+      "length": 4
+    },
+    "pollutants": {
+      "type": "list",
+      "length": 4,
+      "shape_hint": [
+        4
+      ]
+    }
+  },
+  "generated_at": "2026-05-10T22:02:10.962208+00:00",
+  "figure_status": "reportable",
+  "payload_status": "ready",
+  "data_access_status": "metadata_only",
+  "alias_keys_used": [],
+  "blocking_reasons": [],
+  "warnings": [],
+  "thesis_candidate": true
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "imputebench.sheet18-audit.public-labels/v1",
+  "status": "validated_by_static_audit_and_tests",
+  "official_export_rerun": false,
+  "public_label_policy": {
+    "recipe_family_and_rate_visible": true,
+    "station_visible_in_aliases_tables_figures": true,
+    "uuid_confined_to_provenance": true,
+    "legacy_placeholder_public_occurrences_in_code_tests": 0
+  },
+  "static_audits": {
+    "rg_legacy_placeholder_imputebench_tests": 0,
+    "dashboard_forbidden_network_or_innerHTML_patterns": 0
+  },
+  "fabricated_counts": false
+}

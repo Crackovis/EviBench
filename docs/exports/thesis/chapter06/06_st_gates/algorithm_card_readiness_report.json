@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-06-16T14:20:13.177416+00:00",
+  "policy_version": "SCI-FIX05-v1",
+  "assessments": [
+    {
+      "algorithm_id": "grin",
+      "corrected_variant": "mpgru_v1",
+      "manifest_ok": true,
+      "implementation_card_ok": true,
+      "reference_alignment_ok": true,
+      "deviation_log_ok": true,
+      "claim_policy_ok": true,
+      "claim_policy_label": "paper_alignment_pending_scientific_training",
+      "scientific_ready": false,
+      "blocking_reasons": [],
+      "warnings": []
+    },
+    {
+      "algorithm_id": "stgcn",
+      "corrected_variant": "stconv_v1",
+      "manifest_ok": true,
+      "implementation_card_ok": true,
+      "reference_alignment_ok": true,
+      "deviation_log_ok": true,
+      "claim_policy_ok": true,
+      "claim_policy_label": "paper_alignment_pending_scientific_training",
+      "scientific_ready": false,
+      "blocking_reasons": [],
+      "warnings": []
+    },
+    {
+      "algorithm_id": "ignnk",
+      "corrected_variant": "dgc_kriging_v1",
+      "manifest_ok": true,
+      "implementation_card_ok": true,
+      "reference_alignment_ok": true,
+      "deviation_log_ok": true,
+      "claim_policy_ok": true,
+      "claim_policy_label": "paper_alignment_pending_scientific_training",
+      "scientific_ready": false,
+      "blocking_reasons": [],
+      "warnings": []
+    },
+    {
+      "algorithm_id": "dcrnn",
+      "corrected_variant": "dcgru_reconstruction_v1",
+      "manifest_ok": true,
+      "implementation_card_ok": true,
+      "reference_alignment_ok": true,
+      "deviation_log_ok": true,
+      "claim_policy_ok": true,
+      "claim_policy_label": "paper_alignment_pending_scientific_training",
+      "scientific_ready": false,
+      "blocking_reasons": [],
+      "warnings": []
+    }
+  ],
+  "global_blocking_reasons": [],
+  "warnings": []
+}

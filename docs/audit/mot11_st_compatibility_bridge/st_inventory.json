@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-06-28T23:34:22.026249+00:00",
+  "st_algorithms": [
+    "stgcn",
+    "dcrnn",
+    "grin",
+    "ignnk"
+  ],
+  "backfill_candidate_count": 853,
+  "by_algorithm": {
+    "dcrnn": 213,
+    "grin": 213,
+    "ignnk": 213,
+    "stgcn": 214
+  },
+  "by_phase": {
+    "test": 853
+  },
+  "by_status": {
+    "COMPLETED": 853
+  },
+  "by_experiment_domain": {
+    "spatiotemporal": 853
+  },
+  "by_execution_class": {
+    "spatiotemporal": 853
+  },
+  "by_graph_policy": {
+    "correlation_train_v1": 489,
+    "distance_knn_v1": 120,
+    "grid_4n_v1": 124,
+    "grid_8n_v1": 120
+  },
+  "by_dataset": {
+    "fa9c7108-176e-4c68-840d-6acf3a3e59e4": 849,
+    "london_aq": 4
+  },
+  "all_st_algorithm_distribution": [
+    {
+      "algorithm": "dcrnn",
+      "experiment_id": "",
+      "phase_key": "test",
+      "n": 213
+    },
+    {
+      "algorithm": "grin",
+      "experiment_id": "",
+      "phase_key": "test",
+      "n": 213
+    },
+    {
+      "algorithm": "ignnk",
+      "experiment_id": "",
+      "phase_key": "test",
+      "n": 213
+    },
+    {
+      "algorithm": "stgcn",
+      "experiment_id": "",
+      "phase_key": "test",
+      "n": 214
+    }
+  ]
+}

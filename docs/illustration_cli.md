@@ -81,9 +81,13 @@ then promote explicitly.
 ```
 
 Plot commands additionally accept `--experiment-id`, `--metric`, `--phase`,
-`--algorithm-id` (repeatable), `--graph-policy` (repeatable), `--tier`,
-`--recipe-book`, `--source auto|sql|human-pack`, `--evidence-root`,
-`--max-results`.
+`--algorithm-id` (repeatable), `--algorithms a,b`, `--mask-family` (repeatable),
+`--rate` (repeatable), `--graph-policy` (repeatable), `--tier`, `--recipe-book`,
+`--source auto|sql|human-pack`, `--evidence-root`, `--max-results`, and the
+thesis-identity options `--figure-number`, `--chapter`, `--section-hint`,
+`--figure-id`. Station relabelling: `--station-labels "r000_c000=NW,…"` or
+`--station-label-map labels.json`. Scope guards: `--expected-station-count`,
+`--expected-condition-count`, `--allow-unbalanced` (per-station).
 
 ## Exit codes
 
@@ -133,6 +137,43 @@ imputebench illustration plot ranking \
   --evidence-root docs/.private_docs/exp_evidences/exp2 \
   --output-dir ./exports/illustrations
 ```
+
+## Evidence-aware SQL-selection plots (heatmap, per-station)
+
+`plot heatmap` and `plot per-station` select persisted results via
+`ResultSelectionQueryService.query_descriptors` and hydrate metric/station
+identity via `ResultService.get` — never a raw `SELECT * FROM results`. The
+masking condition `(family, rate)` is resolved from the joined `mask_family`/
+`mask_rate`, falling back to the canonical `recipe_entry_id`
+(`<book>:<family>:<rate%>`) for benchmark results whose protocol masking ref does
+not join the `maskings` table. Station identity is `Result.station_id`, then
+`r{row:03d}_c{col:03d}`; if neither resolves the command blocks rather than fake.
+
+Sidecars carry `source_type: sql_selection`, `not_experimental_evidence: false`,
+and record `experiment_id`, `metric`, `phase`, `algorithm_ids`, `mask_families`,
+`rates`, `selected_result_count`, and `selection_query`.
+
+```bash
+# Figure 3.6 — per-station x per-condition RMSE for GALPI
+imputebench illustration plot heatmap \
+  --experiment-id exp2 --algorithm-id galpi --metric rmse --phase execute \
+  --mask-family mcar --mask-family mar --mask-family mnar --rate 0.1 --rate 0.3 \
+  --station-labels "r000_c000=NW,r000_c013=NE,r005_c007=Center,r009_c000=SW,r009_c013=SE" \
+  --figure-number "Figure 3.6" --chapter 3 --section-hint 3.4
+
+# Figure 3.8 — per-station GALPI vs Linear
+imputebench illustration plot per-station \
+  --experiment-id exp2 --algorithm-id galpi --algorithm-id linear_interpolation \
+  --metric rmse --phase execute \
+  --mask-family mcar --mask-family mar --mask-family mnar --rate 0.1 --rate 0.3 \
+  --figure-number "Figure 3.8" --chapter 3 --section-hint 3.4
+```
+
+Failure codes: `ILLUSTRATION-PLOT-HEATMAP-NO-STATION-METRICS`,
+`ILLUSTRATION-PLOT-STATION-SCOPE-INCOMPLETE`,
+`ILLUSTRATION-PLOT-CONDITION-SCOPE-INCOMPLETE`,
+`ILLUSTRATION-PLOT-METRIC-MISSING`, `ILLUSTRATION-PLOT-ALGORITHM-MISSING`,
+`ILLUSTRATION-PLOT-AMBIGUOUS-STATION`, `ILLUSTRATION-PLOT-UNBALANCED-COHORTS`.
 
 ## Notes
 

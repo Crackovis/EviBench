@@ -141,17 +141,50 @@ conceptual figures added to `generic_renderers.py` plus builders, captions
 
 `generic --help` now lists 9 conceptual figures (4 Ch2 + 5 Ch3). Tests:
 `tests/illustration/test_generic_renderers_ch03.py` and
-`tests/cli/test_illustration_generic_ch03_cli.py`. Full illustration suite: 72
-passed. Degree-selection plots the *effective* degree `min(rule, ⌊w/3⌋)` and the
-support cap as a (non-binding) envelope, so the figure cannot contradict the
-prose. Figure 3.4 uses a deterministic synthetic signal with the long gap kept
-inside a single-curvature segment so the cubic tracks the trend faithfully.
+`tests/cli/test_illustration_generic_ch03_cli.py`. Degree-selection plots the
+*effective* degree `min(rule, ⌊w/3⌋)` and the support cap as a (non-binding)
+envelope, so the figure cannot contradict the prose. Figure 3.4 uses a
+deterministic synthetic signal with the long gap kept inside a single-curvature
+segment so the cubic tracks the trend faithfully.
+
+## Data-driven Chapter 3 plots (Figures 3.6–3.8)
+
+Evidence-aware figures from persisted `exp2` results, selected via
+`ResultSelectionQueryService.query_descriptors` + `ResultService.get` (no raw
+SQL, no fabricated values). The masking condition is resolved from the joined
+`mask_family`/`mask_rate`, falling back to the canonical `recipe_entry_id`
+(`<book>:<family>:<rate%>`) — benchmark results carry a `protocol:` masking ref
+that does not join the `maskings` table, so the join alone returns NULL.
+
+| Figure | command | source_type | data |
+|---|---|---|---|
+| 3.6 | `plot heatmap` | sql_selection | 5 stations × 6 conditions, 150 results |
+| 3.7 | `plot ranking` | human_evidence_pack | GALPI mean rank 1.156 |
+| 3.8 | `plot per-station` | sql_selection | GALPI vs Linear, 300 results |
+
+Added: `HeatmapCell/HeatmapData`, `PerStationEntry/PerStationData`,
+`load_heatmap_data`, `load_per_station_data`, `resolve_condition`,
+`resolve_station` (`plot_data.py`); `render_heatmap`, `render_per_station`
+(`plot_renderers.py`); `heatmap`/`per-station` commands + shared options
+(`plot.py`); seven stable failure codes (`contracts.py`). `plot ranking` now
+takes `--figure-number/--chapter/--section-hint/--figure-id` for thesis identity.
+Figure 3.1 loop-back arrow re-routed to the right of the chain (never crossing
+blocks). Tests: `test_plot_heatmap_data.py`, `test_plot_per_station_data.py`,
+`test_plot_ch03_renderers.py`, `test_plot_cli_ch03.py` (hermetic fakes — no real
+`metadata.db`). Full illustration suite: 92 passed.
+
+Completeness is enforced, not faked: an entirely-absent requested condition →
+`CONDITION-SCOPE-INCOMPLETE`; a condition missing for some stations →
+`STATION-SCOPE-INCOMPLETE`; no station identity → `HEATMAP-NO-STATION-METRICS`;
+unbalanced algorithm cohorts → `UNBALANCED-COHORTS` (unless `--allow-unbalanced`).
 
 ## Known limitations
 
-- `plot ranking` v1 reads from a **human evidence pack** only. `--source sql`
+- `plot ranking` reads from a **human evidence pack** only. `--source sql`
   returns exit 3 with guidance (descriptor-first SQL ranking is deferred).
-- `plot heatmap` blocks (no station/node metrics exposed in v1).
+- `plot heatmap` / `plot per-station` are implemented over SQL-selected results;
+  they block honestly when station identity, the metric, or a requested condition
+  is absent in the scope.
 - `plot timeseries` is intentionally delegated to the storyboard services.
 - `plot distribution` blocks (cohort-compatible sampling not yet implemented).
 - PNG byte-identity is not guaranteed across runs; layout, dimensions, sidecar

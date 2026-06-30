@@ -1,0 +1,5 @@
+# stgcn
+
+- graph_policy: distance_knn_v1
+- graph_fingerprint: sha256:6b6383b859dcb85551f221c474ed687de844cc3191dc4e5c368849578c13d4ce
+- phase_key: test

@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-06-30T10:33:42.371614+00:00",
+  "is_placeholder": false,
+  "source_results": [
+    "01c66d60-a35d-4043-b38c-41305f0430da"
+  ],
+  "source_tables": [],
+  "source_mask_banks": [],
+  "caveats": [],
+  "first_loss": 1272.172119140625,
+  "last_loss": 856.213623046875,
+  "best_loss": 856.213623046875,
+  "best_epoch": 100.0,
+  "history_point_count": 100,
+  "figure_id": "training_curve",
+  "status": "ready",
+  "claim_level": "descriptive",
+  "algorithm_id": "grin",
+  "graph_policy": "correlation_train_v1"
+}

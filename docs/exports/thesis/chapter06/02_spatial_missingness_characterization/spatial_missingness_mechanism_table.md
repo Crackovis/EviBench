@@ -1,8 +1,8 @@
 | mask_family | bank_count |
 |---|---|
-| mar | 8 |
-| mcar | 9 |
-| mnar | 8 |
-| node_holdout | 5 |
-| sensor_dropout | 5 |
-| spatial_block | 5 |
+| mar | 12 |
+| mcar | 14 |
+| mnar | 12 |
+| node_holdout | 9 |
+| sensor_dropout | 9 |
+| spatial_block | 9 |

@@ -1,0 +1,13 @@
+{
+  "lane": "spatiotemporal",
+  "elapsed_seconds": 46.25,
+  "tensor_shape": [
+    600,
+    140,
+    4
+  ],
+  "claimable": false,
+  "mask_rate": 0.5,
+  "compute_device_requested": "cuda",
+  "prediction_artifact_path": "repo://data/artifacts/st_predictions/3dab6627-0f08-40b8-ba12-fa1e5bd5e285/3dab6627-0f08-40b8-ba12-fa1e5bd5e285_dcrnn_protocol_test_r003_3/prediction.npz"
+}

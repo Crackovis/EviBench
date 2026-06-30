@@ -1,5 +1,205 @@
 [
   {
+    "bank_id": "8eb8c0a1-1bd4-43b3-bc3e-119c215fb312",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "node_holdout",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "afda503b-404f-4f77-a561-0550063d42cc",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "sensor_dropout",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "9965b798-55d8-4c72-a926-6da8c7b65e4b",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "spatial_block",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "b9e8488f-7b60-4cc7-b0ae-df603e6b6b55",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mnar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "acb773de-863c-405b-8fdf-dec194475bbe",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "9f61e74c-31ac-47f1-ac98-91e6e4f8c9b9",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mcar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "edf2b061-d82d-4321-881d-951249028c82",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "node_holdout",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "1dd578dd-4cad-4207-a2f2-edfa0621122c",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "sensor_dropout",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "f0178650-0b5e-4871-b463-47677daf999e",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "spatial_block",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "3b32822c-611b-435b-9ee3-cd70cf27df49",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mnar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "67b7d850-f398-42ed-aae2-751fbd153353",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "44760366-f68f-4c20-ad67-2fb8a44372e5",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mcar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "2d732137-c0b9-41b8-bc71-14035ed814d0",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "node_holdout",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "ed181784-28b2-4bd5-9c00-9a4227f0224d",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "sensor_dropout",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "c22fc298-43a7-4d22-89d6-44e154b89a87",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "spatial_block",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "c4f64066-6f87-4f27-b20f-ba0bb010cdab",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mnar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "b424af05-7621-4c8e-b82d-7e56099fcd53",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "64b3fc90-af76-44ff-9baa-24335c539dd0",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mcar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "863d5d6c-7599-4d08-882d-a0a081ade670",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "node_holdout",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "1d96102f-c0dc-4f9d-9afa-c6d355e45578",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "sensor_dropout",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "bf46a1b8-f71c-4b56-8560-9a93096609f8",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "spatial_block",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "388cf1a8-6348-4a59-af26-a195abf9f5ce",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mnar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "94f2b143-9b10-4b9c-98dd-1237813d5504",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "e43e1cc2-14bc-40f0-b9fd-0ef49774ed00",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mcar",
+    "realization_count": 5,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
+    "bank_id": "0bc8ff3e-bb2b-46b5-90e3-09705fe47a98",
+    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+    "mask_family": "mcar",
+    "realization_count": 1,
+    "split_fingerprint": "dd4f6a3c54db6eeda7b98c3aec8e1a213d0a7239cbd212af8d043bbfd9f3e0a2",
+    "eligibility_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390"
+  },
+  {
     "bank_id": "82c02483-b140-4aaf-b2d0-c2d0eb5fc0e2",
     "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
     "mask_family": "node_holdout",

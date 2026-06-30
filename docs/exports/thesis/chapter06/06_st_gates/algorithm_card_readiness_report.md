@@ -1,7 +1,7 @@
 # Algorithm Card Readiness Gate Report
 
 **Policy version:** SCI-FIX05-v1  
-**Generated at:** 2026-06-28T23:15:27.832241+00:00
+**Generated at:** 2026-06-30T03:39:02.206762+00:00
 
 ---
 

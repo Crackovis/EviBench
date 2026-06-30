@@ -124,6 +124,29 @@ underlying results.
       careful phrasing ("can be difficult to outperform"), no "Linear dominates".
 - [x] Captions follow `Figure 2.x:` style and state "conceptual / schematic".
 
+## Chapter 3 extension (GALPI design schematics)
+
+Additive extension of the `GENERIC_FIGURES` registry — no new subsystem. Five
+conceptual figures added to `generic_renderers.py` plus builders, captions
+`CAPTION_3_1..3_5`, and registry entries. Module/CLI docstrings generalised from
+"Chapter 2" to multi-chapter.
+
+| Figure | command | figure_id | source_type |
+|---|---|---|---|
+| 3.1 | `galpi-flowchart` | `fig_3_1_galpi_flowchart` | conceptual_schematic |
+| 3.2 | `window-adaptation` | `fig_3_2_window_adaptation` | conceptual_schematic |
+| 3.3 | `degree-selection` | `fig_3_3_degree_selection` | conceptual_schematic |
+| 3.4 | `short-vs-long-gap` | `fig_3_4_short_vs_long_gap` | conceptual_schematic |
+| 3.5 | `scaled-time` | `fig_3_5_scaled_time_conditioning` | conceptual_schematic |
+
+`generic --help` now lists 9 conceptual figures (4 Ch2 + 5 Ch3). Tests:
+`tests/illustration/test_generic_renderers_ch03.py` and
+`tests/cli/test_illustration_generic_ch03_cli.py`. Full illustration suite: 72
+passed. Degree-selection plots the *effective* degree `min(rule, ⌊w/3⌋)` and the
+support cap as a (non-binding) envelope, so the figure cannot contradict the
+prose. Figure 3.4 uses a deterministic synthetic signal with the long gap kept
+inside a single-curvature segment so the cubic tracks the trend faithfully.
+
 ## Known limitations
 
 - `plot ranking` v1 reads from a **human evidence pack** only. `--source sql`

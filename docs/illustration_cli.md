@@ -10,7 +10,12 @@ imputebench illustration
 │   ├── mcar-mar-mnar      Figure 2.1
 │   ├── taxonomy           Figure 2.2
 │   ├── sensor-graph       Figure 2.3
-│   └── research-gaps      Figure 2.4
+│   ├── research-gaps      Figure 2.4
+│   ├── galpi-flowchart    Figure 3.1   (GALPI design schematics)
+│   ├── window-adaptation  Figure 3.2
+│   ├── degree-selection   Figure 3.3
+│   ├── short-vs-long-gap  Figure 3.4
+│   └── scaled-time        Figure 3.5
 ├── plot           evidence-aware figures (from results / human packs)
 │   ├── ranking
 │   ├── heatmap            (blocked without station/node metrics)

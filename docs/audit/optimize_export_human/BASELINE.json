@@ -1,0 +1,48 @@
+{
+  "schema": "imputebench.optimize-export-human-baseline/v1",
+  "head_sha": "6a3b83141134f6376ce2cce9751e19de97e548dc",
+  "branch": "main",
+  "date": "2026-06-30",
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.15",
+  "cpu_count": 20,
+  "measured_result_counts": {
+    "exp_st_v2": 4062,
+    "exp2": 900,
+    "exp1": 900,
+    "legacy_null": 1,
+    "by_execution_class": {"classical": 1800, "spatiotemporal": 4063}
+  },
+  "source_items_per_result": 7,
+  "source_items": [
+    "result_summary",
+    "metric_table",
+    "runtime_breakdown",
+    "result_storyboard",
+    "provenance_manifest",
+    "comparison_ready_signal",
+    "artifact_inventory"
+  ],
+  "max_planned_items_full_exp_st_v2": 28434,
+  "dry_run_validation_exp2_galpi": {
+    "eligible_count": 225,
+    "selected_count": 5,
+    "omitted_count": 220,
+    "max_storyboards": 5,
+    "strata": ["algorithm_id", "masking_id", "graph_policy", "phase"],
+    "mode": "representative"
+  },
+  "published_validation_exp_st_v2_stgcn_correlation": {
+    "selected_result_count": 105,
+    "storyboard_eligible": 105,
+    "storyboard_selected": 12,
+    "storyboard_omitted": 93,
+    "exported_file_count": 77,
+    "blocked_item_count": 100,
+    "max_workers": 4,
+    "parallel_source_export": true,
+    "dashboard_uuid_leak": false,
+    "storyboard_sampling_json_present": true,
+    "wall_time_seconds_approx": 20
+  }
+}

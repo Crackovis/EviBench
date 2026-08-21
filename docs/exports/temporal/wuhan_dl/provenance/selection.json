@@ -1,0 +1,48 @@
+{
+  "comparison_ids": [],
+  "excluded_count": 0,
+  "exclusions": [],
+  "query_summary": {
+    "algorithm_ids": [],
+    "benchmark_contract_id": "",
+    "database_unique_results": 5,
+    "dataset_id": "",
+    "exclude_unscoped": false,
+    "execution_classes": [],
+    "experiment_id": "",
+    "families": [],
+    "graph_policies": [],
+    "include_unlinked": false,
+    "legacy_unscoped": true,
+    "limit": 200,
+    "mask_families": [],
+    "masking_ids": [],
+    "phases": [
+      "test"
+    ],
+    "rates": [],
+    "realization_ids": [],
+    "recipe_book_id": "official_wuhan_dl_benchmark",
+    "recipe_entry_ids": [],
+    "recipe_profile_id": "a",
+    "recipe_profile_ids": [
+      "a"
+    ],
+    "recipe_revision": null,
+    "result_ids": [],
+    "run_ids": [],
+    "scope_mode": "legacy_unscoped",
+    "selected_ids_count": 5,
+    "statuses": [],
+    "total_matched": 5,
+    "truncated": false
+  },
+  "result_ids": [
+    "79e01bc6-e34f-4029-bc46-65175480a8b2",
+    "b7d9123c-8920-4e82-8934-54be6a1cd13e",
+    "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c",
+    "71114600-ad9f-4678-a769-6baa96135bdf",
+    "ade3bfed-970c-40b1-b678-92dccabe11e7"
+  ],
+  "selected_count": 5
+}

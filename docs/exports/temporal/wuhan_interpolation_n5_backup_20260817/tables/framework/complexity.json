@@ -1,0 +1,75 @@
+{
+  "policy_id": "human_multidimensional_relative_v1",
+  "rows": [
+    {
+      "algorithm_id": "cubic_spline",
+      "display_name": "Cubic Spline",
+      "fitted_parameter_count": null,
+      "interpretability_basis": "No interpretability classification is declared for this algorithm.",
+      "interpretability_class": "unclassified",
+      "parameter_count_status": "unavailable",
+      "runtime_count": 45,
+      "runtime_coverage": 1.0,
+      "runtime_mean_ms": 6128.055062222222,
+      "runtime_median_ms": 3435.8577,
+      "runtime_source_qualities": [
+        "native_timing_spans"
+      ],
+      "runtime_std_ms": 4142.583572521116,
+      "trainable_parameter_count": null
+    },
+    {
+      "algorithm_id": "galpi",
+      "display_name": "Galpi",
+      "fitted_parameter_count": null,
+      "interpretability_basis": "No interpretability classification is declared for this algorithm.",
+      "interpretability_class": "unclassified",
+      "parameter_count_status": "unavailable",
+      "runtime_count": 45,
+      "runtime_coverage": 1.0,
+      "runtime_mean_ms": 7037.589702222222,
+      "runtime_median_ms": 4011.4084,
+      "runtime_source_qualities": [
+        "native_timing_spans"
+      ],
+      "runtime_std_ms": 4688.12890476731,
+      "trainable_parameter_count": null
+    },
+    {
+      "algorithm_id": "linear_interpolation",
+      "display_name": "Linear Interpolation",
+      "fitted_parameter_count": null,
+      "interpretability_basis": "Closed-form linear interpolation between observed endpoints; the output is a deterministic function of the two bracketing samples.",
+      "interpretability_class": "transparent_deterministic",
+      "parameter_count_status": "not_applicable",
+      "runtime_count": 45,
+      "runtime_coverage": 1.0,
+      "runtime_mean_ms": 291.0648444444444,
+      "runtime_median_ms": 238.2687,
+      "runtime_source_qualities": [
+        "native_timing_spans"
+      ],
+      "runtime_std_ms": 132.1408547912718,
+      "trainable_parameter_count": null
+    },
+    {
+      "algorithm_id": "nearest_interpolation",
+      "display_name": "Nearest Interpolation",
+      "fitted_parameter_count": null,
+      "interpretability_basis": "Deterministic nearest-observed-sample carry; fully auditable with no fitted parameters.",
+      "interpretability_class": "transparent_deterministic",
+      "parameter_count_status": "not_applicable",
+      "runtime_count": 45,
+      "runtime_coverage": 1.0,
+      "runtime_mean_ms": 382.05486444444443,
+      "runtime_median_ms": 332.9518,
+      "runtime_source_qualities": [
+        "native_timing_spans"
+      ],
+      "runtime_std_ms": 139.99208192828777,
+      "trainable_parameter_count": null
+    }
+  ],
+  "schema": "imputebench.human-framework-metrics/v1",
+  "table_kind": "complexity"
+}

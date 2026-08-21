@@ -1,0 +1,56 @@
+{
+  "blocking_reasons": [],
+  "caption": "Figure 0.1: Mean within-recipe rank across reportable recipes (error bar = rank std).",
+  "entries": [
+    {
+      "algorithm_id": "linear_interpolation",
+      "mean_rank": 1.0,
+      "rank_std": 0.0,
+      "recipe_count": 3
+    },
+    {
+      "algorithm_id": "GALPI_V1",
+      "mean_rank": 2.0,
+      "rank_std": 0.0,
+      "recipe_count": 3
+    },
+    {
+      "algorithm_id": "GALPI_V5",
+      "mean_rank": 2.0,
+      "rank_std": 0.0,
+      "recipe_count": 3
+    },
+    {
+      "algorithm_id": "GALPI_V3",
+      "mean_rank": 4.0,
+      "rank_std": 0.0,
+      "recipe_count": 3
+    },
+    {
+      "algorithm_id": "galpi",
+      "mean_rank": 5.333333333333333,
+      "rank_std": 0.5773502691896257,
+      "recipe_count": 3
+    },
+    {
+      "algorithm_id": "GALPI_V2",
+      "mean_rank": 5.666666666666667,
+      "rank_std": 0.5773502691896257,
+      "recipe_count": 3
+    },
+    {
+      "algorithm_id": "GALPI_V6",
+      "mean_rank": 7.0,
+      "rank_std": 0.0,
+      "recipe_count": 3
+    },
+    {
+      "algorithm_id": "GALPI_V4",
+      "mean_rank": 8.0,
+      "rank_std": 0.0,
+      "recipe_count": 3
+    }
+  ],
+  "image_path": "figures/ranking_chart.png",
+  "status": "available"
+}

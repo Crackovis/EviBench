@@ -1,0 +1,28 @@
+{
+  "experiment_id": "exp_st",
+  "dataset": "wuhan_aq",
+  "graph": "distance_knn_geo_v1",
+  "n_runs": 27,
+  "n_results": 135,
+  "algorithms": [
+    "grin",
+    "ignnk",
+    "stgcn"
+  ],
+  "families": [
+    "mar",
+    "mcar",
+    "mnar",
+    "node_holdout",
+    "sensor_dropout",
+    "spatial_block"
+  ],
+  "rates": [
+    0.3,
+    0.5
+  ],
+  "realizations_per_run": 5,
+  "epochs": 50,
+  "device": "cuda",
+  "dcrnn_excluded": "measured cost ~1 realization / 40-60 min exceeded campaign budget; runs FAILED with documented last_error"
+}

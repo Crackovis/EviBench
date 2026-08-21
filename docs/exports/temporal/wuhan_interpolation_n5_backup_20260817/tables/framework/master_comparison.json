@@ -1,0 +1,89 @@
+{
+  "balanced_cohort_count": 9,
+  "policy_id": "human_multidimensional_relative_v1",
+  "rows": [
+    {
+      "accuracy_score": 0.8504447709761593,
+      "algorithm_id": "cubic_spline",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 1.0,
+      "display_name": "Cubic Spline",
+      "macro_primary_metric": 8.392307386636682,
+      "macro_runtime_seconds": 6.100706233333333,
+      "mechanism_robustness_score": 0.6604768555931352,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": 0.41866989031979623,
+      "speed_score": 0.05565118333991613,
+      "stability_score": 0.29968858485803884,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 0.6128217274186648,
+      "algorithm_id": "galpi",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 1.0,
+      "display_name": "Galpi",
+      "macro_primary_metric": 9.165807835906811,
+      "macro_runtime_seconds": 7.0175036111111115,
+      "mechanism_robustness_score": 0.690777675276612,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": 0.10597965810589234,
+      "speed_score": 0.0,
+      "stability_score": 0.40676728125715417,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 0.9617117569161253,
+      "algorithm_id": "linear_interpolation",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 1.0,
+      "display_name": "Linear Interpolation",
+      "macro_primary_metric": 7.792348124027898,
+      "macro_runtime_seconds": 0.2820414,
+      "mechanism_robustness_score": 0.6825825448601638,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": 0.6311988985544136,
+      "speed_score": 1.0,
+      "stability_score": 0.43150158211323936,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 0.07245813991661626,
+      "algorithm_id": "nearest_interpolation",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 1.0,
+      "display_name": "Nearest Interpolation",
+      "macro_primary_metric": 11.157026149994156,
+      "macro_runtime_seconds": 0.3734816777777778,
+      "mechanism_robustness_score": 0.6826435005644059,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": 1.0,
+      "speed_score": 0.8979404051101988,
+      "stability_score": 0.9782308625095371,
+      "status": "available"
+    }
+  ],
+  "schema": "imputebench.human-framework-metrics/v1",
+  "table_kind": "master_comparison",
+  "total_cohort_count": 9
+}

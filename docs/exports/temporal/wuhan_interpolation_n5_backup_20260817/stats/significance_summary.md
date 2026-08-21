@@ -1,0 +1,110 @@
+# Significance summary
+
+- **cubic_spline vs galpi** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs linear_interpolation** (rmse, n=5): p_raw=1, p_adj=1, rank-biserial=-0.06667 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=-1 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **linear_interpolation vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=-1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs galpi** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **linear_interpolation vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs galpi** (rmse, n=5): p_raw=0.125, p_adj=0.125, rank-biserial=0.8667 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=1 - no significant difference at the chosen alpha; direction: nearest_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=1 - no significant difference at the chosen alpha; direction: nearest_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **linear_interpolation vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=-1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs galpi** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs linear_interpolation** (rmse, n=5): p_raw=1, p_adj=1, rank-biserial=0.06667 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=-1 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **linear_interpolation vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.075, rank-biserial=-1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs galpi** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **linear_interpolation vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs galpi** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **linear_interpolation vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs galpi** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **linear_interpolation vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs galpi** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **linear_interpolation vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs galpi** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **cubic_spline vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs linear_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **galpi vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.
+- **linear_interpolation vs nearest_interpolation** (rmse, n=5): p_raw=0.0625, p_adj=0.0625, rank-biserial=-1 - no significant difference at the chosen alpha; direction: linear_interpolation_lower_mean (lower is better).
+  - caveat: low power at n=5: an exact two-sided Wilcoxon without ties cannot yield p < 0.0625.

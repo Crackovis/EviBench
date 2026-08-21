@@ -1,0 +1,68 @@
+{
+  "parallel": {
+    "build_pack": false,
+    "enabled": false,
+    "estimated_parallel_tasks": 761,
+    "file_io": false,
+    "framework_chart_count": 11,
+    "framework_charts": false,
+    "hashing": false,
+    "max_workers_requested": 4,
+    "max_workers_resolved": 1,
+    "min_items_for_parallelism": 8,
+    "sequential": true,
+    "source_export": false,
+    "storyboard_count": 30,
+    "storyboards": false,
+    "worker_start_method": "spawn"
+  },
+  "schema": "imputebench.human-evidence-performance-trace/v1",
+  "stages": [
+    {
+      "duration_seconds": 0.556747,
+      "ended_at": "2026-08-17T13:51:17.783740+00:00",
+      "item_count": 0,
+      "mode": "sequential",
+      "stage": "selection",
+      "started_at": "2026-08-17T13:51:17.226998+00:00",
+      "worker_count": 1
+    },
+    {
+      "duration_seconds": 201.974848,
+      "ended_at": "2026-08-17T13:54:39.784435+00:00",
+      "item_count": 720,
+      "mode": "sequential",
+      "stage": "source_export",
+      "started_at": "2026-08-17T13:51:17.809602+00:00",
+      "worker_count": 1
+    },
+    {
+      "duration_seconds": 0.977121,
+      "ended_at": "2026-08-17T13:54:40.761634+00:00",
+      "item_count": 720,
+      "mode": "sequential",
+      "stage": "source_read",
+      "started_at": "2026-08-17T13:54:39.784527+00:00",
+      "worker_count": 1
+    },
+    {
+      "duration_seconds": 1.522204,
+      "ended_at": "2026-08-17T13:54:42.283884+00:00",
+      "item_count": 720,
+      "mode": "sequential",
+      "stage": "pack_build",
+      "started_at": "2026-08-17T13:54:40.761697+00:00",
+      "worker_count": 1
+    },
+    {
+      "duration_seconds": 0.451656,
+      "ended_at": "2026-08-17T13:54:49.791048+00:00",
+      "item_count": 0,
+      "mode": "sequential",
+      "stage": "manifest_hash",
+      "started_at": "2026-08-17T13:54:49.339390+00:00",
+      "worker_count": 1
+    }
+  ],
+  "total_traced_seconds": 205.482576
+}

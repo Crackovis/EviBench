@@ -1,0 +1,9 @@
+algorithm_id,station_label,recipe_label,family,n,mean_rmse,std_rmse,median_rmse,mean_mae,mean_runtime,rank,is_best,rank_allowed,comparison_status,claim_level
+linear_interpolation,full_grid,MAR 50%,classical,20,13.224859952929771,0.43092241842221535,13.299591004139419,6.126908284218742,0.30102176499985944,1,True,True,compatible,bounded_comparison
+GALPI_V1,full_grid,MAR 50%,classical,20,16.008354348499264,0.3819670603266852,15.911619186903616,7.294380572626762,9.822060689999853,2,False,True,compatible,bounded_comparison
+GALPI_V5,full_grid,MAR 50%,classical,20,16.008354348499264,0.3819670603266852,15.911619186903616,7.294380572626762,9.767477040000268,2,False,True,compatible,bounded_comparison
+GALPI_V3,full_grid,MAR 50%,classical,20,16.58494810786275,0.31272279560619165,16.606294377482616,7.781217657083867,20.669393375000617,4,False,True,compatible,bounded_comparison
+GALPI_V2,full_grid,MAR 50%,classical,20,16.639484080041218,0.3217262635297633,16.644388511693478,7.825266970320607,14.271231069999521,5,False,True,compatible,bounded_comparison
+galpi,full_grid,MAR 50%,classical,20,16.74474016199321,0.3687491841857481,16.650787663599658,7.8147115538389915,14.343014750000474,6,False,True,compatible,bounded_comparison
+GALPI_V6,full_grid,MAR 50%,classical,20,17.32257096095553,0.3510511126335147,17.368623294803132,8.221434795601551,14.547529835000205,7,False,True,compatible,bounded_comparison
+GALPI_V4,full_grid,MAR 50%,classical,20,17.733828456174848,0.4095768891616576,17.746620081583764,8.520052530469131,14.51652621000012,8,False,True,compatible,bounded_comparison

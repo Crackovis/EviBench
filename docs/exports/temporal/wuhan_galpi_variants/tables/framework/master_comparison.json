@@ -1,0 +1,169 @@
+{
+  "balanced_cohort_count": 3,
+  "policy_id": "human_multidimensional_relative_v1",
+  "rows": [
+    {
+      "accuracy_score": 0.6410472951222177,
+      "algorithm_id": "GALPI_V1",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 0.8,
+      "display_name": "Galpi V1",
+      "macro_primary_metric": 12.191902807026517,
+      "macro_runtime_seconds": 8.8807886,
+      "mechanism_robustness_score": 0.5446784779277896,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": null,
+      "speed_score": 0.197133734412386,
+      "stability_score": 0.21181773817977054,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 0.4180513932104695,
+      "algorithm_id": "GALPI_V2",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 0.8,
+      "display_name": "Galpi V2",
+      "macro_primary_metric": 13.410033564918166,
+      "macro_runtime_seconds": 13.99463395,
+      "mechanism_robustness_score": 0.5961829772428932,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": null,
+      "speed_score": 0.10917554834177101,
+      "stability_score": 0.5769496446885899,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 0.42365712760144364,
+      "algorithm_id": "GALPI_V3",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 0.8,
+      "display_name": "Galpi V3",
+      "macro_primary_metric": 13.384594395883964,
+      "macro_runtime_seconds": 20.076109533333334,
+      "mechanism_robustness_score": 0.5970500008108783,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": null,
+      "speed_score": 0.0,
+      "stability_score": 0.5854458240335213,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 0.0,
+      "algorithm_id": "GALPI_V4",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 0.8,
+      "display_name": "Galpi V4",
+      "macro_primary_metric": 15.754553474893962,
+      "macro_runtime_seconds": 13.216612366666666,
+      "mechanism_robustness_score": 0.6760881741315292,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": null,
+      "speed_score": 0.11698907100835114,
+      "stability_score": 0.8396126880317648,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 0.6410472951222177,
+      "algorithm_id": "GALPI_V5",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 0.8,
+      "display_name": "Galpi V5",
+      "macro_primary_metric": 12.191902807026517,
+      "macro_runtime_seconds": 8.858692083333333,
+      "mechanism_robustness_score": 0.5446784779277896,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": null,
+      "speed_score": 0.1976646839811409,
+      "stability_score": 0.21181773817977054,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 0.16337258331862972,
+      "algorithm_id": "GALPI_V6",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 0.8,
+      "display_name": "Galpi V6",
+      "macro_primary_metric": 14.841189039738873,
+      "macro_runtime_seconds": 11.771417099999999,
+      "mechanism_robustness_score": 0.643908508267605,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": null,
+      "speed_score": 0.13570339714160648,
+      "stability_score": 0.7467881328259983,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 0.41027398948874344,
+      "algorithm_id": "galpi",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 0.8,
+      "display_name": "Galpi",
+      "macro_primary_metric": 13.445100008733272,
+      "macro_runtime_seconds": 13.9183821,
+      "mechanism_robustness_score": 0.5924330939745841,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": null,
+      "speed_score": 0.10964454038170406,
+      "stability_score": 0.5130391709483132,
+      "status": "available"
+    },
+    {
+      "accuracy_score": 1.0,
+      "algorithm_id": "linear_interpolation",
+      "caveats": [
+        "parameter_efficiency unavailable: no parameter evidence",
+        "memory_efficiency unavailable: not instrumented"
+      ],
+      "cohort_coverage": 1.0,
+      "dimension_coverage": 0.8,
+      "display_name": "Linear Interpolation",
+      "macro_primary_metric": 10.384160800801588,
+      "macro_runtime_seconds": 0.41018031666666666,
+      "mechanism_robustness_score": 0.5819074984682029,
+      "memory_score": null,
+      "parameter_score": null,
+      "rate_robustness_score": null,
+      "speed_score": 1.0,
+      "stability_score": 0.5524682912247488,
+      "status": "available"
+    }
+  ],
+  "schema": "imputebench.human-framework-metrics/v1",
+  "table_kind": "master_comparison",
+  "total_cohort_count": 3
+}

@@ -1,0 +1,5 @@
+algorithm_id,station_label,recipe_label,family,n,mean_rmse,std_rmse,median_rmse,mean_mae,mean_runtime,rank,is_best,rank_allowed,comparison_status,claim_level
+cubic_spline,full_grid,MNAR 30%,classical,20,7.738366710948038,0.08502074565829126,7.71456975770541,4.054535662101383,3.821365369999694,1,True,True,compatible,bounded_comparison
+linear_interpolation,full_grid,MNAR 30%,naive,20,8.176580221717273,0.08347321940958768,8.18539129824082,4.28905858481831,0.1288440749998699,2,False,True,compatible,bounded_comparison
+galpi,full_grid,MNAR 30%,classical,20,8.92995216318462,0.131820423365683,8.915033488818867,4.4345860165712265,3.189338759999919,3,False,True,compatible,bounded_comparison
+nearest_interpolation,full_grid,MNAR 30%,classical,20,12.744925775530595,0.06675288098471124,12.74808636466867,7.16934829314345,0.2203076199998577,4,False,True,compatible,bounded_comparison

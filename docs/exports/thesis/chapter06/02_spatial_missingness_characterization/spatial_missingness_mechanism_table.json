@@ -1,26 +1,14 @@
 [
   {
     "mask_family": "mar",
-    "bank_count": 12
+    "bank_count": 6
   },
   {
     "mask_family": "mcar",
-    "bank_count": 14
+    "bank_count": 9
   },
   {
     "mask_family": "mnar",
-    "bank_count": 12
-  },
-  {
-    "mask_family": "node_holdout",
-    "bank_count": 9
-  },
-  {
-    "mask_family": "sensor_dropout",
-    "bank_count": 9
-  },
-  {
-    "mask_family": "spatial_block",
-    "bank_count": 9
+    "bank_count": 6
   }
 ]

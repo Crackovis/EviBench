@@ -1,0 +1,276 @@
+{
+  "blocking_reasons": [],
+  "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+  "chart_id": "significance_cohort_full_grid_mcar_50_2ab1b5f626",
+  "chart_kind": "significance_heatmap",
+  "data": {
+    "algorithms": [
+      "GALPI_V1",
+      "GALPI_V2",
+      "GALPI_V3",
+      "GALPI_V4",
+      "GALPI_V5",
+      "GALPI_V6",
+      "galpi",
+      "linear_interpolation"
+    ],
+    "cells": [
+      {
+        "algorithm_a": "GALPI_V1",
+        "algorithm_b": "GALPI_V2",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V1",
+        "algorithm_b": "GALPI_V3",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V1",
+        "algorithm_b": "GALPI_V4",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V1",
+        "algorithm_b": "GALPI_V5",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 1.0,
+        "rank_biserial": 0.0,
+        "status": "identical"
+      },
+      {
+        "algorithm_a": "GALPI_V1",
+        "algorithm_b": "GALPI_V6",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V1",
+        "algorithm_b": "galpi",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V1",
+        "algorithm_b": "linear_interpolation",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V2",
+        "algorithm_b": "GALPI_V3",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V2",
+        "algorithm_b": "GALPI_V4",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V2",
+        "algorithm_b": "GALPI_V5",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V2",
+        "algorithm_b": "GALPI_V6",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V2",
+        "algorithm_b": "galpi",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 0.38191646999782985,
+        "rank_biserial": 0.23809523809523808,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V2",
+        "algorithm_b": "linear_interpolation",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V3",
+        "algorithm_b": "GALPI_V4",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V3",
+        "algorithm_b": "GALPI_V5",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V3",
+        "algorithm_b": "GALPI_V6",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V3",
+        "algorithm_b": "galpi",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V3",
+        "algorithm_b": "linear_interpolation",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V4",
+        "algorithm_b": "GALPI_V5",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V4",
+        "algorithm_b": "GALPI_V6",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V4",
+        "algorithm_b": "galpi",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V4",
+        "algorithm_b": "linear_interpolation",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V5",
+        "algorithm_b": "GALPI_V6",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V5",
+        "algorithm_b": "galpi",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V5",
+        "algorithm_b": "linear_interpolation",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V6",
+        "algorithm_b": "galpi",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "GALPI_V6",
+        "algorithm_b": "linear_interpolation",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "galpi",
+        "algorithm_b": "linear_interpolation",
+        "computed": true,
+        "n_pairs": 20,
+        "p_adj": 2.0540677584134614e-06,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      }
+    ],
+    "cohort_id": "cohort_full_grid_mcar_50_2ab1b5f626",
+    "effect_name": "matched_pairs_rank_biserial"
+  },
+  "status": "available",
+  "title": "Adjusted significance — MCAR 50%"
+}

@@ -1,0 +1,56 @@
+# Significance summary
+
+- **cubic_spline vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs linear_interpolation** (rmse, n=20): p_raw=0.114, p_adj=0.114, rank-biserial=-0.4095 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=-1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **linear_interpolation vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=-1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **linear_interpolation vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs galpi** (rmse, n=20): p_raw=0.00639, p_adj=0.00639, rank-biserial=0.6762 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **cubic_spline vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=1 - a bounded significant difference; direction: nearest_interpolation_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=1 - a bounded significant difference; direction: nearest_interpolation_lower_mean (lower is better).
+- **linear_interpolation vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.289e-06, rank-biserial=-1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs galpi** (rmse, n=20): p_raw=6.294e-05, p_adj=7.553e-05, rank-biserial=-0.9143 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs linear_interpolation** (rmse, n=20): p_raw=0.8124, p_adj=0.8124, rank-biserial=-0.06667 - no significant difference at the chosen alpha; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.861e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.861e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.861e-06, rank-biserial=-1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **linear_interpolation vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.861e-06, rank-biserial=-1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **linear_interpolation vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **linear_interpolation vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **linear_interpolation vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **linear_interpolation vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **cubic_spline vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **cubic_spline vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: cubic_spline_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **linear_interpolation vs nearest_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=1.907e-06, rank-biserial=-1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).

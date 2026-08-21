@@ -1,0 +1,103 @@
+{
+  "policy_id": "human_multidimensional_relative_v1",
+  "rows": [
+    {
+      "algorithm_id": "GALPI_V1",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 16.008354348499264,
+      "mechanism_count": 3,
+      "minimum_rmse": 8.719406080669291,
+      "normalized_score": 0.5446784779277896,
+      "relative_range": 0.4553215220722104,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "GALPI_V2",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 16.639484080041218,
+      "mechanism_count": 3,
+      "minimum_rmse": 9.920177158624696,
+      "normalized_score": 0.5961829772428932,
+      "relative_range": 0.40381702275710685,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "GALPI_V3",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 16.58494810786275,
+      "mechanism_count": 3,
+      "minimum_rmse": 9.902043281247831,
+      "normalized_score": 0.5970500008108783,
+      "relative_range": 0.4029499991891216,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "GALPI_V4",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 17.733828456174848,
+      "mechanism_count": 3,
+      "minimum_rmse": 11.989631701297009,
+      "normalized_score": 0.6760881741315292,
+      "relative_range": 0.3239118258684708,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "GALPI_V5",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 16.008354348499264,
+      "mechanism_count": 3,
+      "minimum_rmse": 8.719406080669291,
+      "normalized_score": 0.5446784779277896,
+      "relative_range": 0.4553215220722104,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "GALPI_V6",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 17.32257096095553,
+      "mechanism_count": 3,
+      "minimum_rmse": 11.154150826828609,
+      "normalized_score": 0.643908508267605,
+      "relative_range": 0.356091491732395,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "galpi",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 16.74474016199321,
+      "mechanism_count": 3,
+      "minimum_rmse": 9.920138221970115,
+      "normalized_score": 0.5924330939745841,
+      "relative_range": 0.40756690602541595,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "linear_interpolation",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 13.224859952929771,
+      "mechanism_count": 3,
+      "minimum_rmse": 7.695645172801678,
+      "normalized_score": 0.5819074984682029,
+      "relative_range": 0.41809250153179717,
+      "station_label": "full_grid",
+      "status": "available"
+    }
+  ],
+  "schema": "imputebench.human-framework-metrics/v1",
+  "table_kind": "mechanism_robustness"
+}

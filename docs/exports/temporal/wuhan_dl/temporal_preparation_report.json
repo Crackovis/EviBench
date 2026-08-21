@@ -1,0 +1,287 @@
+{
+  "comparison_specs_created": 1,
+  "contracts_created": 0,
+  "contracts_existing": 1,
+  "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+  "drafts_created": 0,
+  "errors": [],
+  "mask_banks_created": 0,
+  "mask_banks_existing": 1,
+  "payload": {
+    "failed_step": "",
+    "plan": {
+      "algorithm_ids": [
+        "saits"
+      ],
+      "contract_specs": [
+        {
+          "algorithm_family_scope": "dl_temporal",
+          "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+          "existing_contract_id": "32313089-65ac-4c04-9b88-80bf6e92a44a",
+          "experiment_type": "Deep Learning",
+          "family": "mcar",
+          "issues": [],
+          "mask_bank_id": "66b98ad7-30be-485d-99d8-1199e69f4ad6",
+          "metric_scope": "global+pollutant+node",
+          "name": "Official LondonAQ Benchmark Contract \u2014 MCAR 0.1 \u2014 test",
+          "payload": {},
+          "phase": "test",
+          "rate": 0.1,
+          "recipe_id": "official_wuhan_dl_benchmark:mcar:10",
+          "requested_execution_class": "scientific_dl",
+          "selection_phase_scope": [
+            "validation"
+          ],
+          "status": "existing",
+          "warnings": []
+        }
+      ],
+      "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+      "global_issues": [],
+      "global_warnings": [],
+      "mask_bank_specs": [
+        {
+          "artifact_dir": "data/benchmark_mask_banks/official_londonaq/mcar/10/test",
+          "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+          "existing_bank_id": "66b98ad7-30be-485d-99d8-1199e69f4ad6",
+          "family": "mcar",
+          "issues": [],
+          "match_quality": "exact",
+          "n_realizations": 5,
+          "name": "Official LondonAQ Mask Bank \u2014 MCAR 0.1 \u2014 test",
+          "observed_only": true,
+          "payload": {},
+          "phase": "test",
+          "rate": 0.1,
+          "recipe_id": "official_wuhan_dl_benchmark:mcar:10",
+          "seed_base": 1729,
+          "status": "existing",
+          "warnings": []
+        }
+      ],
+      "one_click_available": true,
+      "payload": {
+        "recipe_build_states": {
+          "official_wuhan_dl_benchmark:mcar:10": {
+            "bank_id": "66b98ad7-30be-485d-99d8-1199e69f4ad6",
+            "bank_issues": [],
+            "bank_status": "exact",
+            "contract_id": "32313089-65ac-4c04-9b88-80bf6e92a44a",
+            "contract_issues": [],
+            "contract_status": "exact",
+            "next_build_step": "create_plan"
+          }
+        }
+      },
+      "recipe_book_id": "official_wuhan_dl_benchmark",
+      "safe_to_create_comparisons": true,
+      "safe_to_create_contracts": false,
+      "safe_to_create_mask_banks": false,
+      "safe_to_create_plans": true,
+      "selected_recipe_ids": [
+        "official_wuhan_dl_benchmark:mcar:10"
+      ],
+      "steps": [
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 1,
+          "issues": [],
+          "label": "Mask banks",
+          "object_type": "mask_bank",
+          "payload": {},
+          "recipe_ids": [
+            "official_wuhan_dl_benchmark:mcar:10"
+          ],
+          "status": "done",
+          "step_key": "mask_banks",
+          "warnings": []
+        },
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 1,
+          "issues": [],
+          "label": "Benchmark contracts",
+          "object_type": "benchmark_contract",
+          "payload": {},
+          "recipe_ids": [
+            "official_wuhan_dl_benchmark:mcar:10"
+          ],
+          "status": "done",
+          "step_key": "benchmark_contracts",
+          "warnings": []
+        },
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 1,
+          "issues": [],
+          "label": "Drafts / Templates",
+          "object_type": "draft",
+          "payload": {},
+          "recipe_ids": [
+            "official_wuhan_dl_benchmark:mcar:10"
+          ],
+          "status": "done",
+          "step_key": "drafts_templates",
+          "warnings": []
+        },
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 1,
+          "issues": [],
+          "label": "Experiment plans",
+          "object_type": "plan",
+          "payload": {},
+          "recipe_ids": [
+            "official_wuhan_dl_benchmark:mcar:10"
+          ],
+          "status": "done",
+          "step_key": "plans",
+          "warnings": []
+        },
+        {
+          "blocked_count": 0,
+          "eligible_count": 0,
+          "existing_count": 1,
+          "issues": [],
+          "label": "Comparison benchmark shells",
+          "object_type": "comparison_shell",
+          "payload": {},
+          "recipe_ids": [
+            "official_wuhan_dl_benchmark:mcar:10"
+          ],
+          "status": "done",
+          "step_key": "comparison_shells",
+          "warnings": []
+        }
+      ]
+    },
+    "prepared_binding_count": 1,
+    "prepared_bindings": {
+      "official_wuhan_dl_benchmark:mcar:10": {
+        "benchmark_contract_id": "32313089-65ac-4c04-9b88-80bf6e92a44a",
+        "benchmark_mask_bank_id": "66b98ad7-30be-485d-99d8-1199e69f4ad6",
+        "benchmark_phase_scope": [
+          "test"
+        ],
+        "benchmark_realization_ids": [
+          "test_r000",
+          "test_r001",
+          "test_r002",
+          "test_r003",
+          "test_r004",
+          "test_r005",
+          "test_r006",
+          "test_r007",
+          "test_r008",
+          "test_r009",
+          "test_r010",
+          "test_r011",
+          "test_r012",
+          "test_r013",
+          "test_r014",
+          "test_r015",
+          "test_r016",
+          "test_r017",
+          "test_r018",
+          "test_r019"
+        ],
+        "benchmark_selection_phase_scope": [
+          "validation"
+        ],
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
+        "family": "mcar",
+        "rate": 0.1,
+        "recipe_book_id": "official_wuhan_dl_benchmark",
+        "recipe_id": "official_wuhan_dl_benchmark:mcar:10",
+        "shared_benchmark_required": true
+      }
+    },
+    "result": {
+      "action_key": "prepare_all_safe",
+      "created_comparison_spec_ids": [
+        "59284ba0-bd1b-4fc0-ad85-66e018e91a33"
+      ],
+      "created_contract_ids": [],
+      "created_draft_ids": [],
+      "created_mask_bank_ids": [],
+      "created_plan_ids": [],
+      "created_template_ids": [],
+      "errors": [],
+      "payload": {
+        "created_by_step": {
+          "comparison_specs": [
+            "59284ba0-bd1b-4fc0-ad85-66e018e91a33"
+          ],
+          "contracts": [],
+          "drafts": [],
+          "mask_banks": [],
+          "plans": [],
+          "templates": []
+        },
+        "failed_step": "",
+        "final_blockers": [],
+        "prepared_bindings": {
+          "official_wuhan_dl_benchmark:mcar:10": {
+            "benchmark_contract_id": "32313089-65ac-4c04-9b88-80bf6e92a44a",
+            "benchmark_mask_bank_id": "66b98ad7-30be-485d-99d8-1199e69f4ad6",
+            "benchmark_phase_scope": [
+              "test"
+            ],
+            "benchmark_realization_ids": [
+              "test_r000",
+              "test_r001",
+              "test_r002",
+              "test_r003",
+              "test_r004",
+              "test_r005",
+              "test_r006",
+              "test_r007",
+              "test_r008",
+              "test_r009",
+              "test_r010",
+              "test_r011",
+              "test_r012",
+              "test_r013",
+              "test_r014",
+              "test_r015",
+              "test_r016",
+              "test_r017",
+              "test_r018",
+              "test_r019"
+            ],
+            "benchmark_selection_phase_scope": [
+              "validation"
+            ],
+            "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+            "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
+            "family": "mcar",
+            "rate": 0.1,
+            "recipe_book_id": "official_wuhan_dl_benchmark",
+            "recipe_id": "official_wuhan_dl_benchmark:mcar:10",
+            "shared_benchmark_required": true
+          }
+        }
+      },
+      "skipped": [],
+      "warnings": [
+        "No missing drafts found.",
+        "No safe plan creation candidates found."
+      ]
+    },
+    "selected_recipe_count": 1
+  },
+  "plans_created": 0,
+  "plans_existing": 0,
+  "recipe_book_id": "official_wuhan_dl_benchmark",
+  "status": "ready",
+  "templates_created": 0,
+  "warnings": [
+    "No missing drafts found.",
+    "No safe plan creation candidates found."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "parallel": {
+    "build_pack": false,
+    "enabled": true,
+    "estimated_parallel_tasks": 221,
+    "file_io": true,
+    "framework_chart_count": 11,
+    "framework_charts": true,
+    "hashing": true,
+    "max_workers_requested": 4,
+    "max_workers_resolved": 4,
+    "min_items_for_parallelism": 8,
+    "sequential": false,
+    "source_export": false,
+    "storyboard_count": 30,
+    "storyboards": true,
+    "worker_start_method": "spawn"
+  },
+  "schema": "imputebench.human-evidence-performance-trace/v1",
+  "stages": [
+    {
+      "duration_seconds": 0.025935,
+      "ended_at": "2026-08-17T09:10:04.596648+00:00",
+      "item_count": 0,
+      "mode": "sequential",
+      "stage": "selection",
+      "started_at": "2026-08-17T09:10:04.570714+00:00",
+      "worker_count": 1
+    },
+    {
+      "duration_seconds": 40.604197,
+      "ended_at": "2026-08-17T09:10:45.207677+00:00",
+      "item_count": 180,
+      "mode": "parallel",
+      "stage": "source_export",
+      "started_at": "2026-08-17T09:10:04.603483+00:00",
+      "worker_count": 4
+    },
+    {
+      "duration_seconds": 0.145696,
+      "ended_at": "2026-08-17T09:10:45.353414+00:00",
+      "item_count": 180,
+      "mode": "sequential",
+      "stage": "source_read",
+      "started_at": "2026-08-17T09:10:45.207734+00:00",
+      "worker_count": 1
+    },
+    {
+      "duration_seconds": 0.786509,
+      "ended_at": "2026-08-17T09:10:46.139966+00:00",
+      "item_count": 180,
+      "mode": "sequential",
+      "stage": "pack_build",
+      "started_at": "2026-08-17T09:10:45.353466+00:00",
+      "worker_count": 1
+    },
+    {
+      "duration_seconds": 0.210364,
+      "ended_at": "2026-08-17T09:10:51.196930+00:00",
+      "item_count": 0,
+      "mode": "parallel",
+      "stage": "manifest_hash",
+      "started_at": "2026-08-17T09:10:50.986569+00:00",
+      "worker_count": 4
+    }
+  ],
+  "total_traced_seconds": 41.772701
+}

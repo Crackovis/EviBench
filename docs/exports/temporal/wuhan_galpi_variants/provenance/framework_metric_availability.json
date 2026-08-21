@@ -1,0 +1,74 @@
+{
+  "availability": [
+    {
+      "available_count": 3,
+      "coverage": 1.0,
+      "expected_count": 3,
+      "metric_id": "accuracy",
+      "reasons": [],
+      "source_quality": "exported_primary_metric",
+      "status": "available"
+    },
+    {
+      "available_count": 480,
+      "coverage": 1.0,
+      "expected_count": 480,
+      "metric_id": "speed",
+      "reasons": [],
+      "source_quality": "native_timing_spans",
+      "status": "available"
+    },
+    {
+      "available_count": 24,
+      "coverage": 1.0,
+      "expected_count": 24,
+      "metric_id": "stability",
+      "reasons": [],
+      "source_quality": "exported_primary_metric",
+      "status": "available"
+    },
+    {
+      "available_count": 0,
+      "coverage": 0.0,
+      "expected_count": 24,
+      "metric_id": "rate_robustness",
+      "reasons": [
+        "no comparable rate pairs"
+      ],
+      "source_quality": "exported_primary_metric",
+      "status": "unavailable"
+    },
+    {
+      "available_count": 8,
+      "coverage": 1.0,
+      "expected_count": 8,
+      "metric_id": "mechanism_robustness",
+      "reasons": [],
+      "source_quality": "exported_primary_metric",
+      "status": "available"
+    },
+    {
+      "available_count": 0,
+      "coverage": 0.0,
+      "expected_count": 480,
+      "metric_id": "parameter_efficiency",
+      "reasons": [
+        "no explicit parameter evidence exported"
+      ],
+      "source_quality": "explicit_parameter_evidence",
+      "status": "unavailable"
+    },
+    {
+      "available_count": 0,
+      "coverage": 0.0,
+      "expected_count": 480,
+      "metric_id": "memory_efficiency",
+      "reasons": [
+        "memory is not instrumented; a missing value never becomes 1.0"
+      ],
+      "source_quality": "not_instrumented",
+      "status": "unavailable"
+    }
+  ],
+  "schema": "imputebench.human-framework-metrics/v1"
+}

@@ -1,0 +1,43 @@
+{
+  "command": "imputebench results export-human",
+  "output_dir_name": "wuhan_dl",
+  "parallel": {
+    "enabled": true,
+    "file_io": true,
+    "framework_charts": true,
+    "hashing": true,
+    "max_workers": 4,
+    "source_export": false,
+    "storyboards": true
+  },
+  "presentation": {
+    "alpha": 0.05,
+    "caption_chapter": 0,
+    "correction": "benjamini_hochberg",
+    "dashboard_gallery": "auto",
+    "include_stats": true,
+    "pack_format": "complete",
+    "primary_metric": "rmse",
+    "storyboards": "representative"
+  },
+  "schema": "imputebench.human-evidence-command/v1",
+  "selection": {
+    "algorithm_ids": [],
+    "comparison_ids_count": 0,
+    "dataset_id": "",
+    "phase_keys": [
+      "test"
+    ],
+    "recipe_book_id": "official_wuhan_dl_benchmark",
+    "result_ids_count": 0,
+    "run_ids_count": 0
+  },
+  "site": {
+    "experiment_id": "",
+    "hub": false,
+    "hub_description_present": false,
+    "hub_subtitle": "",
+    "hub_title": "EviBench Evidence Hub"
+  },
+  "title": "Evidence pack"
+}

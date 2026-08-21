@@ -1,0 +1,74 @@
+{
+  "blocking_reasons": [],
+  "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+  "chart_id": "significance_cohort_full_grid_mcar_30_bcfb4e1979",
+  "chart_kind": "significance_heatmap",
+  "data": {
+    "algorithms": [
+      "cubic_spline",
+      "galpi",
+      "linear_interpolation",
+      "nearest_interpolation"
+    ],
+    "cells": [
+      {
+        "algorithm_a": "cubic_spline",
+        "algorithm_b": "galpi",
+        "computed": true,
+        "n_pairs": 5,
+        "p_adj": 0.0625,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "cubic_spline",
+        "algorithm_b": "linear_interpolation",
+        "computed": true,
+        "n_pairs": 5,
+        "p_adj": 0.0625,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "cubic_spline",
+        "algorithm_b": "nearest_interpolation",
+        "computed": true,
+        "n_pairs": 5,
+        "p_adj": 0.0625,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "galpi",
+        "algorithm_b": "linear_interpolation",
+        "computed": true,
+        "n_pairs": 5,
+        "p_adj": 0.0625,
+        "rank_biserial": 1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "galpi",
+        "algorithm_b": "nearest_interpolation",
+        "computed": true,
+        "n_pairs": 5,
+        "p_adj": 0.0625,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      },
+      {
+        "algorithm_a": "linear_interpolation",
+        "algorithm_b": "nearest_interpolation",
+        "computed": true,
+        "n_pairs": 5,
+        "p_adj": 0.0625,
+        "rank_biserial": -1.0,
+        "status": "computed"
+      }
+    ],
+    "cohort_id": "cohort_full_grid_mcar_30_bcfb4e1979",
+    "effect_name": "matched_pairs_rank_biserial"
+  },
+  "status": "available",
+  "title": "Adjusted significance — MCAR 30%"
+}

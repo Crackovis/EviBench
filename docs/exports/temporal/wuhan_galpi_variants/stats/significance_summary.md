@@ -1,0 +1,86 @@
+# Significance summary
+
+- **GALPI_V1 vs GALPI_V2** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V3** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V4** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V5** (rmse, n=20): p_raw=1, p_adj=1, rank-biserial=0 - no significant difference at the chosen alpha; direction: tie (lower is better).
+- **GALPI_V1 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V3** (rmse, n=20): p_raw=3.624e-05, p_adj=3.903e-05, rank-biserial=0.9333 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V4** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V2_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V5** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V2_lower_mean (lower is better).
+- **GALPI_V2 vs galpi** (rmse, n=20): p_raw=0.03623, p_adj=0.03758, rank-biserial=-0.5333 - a bounded significant difference; direction: GALPI_V2_lower_mean (lower is better).
+- **GALPI_V2 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V3 vs GALPI_V4** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V3 vs GALPI_V5** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V3 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V3 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V3 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V4 vs GALPI_V5** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V4 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V6_lower_mean (lower is better).
+- **GALPI_V4 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **GALPI_V4 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V5 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V5 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V5 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V6 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **GALPI_V6 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V2** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V3** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V4** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V5** (rmse, n=20): p_raw=1, p_adj=1, rank-biserial=0 - no significant difference at the chosen alpha; direction: tie (lower is better).
+- **GALPI_V1 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V3** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V4** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V2_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V5** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V2_lower_mean (lower is better).
+- **GALPI_V2 vs galpi** (rmse, n=20): p_raw=0.3683, p_adj=0.3819, rank-biserial=0.2381 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+- **GALPI_V2 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V3 vs GALPI_V4** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V3 vs GALPI_V5** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V3 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V3 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V3 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V4 vs GALPI_V5** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V4 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V6_lower_mean (lower is better).
+- **GALPI_V4 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **GALPI_V4 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V5 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V5 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V5 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V6 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **GALPI_V6 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.054e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V2** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V3** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V4** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs GALPI_V5** (rmse, n=20): p_raw=1, p_adj=1, rank-biserial=0 - no significant difference at the chosen alpha; direction: tie (lower is better).
+- **GALPI_V1 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V1_lower_mean (lower is better).
+- **GALPI_V1 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V3** (rmse, n=20): p_raw=0.0001049, p_adj=0.000113, rank-biserial=0.8952 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V4** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V2_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V5** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V2 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V2_lower_mean (lower is better).
+- **GALPI_V2 vs galpi** (rmse, n=20): p_raw=1, p_adj=1, rank-biserial=0.04762 - no significant difference at the chosen alpha; direction: galpi_lower_mean (lower is better).
+- **GALPI_V2 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V3 vs GALPI_V4** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V3 vs GALPI_V5** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V3 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V3 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V3_lower_mean (lower is better).
+- **GALPI_V3 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V4 vs GALPI_V5** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V4 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: GALPI_V6_lower_mean (lower is better).
+- **GALPI_V4 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **GALPI_V4 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V5 vs GALPI_V6** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V5 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=-1 - a bounded significant difference; direction: GALPI_V5_lower_mean (lower is better).
+- **GALPI_V5 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **GALPI_V6 vs galpi** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: galpi_lower_mean (lower is better).
+- **GALPI_V6 vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).
+- **galpi vs linear_interpolation** (rmse, n=20): p_raw=1.907e-06, p_adj=2.136e-06, rank-biserial=1 - a bounded significant difference; direction: linear_interpolation_lower_mean (lower is better).

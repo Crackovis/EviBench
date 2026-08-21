@@ -2,8 +2,8 @@
   "comparison_specs_created": 3,
   "contracts_created": 0,
   "contracts_existing": 3,
-  "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-  "drafts_created": 0,
+  "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+  "drafts_created": 2,
   "errors": [],
   "mask_banks_created": 0,
   "mask_banks_existing": 3,
@@ -11,26 +11,30 @@
     "failed_step": "",
     "plan": {
       "algorithm_ids": [
-        "linear_interpolation",
-        "nearest_interpolation",
-        "dacpi",
-        "arma"
+        "GALPI",
+        "GALPI_V1",
+        "GALPI_V2",
+        "GALPI_V3",
+        "GALPI_V4",
+        "GALPI_V5",
+        "GALPI_V6",
+        "linear_interpolation"
       ],
       "contract_specs": [
         {
           "algorithm_family_scope": "classical_temporal",
-          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-          "existing_contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
+          "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+          "existing_contract_id": "afcdb1a6-28b0-492d-a9bb-25f6b21899ac",
           "experiment_type": "Classical",
           "family": "mcar",
           "issues": [],
-          "mask_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+          "mask_bank_id": "c2b42b87-ffa2-4c08-b8e7-af8314151765",
           "metric_scope": "global+pollutant+node",
-          "name": "Official LondonAQ Benchmark Contract \u2014 MCAR 0.5 \u2014 test",
+          "name": "Official Wuhan Benchmark Contract \u2014 MCAR 0.5 \u2014 test",
           "payload": {},
           "phase": "test",
           "rate": 0.5,
-          "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+          "recipe_id": "official_wuhan_galpi_variants:mcar:50",
           "requested_execution_class": "classical",
           "selection_phase_scope": [
             "validation"
@@ -40,18 +44,18 @@
         },
         {
           "algorithm_family_scope": "classical_temporal",
-          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-          "existing_contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
+          "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+          "existing_contract_id": "2c5a1b20-4cf1-4f57-aef9-fa509b505121",
           "experiment_type": "Classical",
           "family": "mar",
           "issues": [],
-          "mask_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+          "mask_bank_id": "850b0ae2-8035-4082-afa9-1206311c2af2",
           "metric_scope": "global+pollutant+node",
-          "name": "Official LondonAQ Benchmark Contract \u2014 MAR 0.5 \u2014 test",
+          "name": "Official Wuhan Benchmark Contract \u2014 MAR 0.5 \u2014 test",
           "payload": {},
           "phase": "test",
           "rate": 0.5,
-          "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+          "recipe_id": "official_wuhan_galpi_variants:mar:50",
           "requested_execution_class": "classical",
           "selection_phase_scope": [
             "validation"
@@ -61,18 +65,18 @@
         },
         {
           "algorithm_family_scope": "classical_temporal",
-          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-          "existing_contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
+          "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+          "existing_contract_id": "336b38d9-a1e5-4435-9416-f3e5db06586e",
           "experiment_type": "Classical",
           "family": "mnar",
           "issues": [],
-          "mask_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+          "mask_bank_id": "172c3580-bf6c-4eff-bc92-a582f99cf00a",
           "metric_scope": "global+pollutant+node",
-          "name": "Official LondonAQ Benchmark Contract \u2014 MNAR 0.5 \u2014 test",
+          "name": "Official Wuhan Benchmark Contract \u2014 MNAR 0.5 \u2014 test",
           "payload": {},
           "phase": "test",
           "rate": 0.5,
-          "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+          "recipe_id": "official_wuhan_galpi_variants:mnar:50",
           "requested_execution_class": "classical",
           "selection_phase_scope": [
             "validation"
@@ -81,60 +85,60 @@
           "warnings": []
         }
       ],
-      "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
+      "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
       "global_issues": [],
       "global_warnings": [],
       "mask_bank_specs": [
         {
-          "artifact_dir": "data/benchmark_mask_banks/official_londonaq/mcar/50/test",
-          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-          "existing_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+          "artifact_dir": "data/benchmark_mask_banks/official_wuhan_galpi_variants/mcar/50/test",
+          "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+          "existing_bank_id": "c2b42b87-ffa2-4c08-b8e7-af8314151765",
           "family": "mcar",
           "issues": [],
           "match_quality": "exact",
           "n_realizations": 5,
-          "name": "Official LondonAQ Mask Bank \u2014 MCAR 0.5 \u2014 test",
+          "name": "Official Wuhan Mask Bank \u2014 MCAR 0.5 \u2014 test",
           "observed_only": true,
           "payload": {},
           "phase": "test",
           "rate": 0.5,
-          "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+          "recipe_id": "official_wuhan_galpi_variants:mcar:50",
           "seed_base": 1729,
           "status": "existing",
           "warnings": []
         },
         {
-          "artifact_dir": "data/benchmark_mask_banks/official_londonaq/mar/50/test",
-          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-          "existing_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+          "artifact_dir": "data/benchmark_mask_banks/official_wuhan_galpi_variants/mar/50/test",
+          "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+          "existing_bank_id": "850b0ae2-8035-4082-afa9-1206311c2af2",
           "family": "mar",
           "issues": [],
           "match_quality": "exact",
           "n_realizations": 5,
-          "name": "Official LondonAQ Mask Bank \u2014 MAR 0.5 \u2014 test",
+          "name": "Official Wuhan Mask Bank \u2014 MAR 0.5 \u2014 test",
           "observed_only": true,
           "payload": {},
           "phase": "test",
           "rate": 0.5,
-          "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+          "recipe_id": "official_wuhan_galpi_variants:mar:50",
           "seed_base": 2729,
           "status": "existing",
           "warnings": []
         },
         {
-          "artifact_dir": "data/benchmark_mask_banks/official_londonaq/mnar/50/test",
-          "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-          "existing_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+          "artifact_dir": "data/benchmark_mask_banks/official_wuhan_galpi_variants/mnar/50/test",
+          "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+          "existing_bank_id": "172c3580-bf6c-4eff-bc92-a582f99cf00a",
           "family": "mnar",
           "issues": [],
           "match_quality": "exact",
           "n_realizations": 5,
-          "name": "Official LondonAQ Mask Bank \u2014 MNAR 0.5 \u2014 test",
+          "name": "Official Wuhan Mask Bank \u2014 MNAR 0.5 \u2014 test",
           "observed_only": true,
           "payload": {},
           "phase": "test",
           "rate": 0.5,
-          "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+          "recipe_id": "official_wuhan_galpi_variants:mnar:50",
           "seed_base": 3729,
           "status": "existing",
           "warnings": []
@@ -143,44 +147,44 @@
       "one_click_available": true,
       "payload": {
         "recipe_build_states": {
-          "official_londonaq_classical_benchmark:mar:50": {
-            "bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+          "official_wuhan_galpi_variants:mar:50": {
+            "bank_id": "850b0ae2-8035-4082-afa9-1206311c2af2",
             "bank_issues": [],
             "bank_status": "exact",
-            "contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
+            "contract_id": "2c5a1b20-4cf1-4f57-aef9-fa509b505121",
             "contract_issues": [],
             "contract_status": "exact",
             "next_build_step": "create_plan"
           },
-          "official_londonaq_classical_benchmark:mcar:50": {
-            "bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+          "official_wuhan_galpi_variants:mcar:50": {
+            "bank_id": "c2b42b87-ffa2-4c08-b8e7-af8314151765",
             "bank_issues": [],
             "bank_status": "exact",
-            "contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
+            "contract_id": "afcdb1a6-28b0-492d-a9bb-25f6b21899ac",
             "contract_issues": [],
             "contract_status": "exact",
             "next_build_step": "create_plan"
           },
-          "official_londonaq_classical_benchmark:mnar:50": {
-            "bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+          "official_wuhan_galpi_variants:mnar:50": {
+            "bank_id": "172c3580-bf6c-4eff-bc92-a582f99cf00a",
             "bank_issues": [],
             "bank_status": "exact",
-            "contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
+            "contract_id": "336b38d9-a1e5-4435-9416-f3e5db06586e",
             "contract_issues": [],
             "contract_status": "exact",
             "next_build_step": "create_plan"
           }
         }
       },
-      "recipe_book_id": "official_londonaq_classical_benchmark",
+      "recipe_book_id": "official_wuhan_galpi_variants",
       "safe_to_create_comparisons": true,
       "safe_to_create_contracts": false,
       "safe_to_create_mask_banks": false,
       "safe_to_create_plans": true,
       "selected_recipe_ids": [
-        "official_londonaq_classical_benchmark:mcar:50",
-        "official_londonaq_classical_benchmark:mar:50",
-        "official_londonaq_classical_benchmark:mnar:50"
+        "official_wuhan_galpi_variants:mcar:50",
+        "official_wuhan_galpi_variants:mar:50",
+        "official_wuhan_galpi_variants:mnar:50"
       ],
       "steps": [
         {
@@ -192,9 +196,9 @@
           "object_type": "mask_bank",
           "payload": {},
           "recipe_ids": [
-            "official_londonaq_classical_benchmark:mcar:50",
-            "official_londonaq_classical_benchmark:mar:50",
-            "official_londonaq_classical_benchmark:mnar:50"
+            "official_wuhan_galpi_variants:mcar:50",
+            "official_wuhan_galpi_variants:mar:50",
+            "official_wuhan_galpi_variants:mnar:50"
           ],
           "status": "done",
           "step_key": "mask_banks",
@@ -209,9 +213,9 @@
           "object_type": "benchmark_contract",
           "payload": {},
           "recipe_ids": [
-            "official_londonaq_classical_benchmark:mcar:50",
-            "official_londonaq_classical_benchmark:mar:50",
-            "official_londonaq_classical_benchmark:mnar:50"
+            "official_wuhan_galpi_variants:mcar:50",
+            "official_wuhan_galpi_variants:mar:50",
+            "official_wuhan_galpi_variants:mnar:50"
           ],
           "status": "done",
           "step_key": "benchmark_contracts",
@@ -219,52 +223,52 @@
         },
         {
           "blocked_count": 0,
-          "eligible_count": 0,
-          "existing_count": 3,
+          "eligible_count": 2,
+          "existing_count": 1,
           "issues": [],
           "label": "Drafts / Templates",
           "object_type": "draft",
           "payload": {},
           "recipe_ids": [
-            "official_londonaq_classical_benchmark:mcar:50",
-            "official_londonaq_classical_benchmark:mar:50",
-            "official_londonaq_classical_benchmark:mnar:50"
+            "official_wuhan_galpi_variants:mcar:50",
+            "official_wuhan_galpi_variants:mar:50",
+            "official_wuhan_galpi_variants:mnar:50"
           ],
-          "status": "done",
+          "status": "ready",
           "step_key": "drafts_templates",
           "warnings": []
         },
         {
           "blocked_count": 0,
-          "eligible_count": 0,
-          "existing_count": 3,
+          "eligible_count": 2,
+          "existing_count": 1,
           "issues": [],
           "label": "Experiment plans",
           "object_type": "plan",
           "payload": {},
           "recipe_ids": [
-            "official_londonaq_classical_benchmark:mcar:50",
-            "official_londonaq_classical_benchmark:mar:50",
-            "official_londonaq_classical_benchmark:mnar:50"
+            "official_wuhan_galpi_variants:mcar:50",
+            "official_wuhan_galpi_variants:mar:50",
+            "official_wuhan_galpi_variants:mnar:50"
           ],
-          "status": "done",
+          "status": "partial",
           "step_key": "plans",
           "warnings": []
         },
         {
           "blocked_count": 0,
-          "eligible_count": 0,
-          "existing_count": 3,
+          "eligible_count": 2,
+          "existing_count": 1,
           "issues": [],
           "label": "Comparison benchmark shells",
           "object_type": "comparison_shell",
           "payload": {},
           "recipe_ids": [
-            "official_londonaq_classical_benchmark:mcar:50",
-            "official_londonaq_classical_benchmark:mar:50",
-            "official_londonaq_classical_benchmark:mnar:50"
+            "official_wuhan_galpi_variants:mcar:50",
+            "official_wuhan_galpi_variants:mar:50",
+            "official_wuhan_galpi_variants:mnar:50"
           ],
-          "status": "done",
+          "status": "ready",
           "step_key": "comparison_shells",
           "warnings": []
         }
@@ -272,9 +276,9 @@
     },
     "prepared_binding_count": 3,
     "prepared_bindings": {
-      "official_londonaq_classical_benchmark:mar:50": {
-        "benchmark_contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
-        "benchmark_mask_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+      "official_wuhan_galpi_variants:mar:50": {
+        "benchmark_contract_id": "2c5a1b20-4cf1-4f57-aef9-fa509b505121",
+        "benchmark_mask_bank_id": "850b0ae2-8035-4082-afa9-1206311c2af2",
         "benchmark_phase_scope": [
           "test"
         ],
@@ -283,22 +287,37 @@
           "test_r001",
           "test_r002",
           "test_r003",
-          "test_r004"
+          "test_r004",
+          "test_r005",
+          "test_r006",
+          "test_r007",
+          "test_r008",
+          "test_r009",
+          "test_r010",
+          "test_r011",
+          "test_r012",
+          "test_r013",
+          "test_r014",
+          "test_r015",
+          "test_r016",
+          "test_r017",
+          "test_r018",
+          "test_r019"
         ],
         "benchmark_selection_phase_scope": [
           "validation"
         ],
-        "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-        "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
         "family": "mar",
         "rate": 0.5,
-        "recipe_book_id": "official_londonaq_classical_benchmark",
-        "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+        "recipe_book_id": "official_wuhan_galpi_variants",
+        "recipe_id": "official_wuhan_galpi_variants:mar:50",
         "shared_benchmark_required": true
       },
-      "official_londonaq_classical_benchmark:mcar:50": {
-        "benchmark_contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
-        "benchmark_mask_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+      "official_wuhan_galpi_variants:mcar:50": {
+        "benchmark_contract_id": "afcdb1a6-28b0-492d-a9bb-25f6b21899ac",
+        "benchmark_mask_bank_id": "c2b42b87-ffa2-4c08-b8e7-af8314151765",
         "benchmark_phase_scope": [
           "test"
         ],
@@ -307,22 +326,37 @@
           "test_r001",
           "test_r002",
           "test_r003",
-          "test_r004"
+          "test_r004",
+          "test_r005",
+          "test_r006",
+          "test_r007",
+          "test_r008",
+          "test_r009",
+          "test_r010",
+          "test_r011",
+          "test_r012",
+          "test_r013",
+          "test_r014",
+          "test_r015",
+          "test_r016",
+          "test_r017",
+          "test_r018",
+          "test_r019"
         ],
         "benchmark_selection_phase_scope": [
           "validation"
         ],
-        "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-        "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
         "family": "mcar",
         "rate": 0.5,
-        "recipe_book_id": "official_londonaq_classical_benchmark",
-        "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+        "recipe_book_id": "official_wuhan_galpi_variants",
+        "recipe_id": "official_wuhan_galpi_variants:mcar:50",
         "shared_benchmark_required": true
       },
-      "official_londonaq_classical_benchmark:mnar:50": {
-        "benchmark_contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
-        "benchmark_mask_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+      "official_wuhan_galpi_variants:mnar:50": {
+        "benchmark_contract_id": "336b38d9-a1e5-4435-9416-f3e5db06586e",
+        "benchmark_mask_bank_id": "172c3580-bf6c-4eff-bc92-a582f99cf00a",
         "benchmark_phase_scope": [
           "test"
         ],
@@ -331,52 +365,79 @@
           "test_r001",
           "test_r002",
           "test_r003",
-          "test_r004"
+          "test_r004",
+          "test_r005",
+          "test_r006",
+          "test_r007",
+          "test_r008",
+          "test_r009",
+          "test_r010",
+          "test_r011",
+          "test_r012",
+          "test_r013",
+          "test_r014",
+          "test_r015",
+          "test_r016",
+          "test_r017",
+          "test_r018",
+          "test_r019"
         ],
         "benchmark_selection_phase_scope": [
           "validation"
         ],
-        "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-        "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
         "family": "mnar",
         "rate": 0.5,
-        "recipe_book_id": "official_londonaq_classical_benchmark",
-        "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+        "recipe_book_id": "official_wuhan_galpi_variants",
+        "recipe_id": "official_wuhan_galpi_variants:mnar:50",
         "shared_benchmark_required": true
       }
     },
     "result": {
       "action_key": "prepare_all_safe",
       "created_comparison_spec_ids": [
-        "0f0a5418-25bb-43de-b471-6540cd634c7b",
-        "848aad9d-0895-490d-a7b4-d658bebe22bc",
-        "56bb9557-1cf8-452d-bb38-a675448b237c"
+        "473911a9-4a27-4225-bad7-4ea87915cfd3",
+        "bcecbbe8-aa5e-4262-baf6-b14de3944ce8",
+        "d5bd33ff-ca60-41ae-8eff-fbaf3785e402"
       ],
       "created_contract_ids": [],
-      "created_draft_ids": [],
+      "created_draft_ids": [
+        "bb1ca549-9f56-4a2e-8319-57bf572bf591",
+        "d92bdeca-fd33-4cc3-b27e-d90bb6a4248b"
+      ],
       "created_mask_bank_ids": [],
-      "created_plan_ids": [],
+      "created_plan_ids": [
+        "04e917f5-2269-410b-a59c-fc7b5ba4206f",
+        "5bce2952-4e86-4388-8ab0-ab9eef6cafdb"
+      ],
       "created_template_ids": [],
       "errors": [],
       "payload": {
         "created_by_step": {
           "comparison_specs": [
-            "0f0a5418-25bb-43de-b471-6540cd634c7b",
-            "848aad9d-0895-490d-a7b4-d658bebe22bc",
-            "56bb9557-1cf8-452d-bb38-a675448b237c"
+            "473911a9-4a27-4225-bad7-4ea87915cfd3",
+            "bcecbbe8-aa5e-4262-baf6-b14de3944ce8",
+            "d5bd33ff-ca60-41ae-8eff-fbaf3785e402"
           ],
           "contracts": [],
-          "drafts": [],
+          "drafts": [
+            "bb1ca549-9f56-4a2e-8319-57bf572bf591",
+            "d92bdeca-fd33-4cc3-b27e-d90bb6a4248b"
+          ],
           "mask_banks": [],
-          "plans": [],
+          "plans": [
+            "04e917f5-2269-410b-a59c-fc7b5ba4206f",
+            "5bce2952-4e86-4388-8ab0-ab9eef6cafdb"
+          ],
           "templates": []
         },
         "failed_step": "",
         "final_blockers": [],
         "prepared_bindings": {
-          "official_londonaq_classical_benchmark:mar:50": {
-            "benchmark_contract_id": "83197ea5-5553-4d4d-81ae-dafd802ffdc3",
-            "benchmark_mask_bank_id": "74a3ea26-edce-4531-8269-6645f8379dd9",
+          "official_wuhan_galpi_variants:mar:50": {
+            "benchmark_contract_id": "2c5a1b20-4cf1-4f57-aef9-fa509b505121",
+            "benchmark_mask_bank_id": "850b0ae2-8035-4082-afa9-1206311c2af2",
             "benchmark_phase_scope": [
               "test"
             ],
@@ -385,22 +446,37 @@
               "test_r001",
               "test_r002",
               "test_r003",
-              "test_r004"
+              "test_r004",
+              "test_r005",
+              "test_r006",
+              "test_r007",
+              "test_r008",
+              "test_r009",
+              "test_r010",
+              "test_r011",
+              "test_r012",
+              "test_r013",
+              "test_r014",
+              "test_r015",
+              "test_r016",
+              "test_r017",
+              "test_r018",
+              "test_r019"
             ],
             "benchmark_selection_phase_scope": [
               "validation"
             ],
-            "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-            "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+            "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+            "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
             "family": "mar",
             "rate": 0.5,
-            "recipe_book_id": "official_londonaq_classical_benchmark",
-            "recipe_id": "official_londonaq_classical_benchmark:mar:50",
+            "recipe_book_id": "official_wuhan_galpi_variants",
+            "recipe_id": "official_wuhan_galpi_variants:mar:50",
             "shared_benchmark_required": true
           },
-          "official_londonaq_classical_benchmark:mcar:50": {
-            "benchmark_contract_id": "b27a9f27-4c5e-486a-aeba-65f1c27a8fd2",
-            "benchmark_mask_bank_id": "01438d70-409e-452e-a589-b4f3a4ea7b49",
+          "official_wuhan_galpi_variants:mcar:50": {
+            "benchmark_contract_id": "afcdb1a6-28b0-492d-a9bb-25f6b21899ac",
+            "benchmark_mask_bank_id": "c2b42b87-ffa2-4c08-b8e7-af8314151765",
             "benchmark_phase_scope": [
               "test"
             ],
@@ -409,22 +485,37 @@
               "test_r001",
               "test_r002",
               "test_r003",
-              "test_r004"
+              "test_r004",
+              "test_r005",
+              "test_r006",
+              "test_r007",
+              "test_r008",
+              "test_r009",
+              "test_r010",
+              "test_r011",
+              "test_r012",
+              "test_r013",
+              "test_r014",
+              "test_r015",
+              "test_r016",
+              "test_r017",
+              "test_r018",
+              "test_r019"
             ],
             "benchmark_selection_phase_scope": [
               "validation"
             ],
-            "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-            "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+            "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+            "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
             "family": "mcar",
             "rate": 0.5,
-            "recipe_book_id": "official_londonaq_classical_benchmark",
-            "recipe_id": "official_londonaq_classical_benchmark:mcar:50",
+            "recipe_book_id": "official_wuhan_galpi_variants",
+            "recipe_id": "official_wuhan_galpi_variants:mcar:50",
             "shared_benchmark_required": true
           },
-          "official_londonaq_classical_benchmark:mnar:50": {
-            "benchmark_contract_id": "cad30d3e-ddb8-4f44-b5d2-28c10a4c3537",
-            "benchmark_mask_bank_id": "4be0cc72-23ca-4da6-b9a6-52b318bb641f",
+          "official_wuhan_galpi_variants:mnar:50": {
+            "benchmark_contract_id": "336b38d9-a1e5-4435-9416-f3e5db06586e",
+            "benchmark_mask_bank_id": "172c3580-bf6c-4eff-bc92-a582f99cf00a",
             "benchmark_phase_scope": [
               "test"
             ],
@@ -433,36 +524,45 @@
               "test_r001",
               "test_r002",
               "test_r003",
-              "test_r004"
+              "test_r004",
+              "test_r005",
+              "test_r006",
+              "test_r007",
+              "test_r008",
+              "test_r009",
+              "test_r010",
+              "test_r011",
+              "test_r012",
+              "test_r013",
+              "test_r014",
+              "test_r015",
+              "test_r016",
+              "test_r017",
+              "test_r018",
+              "test_r019"
             ],
             "benchmark_selection_phase_scope": [
               "validation"
             ],
-            "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-            "evaluation_support_fingerprint": "54686fe22fa26f10c402a60ccf299444a0d43dea92f7fa37d71406aa14e8c390",
+            "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+            "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
             "family": "mnar",
             "rate": 0.5,
-            "recipe_book_id": "official_londonaq_classical_benchmark",
-            "recipe_id": "official_londonaq_classical_benchmark:mnar:50",
+            "recipe_book_id": "official_wuhan_galpi_variants",
+            "recipe_id": "official_wuhan_galpi_variants:mnar:50",
             "shared_benchmark_required": true
           }
         }
       },
       "skipped": [],
-      "warnings": [
-        "No missing drafts found.",
-        "No safe plan creation candidates found."
-      ]
+      "warnings": []
     },
     "selected_recipe_count": 3
   },
-  "plans_created": 0,
+  "plans_created": 2,
   "plans_existing": 0,
-  "recipe_book_id": "official_londonaq_classical_benchmark",
+  "recipe_book_id": "official_wuhan_galpi_variants",
   "status": "ready",
   "templates_created": 0,
-  "warnings": [
-    "No missing drafts found.",
-    "No safe plan creation candidates found."
-  ]
+  "warnings": []
 }

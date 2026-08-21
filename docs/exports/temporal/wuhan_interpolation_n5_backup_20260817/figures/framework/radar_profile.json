@@ -1,0 +1,87 @@
+{
+  "blocking_reasons": [],
+  "caption": "Relative multi-dimensional profile over the balanced cohort intersection (policy human_multidimensional_relative_v1). Each axis is a relative score in [0,1]; missing dimensions are omitted, never zero.",
+  "chart_id": "radar_profile",
+  "chart_kind": "radar",
+  "data": {
+    "axes": [
+      {
+        "id": "accuracy",
+        "label": "Accuracy"
+      },
+      {
+        "id": "speed",
+        "label": "Speed"
+      },
+      {
+        "id": "stability",
+        "label": "Stability"
+      },
+      {
+        "id": "rate_robustness",
+        "label": "Rate robustness"
+      },
+      {
+        "id": "mechanism_robustness",
+        "label": "Mechanism robustness"
+      }
+    ],
+    "policy_id": "human_multidimensional_relative_v1",
+    "score_range": [
+      0.0,
+      1.0
+    ],
+    "series": [
+      {
+        "algorithm_id": "cubic_spline",
+        "dimension_coverage": 1.0,
+        "display_name": "Cubic Spline",
+        "scores": {
+          "accuracy": 0.8504447709761593,
+          "mechanism_robustness": 0.6604768555931352,
+          "rate_robustness": 0.41866989031979623,
+          "speed": 0.05565118333991613,
+          "stability": 0.29968858485803884
+        }
+      },
+      {
+        "algorithm_id": "galpi",
+        "dimension_coverage": 1.0,
+        "display_name": "Galpi",
+        "scores": {
+          "accuracy": 0.6128217274186648,
+          "mechanism_robustness": 0.690777675276612,
+          "rate_robustness": 0.10597965810589234,
+          "speed": 0.0,
+          "stability": 0.40676728125715417
+        }
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "dimension_coverage": 1.0,
+        "display_name": "Linear Interpolation",
+        "scores": {
+          "accuracy": 0.9617117569161253,
+          "mechanism_robustness": 0.6825825448601638,
+          "rate_robustness": 0.6311988985544136,
+          "speed": 1.0,
+          "stability": 0.43150158211323936
+        }
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "dimension_coverage": 1.0,
+        "display_name": "Nearest Interpolation",
+        "scores": {
+          "accuracy": 0.07245813991661626,
+          "mechanism_robustness": 0.6826435005644059,
+          "rate_robustness": 1.0,
+          "speed": 0.8979404051101988,
+          "stability": 0.9782308625095371
+        }
+      }
+    ]
+  },
+  "status": "available",
+  "title": "Multi-dimensional relative profile"
+}

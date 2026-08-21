@@ -1,0 +1,272 @@
+{
+  "algorithms": [
+    "GALPI_V1",
+    "GALPI_V2",
+    "GALPI_V3",
+    "GALPI_V4",
+    "GALPI_V5",
+    "GALPI_V6",
+    "galpi",
+    "linear_interpolation"
+  ],
+  "any_best": true,
+  "caption": "Table 0.1: Primary per-recipe comparison under the selected benchmark contract.",
+  "direction": "lower",
+  "metric_name": "rmse",
+  "rows": [
+    {
+      "cells": [
+        {
+          "algorithm_id": "GALPI_V1",
+          "comparable": true,
+          "count": 20,
+          "display": "16.0084 ± 0.3820 (n=20)",
+          "is_best": false,
+          "mean": 16.008354348499264,
+          "std": 0.3819670603266852
+        },
+        {
+          "algorithm_id": "GALPI_V2",
+          "comparable": true,
+          "count": 20,
+          "display": "16.6395 ± 0.3217 (n=20)",
+          "is_best": false,
+          "mean": 16.639484080041218,
+          "std": 0.3217262635297633
+        },
+        {
+          "algorithm_id": "GALPI_V3",
+          "comparable": true,
+          "count": 20,
+          "display": "16.5849 ± 0.3127 (n=20)",
+          "is_best": false,
+          "mean": 16.58494810786275,
+          "std": 0.31272279560619165
+        },
+        {
+          "algorithm_id": "GALPI_V4",
+          "comparable": true,
+          "count": 20,
+          "display": "17.7338 ± 0.4096 (n=20)",
+          "is_best": false,
+          "mean": 17.733828456174848,
+          "std": 0.4095768891616576
+        },
+        {
+          "algorithm_id": "GALPI_V5",
+          "comparable": true,
+          "count": 20,
+          "display": "16.0084 ± 0.3820 (n=20)",
+          "is_best": false,
+          "mean": 16.008354348499264,
+          "std": 0.3819670603266852
+        },
+        {
+          "algorithm_id": "GALPI_V6",
+          "comparable": true,
+          "count": 20,
+          "display": "17.3226 ± 0.3511 (n=20)",
+          "is_best": false,
+          "mean": 17.32257096095553,
+          "std": 0.3510511126335147
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 20,
+          "display": "16.7447 ± 0.3687 (n=20)",
+          "is_best": false,
+          "mean": 16.74474016199321,
+          "std": 0.3687491841857481
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 20,
+          "display": "13.2249 ± 0.4309 (n=20)",
+          "is_best": true,
+          "mean": 13.224859952929771,
+          "std": 0.43092241842221535
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mar_50_99b62f1a5b",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.5,
+      "mechanism_family": "mar",
+      "recipe_display_label": "MAR 50%",
+      "recipe_entry_id": "official_wuhan_galpi_variants:mar:50",
+      "recipe_label": "mar_50",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "GALPI_V1",
+          "comparable": true,
+          "count": 20,
+          "display": "8.7194 ± 0.0518 (n=20)",
+          "is_best": false,
+          "mean": 8.719406080669291,
+          "std": 0.051816233484847124
+        },
+        {
+          "algorithm_id": "GALPI_V2",
+          "comparable": true,
+          "count": 20,
+          "display": "9.9202 ± 0.0522 (n=20)",
+          "is_best": false,
+          "mean": 9.920177158624696,
+          "std": 0.05222226199695536
+        },
+        {
+          "algorithm_id": "GALPI_V3",
+          "comparable": true,
+          "count": 20,
+          "display": "9.9020 ± 0.0524 (n=20)",
+          "is_best": false,
+          "mean": 9.902043281247831,
+          "std": 0.05235995141154199
+        },
+        {
+          "algorithm_id": "GALPI_V4",
+          "comparable": true,
+          "count": 20,
+          "display": "11.9896 ± 0.0503 (n=20)",
+          "is_best": false,
+          "mean": 11.989631701297009,
+          "std": 0.05026048082294335
+        },
+        {
+          "algorithm_id": "GALPI_V5",
+          "comparable": true,
+          "count": 20,
+          "display": "8.7194 ± 0.0518 (n=20)",
+          "is_best": false,
+          "mean": 8.719406080669291,
+          "std": 0.051816233484847124
+        },
+        {
+          "algorithm_id": "GALPI_V6",
+          "comparable": true,
+          "count": 20,
+          "display": "11.1542 ± 0.0527 (n=20)",
+          "is_best": false,
+          "mean": 11.154150826828609,
+          "std": 0.05274501140099296
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 20,
+          "display": "9.9201 ± 0.0521 (n=20)",
+          "is_best": false,
+          "mean": 9.920138221970115,
+          "std": 0.05214890917215749
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 20,
+          "display": "7.6956 ± 0.0369 (n=20)",
+          "is_best": true,
+          "mean": 7.695645172801678,
+          "std": 0.03687564952766943
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mcar_50_2ab1b5f626",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.5,
+      "mechanism_family": "mcar",
+      "recipe_display_label": "MCAR 50%",
+      "recipe_entry_id": "official_wuhan_galpi_variants:mcar:50",
+      "recipe_label": "mcar_50",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "GALPI_V1",
+          "comparable": true,
+          "count": 20,
+          "display": "11.8479 ± 0.2265 (n=20)",
+          "is_best": false,
+          "mean": 11.847947991910996,
+          "std": 0.22654966960396022
+        },
+        {
+          "algorithm_id": "GALPI_V2",
+          "comparable": true,
+          "count": 20,
+          "display": "13.6704 ± 0.2102 (n=20)",
+          "is_best": false,
+          "mean": 13.670439456088587,
+          "std": 0.21016274108182048
+        },
+        {
+          "algorithm_id": "GALPI_V3",
+          "comparable": true,
+          "count": 20,
+          "display": "13.6668 ± 0.2096 (n=20)",
+          "is_best": false,
+          "mean": 13.666791798541306,
+          "std": 0.20956145912230678
+        },
+        {
+          "algorithm_id": "GALPI_V4",
+          "comparable": true,
+          "count": 20,
+          "display": "17.5402 ± 0.1915 (n=20)",
+          "is_best": false,
+          "mean": 17.540200267210032,
+          "std": 0.19154501027819854
+        },
+        {
+          "algorithm_id": "GALPI_V5",
+          "comparable": true,
+          "count": 20,
+          "display": "11.8479 ± 0.2265 (n=20)",
+          "is_best": false,
+          "mean": 11.847947991910996,
+          "std": 0.22654966960396022
+        },
+        {
+          "algorithm_id": "GALPI_V6",
+          "comparable": true,
+          "count": 20,
+          "display": "16.0468 ± 0.2035 (n=20)",
+          "is_best": false,
+          "mean": 16.04684533143248,
+          "std": 0.2035450862762197
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 20,
+          "display": "13.6704 ± 0.2102 (n=20)",
+          "is_best": false,
+          "mean": 13.67042164223649,
+          "std": 0.21019520529586605
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 20,
+          "display": "10.2320 ± 0.0943 (n=20)",
+          "is_best": true,
+          "mean": 10.231977276673316,
+          "std": 0.0942667489844462
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mnar_50_b783aa72f7",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.5,
+      "mechanism_family": "mnar",
+      "recipe_display_label": "MNAR 50%",
+      "recipe_entry_id": "official_wuhan_galpi_variants:mnar:50",
+      "recipe_label": "mnar_50",
+      "station_label": "full_grid"
+    }
+  ],
+  "schema": "imputebench.human-comparison-table/v1",
+  "table_kind": "global_matrix"
+}

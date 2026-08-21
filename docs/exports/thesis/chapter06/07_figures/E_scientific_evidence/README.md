@@ -43,5 +43,5 @@ The global gate status (`global_status`, `scientific_ready`) is reported in
 
 ---
 
-*Generated: 2026-06-30 01:31 UTC*  
+*Generated: 2026-08-17 22:32 UTC*  
 *Regenerate: `python -m imputebench st figures generate --section gates --clean`*

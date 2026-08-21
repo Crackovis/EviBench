@@ -1,8 +1,8 @@
 # Temporal benchmark run
 
 - Status: `completed`
-- Recipe book: `official_londonaq_classical_benchmark`
-- Dataset: `fa9c7108-176e-4c68-840d-6acf3a3e59e4`
-- Tasks: 12/12 completed, 0 failed
+- Recipe book: `official_wuhan_galpi_variants`
+- Dataset: `c1b03ed1-dad4-444b-a06d-e85cb81378b6`
+- Tasks: 24/24 completed, 0 failed
 
 > This report documents EviBench/ImputeBench implementation evidence only; it does not claim paper-faithful DL reproduction.

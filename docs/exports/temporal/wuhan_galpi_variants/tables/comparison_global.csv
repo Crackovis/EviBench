@@ -1,0 +1,25 @@
+station_label,recipe_label,recipe_display_label,mechanism_family,declared_rate,algorithm_id,metric,mean,std,n,is_best,comparable
+full_grid,mar_50,MAR 50%,mar,0.5,GALPI_V1,rmse,16.008354348499264,0.3819670603266852,20,False,True
+full_grid,mar_50,MAR 50%,mar,0.5,GALPI_V2,rmse,16.639484080041218,0.3217262635297633,20,False,True
+full_grid,mar_50,MAR 50%,mar,0.5,GALPI_V3,rmse,16.58494810786275,0.31272279560619165,20,False,True
+full_grid,mar_50,MAR 50%,mar,0.5,GALPI_V4,rmse,17.733828456174848,0.4095768891616576,20,False,True
+full_grid,mar_50,MAR 50%,mar,0.5,GALPI_V5,rmse,16.008354348499264,0.3819670603266852,20,False,True
+full_grid,mar_50,MAR 50%,mar,0.5,GALPI_V6,rmse,17.32257096095553,0.3510511126335147,20,False,True
+full_grid,mar_50,MAR 50%,mar,0.5,galpi,rmse,16.74474016199321,0.3687491841857481,20,False,True
+full_grid,mar_50,MAR 50%,mar,0.5,linear_interpolation,rmse,13.224859952929771,0.43092241842221535,20,True,True
+full_grid,mcar_50,MCAR 50%,mcar,0.5,GALPI_V1,rmse,8.719406080669291,0.051816233484847124,20,False,True
+full_grid,mcar_50,MCAR 50%,mcar,0.5,GALPI_V2,rmse,9.920177158624696,0.05222226199695536,20,False,True
+full_grid,mcar_50,MCAR 50%,mcar,0.5,GALPI_V3,rmse,9.902043281247831,0.05235995141154199,20,False,True
+full_grid,mcar_50,MCAR 50%,mcar,0.5,GALPI_V4,rmse,11.989631701297009,0.05026048082294335,20,False,True
+full_grid,mcar_50,MCAR 50%,mcar,0.5,GALPI_V5,rmse,8.719406080669291,0.051816233484847124,20,False,True
+full_grid,mcar_50,MCAR 50%,mcar,0.5,GALPI_V6,rmse,11.154150826828609,0.05274501140099296,20,False,True
+full_grid,mcar_50,MCAR 50%,mcar,0.5,galpi,rmse,9.920138221970115,0.05214890917215749,20,False,True
+full_grid,mcar_50,MCAR 50%,mcar,0.5,linear_interpolation,rmse,7.695645172801678,0.03687564952766943,20,True,True
+full_grid,mnar_50,MNAR 50%,mnar,0.5,GALPI_V1,rmse,11.847947991910996,0.22654966960396022,20,False,True
+full_grid,mnar_50,MNAR 50%,mnar,0.5,GALPI_V2,rmse,13.670439456088587,0.21016274108182048,20,False,True
+full_grid,mnar_50,MNAR 50%,mnar,0.5,GALPI_V3,rmse,13.666791798541306,0.20956145912230678,20,False,True
+full_grid,mnar_50,MNAR 50%,mnar,0.5,GALPI_V4,rmse,17.540200267210032,0.19154501027819854,20,False,True
+full_grid,mnar_50,MNAR 50%,mnar,0.5,GALPI_V5,rmse,11.847947991910996,0.22654966960396022,20,False,True
+full_grid,mnar_50,MNAR 50%,mnar,0.5,GALPI_V6,rmse,16.04684533143248,0.2035450862762197,20,False,True
+full_grid,mnar_50,MNAR 50%,mnar,0.5,galpi,rmse,13.67042164223649,0.21019520529586605,20,False,True
+full_grid,mnar_50,MNAR 50%,mnar,0.5,linear_interpolation,rmse,10.231977276673316,0.0942667489844462,20,True,True

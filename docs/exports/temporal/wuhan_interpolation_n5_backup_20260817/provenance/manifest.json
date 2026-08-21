@@ -1,0 +1,3835 @@
+{
+  "blocked_items": [],
+  "claim_level": "bounded_comparison",
+  "claim_limits": [
+    "Claims are bounded to the selected dataset snapshot, benchmark contracts, evaluation supports, and metric definitions.",
+    "Caption numbering is provisional (no chapter set)."
+  ],
+  "cohorts": [
+    {
+      "algorithm_ids": [
+        "cubic_spline",
+        "galpi",
+        "linear_interpolation",
+        "nearest_interpolation"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mar_10_ccda6baa83",
+      "comparability_status": "compatible",
+      "key": {
+        "benchmark_contract_id": "f55492f8-f0db-4e31-9861-3e2cc7637eb3",
+        "benchmark_mask_bank_id": "20c9ee48-338f-4c95-913e-9dede901f7b6",
+        "comparison_phase_key": "execute",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.1,
+        "mechanism_family": "mar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_interpolation_comparison:mar:10",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": true,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mar_10",
+      "result_ids": [
+        "053b86b3-84f8-4a3a-b471-46a8a88856c6",
+        "183a4efd-d24a-4ad0-9062-adf68bb86e04",
+        "1c9456c0-91e9-4afa-83c6-211e37c861a4",
+        "1e59b2e0-03b5-439b-aec1-9c5d9f46dfd2",
+        "201811be-a5d2-478c-88bf-30a53aea1fc7",
+        "479931a4-4809-498b-8927-f67f3057067b",
+        "5b4a6d68-40b6-44ce-9d5d-623310da21e6",
+        "6c5fee21-20eb-45ae-9fe5-bf867a0b9d66",
+        "8445f54e-0de9-4abd-aa78-70503971f420",
+        "8b5e5d6e-3955-43fb-b1ae-bd95a688ac54",
+        "8da462eb-2438-4a81-ad68-33354f3365eb",
+        "a0b8fc28-4737-4ed4-ad7f-4e12046856c5",
+        "b3f32ab1-5865-4856-8fb0-d003b8b92aaa",
+        "b59ce845-c597-489f-9c31-564e93a4ccdc",
+        "c052a790-e71d-469a-a186-44e5c6b25911",
+        "c40ab25d-7c1b-48c8-8acb-1a4fc8220b95",
+        "c6f9a7de-534c-424e-8db2-053968348360",
+        "cdd836cb-13a1-4c86-8604-6ae150b9776f",
+        "d12808c7-b996-4318-b3d9-d0ef53ada6e5",
+        "f76e84d9-4ab4-47af-ada1-da2d3bb67f35"
+      ],
+      "warnings": []
+    },
+    {
+      "algorithm_ids": [
+        "cubic_spline",
+        "galpi",
+        "linear_interpolation",
+        "nearest_interpolation"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mar_30_eda88b3952",
+      "comparability_status": "compatible",
+      "key": {
+        "benchmark_contract_id": "3a6d8cb9-25c0-4677-a9c3-7911d0fca632",
+        "benchmark_mask_bank_id": "c3a0b274-786b-480d-a5ca-9b00c1fa0256",
+        "comparison_phase_key": "execute",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.3,
+        "mechanism_family": "mar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_interpolation_comparison:mar:30",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": true,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mar_30",
+      "result_ids": [
+        "0d8ed865-d3d5-438e-a2be-2ba2d8381334",
+        "20f9426c-228d-4922-9437-605fe8fdd05a",
+        "21198986-26ae-4d68-9a63-6fb0328eb48c",
+        "2a53a964-52dd-47aa-a8eb-662304317574",
+        "2be843ab-1436-494a-a800-c694730949b8",
+        "30a4fe5a-2f68-430e-b1fb-0867e12e907f",
+        "37d7d919-e820-4793-957f-717ae55fec79",
+        "56f59117-d08d-422c-929d-f21714e45812",
+        "6932f7d1-9458-41a4-94e1-467a5eb592b8",
+        "7041b0bb-f2db-494f-b39d-b20f7471e4f4",
+        "80d57c3f-d9b0-4eca-a275-7c6d0f10d47c",
+        "84bbcbc6-e1d6-4939-837b-e36671cd0cb0",
+        "8b7550e4-ce1e-4f8e-b625-cb94b467e619",
+        "8e9c657a-4ce3-4326-8db6-a5ff4813c640",
+        "9cdcbd14-b29e-429d-8f84-5a21cbc7f42a",
+        "cd269b7a-3b9f-47b0-bb6f-fc7168538107",
+        "e055f9f5-c517-4f9f-82af-f9f8740646b5",
+        "eec4f7dd-9f1c-4242-add3-fadfc9da3dd3",
+        "f20d2739-1d8c-4035-8fa3-43845eb49197",
+        "ff882842-bdfd-4db6-a4a3-9ddefc0dce3b"
+      ],
+      "warnings": []
+    },
+    {
+      "algorithm_ids": [
+        "cubic_spline",
+        "galpi",
+        "linear_interpolation",
+        "nearest_interpolation"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mar_50_8348a0efd0",
+      "comparability_status": "compatible",
+      "key": {
+        "benchmark_contract_id": "96e067bd-13e7-4c0d-9704-118672b94909",
+        "benchmark_mask_bank_id": "99feecf3-88bf-4aaa-aaf7-0442c673ee00",
+        "comparison_phase_key": "execute",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.5,
+        "mechanism_family": "mar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_interpolation_comparison:mar:50",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": true,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mar_50",
+      "result_ids": [
+        "14412a67-1a61-4a1b-972c-ebf358f97a81",
+        "1645d8a0-5d19-4336-8dc0-17b8508521de",
+        "1ae0982d-9003-4c1d-958a-5a0efa18512c",
+        "1d70e95d-5329-444b-9d47-1f17eb9047b7",
+        "2585abe6-d296-443c-94fa-2001ae4a6a92",
+        "48f00cbb-a9b0-4521-978d-5aa702bc767e",
+        "57a279a3-a53d-42a3-be7d-4d28bed207bc",
+        "5ce14ad7-cac7-43dc-9ae1-d82bfbd99cf1",
+        "66eb3ed7-3ebc-4ff7-9a83-7bef1eb47b06",
+        "6d962858-afa7-416c-b259-d71d739dad5e",
+        "a30d1e42-171a-4f24-acab-c880baceafea",
+        "a7401793-bcc3-485f-9f9b-6d463c5fbf7d",
+        "a966b12e-09f1-41e0-b9f7-4fe161463319",
+        "bdbccfc2-5c7f-4bac-bc14-41ca2a86522b",
+        "ca02ddd3-fd6c-4e7d-8b31-231d5f0fe234",
+        "d7d7d2e9-ca5f-484d-8124-4581102619ae",
+        "ef9a3869-2001-451e-a5eb-0a97a63f770b",
+        "fa45c730-e884-40ec-8d4b-df1273b756c0",
+        "fa6109bc-e616-4865-a599-dce60d09f0b3",
+        "fd07004e-f17f-44c2-8482-5334218bd1b0"
+      ],
+      "warnings": []
+    },
+    {
+      "algorithm_ids": [
+        "cubic_spline",
+        "galpi",
+        "linear_interpolation",
+        "nearest_interpolation"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mcar_10_8426867839",
+      "comparability_status": "compatible",
+      "key": {
+        "benchmark_contract_id": "77f0c3ab-00af-47d0-9525-4d6cbf0b960d",
+        "benchmark_mask_bank_id": "0ab0780d-50e6-45dd-a719-225a9b4d8b92",
+        "comparison_phase_key": "execute",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.1,
+        "mechanism_family": "mcar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_interpolation_comparison:mcar:10",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": true,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mcar_10",
+      "result_ids": [
+        "1b21aa3f-e81d-44e0-b67b-c7b1373a0aff",
+        "2750c84e-21ee-4a1c-9ebb-ef24e602966c",
+        "36abeebc-c268-489e-ac84-c34ca75044de",
+        "3c9e1e40-b76a-476c-b857-7dca45b0e64c",
+        "3da3faa7-abfb-4f95-934e-82701ed1f34e",
+        "4a8646ea-cb45-4c4e-a28f-19545199e87e",
+        "4d80067b-81ce-45f4-b1b8-15ec2054b372",
+        "4e96c0b7-d511-4c10-b46a-93d73c432d77",
+        "513a71f9-8e48-4830-aa2c-1a3a879d33bd",
+        "558970c2-0d4a-449d-b493-5dfd52471f24",
+        "55aef4ac-e4ef-4dd2-80b0-02065978ce54",
+        "61c015d8-c543-4775-9ca4-cdaef953e73c",
+        "8473b9a9-265a-42b2-887b-408963b4e078",
+        "8c5e6cf6-eae0-4826-a7cc-82f780771a3d",
+        "94070071-bee9-45ba-be14-8067d7149161",
+        "a904fafa-8a4b-4276-8e2e-dc09b30d5410",
+        "c8ef0b6c-7192-4170-aef4-cdd768a152bb",
+        "d66dc3eb-29f3-4544-8132-41bfdec0473a",
+        "dc4c2818-4577-4b87-a0c4-479674872ce7",
+        "e0946bc5-c668-4aa9-a589-86df77ad3f7f"
+      ],
+      "warnings": []
+    },
+    {
+      "algorithm_ids": [
+        "cubic_spline",
+        "galpi",
+        "linear_interpolation",
+        "nearest_interpolation"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mcar_30_bcfb4e1979",
+      "comparability_status": "compatible",
+      "key": {
+        "benchmark_contract_id": "6eeed368-0c42-47f9-810c-43f39183dcaf",
+        "benchmark_mask_bank_id": "58459209-69d8-4ba5-960d-8f606ecce4ce",
+        "comparison_phase_key": "execute",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.3,
+        "mechanism_family": "mcar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_interpolation_comparison:mcar:30",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": true,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mcar_30",
+      "result_ids": [
+        "02b366bc-4f74-45c4-965a-bee49c8022f9",
+        "11330615-b10e-4af8-afb1-68ea3caf9421",
+        "303b2204-a123-42d5-97e0-0513c1377e01",
+        "3de97c72-c110-431e-b60c-bb8459bbe3f2",
+        "4248a413-76ee-479e-a0bd-9fa7a2ff8156",
+        "512e8d19-094e-49c1-81cc-4c6cc12a2723",
+        "5a17ddb1-05ab-4e07-ab29-abc6d14ccd8b",
+        "5acb88a8-451e-4907-8d60-eeeee968771f",
+        "71b191ef-b4bd-430c-a14f-d09bae34629b",
+        "78661be9-4f3b-46ad-ae54-0bf00b53c83f",
+        "8795f4b1-d279-47fe-baac-a9efdde53c42",
+        "912ea1ae-88bd-46e5-933d-b460e9a50e2d",
+        "9495eaf6-410e-40b5-8807-e22afe9e71e4",
+        "b02f796a-52f1-41aa-9d84-7a1a637cb1f6",
+        "d0ecddb2-420b-40ae-aeb1-1c55d994c8ee",
+        "d1cf312f-06a5-4633-acf4-c99a41232055",
+        "e4137989-ae7e-4239-a2ec-9a8867959c66",
+        "ed3f4189-f8c3-4602-8ea2-35db2f8edcc2",
+        "ef1d81f1-df2f-463e-83bf-841cbe427677",
+        "f87a271e-7476-4ba2-b0a7-e414734fab08"
+      ],
+      "warnings": []
+    },
+    {
+      "algorithm_ids": [
+        "cubic_spline",
+        "galpi",
+        "linear_interpolation",
+        "nearest_interpolation"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mcar_50_88b8f7d7f7",
+      "comparability_status": "compatible",
+      "key": {
+        "benchmark_contract_id": "86da00ff-d0cd-4969-8b6c-2709e021ad6e",
+        "benchmark_mask_bank_id": "16b0a16b-5f3f-44eb-9653-f23133fb5e1e",
+        "comparison_phase_key": "execute",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.5,
+        "mechanism_family": "mcar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_interpolation_comparison:mcar:50",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": true,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mcar_50",
+      "result_ids": [
+        "04caba06-9ca5-4d5a-92fc-539c9fd4f3a7",
+        "28851d5f-7493-4715-8bc8-301c6b9029fc",
+        "32aaa15c-ed59-4823-b528-95d148110310",
+        "4b27e003-5fc0-4cfb-8b62-5bb8887849d5",
+        "4c1c79dd-7197-4a05-a28f-a8a4324f4cc6",
+        "4de3a9c2-1cf2-4441-a23b-7958ce52d42e",
+        "5e9c983e-7fc0-4844-8ad2-b31d38be6886",
+        "7267b1cc-1c78-4086-9535-5ac2f7fac59b",
+        "83599796-721e-4390-850c-59a3afc1d99f",
+        "99c64b61-3ff7-4b91-8098-3fd53d3856c8",
+        "b19e2694-4a8e-4577-b903-fb3165071ca7",
+        "b4135935-d223-4e67-b2cd-9f8559bf04c8",
+        "daafba40-1a7b-4515-8c8a-66a32d476309",
+        "e398a0d4-1d8e-42bf-b621-04c528023125",
+        "e4191486-feb6-48ff-9874-37ecf2ed29ae",
+        "e536bb36-a135-4cd1-a7d4-d5e1038a0dc4",
+        "e8aea730-8884-4369-9fe3-ce8ab0976d24",
+        "e9babc31-c033-469b-a6b2-a325df71c3fa",
+        "ee6335f0-b528-403c-aa72-ec235afe319f",
+        "f3687e9c-6e14-4020-9256-4bc73333eef7"
+      ],
+      "warnings": []
+    },
+    {
+      "algorithm_ids": [
+        "cubic_spline",
+        "galpi",
+        "linear_interpolation",
+        "nearest_interpolation"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mnar_10_7617a7d65e",
+      "comparability_status": "compatible",
+      "key": {
+        "benchmark_contract_id": "01c70a50-4e45-4100-bb16-602c9c368ec3",
+        "benchmark_mask_bank_id": "c0ba7279-9d9f-4136-af76-ed28f64aa29b",
+        "comparison_phase_key": "execute",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.1,
+        "mechanism_family": "mnar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_interpolation_comparison:mnar:10",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": true,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mnar_10",
+      "result_ids": [
+        "0a66fdd4-473c-42f4-a763-1e8b8064976a",
+        "1404206d-6336-4d44-9f0c-ecc5ec939824",
+        "14826e0f-d3cb-49df-9642-1b1f3687f4bf",
+        "21ed4636-a7dd-43f8-99c3-cb90fe43f057",
+        "2bb3f902-ce1d-49ab-a0fa-6098ceeba71a",
+        "35e6823b-71df-46b9-baae-b41183e25651",
+        "3c9decbf-fb29-4dc9-a536-8e078f56588d",
+        "588ce991-e5c8-4709-8555-3ac2b2ced38f",
+        "5ff95554-1f00-437f-959b-103ec0de12e1",
+        "6dab8c35-666c-49e8-9cdd-a9e2783b2910",
+        "72a5b5ee-a713-4d60-9262-b6ed746d70d4",
+        "74f7b253-7836-4f9a-8259-42fffb6b31a2",
+        "853ba258-04d8-4976-9596-5d3122b20557",
+        "9b0ea683-5e74-4668-a87e-4df8f60498f8",
+        "9d8c9ebd-e2b5-43ad-8d44-03ca668a7fd4",
+        "a8b95529-10cb-4ec2-8b56-9d0cbd06ded8",
+        "ac9e2ded-42dc-4b59-9f79-3fbfc8c0121c",
+        "b9cf5c23-da2e-40f0-8131-97898689a0a8",
+        "d4a999d9-7434-4fdd-b568-fa901d572699",
+        "e938faae-10be-4b2c-aa2d-dd1280a41f05"
+      ],
+      "warnings": []
+    },
+    {
+      "algorithm_ids": [
+        "cubic_spline",
+        "galpi",
+        "linear_interpolation",
+        "nearest_interpolation"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mnar_30_a4eaab2521",
+      "comparability_status": "compatible",
+      "key": {
+        "benchmark_contract_id": "2e2c7b06-dfed-4665-8f33-09c9216c896e",
+        "benchmark_mask_bank_id": "c8e70afb-1f72-4bfc-aca5-c106fd2c131e",
+        "comparison_phase_key": "execute",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.3,
+        "mechanism_family": "mnar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_interpolation_comparison:mnar:30",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": true,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mnar_30",
+      "result_ids": [
+        "08a4ef99-1abc-4980-9057-d7df04119ee8",
+        "0abb4b06-101a-414c-9950-ef5528e13921",
+        "13e495f2-cdf9-47f8-8fea-b730b625b443",
+        "13fe5215-cfb6-4a3f-a5f8-084a7a247f8d",
+        "26f0a3a9-f134-4f98-af7f-5420d5887e2b",
+        "2b7f0667-52ce-4531-b85d-07e2886362c4",
+        "30d045fe-c104-4b72-be83-3984bc7fa98a",
+        "35ed62d3-978e-4b6b-8091-766b83b90a90",
+        "44c46f85-e4c2-4467-a91a-da8e9219ebf7",
+        "51e58331-b383-48e2-b6c5-dffdc3563898",
+        "5f0a949c-1c22-4ea2-859b-d2c845900856",
+        "64986cfc-ce66-4c29-a0b5-4201fd8a8f91",
+        "676a566d-54df-42fe-8191-04241bad720f",
+        "9936f231-b654-4b55-a108-edf6ff1290a3",
+        "9ee3aa54-71ef-44fc-a68c-43ee5a16ede1",
+        "adc01e53-c182-4866-9d6b-c2aed86e852c",
+        "c04ae8f1-40c2-4df9-b92b-c8a2508567f7",
+        "e8c20864-7ad8-404a-8c4b-507e8dae39c6",
+        "eddad33b-fe0f-46ba-8820-bb1c16c11778",
+        "f186acb0-f320-4c00-bc1c-bd14efbf7792"
+      ],
+      "warnings": []
+    },
+    {
+      "algorithm_ids": [
+        "cubic_spline",
+        "galpi",
+        "linear_interpolation",
+        "nearest_interpolation"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mnar_50_7bda064a97",
+      "comparability_status": "compatible",
+      "key": {
+        "benchmark_contract_id": "00e0ffa2-df93-4a61-886a-554411ee95e7",
+        "benchmark_mask_bank_id": "4039182f-a8db-4334-9172-fcc9889d276a",
+        "comparison_phase_key": "execute",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.5,
+        "mechanism_family": "mnar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_interpolation_comparison:mnar:50",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": true,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mnar_50",
+      "result_ids": [
+        "03518c43-306c-4646-9c0c-7c2ee01f2f4b",
+        "0c58a1a8-426f-4440-8142-d322912d80d6",
+        "0e3df4ca-663e-44e7-aa77-c44231593065",
+        "10d64ea6-f3c7-4f58-97a4-f4b7fefcdca3",
+        "125ff961-78d5-4e4c-b85b-4ca848c3f860",
+        "1f87350f-763c-43a6-89de-d6a619ad4826",
+        "31f03d14-a610-460c-939b-ee639bb27671",
+        "59014a8a-0189-4e22-b62b-0f474f3c2f93",
+        "635ef5d8-0635-499e-90c0-c0880b4b16a6",
+        "666a918b-9f45-4f0c-97e9-219714c14299",
+        "67434a29-7bbe-43b4-8ee0-6edf4e716059",
+        "6ec30bcf-22a5-43c3-a38f-951106e95b0a",
+        "7c6498a4-d45a-4471-95af-7a6cc9352ac0",
+        "928d9490-46e6-40cd-a1e3-ed25bf772043",
+        "97b1a2f2-d797-4989-9fcb-daeb98793074",
+        "9c6c56f0-afd5-44d9-affe-a691f5764c0b",
+        "c56c6129-0754-429a-9495-5053a84560fa",
+        "c905e887-58ec-4408-a9e4-a69fac11be2f",
+        "f0a05708-cbe3-4ed7-baa8-3a6a85be5299",
+        "fd8d920b-4bdf-4a7f-82f8-536ab380b741"
+      ],
+      "warnings": []
+    }
+  ],
+  "content_fingerprint": "118f577a50c22a313f8bada66eb11a7c449a35e24f825dbc296bc90f4eb7095c",
+  "coverage_ledger": {
+    "cohort_count": 9,
+    "database_matches": 180,
+    "database_unique_results": 180,
+    "invalid_summary_ids": [],
+    "missing_summary_ids": [],
+    "schema": "imputebench.human-selection-ledger/v1",
+    "selection_excluded": 0,
+    "selection_selected": 180,
+    "source_manifest_target_ids": 180,
+    "source_plan_targets": 180,
+    "source_reader_results": 180,
+    "source_summary_success": 180,
+    "storyboard_available": 30,
+    "storyboard_blocked": 0,
+    "storyboard_diagnostic": 0,
+    "storyboard_requested": 180
+  },
+  "dashboard_gallery_policy": "auto",
+  "environment": {
+    "device_truth_level": "",
+    "environment_digest": "b2d0eaccf552b37655f5fcc3de42e391590f79c7d7b4dedf9fc8e0b2f5826735",
+    "git_commit_hash": "c5676286ea8a4eff3bd558a55650578c63fe7c00",
+    "imputebench_version": "1.2.0",
+    "python_version": "3.13.9",
+    "requested_device": "False",
+    "selected_device": ""
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "role": "readme",
+      "sha256": "ebb149d4262012064cea28110f286be270f84d55a89fe40402c68bcb922c417d",
+      "size_bytes": 17723
+    },
+    {
+      "path": "evidence_dashboard.html",
+      "role": "dashboard",
+      "sha256": "f451d3be52250865cc3610dac1687fb177ea741385150e291d03f36a5d744bbe",
+      "size_bytes": 1707309
+    },
+    {
+      "path": "figures/framework/accuracy_runtime_pareto.json",
+      "role": "figure",
+      "sha256": "6d822512496a6554c513a26ae3abfda1fb6375cf1a343aeb97848ce28417beaf",
+      "size_bytes": 1534
+    },
+    {
+      "path": "figures/framework/accuracy_runtime_pareto.md",
+      "role": "figure",
+      "sha256": "efea0cb85677ebf2ac97a847140131864b9b0e1c53ea2b4eb6c7e4dad34996b5",
+      "size_bytes": 244
+    },
+    {
+      "path": "figures/framework/accuracy_runtime_pareto.png",
+      "role": "figure",
+      "sha256": "6665f29b13e5e64aa56a25356dc723d2a03f933a91f68457ff1635c59737c64b",
+      "size_bytes": 33782
+    },
+    {
+      "path": "figures/framework/radar_profile.json",
+      "role": "figure",
+      "sha256": "42e28fdb126ca20c70e3e8bab58d7c66c1c2accc9adf3bbb30ba17663187ed89",
+      "size_bytes": 2546
+    },
+    {
+      "path": "figures/framework/radar_profile.md",
+      "role": "figure",
+      "sha256": "51e1b8785f65dc8d1302345f194334dfc7de017759ccadbf2516c3c40cb7fd01",
+      "size_bytes": 265
+    },
+    {
+      "path": "figures/framework/radar_profile.png",
+      "role": "figure",
+      "sha256": "7e125c6d8f9f56f25978f436590f5d012773caa8b4ae7e7a45a6a6e704f6f4a7",
+      "size_bytes": 172827
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mar_10_ccda6baa83.json",
+      "role": "figure",
+      "sha256": "2cbba058d0f71e7db12daeecc4b306f4f7fbb9f8919c294923535967721b8533",
+      "size_bytes": 2116
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mar_10_ccda6baa83.md",
+      "role": "figure",
+      "sha256": "754a34df0d4545daf8c6c1545bcd0a33e32bf56aefa3cdbc4d65e32ed82f4fa2",
+      "size_bytes": 246
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mar_10_ccda6baa83.png",
+      "role": "figure",
+      "sha256": "207b25a88dc1e8e107ebdfc16d14a71ea77fed839c3813ea561283bab210de64",
+      "size_bytes": 57372
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mar_30_eda88b3952.json",
+      "role": "figure",
+      "sha256": "bfb648aa1630a3b823c408aeaf1ee5ae86d0a7cd015c4626eaa438d61ea4064e",
+      "size_bytes": 2107
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mar_30_eda88b3952.md",
+      "role": "figure",
+      "sha256": "88c1910a55f676f32e3a833021010382e93add6a36181e93ed9ea39bff10f63c",
+      "size_bytes": 246
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mar_30_eda88b3952.png",
+      "role": "figure",
+      "sha256": "615aa545c0bde2236230137c769774d71c2494a5668611f2d947e81cc451abdd",
+      "size_bytes": 55619
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mar_50_8348a0efd0.json",
+      "role": "figure",
+      "sha256": "3770f2888b630b58bde78904035a818884064b93441b03a530a7e1320968ce7e",
+      "size_bytes": 2113
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mar_50_8348a0efd0.md",
+      "role": "figure",
+      "sha256": "1e071c806cc4a354bf008ba0af848e4c7982a860978265fc139266e990e7564d",
+      "size_bytes": 246
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mar_50_8348a0efd0.png",
+      "role": "figure",
+      "sha256": "5f788f7f0c7fcbe777d2a83875781ada213f9e6596306b783326f2d65445942b",
+      "size_bytes": 55913
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mcar_10_8426867839.json",
+      "role": "figure",
+      "sha256": "6b4422360aa7349868e2c6cdf2cc3f16d79b47817876960240d5c224caf3531b",
+      "size_bytes": 2118
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mcar_10_8426867839.md",
+      "role": "figure",
+      "sha256": "480eddf0c44a03f8defc7a443ecc50a5e13dfac83c703b732c81373fe5bc6da5",
+      "size_bytes": 248
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mcar_10_8426867839.png",
+      "role": "figure",
+      "sha256": "9f85702eda557e17e04ff32abc9124802cd9e088abf106cfb7e65d50b169aa58",
+      "size_bytes": 57707
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mcar_30_bcfb4e1979.json",
+      "role": "figure",
+      "sha256": "4f3a93fed8ac83ed28936f65ad33c39517fabc636ad6025bca121bd4e8296a2d",
+      "size_bytes": 2110
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mcar_30_bcfb4e1979.md",
+      "role": "figure",
+      "sha256": "3ac8cb4e338b71e4f281b889e5a59a0dbcece966d60b5cbe1a53c3b41e747937",
+      "size_bytes": 248
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mcar_30_bcfb4e1979.png",
+      "role": "figure",
+      "sha256": "6547c5b9c8d144da5eb2d8b8fecb2ec65937f275d0314e55080465b684076d70",
+      "size_bytes": 55958
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mcar_50_88b8f7d7f7.json",
+      "role": "figure",
+      "sha256": "ff708ff3590cb6d7b609e13cdcac1cf38bb8b61980e53566d0b4acc15bee8f58",
+      "size_bytes": 2110
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mcar_50_88b8f7d7f7.md",
+      "role": "figure",
+      "sha256": "b98586adff612dfd58b540a3570babdf65947f23557e1df78b28fbe18781e29e",
+      "size_bytes": 248
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mcar_50_88b8f7d7f7.png",
+      "role": "figure",
+      "sha256": "fdab26fd679d7899274e609f6d2e17074840520509aacb6798f7832d36d87bcd",
+      "size_bytes": 55896
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mnar_10_7617a7d65e.json",
+      "role": "figure",
+      "sha256": "c15059958b9b2493258046c71880ea4e716cf8a3ee33a7204cdab4071ce3a44c",
+      "size_bytes": 2111
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mnar_10_7617a7d65e.md",
+      "role": "figure",
+      "sha256": "558e86673e8a74d398bea323d2637f022c7178ef9d5e92402bc97ea3769a1890",
+      "size_bytes": 248
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mnar_10_7617a7d65e.png",
+      "role": "figure",
+      "sha256": "5cfbdc2363723809f96fb9ee6ada9a7e934b74f181ec253e2370b65bc698d4b4",
+      "size_bytes": 56284
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mnar_30_a4eaab2521.json",
+      "role": "figure",
+      "sha256": "3661f36f0548970a43c255fa05b1fa78f7f11c3d4ffd95d2798f13ea9a47c592",
+      "size_bytes": 2111
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mnar_30_a4eaab2521.md",
+      "role": "figure",
+      "sha256": "33b5b20975f8e84786391dbf86032a9cbd7004983ff9753469d9ee52d1c2d54f",
+      "size_bytes": 248
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mnar_30_a4eaab2521.png",
+      "role": "figure",
+      "sha256": "2b3befd3c9d7cdf09b6548c03e8251f6f1bc5ab4870107296fbb6543b9edc9c6",
+      "size_bytes": 56476
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mnar_50_7bda064a97.json",
+      "role": "figure",
+      "sha256": "4881a6badb609038c613b7d0f14fbdb12ff13a67ab8b97e11ff7ee06549faee7",
+      "size_bytes": 2111
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mnar_50_7bda064a97.md",
+      "role": "figure",
+      "sha256": "04957917694f4d1e33ba7704a49cfd3625fc9fe35a626fa37a30391f3ed4c838",
+      "size_bytes": 248
+    },
+    {
+      "path": "figures/framework/significance/significance_cohort_full_grid_mnar_50_7bda064a97.png",
+      "role": "figure",
+      "sha256": "26bc1ab9c5a758158a0314eb48b1271c41c0774ea811d8dd20f09c0aaf59832b",
+      "size_bytes": 56397
+    },
+    {
+      "path": "figures/ranking_chart.json",
+      "role": "figure",
+      "sha256": "202589e347e500a261ce53db962693aa6e6d50e963a3e07a70fc297c54b3f5d2",
+      "size_bytes": 836
+    },
+    {
+      "path": "figures/ranking_chart.md",
+      "role": "figure",
+      "sha256": "83c82bc02b89b40199619fb06214b48c1a023322f29453b52dc094c9f106795f",
+      "size_bytes": 120
+    },
+    {
+      "path": "figures/ranking_chart.png",
+      "role": "figure",
+      "sha256": "24904da226e9216db447338461dd88124a9f73b1c064721b66ed2ade4641e914",
+      "size_bytes": 39373
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r000.json",
+      "role": "figure",
+      "sha256": "933a82d260d9b80b8f8c920c4ad3ee48176db779e5c8609f03cfa58041c11c6e",
+      "size_bytes": 1497
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r000.md",
+      "role": "figure",
+      "sha256": "52dbef8c03a1b6536fd6e6d2df652de6a99c15e5e2be9fc003244d43d4aaf550",
+      "size_bytes": 701
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r000.png",
+      "role": "figure",
+      "sha256": "621c934a2c3c39fd833dd3071cb47150ec678e898cd89c677b7cce601ecf1873",
+      "size_bytes": 91181
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r001.json",
+      "role": "figure",
+      "sha256": "fda4b073eb9a9f5e277ad68ae9c9290ebbaef7e367e3fda892f5c21aaf447990",
+      "size_bytes": 1483
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r001.md",
+      "role": "figure",
+      "sha256": "8e85de6d1c0954781066d2c3c6e11d029abd729d59e4f50b4a0e220557c2b563",
+      "size_bytes": 702
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r001.png",
+      "role": "figure",
+      "sha256": "c820f85fba6ecbd0a38baf91d524f883dbb55fcd69705a090eead9ecf7d66c99",
+      "size_bytes": 94930
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r002.json",
+      "role": "figure",
+      "sha256": "98fe9a94c6e9d92fc5d63db86e961d5419c7946d650c1dde59564b02a1acd6cd",
+      "size_bytes": 1481
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r002.md",
+      "role": "figure",
+      "sha256": "3e26bc987f032fe4060480c2103a4ff4e1b63e14ec445f88bef6ce936cd357f0",
+      "size_bytes": 701
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r002.png",
+      "role": "figure",
+      "sha256": "8e066157e8c6db1842d68c8b27285845e851d3b81f74e5c1a25923b328255e94",
+      "size_bytes": 90963
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r003.json",
+      "role": "figure",
+      "sha256": "891c7f32f4db8c7a348f9abad371cc318698dd4a5ca3753ac1a732d8363a67af",
+      "size_bytes": 1482
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r003.md",
+      "role": "figure",
+      "sha256": "cac9c31db77bf69b1dd9984556d41629c41b85c8491270de1621ddb129780b2e",
+      "size_bytes": 701
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r003.png",
+      "role": "figure",
+      "sha256": "89decbd066529b7493b9b4a87dc11e3e64d45a18f2757918ec1dc2d100245371",
+      "size_bytes": 92982
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r004.json",
+      "role": "figure",
+      "sha256": "f810e907bb54d936bcf0343a6f3a22ccd37beba7f2a63aea9c660cbddec56c34",
+      "size_bytes": 1481
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r004.md",
+      "role": "figure",
+      "sha256": "4a34268291510d83c263fc38522e9e44eb775ca9614eb4d1ca3b8c590b70b35a",
+      "size_bytes": 702
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_cubic_spline_execute_r004.png",
+      "role": "figure",
+      "sha256": "35e7c02d44dd43a78c79a5f908ac8a202f46f0c97cc22a2d198a5cac228c0734",
+      "size_bytes": 94495
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r000.json",
+      "role": "figure",
+      "sha256": "bb9b3a873da7316c6ef06f3d162f274be1aad7d4b044df3ed69c8d70f43fc01d",
+      "size_bytes": 1475
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r000.md",
+      "role": "figure",
+      "sha256": "32d52979ad306d20a6b8599620d1b09d0a9c37f116b634b02fb3c71c11d9d8f2",
+      "size_bytes": 681
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r000.png",
+      "role": "figure",
+      "sha256": "bf9f141fe644975c300cab242e91339e892c3204f76d576e7c54be126647af61",
+      "size_bytes": 90951
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r001.json",
+      "role": "figure",
+      "sha256": "bc34ebba96fc74245d02d14a54a472c4c7504b272c8ad9078c0eaab6ee23202c",
+      "size_bytes": 1462
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r001.md",
+      "role": "figure",
+      "sha256": "5725bf7af826d73a6de01c3ebf724d94e1dd05f107112fbee6f72abeb056f07c",
+      "size_bytes": 681
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r001.png",
+      "role": "figure",
+      "sha256": "2b16c30e65eb7d616167950e278b7632261df0e835e676b3a8036dee3f54a5b8",
+      "size_bytes": 94156
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r002.json",
+      "role": "figure",
+      "sha256": "8c5847a7070484634235e41b02a77b42200cf99dbc041280bbc607d6a5d93c40",
+      "size_bytes": 1460
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r002.md",
+      "role": "figure",
+      "sha256": "bf571cc3121d0bac3d25f2140886c08bed82b3c621b05fc4cb086a79272a73ba",
+      "size_bytes": 679
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r002.png",
+      "role": "figure",
+      "sha256": "1a925f494252962c46dce73d48bc0cbf83e98aafc54a0f4bdf7a99e2899251d6",
+      "size_bytes": 93386
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r003.json",
+      "role": "figure",
+      "sha256": "9911f1ee359d2f19712623383071516d0cabe5b26c52acdd5abf99b4eec8b671",
+      "size_bytes": 1461
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r003.md",
+      "role": "figure",
+      "sha256": "b567385f6d46fa5fcaea62b37788a6bce36b2fd42232ba170cc57bbc0aead240",
+      "size_bytes": 680
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r003.png",
+      "role": "figure",
+      "sha256": "dd9797f4d3d5639c306514a2356e6ad27c825ad8c1cf455713a685bec66c9222",
+      "size_bytes": 92212
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r004.json",
+      "role": "figure",
+      "sha256": "0957412af74c40158cfbe6a5f35d1ec17a12fdc35905c24bfa61dd9f3e4aadb2",
+      "size_bytes": 1460
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r004.md",
+      "role": "figure",
+      "sha256": "77b3ff4686d489704a5f4c06353bb14f4136e4b91ef6e6056314d5ccaf7cb70c",
+      "size_bytes": 681
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_galpi_execute_r004.png",
+      "role": "figure",
+      "sha256": "97b291eb683be79091238fa5ea7dabeec78118efab727007fd9df1bd20658a79",
+      "size_bytes": 94325
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r000.json",
+      "role": "figure",
+      "sha256": "27164b05ec3af5cc204a263134b282d3e8e516257875ed756a79c6ba5cacd136",
+      "size_bytes": 1520
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r000.md",
+      "role": "figure",
+      "sha256": "478269919e20682fef34fb01992942e089efeaafbf18833d8a3d978f2184c41e",
+      "size_bytes": 726
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r000.png",
+      "role": "figure",
+      "sha256": "611b55138de174709af7d696bbc9aae0125d27602385abaee662be372882c2cf",
+      "size_bytes": 92204
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r001.json",
+      "role": "figure",
+      "sha256": "83850e200f675f6b35e0fb27ba6d452db189863e6ff4fe2dc1996d09cbe281ab",
+      "size_bytes": 1507
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r001.md",
+      "role": "figure",
+      "sha256": "10225a41910c573746d7897878e5bfaa5065e41321d0d25e59a53808d600f788",
+      "size_bytes": 726
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r001.png",
+      "role": "figure",
+      "sha256": "91c043aada0f0438c73bac2b5a18318cb8627e0332001b48fcedbfa748dd2002",
+      "size_bytes": 94927
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r002.json",
+      "role": "figure",
+      "sha256": "bf6e80be6642b07db204603d9b7a5bb29a08a9b97df0f18c276324434502bbdf",
+      "size_bytes": 1505
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r002.md",
+      "role": "figure",
+      "sha256": "70bd8507550f9233be9718ea3cfc641cc9a05692808260f2daac7310ea4a90c4",
+      "size_bytes": 724
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r002.png",
+      "role": "figure",
+      "sha256": "e6384ee0abb0b4c4505915a774e54dd792e8ea2f3576dda51ec86fefd7ad0077",
+      "size_bytes": 94426
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r003.json",
+      "role": "figure",
+      "sha256": "24814998ac5d8009bd2049f2da2261db62db24788d839e53c519353079959ac1",
+      "size_bytes": 1506
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r003.md",
+      "role": "figure",
+      "sha256": "38062cba6dc6eb3edcd8a316211ee38f1f927e49c3ee6e83a5d3673eba83ea9e",
+      "size_bytes": 724
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r003.png",
+      "role": "figure",
+      "sha256": "ce8bbf2595803118aabb2933a52394731fa09f81492cd323444b09ea20cf0f98",
+      "size_bytes": 93522
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r004.json",
+      "role": "figure",
+      "sha256": "935118b0c77bdb915e85edac91dfa1fa591e2cde5ae6d1aa345ed50d4953a6e3",
+      "size_bytes": 1505
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r004.md",
+      "role": "figure",
+      "sha256": "44314b063e8247101f7eccd80892815221a3f7ba06b1d790653016ae6ca45281",
+      "size_bytes": 725
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_linear_interpolation_execute_r004.png",
+      "role": "figure",
+      "sha256": "aa22ceb00617a76bff56fc6fd16dc254ace68b7c2f484ee84ae0dcd2469253da",
+      "size_bytes": 95183
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r000.json",
+      "role": "figure",
+      "sha256": "532403a46f2cb6612f565a3fa2b23e83872109883354ecad76be037b257297f7",
+      "size_bytes": 1522
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r000.md",
+      "role": "figure",
+      "sha256": "86c38729f964e558a8aea611ffab4663034f44a2836580c1ba6d3cf8a80a99eb",
+      "size_bytes": 729
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r000.png",
+      "role": "figure",
+      "sha256": "7c698b58ca40bb886b146e100788d72b8fdae6c37a3c29f5821164e6bb6248d6",
+      "size_bytes": 93572
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r001.json",
+      "role": "figure",
+      "sha256": "9faeeb5f6ff1f93ee4e0dcf82908a3adbebe66b64fcbb0e70e4cfd5860152381",
+      "size_bytes": 1508
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r001.md",
+      "role": "figure",
+      "sha256": "f6f0cc1f22ed03dde1dfc44fa03b85da3339c4f8d2226b3b6f253c44f421f6de",
+      "size_bytes": 729
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r001.png",
+      "role": "figure",
+      "sha256": "4df83f744986d1d25844cb83fcc8e09b2e22eca16b15da116e6ae9b092db7b39",
+      "size_bytes": 92420
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r002.json",
+      "role": "figure",
+      "sha256": "122b56cd8dacf385d19185323f3809218bd7cc2e36c5d224a72fc31f075c2401",
+      "size_bytes": 1508
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r002.md",
+      "role": "figure",
+      "sha256": "8b8f40df66d21edb5849510d5ef47e83b87f0784f4974c1ee61f5da5f9ee1b0f",
+      "size_bytes": 728
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r002.png",
+      "role": "figure",
+      "sha256": "5c6a0bfe46ac724f11727cda5ebae0dfc768e373600158d8b6b0fe059f014767",
+      "size_bytes": 95567
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r003.json",
+      "role": "figure",
+      "sha256": "6ae8a3f4b914fd71da0d563f4e7f908eee7c08de4e521568e38fc9ef2c7cbeaa",
+      "size_bytes": 1509
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r003.md",
+      "role": "figure",
+      "sha256": "6ea2cf8f0bdc252a9cdee3bf7182620bb6d96404e304cb038ad91d8ca4c4e9a1",
+      "size_bytes": 728
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r003.png",
+      "role": "figure",
+      "sha256": "fa23ee463fd70af7caf7d70da172229d61d33347eed1ff15c4a65c2d19e9b576",
+      "size_bytes": 93175
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r004.json",
+      "role": "figure",
+      "sha256": "3b4c9dd104f93b185bc0a3b8bcd99bff770009f05479badca27b4c1c8da043df",
+      "size_bytes": 1508
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r004.md",
+      "role": "figure",
+      "sha256": "468dbe77e2f543418112fd87f3072e183a62f10336758153f891e225d884c0b9",
+      "size_bytes": 729
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_10_nearest_interpolation_execute_r004.png",
+      "role": "figure",
+      "sha256": "0609dbe46500828df17c193fa70ad79129c50b1f1e6646c6fad36e0596c89b4d",
+      "size_bytes": 93656
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r000.json",
+      "role": "figure",
+      "sha256": "b5b23cc88454d875d06c1749fe389cf89707c4e0f1ada2302e9de3a0f0e117d3",
+      "size_bytes": 1494
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r000.md",
+      "role": "figure",
+      "sha256": "2d74a5aa71ef63193317a6ef5d1b4b9c410b7be863dfc68beea6db085d82833b",
+      "size_bytes": 701
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r000.png",
+      "role": "figure",
+      "sha256": "5d64198b6231b087068220f5d76990bf8c9dfb240ec15c31f34d6418388e34f0",
+      "size_bytes": 98405
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r001.json",
+      "role": "figure",
+      "sha256": "7dfad767e887e6cb216143a9ebf08645e01ca15938509127daf288ee56a5fd2c",
+      "size_bytes": 1495
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r001.md",
+      "role": "figure",
+      "sha256": "bfb54154c429abfacda07709fb853aaadb3108e54b6ed1b193e11448cdfeab58",
+      "size_bytes": 702
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r001.png",
+      "role": "figure",
+      "sha256": "d16296852809c72a1c0f887137c2bc247c4998b20bee3f8017bc6ed410bb2ab0",
+      "size_bytes": 93511
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r002.json",
+      "role": "figure",
+      "sha256": "53e65a07a8b39f87fc8a6f23cc31ddb184ea91f7b940811ba95711e244393116",
+      "size_bytes": 1484
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r002.md",
+      "role": "figure",
+      "sha256": "917bd444772b27eb174de93905e68431fef0f8feaee1ec08d84a3724256e2bd4",
+      "size_bytes": 702
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r002.png",
+      "role": "figure",
+      "sha256": "89b6cb486d5b5737078e17071144e8c03d7def95da2526d4902d7ac1d4e2f22f",
+      "size_bytes": 93288
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r003.json",
+      "role": "figure",
+      "sha256": "2277f6c2fc90c3df69aa0fa61247b63ec7a9e310d6d60918f2a04f0e5f7e0530",
+      "size_bytes": 1483
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r003.md",
+      "role": "figure",
+      "sha256": "e14a261641ce440049617ff6f7698c676d3942756db5f79f172d569da1aa2a8b",
+      "size_bytes": 701
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r003.png",
+      "role": "figure",
+      "sha256": "b6cb1eeab3b58885899133d075133e1f04f7c8de125bcb1d6a9a219814d452a0",
+      "size_bytes": 94024
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r004.json",
+      "role": "figure",
+      "sha256": "dba8adc63254c58c51846a5d61acdaa13a84f74fb87c6f2a53a1ef88a6719819",
+      "size_bytes": 1495
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r004.md",
+      "role": "figure",
+      "sha256": "b76dbb9c58d4ad32f320a60247d1120f34a80729b07646ccc7f0ebc197ecf064",
+      "size_bytes": 702
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_cubic_spline_execute_r004.png",
+      "role": "figure",
+      "sha256": "b1c3ebd8365a013b7469b7617142fd29c4095f561cd8812237376bad9999c9e7",
+      "size_bytes": 93718
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r000.json",
+      "role": "figure",
+      "sha256": "a11c5669f31ab1db1b2f91491ccba285aca1810d4ccc515a2965f377209a7143",
+      "size_bytes": 1473
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r000.md",
+      "role": "figure",
+      "sha256": "fdb5ed12213a7bfb3e265a732a4b147ca704c772cc9bebe266cac0a2ece43bf7",
+      "size_bytes": 680
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r000.png",
+      "role": "figure",
+      "sha256": "5150540968a2898abad51d627a633e86db752549e9a71c84e23a123a662b5601",
+      "size_bytes": 93701
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r001.json",
+      "role": "figure",
+      "sha256": "3cb6e6184094ad5c5c1c1423035bce8297714ed335ef2e0efd48da3ffba5dee0",
+      "size_bytes": 1473
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r001.md",
+      "role": "figure",
+      "sha256": "ca556ceb40621d82ae48490654d8c12f66f1140681e4845ff972bc3cda6a9ceb",
+      "size_bytes": 681
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r001.png",
+      "role": "figure",
+      "sha256": "763c070acac36e46cbe1f5f861eb3bbaf92858ce75ec4a7093c7efcb07e698f1",
+      "size_bytes": 93849
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r002.json",
+      "role": "figure",
+      "sha256": "974901cb4e6a6034a0e91ab89983cafee523bfe99305174c70158045477a39d3",
+      "size_bytes": 1462
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r002.md",
+      "role": "figure",
+      "sha256": "74503467b02ce376943e453df10c8882183bf5756d37ecb2706d16d14e480308",
+      "size_bytes": 681
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r002.png",
+      "role": "figure",
+      "sha256": "ff465c9ae49c5a75c77ac96950ab5db9838a39e4602d23871fca7ece8939a4dd",
+      "size_bytes": 94508
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r003.json",
+      "role": "figure",
+      "sha256": "f985062534e3a35234e7042d03138ff8cc4e76f7d787e228918821971e355e5c",
+      "size_bytes": 1462
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r003.md",
+      "role": "figure",
+      "sha256": "8afb441d95dce2a127c46a36d9709cb343a0c25bdddcb1a8b4fa3d7d16dd4ab8",
+      "size_bytes": 681
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r003.png",
+      "role": "figure",
+      "sha256": "a3a086b93ae3faf49ab6c70be7b8c8d98164ec07da5c43d0b779c2c43acc50d6",
+      "size_bytes": 92876
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r004.json",
+      "role": "figure",
+      "sha256": "f4cf1bcbaa87e467b8b309dbe7970225a6eb0c346ce78b11e280574e2458f4d7",
+      "size_bytes": 1474
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r004.md",
+      "role": "figure",
+      "sha256": "73cd8fdfd1013382e3f54f31b331f841e981e25e5d9b4b795cf086cf70cc50b2",
+      "size_bytes": 680
+    },
+    {
+      "path": "figures/storyboards/full_grid_mar_30_galpi_execute_r004.png",
+      "role": "figure",
+      "sha256": "8c654027902d25f60809abf6f3284d6d626af64b4029835401d90a9f23b4cafe",
+      "size_bytes": 94404
+    },
+    {
+      "path": "provenance/blocked_items.json",
+      "role": "provenance",
+      "sha256": "15837561c4d3e6b00ca45c9ae7005b01e9d601a2e5df3a818b29cf2dc0cb1b35",
+      "size_bytes": 75
+    },
+    {
+      "path": "provenance/command.json",
+      "role": "provenance",
+      "sha256": "e80a3da73ec2e3e5653226722698fbf8fa5122f00e1fd17f949a3ae28c0755b2",
+      "size_bytes": 1094
+    },
+    {
+      "path": "provenance/environment.json",
+      "role": "provenance",
+      "sha256": "5eb5215a649537dcaa471be7863db901b4040b9c48c4ce8d6afe0c23eaa72734",
+      "size_bytes": 315
+    },
+    {
+      "path": "provenance/framework_metric_availability.json",
+      "role": "provenance",
+      "sha256": "e3e2c2cae6411da0ec24ca8a8176bd2afb8af23b7cacd6249ab6e3122e9258a9",
+      "size_bytes": 1890
+    },
+    {
+      "path": "provenance/framework_metric_policy.json",
+      "role": "provenance",
+      "sha256": "070c55ffd0a7239c984f7db53c08b3f1129f17fc58a3276ffdb36bd685aac656",
+      "size_bytes": 214
+    },
+    {
+      "path": "provenance/id_map.json",
+      "role": "provenance",
+      "sha256": "1dc86d6c526850da71b1d723e11af8917dadcfa1638f77631be69c68b45a78c1",
+      "size_bytes": 102857
+    },
+    {
+      "path": "provenance/performance_trace.json",
+      "role": "provenance",
+      "sha256": "f34d2dc6b4b63efd9d41f8836f419fb6e286b8a391f0f39af7fa80ac91217c54",
+      "size_bytes": 1960
+    },
+    {
+      "path": "provenance/selection.json",
+      "role": "provenance",
+      "sha256": "3a8bcccd0b80d990bcd7b09e0b4cf628ccfe167369bb2535d97269979aacac45",
+      "size_bytes": 8558
+    },
+    {
+      "path": "provenance/selection_ledger.json",
+      "role": "provenance",
+      "sha256": "a2ee2e525e1b608766d896fd62b07f43db27abe71cee56fdacd05378af72c5d3",
+      "size_bytes": 518
+    },
+    {
+      "path": "provenance/source_manifest.json",
+      "role": "provenance",
+      "sha256": "b46ad9d807fbd798ecaf3118ffe9db3312565c7005d3aa70af48cafdf154b1e5",
+      "size_bytes": 1105872
+    },
+    {
+      "path": "provenance/storyboard_sampling.json",
+      "role": "provenance",
+      "sha256": "d497ef9922f283574edb1bc59bd689c394e4af458cbdbb6c20ccbd33daf21574",
+      "size_bytes": 2060
+    },
+    {
+      "path": "stats/STATUS.md",
+      "role": "statistics",
+      "sha256": "b9a1fbcbf7094bf9481a16dbc468cbb6bc93db05aa1720285a3f4b605822f6f1",
+      "size_bytes": 164
+    },
+    {
+      "path": "stats/pairwise_tests.csv",
+      "role": "statistics",
+      "sha256": "d401977c418720bb30d9427395b213024c78049a319fd7e13544c9239b69cf6c",
+      "size_bytes": 7635
+    },
+    {
+      "path": "stats/pairwise_tests.json",
+      "role": "statistics",
+      "sha256": "8392921105489624fd0adf9693fae1df8e2d3ae1c4862382886a396b616ed5a3",
+      "size_bytes": 42827
+    },
+    {
+      "path": "stats/significance_summary.md",
+      "role": "statistics",
+      "sha256": "b7cf2e90777bd15c2d38c09feac6be39c492a72d6d7c22c7c7774f11d21bfbf7",
+      "size_bytes": 16274
+    },
+    {
+      "path": "tables/algorithm_summary.csv",
+      "role": "table",
+      "sha256": "bb5a37eecd3c652836f8c06ea31a959a62ebc6cac3aa5a485aef139ae68ee620",
+      "size_bytes": 6726
+    },
+    {
+      "path": "tables/algorithm_summary.md",
+      "role": "table",
+      "sha256": "40d16b3e71f329078f355a01787775beca59897ec3dc753812dc16af362f7b2a",
+      "size_bytes": 6214
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mar_10.csv",
+      "role": "table",
+      "sha256": "dc8afcfa6581e4ebef1d73f2cb1fb9c1cef167acd6b1ada6b1ea2fe3868f08ef",
+      "size_bytes": 882
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mar_10.json",
+      "role": "table",
+      "sha256": "ed20fce2e6a2a4c1c19c3e7a2ab6231ea8ab4fdc8486ad235e8960d84d8828a7",
+      "size_bytes": 2006
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mar_10.md",
+      "role": "table",
+      "sha256": "831418f72b32847b8b01d63ad28003faf04bc2849754b119a2c472df973976a4",
+      "size_bytes": 653
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mar_30.csv",
+      "role": "table",
+      "sha256": "8cd4cbc716d4e9c78e01a296e13ef6d3743b96a33de7af9a303bb9bb48c1b28b",
+      "size_bytes": 878
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mar_30.json",
+      "role": "table",
+      "sha256": "8246795ecfb6bc45c68bf32450bdd40b45eced636b6b791cd4f0d41190f352c4",
+      "size_bytes": 2002
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mar_30.md",
+      "role": "table",
+      "sha256": "8286631de075f0e1a7622494bf4dde038e2b070ef934c587fb7e529d6307499a",
+      "size_bytes": 654
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mar_50.csv",
+      "role": "table",
+      "sha256": "4dd3b0e56eb45b78a1d8a40c0d457f2c3b5fce78c4ede2dddf6896b1e921e07c",
+      "size_bytes": 891
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mar_50.json",
+      "role": "table",
+      "sha256": "416f570a82f72780e2c051f0e04d1b0ea144647c0bf95a8623a86f804c6edb36",
+      "size_bytes": 2015
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mar_50.md",
+      "role": "table",
+      "sha256": "3225d7d20326031887d445953807d2fb755ca5229065d4917649c80eba7704e6",
+      "size_bytes": 663
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_10.csv",
+      "role": "table",
+      "sha256": "6f281444c821174f21dafa5238d8b69a5b012e6ed0b9af87162ca4aa324a6f6f",
+      "size_bytes": 891
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_10.json",
+      "role": "table",
+      "sha256": "5ecd54c24e78115197135e932c21bbd392c5f5844136fe4ff13bfb49ee7706dc",
+      "size_bytes": 2015
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_10.md",
+      "role": "table",
+      "sha256": "0323c8d3b27f4e2af54f71c4ab112d2718f7d6a9906aa1ac19122adee3fe8074",
+      "size_bytes": 655
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_30.csv",
+      "role": "table",
+      "sha256": "935cb4bc66f21dd7ef0e44f537b653579ecd9dd6e8f165c2a81176c98024b2c3",
+      "size_bytes": 889
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_30.json",
+      "role": "table",
+      "sha256": "8422eed49f1cdc75b9ba7a39b8014dcc77628f8dc553ebc9d7969669236657c7",
+      "size_bytes": 2013
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_30.md",
+      "role": "table",
+      "sha256": "1a01e9abf97c21674525fc1732a6fcc0dbd6b78c289f23ab5d64026febf7a8a2",
+      "size_bytes": 655
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_50.csv",
+      "role": "table",
+      "sha256": "dcf209755899779ac4a4ffadee1884d462b23f49995c1b53e1e01a326330c312",
+      "size_bytes": 893
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_50.json",
+      "role": "table",
+      "sha256": "048e60136f0e5f77fba355915d109ae0a5dbf242165977a568b7470d8cf32e46",
+      "size_bytes": 2017
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_50.md",
+      "role": "table",
+      "sha256": "5f0856a0e0927eb74482d4f0166af2553244e50677a7f084b3779f516af6bfe9",
+      "size_bytes": 659
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mnar_10.csv",
+      "role": "table",
+      "sha256": "b7ec8890313de6e3b8d839ddd6a31e757b5c3c9f0ab4e75b3595b7c21ebe2dd1",
+      "size_bytes": 891
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mnar_10.json",
+      "role": "table",
+      "sha256": "a6f918ed1132d0507f2e784d22b8b4400bb754538ad53fa3c8bb8347c8efdc5f",
+      "size_bytes": 2015
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mnar_10.md",
+      "role": "table",
+      "sha256": "7df673e2a8aac6c9cd07d8a4ca9e3d5e4caa46e4d940926673b11879aafd511e",
+      "size_bytes": 657
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mnar_30.csv",
+      "role": "table",
+      "sha256": "55ab8da5c3316bc8e7a302c69075a3c6bcd2cf051e4ae912d958d60033975741",
+      "size_bytes": 890
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mnar_30.json",
+      "role": "table",
+      "sha256": "af34347843bf06e19047dcc3c6c3562112e3acb16840c83f2ebc05221771670e",
+      "size_bytes": 2014
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mnar_30.md",
+      "role": "table",
+      "sha256": "686cea358f30a910bea69ab668ee3f2b358528915212fcab59ab320205f668f0",
+      "size_bytes": 657
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mnar_50.csv",
+      "role": "table",
+      "sha256": "6df07a759ec27f3117266bf0d4a0033ebe7d8dbfc42d147c36747c94c334f196",
+      "size_bytes": 893
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mnar_50.json",
+      "role": "table",
+      "sha256": "8bc4d0265dff6b794f1956e250461534f77934839b7202d53f5c6cf6cac988a9",
+      "size_bytes": 2018
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mnar_50.md",
+      "role": "table",
+      "sha256": "09c00898da7b04348493a6e2d600ce0c9947d74d6f6642fd5198a246a1ef8b69",
+      "size_bytes": 662
+    },
+    {
+      "path": "tables/comparison_global.csv",
+      "role": "table",
+      "sha256": "cc1c85eaae5d55f544bc5b6e41f60572be6ccd562e642690973d680d209ff004",
+      "size_bytes": 3992
+    },
+    {
+      "path": "tables/comparison_global.json",
+      "role": "table",
+      "sha256": "fb51bc0b6d2ed2966da4896afbcf6c70afebf5483cac0cd49e184c9a7a293217",
+      "size_bytes": 14423
+    },
+    {
+      "path": "tables/comparison_global.md",
+      "role": "table",
+      "sha256": "9f1037e3c3a75485add18fe58262da9d1f8cfc379d53b6f1dc78784902955092",
+      "size_bytes": 1522
+    },
+    {
+      "path": "tables/framework/availability.csv",
+      "role": "table",
+      "sha256": "ac5b8c0e3051018dd7682d0056844fbff0b9d21847b422c9af9b910acc26f2ea",
+      "size_bytes": 593
+    },
+    {
+      "path": "tables/framework/availability.json",
+      "role": "table",
+      "sha256": "2c928e4900d66cc615e9a2b39db55f3f43463f58d40042c7d995470b443f103d",
+      "size_bytes": 1896
+    },
+    {
+      "path": "tables/framework/availability.md",
+      "role": "table",
+      "sha256": "38dad997ea8f3092a5e504d89991fdfd0d8db3a15eff78d1687a195c2ad8ac63",
+      "size_bytes": 781
+    },
+    {
+      "path": "tables/framework/complexity.csv",
+      "role": "table",
+      "sha256": "8e19a92b59e6b76ffc67ab0cf6879722d3d0dabd83c4d61a7792c412fe29df8d",
+      "size_bytes": 1157
+    },
+    {
+      "path": "tables/framework/complexity.json",
+      "role": "table",
+      "sha256": "bdc93d65ad253839c6260db18bfb7621dbaf480a5b17f1d575be671b391e9cdc",
+      "size_bytes": 2779
+    },
+    {
+      "path": "tables/framework/complexity.md",
+      "role": "table",
+      "sha256": "2ad54936d514d43afbd56851aa49c6c452166f6abc78449ce7a7da4997ca3767",
+      "size_bytes": 873
+    },
+    {
+      "path": "tables/framework/master_comparison.csv",
+      "role": "table",
+      "sha256": "1315b410204823f6f865c3a1fc2d4d55c93d1093f3a21df25905f68fe0f6cfff",
+      "size_bytes": 734
+    },
+    {
+      "path": "tables/framework/master_comparison.json",
+      "role": "table",
+      "sha256": "3144138f75e7eb444eaba685dfb330eeab81b9b28a40a753280ff64ad5ac1dc1",
+      "size_bytes": 3107
+    },
+    {
+      "path": "tables/framework/master_comparison.md",
+      "role": "table",
+      "sha256": "6fb86822b913a47003e11218bb9728aae5616450adf614a59eceffee32bf816e",
+      "size_bytes": 854
+    },
+    {
+      "path": "tables/framework/mechanism_robustness.csv",
+      "role": "table",
+      "sha256": "92f1f8d9d5cbda8d2f8bdacf324342c7a82ba29b8dbfb8316ef27fc747fd638f",
+      "size_bytes": 1536
+    },
+    {
+      "path": "tables/framework/mechanism_robustness.json",
+      "role": "table",
+      "sha256": "83e310b24fc19c372d9692ea11b8fb582658bf216916674fdb3a14d502717850",
+      "size_bytes": 4571
+    },
+    {
+      "path": "tables/framework/mechanism_robustness.md",
+      "role": "table",
+      "sha256": "90ec007b7889d45bdc01fade7a21e2f45d0aa34b99f2e1a46eeffb7c22e8031a",
+      "size_bytes": 1400
+    },
+    {
+      "path": "tables/framework/rate_robustness.csv",
+      "role": "table",
+      "sha256": "0c55f43eb7104bdc3349f9786541ee90b58a0e30ed55f5a7d1f97711d24b134c",
+      "size_bytes": 1833
+    },
+    {
+      "path": "tables/framework/rate_robustness.json",
+      "role": "table",
+      "sha256": "53f1c15152af37fc0764fdebc0a19fd30ab6ccd31a3ac3ec2b5f993316f3ad7c",
+      "size_bytes": 5928
+    },
+    {
+      "path": "tables/framework/rate_robustness.md",
+      "role": "table",
+      "sha256": "84c1932fcb2ec5550fda887a8780ce85b07be4c9c4168409204af7ae48dc25be",
+      "size_bytes": 1737
+    },
+    {
+      "path": "tables/framework/stability.csv",
+      "role": "table",
+      "sha256": "48dbfa2f825de5c5c2ed7ed459c890835865b26230cb862ae79eff1c7b8b5dd3",
+      "size_bytes": 5608
+    },
+    {
+      "path": "tables/framework/stability.json",
+      "role": "table",
+      "sha256": "2f2c295f91233876bb48bf78d92fc56e4198fb786acb3ac90e91cd44111a1364",
+      "size_bytes": 15031
+    },
+    {
+      "path": "tables/framework/stability.md",
+      "role": "table",
+      "sha256": "9c07f717965872efc6c0764e93d56d6e4a07f843322289e72a808b8165fa4e8d",
+      "size_bytes": 3642
+    },
+    {
+      "path": "tables/per_realization_metrics.csv",
+      "role": "table",
+      "sha256": "b24d072c00afbf0fa6539f6082c9dd741e3515dcb50a2ae5aee997c5d7eae08e",
+      "size_bytes": 27372
+    },
+    {
+      "path": "tables/pollutant_breakdown.csv",
+      "role": "table",
+      "sha256": "278e89abd15cff3b73aed4d25cbed96b19e6ece1338fc7bfcea57457cf5048a8",
+      "size_bytes": 82378
+    },
+    {
+      "path": "tables/pollutant_breakdown.json",
+      "role": "table",
+      "sha256": "906fc5f60701a53488418a0c7ceb4ff137ca37bb770d8a4a54bda4f7855f27a7",
+      "size_bytes": 275716
+    },
+    {
+      "path": "tables/pollutant_breakdown.md",
+      "role": "table",
+      "sha256": "5a53e10e4ab3c31c42ae8b40e2697c69ecec3c5d015402b22a8626f17ac71249",
+      "size_bytes": 70819
+    }
+  ],
+  "framework_metrics": {
+    "availability": [
+      {
+        "available_count": 9,
+        "coverage": 1.0,
+        "expected_count": 9,
+        "metric_id": "accuracy",
+        "reasons": [],
+        "source_quality": "exported_primary_metric",
+        "status": "available"
+      },
+      {
+        "available_count": 180,
+        "coverage": 1.0,
+        "expected_count": 180,
+        "metric_id": "speed",
+        "reasons": [],
+        "source_quality": "native_timing_spans",
+        "status": "available"
+      },
+      {
+        "available_count": 36,
+        "coverage": 1.0,
+        "expected_count": 36,
+        "metric_id": "stability",
+        "reasons": [],
+        "source_quality": "exported_primary_metric",
+        "status": "available"
+      },
+      {
+        "available_count": 12,
+        "coverage": 1.0,
+        "expected_count": 12,
+        "metric_id": "rate_robustness",
+        "reasons": [],
+        "source_quality": "exported_primary_metric",
+        "status": "available"
+      },
+      {
+        "available_count": 12,
+        "coverage": 1.0,
+        "expected_count": 12,
+        "metric_id": "mechanism_robustness",
+        "reasons": [],
+        "source_quality": "exported_primary_metric",
+        "status": "available"
+      },
+      {
+        "available_count": 0,
+        "coverage": 0.0,
+        "expected_count": 180,
+        "metric_id": "parameter_efficiency",
+        "reasons": [
+          "no explicit parameter evidence exported"
+        ],
+        "source_quality": "explicit_parameter_evidence",
+        "status": "unavailable"
+      },
+      {
+        "available_count": 0,
+        "coverage": 0.0,
+        "expected_count": 180,
+        "metric_id": "memory_efficiency",
+        "reasons": [
+          "memory is not instrumented; a missing value never becomes 1.0"
+        ],
+        "source_quality": "not_instrumented",
+        "status": "unavailable"
+      }
+    ],
+    "balanced_cohort_count": 9,
+    "charts": [
+      {
+        "blocking_reasons": [],
+        "caption": "Relative multi-dimensional profile over the balanced cohort intersection (policy human_multidimensional_relative_v1). Each axis is a relative score in [0,1]; missing dimensions are omitted, never zero.",
+        "chart_id": "radar_profile",
+        "chart_kind": "radar",
+        "data": {
+          "axes": [
+            {
+              "id": "accuracy",
+              "label": "Accuracy"
+            },
+            {
+              "id": "speed",
+              "label": "Speed"
+            },
+            {
+              "id": "stability",
+              "label": "Stability"
+            },
+            {
+              "id": "rate_robustness",
+              "label": "Rate robustness"
+            },
+            {
+              "id": "mechanism_robustness",
+              "label": "Mechanism robustness"
+            }
+          ],
+          "policy_id": "human_multidimensional_relative_v1",
+          "score_range": [
+            0.0,
+            1.0
+          ],
+          "series": [
+            {
+              "algorithm_id": "cubic_spline",
+              "dimension_coverage": 1.0,
+              "display_name": "Cubic Spline",
+              "scores": {
+                "accuracy": 0.8504447709761593,
+                "mechanism_robustness": 0.6604768555931352,
+                "rate_robustness": 0.41866989031979623,
+                "speed": 0.05565118333991613,
+                "stability": 0.29968858485803884
+              }
+            },
+            {
+              "algorithm_id": "galpi",
+              "dimension_coverage": 1.0,
+              "display_name": "Galpi",
+              "scores": {
+                "accuracy": 0.6128217274186648,
+                "mechanism_robustness": 0.690777675276612,
+                "rate_robustness": 0.10597965810589234,
+                "speed": 0.0,
+                "stability": 0.40676728125715417
+              }
+            },
+            {
+              "algorithm_id": "linear_interpolation",
+              "dimension_coverage": 1.0,
+              "display_name": "Linear Interpolation",
+              "scores": {
+                "accuracy": 0.9617117569161253,
+                "mechanism_robustness": 0.6825825448601638,
+                "rate_robustness": 0.6311988985544136,
+                "speed": 1.0,
+                "stability": 0.43150158211323936
+              }
+            },
+            {
+              "algorithm_id": "nearest_interpolation",
+              "dimension_coverage": 1.0,
+              "display_name": "Nearest Interpolation",
+              "scores": {
+                "accuracy": 0.07245813991661626,
+                "mechanism_robustness": 0.6826435005644059,
+                "rate_robustness": 1.0,
+                "speed": 0.8979404051101988,
+                "stability": 0.9782308625095371
+              }
+            }
+          ]
+        },
+        "status": "available",
+        "title": "Multi-dimensional relative profile"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Macro balanced primary metric (X, lower is better) versus macro median measured runtime in seconds (Y, lower is better). The lower/lower non-dominated front is highlighted.",
+        "chart_id": "accuracy_runtime_pareto",
+        "chart_kind": "pareto",
+        "data": {
+          "front": [
+            "linear_interpolation"
+          ],
+          "series": [
+            {
+              "algorithm_id": "cubic_spline",
+              "display_name": "Cubic Spline",
+              "on_front": false,
+              "x_primary_metric": 8.392307386636682,
+              "y_runtime_seconds": 6.100706233333333
+            },
+            {
+              "algorithm_id": "galpi",
+              "display_name": "Galpi",
+              "on_front": false,
+              "x_primary_metric": 9.165807835906811,
+              "y_runtime_seconds": 7.0175036111111115
+            },
+            {
+              "algorithm_id": "linear_interpolation",
+              "display_name": "Linear Interpolation",
+              "on_front": true,
+              "x_primary_metric": 7.792348124027898,
+              "y_runtime_seconds": 0.2820414
+            },
+            {
+              "algorithm_id": "nearest_interpolation",
+              "display_name": "Nearest Interpolation",
+              "on_front": false,
+              "x_primary_metric": 11.157026149994156,
+              "y_runtime_seconds": 0.3734816777777778
+            }
+          ],
+          "x_direction": "lower",
+          "x_label": "Macro balanced RMSE",
+          "y_direction": "lower",
+          "y_label": "Macro median runtime (s)",
+          "y_log": true
+        },
+        "status": "available",
+        "title": "Accuracy vs runtime Pareto front"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+        "chart_id": "significance_cohort_full_grid_mar_10_ccda6baa83",
+        "chart_kind": "significance_heatmap",
+        "data": {
+          "algorithms": [
+            "cubic_spline",
+            "galpi",
+            "linear_interpolation",
+            "nearest_interpolation"
+          ],
+          "cells": [
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "galpi",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 1.0,
+              "rank_biserial": -0.06666666666666667,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "linear_interpolation",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            }
+          ],
+          "cohort_id": "cohort_full_grid_mar_10_ccda6baa83",
+          "effect_name": "matched_pairs_rank_biserial"
+        },
+        "status": "available",
+        "title": "Adjusted significance — MAR 10%"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+        "chart_id": "significance_cohort_full_grid_mar_30_eda88b3952",
+        "chart_kind": "significance_heatmap",
+        "data": {
+          "algorithms": [
+            "cubic_spline",
+            "galpi",
+            "linear_interpolation",
+            "nearest_interpolation"
+          ],
+          "cells": [
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "galpi",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "linear_interpolation",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            }
+          ],
+          "cohort_id": "cohort_full_grid_mar_30_eda88b3952",
+          "effect_name": "matched_pairs_rank_biserial"
+        },
+        "status": "available",
+        "title": "Adjusted significance — MAR 30%"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+        "chart_id": "significance_cohort_full_grid_mar_50_8348a0efd0",
+        "chart_kind": "significance_heatmap",
+        "data": {
+          "algorithms": [
+            "cubic_spline",
+            "galpi",
+            "linear_interpolation",
+            "nearest_interpolation"
+          ],
+          "cells": [
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "galpi",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.125,
+              "rank_biserial": 0.8666666666666667,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "linear_interpolation",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            }
+          ],
+          "cohort_id": "cohort_full_grid_mar_50_8348a0efd0",
+          "effect_name": "matched_pairs_rank_biserial"
+        },
+        "status": "available",
+        "title": "Adjusted significance — MAR 50%"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+        "chart_id": "significance_cohort_full_grid_mcar_10_8426867839",
+        "chart_kind": "significance_heatmap",
+        "data": {
+          "algorithms": [
+            "cubic_spline",
+            "galpi",
+            "linear_interpolation",
+            "nearest_interpolation"
+          ],
+          "cells": [
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "galpi",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 1.0,
+              "rank_biserial": 0.06666666666666667,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "linear_interpolation",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.075,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            }
+          ],
+          "cohort_id": "cohort_full_grid_mcar_10_8426867839",
+          "effect_name": "matched_pairs_rank_biserial"
+        },
+        "status": "available",
+        "title": "Adjusted significance — MCAR 10%"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+        "chart_id": "significance_cohort_full_grid_mcar_30_bcfb4e1979",
+        "chart_kind": "significance_heatmap",
+        "data": {
+          "algorithms": [
+            "cubic_spline",
+            "galpi",
+            "linear_interpolation",
+            "nearest_interpolation"
+          ],
+          "cells": [
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "galpi",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "linear_interpolation",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            }
+          ],
+          "cohort_id": "cohort_full_grid_mcar_30_bcfb4e1979",
+          "effect_name": "matched_pairs_rank_biserial"
+        },
+        "status": "available",
+        "title": "Adjusted significance — MCAR 30%"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+        "chart_id": "significance_cohort_full_grid_mcar_50_88b8f7d7f7",
+        "chart_kind": "significance_heatmap",
+        "data": {
+          "algorithms": [
+            "cubic_spline",
+            "galpi",
+            "linear_interpolation",
+            "nearest_interpolation"
+          ],
+          "cells": [
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "galpi",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "linear_interpolation",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            }
+          ],
+          "cohort_id": "cohort_full_grid_mcar_50_88b8f7d7f7",
+          "effect_name": "matched_pairs_rank_biserial"
+        },
+        "status": "available",
+        "title": "Adjusted significance — MCAR 50%"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+        "chart_id": "significance_cohort_full_grid_mnar_10_7617a7d65e",
+        "chart_kind": "significance_heatmap",
+        "data": {
+          "algorithms": [
+            "cubic_spline",
+            "galpi",
+            "linear_interpolation",
+            "nearest_interpolation"
+          ],
+          "cells": [
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "galpi",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "linear_interpolation",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            }
+          ],
+          "cohort_id": "cohort_full_grid_mnar_10_7617a7d65e",
+          "effect_name": "matched_pairs_rank_biserial"
+        },
+        "status": "available",
+        "title": "Adjusted significance — MNAR 10%"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+        "chart_id": "significance_cohort_full_grid_mnar_30_a4eaab2521",
+        "chart_kind": "significance_heatmap",
+        "data": {
+          "algorithms": [
+            "cubic_spline",
+            "galpi",
+            "linear_interpolation",
+            "nearest_interpolation"
+          ],
+          "cells": [
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "galpi",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "linear_interpolation",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            }
+          ],
+          "cohort_id": "cohort_full_grid_mnar_30_a4eaab2521",
+          "effect_name": "matched_pairs_rank_biserial"
+        },
+        "status": "available",
+        "title": "Adjusted significance — MNAR 30%"
+      },
+      {
+        "blocking_reasons": [],
+        "caption": "Lower triangle: BH-adjusted p (colour) annotated with matched-pairs rank-biserial effect and n; upper triangle left empty; non-computed cells are NA.",
+        "chart_id": "significance_cohort_full_grid_mnar_50_7bda064a97",
+        "chart_kind": "significance_heatmap",
+        "data": {
+          "algorithms": [
+            "cubic_spline",
+            "galpi",
+            "linear_interpolation",
+            "nearest_interpolation"
+          ],
+          "cells": [
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "galpi",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "cubic_spline",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "linear_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": 1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "galpi",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            },
+            {
+              "algorithm_a": "linear_interpolation",
+              "algorithm_b": "nearest_interpolation",
+              "computed": true,
+              "n_pairs": 5,
+              "p_adj": 0.0625,
+              "rank_biserial": -1.0,
+              "status": "computed"
+            }
+          ],
+          "cohort_id": "cohort_full_grid_mnar_50_7bda064a97",
+          "effect_name": "matched_pairs_rank_biserial"
+        },
+        "status": "available",
+        "title": "Adjusted significance — MNAR 50%"
+      }
+    ],
+    "complexity_profiles": [
+      {
+        "algorithm_id": "cubic_spline",
+        "display_name": "Cubic Spline",
+        "fitted_parameter_count": null,
+        "interpretability_basis": "No interpretability classification is declared for this algorithm.",
+        "interpretability_class": "unclassified",
+        "parameter_count_status": "unavailable",
+        "runtime_count": 45,
+        "runtime_coverage": 1.0,
+        "runtime_mean_ms": 6128.055062222222,
+        "runtime_median_ms": 3435.8577,
+        "runtime_source_qualities": [
+          "native_timing_spans"
+        ],
+        "runtime_std_ms": 4142.583572521116,
+        "trainable_parameter_count": null
+      },
+      {
+        "algorithm_id": "galpi",
+        "display_name": "Galpi",
+        "fitted_parameter_count": null,
+        "interpretability_basis": "No interpretability classification is declared for this algorithm.",
+        "interpretability_class": "unclassified",
+        "parameter_count_status": "unavailable",
+        "runtime_count": 45,
+        "runtime_coverage": 1.0,
+        "runtime_mean_ms": 7037.589702222222,
+        "runtime_median_ms": 4011.4084,
+        "runtime_source_qualities": [
+          "native_timing_spans"
+        ],
+        "runtime_std_ms": 4688.12890476731,
+        "trainable_parameter_count": null
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "display_name": "Linear Interpolation",
+        "fitted_parameter_count": null,
+        "interpretability_basis": "Closed-form linear interpolation between observed endpoints; the output is a deterministic function of the two bracketing samples.",
+        "interpretability_class": "transparent_deterministic",
+        "parameter_count_status": "not_applicable",
+        "runtime_count": 45,
+        "runtime_coverage": 1.0,
+        "runtime_mean_ms": 291.0648444444444,
+        "runtime_median_ms": 238.2687,
+        "runtime_source_qualities": [
+          "native_timing_spans"
+        ],
+        "runtime_std_ms": 132.1408547912718,
+        "trainable_parameter_count": null
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "display_name": "Nearest Interpolation",
+        "fitted_parameter_count": null,
+        "interpretability_basis": "Deterministic nearest-observed-sample carry; fully auditable with no fitted parameters.",
+        "interpretability_class": "transparent_deterministic",
+        "parameter_count_status": "not_applicable",
+        "runtime_count": 45,
+        "runtime_coverage": 1.0,
+        "runtime_mean_ms": 382.05486444444443,
+        "runtime_median_ms": 332.9518,
+        "runtime_source_qualities": [
+          "native_timing_spans"
+        ],
+        "runtime_std_ms": 139.99208192828777,
+        "trainable_parameter_count": null
+      }
+    ],
+    "global_profiles": [
+      {
+        "accuracy_score": 0.8504447709761593,
+        "algorithm_id": "cubic_spline",
+        "caveats": [
+          "parameter_efficiency unavailable: no parameter evidence",
+          "memory_efficiency unavailable: not instrumented"
+        ],
+        "cohort_coverage": 1.0,
+        "dimension_coverage": 1.0,
+        "display_name": "Cubic Spline",
+        "macro_primary_metric": 8.392307386636682,
+        "macro_runtime_seconds": 6.100706233333333,
+        "mechanism_robustness_score": 0.6604768555931352,
+        "memory_score": null,
+        "parameter_score": null,
+        "rate_robustness_score": 0.41866989031979623,
+        "speed_score": 0.05565118333991613,
+        "stability_score": 0.29968858485803884,
+        "status": "available"
+      },
+      {
+        "accuracy_score": 0.6128217274186648,
+        "algorithm_id": "galpi",
+        "caveats": [
+          "parameter_efficiency unavailable: no parameter evidence",
+          "memory_efficiency unavailable: not instrumented"
+        ],
+        "cohort_coverage": 1.0,
+        "dimension_coverage": 1.0,
+        "display_name": "Galpi",
+        "macro_primary_metric": 9.165807835906811,
+        "macro_runtime_seconds": 7.0175036111111115,
+        "mechanism_robustness_score": 0.690777675276612,
+        "memory_score": null,
+        "parameter_score": null,
+        "rate_robustness_score": 0.10597965810589234,
+        "speed_score": 0.0,
+        "stability_score": 0.40676728125715417,
+        "status": "available"
+      },
+      {
+        "accuracy_score": 0.9617117569161253,
+        "algorithm_id": "linear_interpolation",
+        "caveats": [
+          "parameter_efficiency unavailable: no parameter evidence",
+          "memory_efficiency unavailable: not instrumented"
+        ],
+        "cohort_coverage": 1.0,
+        "dimension_coverage": 1.0,
+        "display_name": "Linear Interpolation",
+        "macro_primary_metric": 7.792348124027898,
+        "macro_runtime_seconds": 0.2820414,
+        "mechanism_robustness_score": 0.6825825448601638,
+        "memory_score": null,
+        "parameter_score": null,
+        "rate_robustness_score": 0.6311988985544136,
+        "speed_score": 1.0,
+        "stability_score": 0.43150158211323936,
+        "status": "available"
+      },
+      {
+        "accuracy_score": 0.07245813991661626,
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [
+          "parameter_efficiency unavailable: no parameter evidence",
+          "memory_efficiency unavailable: not instrumented"
+        ],
+        "cohort_coverage": 1.0,
+        "dimension_coverage": 1.0,
+        "display_name": "Nearest Interpolation",
+        "macro_primary_metric": 11.157026149994156,
+        "macro_runtime_seconds": 0.3734816777777778,
+        "mechanism_robustness_score": 0.6826435005644059,
+        "memory_score": null,
+        "parameter_score": null,
+        "rate_robustness_score": 1.0,
+        "speed_score": 0.8979404051101988,
+        "stability_score": 0.9782308625095371,
+        "status": "available"
+      }
+    ],
+    "mechanism_robustness_profiles": [
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "declared_rate": 0.1,
+        "maximum_rmse": 6.806547229766157,
+        "mechanism_count": 3,
+        "minimum_rmse": 5.108392006870764,
+        "normalized_score": 0.7505115052358589,
+        "relative_range": 0.24948849476414117,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "declared_rate": 0.1,
+        "maximum_rmse": 7.101703558874232,
+        "mechanism_count": 3,
+        "minimum_rmse": 5.142246163612443,
+        "normalized_score": 0.7240862873228119,
+        "relative_range": 0.2759137126771881,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "declared_rate": 0.1,
+        "maximum_rmse": 7.071010168063836,
+        "mechanism_count": 3,
+        "minimum_rmse": 5.108043881566945,
+        "normalized_score": 0.722392382440261,
+        "relative_range": 0.27760761755973895,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "declared_rate": 0.1,
+        "maximum_rmse": 12.118851502178932,
+        "mechanism_count": 3,
+        "minimum_rmse": 8.29248673967064,
+        "normalized_score": 0.6842634170556241,
+        "relative_range": 0.3157365829443759,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "declared_rate": 0.3,
+        "maximum_rmse": 7.680861753564372,
+        "mechanism_count": 3,
+        "minimum_rmse": 6.254051681139339,
+        "normalized_score": 0.814238282343396,
+        "relative_range": 0.18576171765660396,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "declared_rate": 0.3,
+        "maximum_rmse": 8.898505190790596,
+        "mechanism_count": 3,
+        "minimum_rmse": 6.722506813629074,
+        "normalized_score": 0.755464729130737,
+        "relative_range": 0.24453527086926302,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "declared_rate": 0.3,
+        "maximum_rmse": 8.123711299234067,
+        "mechanism_count": 3,
+        "minimum_rmse": 6.071545187473341,
+        "normalized_score": 0.7473856423289917,
+        "relative_range": 0.25261435767100826,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "declared_rate": 0.3,
+        "maximum_rmse": 12.726742772321494,
+        "mechanism_count": 3,
+        "minimum_rmse": 8.894270031723917,
+        "normalized_score": 0.6988646027377441,
+        "relative_range": 0.3011353972622559,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "declared_rate": 0.5,
+        "maximum_rmse": 19.541386331236005,
+        "mechanism_count": 3,
+        "minimum_rmse": 8.142520083150592,
+        "normalized_score": 0.4166807792001507,
+        "relative_range": 0.5833192207998493,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "declared_rate": 0.5,
+        "maximum_rmse": 16.70835163124817,
+        "mechanism_count": 3,
+        "minimum_rmse": 9.904410253336856,
+        "normalized_score": 0.5927820093762872,
+        "relative_range": 0.40721799062371283,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "declared_rate": 0.5,
+        "maximum_rmse": 13.310534780992509,
+        "mechanism_count": 3,
+        "minimum_rmse": 7.69308459374916,
+        "normalized_score": 0.5779696098112386,
+        "relative_range": 0.42203039018876143,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "declared_rate": 0.5,
+        "maximum_rmse": 15.478103110391128,
+        "mechanism_count": 3,
+        "minimum_rmse": 10.289881362889801,
+        "normalized_score": 0.6648024818998495,
+        "relative_range": 0.3351975181001506,
+        "station_label": "full_grid",
+        "status": "available"
+      }
+    ],
+    "min_coverage": 0.8,
+    "policy_id": "human_multidimensional_relative_v1",
+    "rate_robustness_profiles": [
+      {
+        "absolute_degradation": 14.143159783301794,
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mar",
+        "normalized_score": 0.0,
+        "relative_degradation_pct": 261.9964104454655,
+        "rmse_high": 19.541386331236005,
+        "rmse_low": 5.39822654793421,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 11.223635629737279,
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mar",
+        "normalized_score": 0.31793897431767704,
+        "relative_degradation_pct": 204.6347637078286,
+        "rmse_high": 16.70835163124817,
+        "rmse_low": 5.484716001510892,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 7.911675018463862,
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mar",
+        "normalized_score": 0.639922315786486,
+        "relative_degradation_pct": 146.5434437355768,
+        "rmse_high": 13.310534780992509,
+        "rmse_low": 5.398859762528646,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 6.953944619937403,
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mar",
+        "normalized_score": 1.0,
+        "relative_degradation_pct": 81.57925064069588,
+        "rmse_high": 15.478103110391128,
+        "rmse_low": 8.524158490453726,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 3.0341280762798277,
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mcar",
+        "normalized_score": 0.4847164734844982,
+        "relative_degradation_pct": 59.394973451507624,
+        "rmse_high": 8.142520083150592,
+        "rmse_low": 5.108392006870764,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 4.762164089724413,
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mcar",
+        "normalized_score": 0.0,
+        "relative_degradation_pct": 92.60863712481199,
+        "rmse_high": 9.904410253336856,
+        "rmse_low": 5.142246163612443,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 2.5850407121822148,
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mcar",
+        "normalized_score": 0.6129634715672705,
+        "relative_degradation_pct": 50.60725342455803,
+        "rmse_high": 7.69308459374916,
+        "rmse_low": 5.108043881566945,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 1.9973946232191615,
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mcar",
+        "normalized_score": 1.0,
+        "relative_degradation_pct": 24.086799122195448,
+        "rmse_high": 10.289881362889801,
+        "rmse_low": 8.29248673967064,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 2.3559075137431327,
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mnar",
+        "normalized_score": 0.7712931974748903,
+        "relative_degradation_pct": 34.6123729728982,
+        "rmse_high": 9.16245474350929,
+        "rmse_low": 6.806547229766157,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 6.5685953857007915,
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mnar",
+        "normalized_score": 0.0,
+        "relative_degradation_pct": 92.4932353377765,
+        "rmse_high": 13.670298944575023,
+        "rmse_low": 7.101703558874232,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 3.14036143627148,
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mnar",
+        "normalized_score": 0.6407109083094844,
+        "relative_degradation_pct": 44.41177938698064,
+        "rmse_high": 10.211371604335316,
+        "rmse_low": 7.071010168063836,
+        "station_label": "full_grid",
+        "status": "available"
+      },
+      {
+        "absolute_degradation": 2.1146570292057927,
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "high_count": 5,
+        "high_rate": 0.5,
+        "low_count": 5,
+        "low_rate": 0.1,
+        "mechanism_family": "mnar",
+        "normalized_score": 1.0,
+        "relative_degradation_pct": 17.449318764452094,
+        "rmse_high": 14.233508531384725,
+        "rmse_low": 12.118851502178932,
+        "station_label": "full_grid",
+        "status": "available"
+      }
+    ],
+    "schema": "imputebench.human-framework-metrics/v1",
+    "stability_profiles": [
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_10_ccda6baa83",
+        "cv_rmse": 0.041476590883021185,
+        "mean_rmse": 5.39822654793421,
+        "normalized_score": 0.1383273334862909,
+        "realization_count": 5,
+        "recipe_label": "mar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.223900034022531
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_10_ccda6baa83",
+        "cv_rmse": 0.04320572330409092,
+        "mean_rmse": 5.484716001510892,
+        "normalized_score": 0.034437216960828354,
+        "realization_count": 5,
+        "recipe_label": "mar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.23697112196279949
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_10_ccda6baa83",
+        "cv_rmse": 0.04377889147763692,
+        "mean_rmse": 5.398859762528646,
+        "normalized_score": 0.0,
+        "realization_count": 5,
+        "recipe_label": "mar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.23635609564672228
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_10_ccda6baa83",
+        "cv_rmse": 0.027135032765187223,
+        "mean_rmse": 8.524158490453726,
+        "normalized_score": 1.0,
+        "realization_count": 5,
+        "recipe_label": "mar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.23130331993411068
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_30_eda88b3952",
+        "cv_rmse": 0.047401146267249325,
+        "mean_rmse": 7.436326102559422,
+        "normalized_score": 0.0,
+        "realization_count": 5,
+        "recipe_label": "mar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.3524903812783832
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_30_eda88b3952",
+        "cv_rmse": 0.03771347385017731,
+        "mean_rmse": 8.859531965584022,
+        "normalized_score": 0.540549383828951,
+        "realization_count": 5,
+        "recipe_label": "mar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.334123727108863
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_30_eda88b3952",
+        "cv_rmse": 0.044551023709803746,
+        "mean_rmse": 7.142971838307252,
+        "normalized_score": 0.15903014944531324,
+        "realization_count": 5,
+        "recipe_label": "mar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.3182267077268868
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_30_eda88b3952",
+        "cv_rmse": 0.029479245499460197,
+        "mean_rmse": 9.85523280893304,
+        "normalized_score": 1.0,
+        "realization_count": 5,
+        "recipe_label": "mar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.2905248274288718
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_50_8348a0efd0",
+        "cv_rmse": 0.13560892687670784,
+        "mean_rmse": 19.541386331236005,
+        "normalized_score": 0.0,
+        "realization_count": 5,
+        "recipe_label": "mar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 2.6499864300620817
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_50_8348a0efd0",
+        "cv_rmse": 0.008110778828832448,
+        "mean_rmse": 16.70835163124817,
+        "normalized_score": 1.0,
+        "realization_count": 5,
+        "recipe_label": "mar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.13551774467541575
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_50_8348a0efd0",
+        "cv_rmse": 0.033133915997756995,
+        "mean_rmse": 13.310534780992509,
+        "normalized_score": 0.8037372498969287,
+        "realization_count": 5,
+        "recipe_label": "mar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.44103014131862855
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mar_50_8348a0efd0",
+        "cv_rmse": 0.0278862158584412,
+        "mean_rmse": 15.478103110391128,
+        "normalized_score": 0.8448962802017869,
+        "realization_count": 5,
+        "recipe_label": "mar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.4316257244155771
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_10_8426867839",
+        "cv_rmse": 0.006478310293574539,
+        "mean_rmse": 5.108392006870764,
+        "normalized_score": 0.0,
+        "realization_count": 5,
+        "recipe_label": "mcar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.03309374852172477
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_10_8426867839",
+        "cv_rmse": 0.005102404614741197,
+        "mean_rmse": 5.142246163612443,
+        "normalized_score": 0.9696163461399062,
+        "realization_count": 5,
+        "recipe_label": "mcar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.026237820555351343
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_10_8426867839",
+        "cv_rmse": 0.005814063901619237,
+        "mean_rmse": 5.108043881566945,
+        "normalized_score": 0.46810197051474534,
+        "realization_count": 5,
+        "recipe_label": "mcar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.029698493539705384
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_10_8426867839",
+        "cv_rmse": 0.005059289580577182,
+        "mean_rmse": 8.29248673967064,
+        "normalized_score": 1.0,
+        "realization_count": 5,
+        "recipe_label": "mcar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.04195409175909011
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_30_bcfb4e1979",
+        "cv_rmse": 0.006104426454462318,
+        "mean_rmse": 6.254051681139339,
+        "normalized_score": 0.345553149095868,
+        "realization_count": 5,
+        "recipe_label": "mcar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.03817739852992152
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_30_bcfb4e1979",
+        "cv_rmse": 0.007877010425781358,
+        "mean_rmse": 6.722506813629074,
+        "normalized_score": 0.0,
+        "realization_count": 5,
+        "recipe_label": "mcar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.052953256258342435
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_30_bcfb4e1979",
+        "cv_rmse": 0.005131581394188266,
+        "mean_rmse": 6.071545187473341,
+        "normalized_score": 0.5352026549017357,
+        "realization_count": 5,
+        "recipe_label": "mcar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.031156628318011505
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_30_bcfb4e1979",
+        "cv_rmse": 0.0027473104767084993,
+        "mean_rmse": 8.894270031723917,
+        "normalized_score": 1.0,
+        "realization_count": 5,
+        "recipe_label": "mcar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.024435321240829554
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_50_88b8f7d7f7",
+        "cv_rmse": 0.005529884165879362,
+        "mean_rmse": 8.142520083150592,
+        "normalized_score": 0.0,
+        "realization_count": 5,
+        "recipe_label": "mcar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.04502719287816916
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_50_88b8f7d7f7",
+        "cv_rmse": 0.0031157904535229035,
+        "mean_rmse": 9.904410253336856,
+        "normalized_score": 0.7008190994716905,
+        "realization_count": 5,
+        "recipe_label": "mcar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.03086006691512134
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_50_88b8f7d7f7",
+        "cv_rmse": 0.002716483164970857,
+        "mean_rmse": 7.69308459374916,
+        "normalized_score": 0.8167392781056702,
+        "realization_count": 5,
+        "recipe_label": "mcar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.020898134785616255
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mcar_50_88b8f7d7f7",
+        "cv_rmse": 0.002085209621226808,
+        "mean_rmse": 10.289881362889801,
+        "normalized_score": 1.0,
+        "realization_count": 5,
+        "recipe_label": "mcar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.021456559619180235
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_10_7617a7d65e",
+        "cv_rmse": 0.012104492172000545,
+        "mean_rmse": 6.806547229766157,
+        "normalized_score": 0.6609309205267029,
+        "realization_count": 5,
+        "recipe_label": "mnar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.08238979766105645
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_10_7617a7d65e",
+        "cv_rmse": 0.013241817559767577,
+        "mean_rmse": 7.101703558874232,
+        "normalized_score": 0.41548348491301146,
+        "realization_count": 5,
+        "recipe_label": "mnar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.0940394628901647
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_10_7617a7d65e",
+        "cv_rmse": 0.015167035944746823,
+        "mean_rmse": 7.071010168063836,
+        "normalized_score": 0.0,
+        "realization_count": 5,
+        "recipe_label": "mnar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.10724626538469448
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_10_7617a7d65e",
+        "cv_rmse": 0.01053335384933857,
+        "mean_rmse": 12.118851502178932,
+        "normalized_score": 1.0,
+        "realization_count": 5,
+        "recipe_label": "mnar_10",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.12765215112003897
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_30_a4eaab2521",
+        "cv_rmse": 0.007685081800623886,
+        "mean_rmse": 7.680861753564372,
+        "normalized_score": 1.0,
+        "realization_count": 5,
+        "recipe_label": "mnar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.05902805087542562
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_30_a4eaab2521",
+        "cv_rmse": 0.021014127144679158,
+        "mean_rmse": 8.898505190790596,
+        "normalized_score": 0.0,
+        "realization_count": 5,
+        "recipe_label": "mnar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.18699431947686104
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_30_a4eaab2521",
+        "cv_rmse": 0.01407422490040048,
+        "mean_rmse": 8.123711299234067,
+        "normalized_score": 0.5206601121942961,
+        "realization_count": 5,
+        "recipe_label": "mnar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.11433493985134484
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_30_a4eaab2521",
+        "cv_rmse": 0.00822915367280404,
+        "mean_rmse": 12.726742772321494,
+        "normalized_score": 0.9591814823840472,
+        "realization_count": 5,
+        "recipe_label": "mnar_30",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.10473032202768168
+      },
+      {
+        "algorithm_id": "cubic_spline",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_50_7bda064a97",
+        "cv_rmse": 0.008809913870380584,
+        "mean_rmse": 9.16245474350929,
+        "normalized_score": 0.5523858606134882,
+        "realization_count": 5,
+        "recipe_label": "mnar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.08072043713157688
+      },
+      {
+        "algorithm_id": "galpi",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_50_7bda064a97",
+        "cv_rmse": 0.011719274426159292,
+        "mean_rmse": 13.670298944575023,
+        "normalized_score": 0.0,
+        "realization_count": 5,
+        "recipe_label": "mnar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.16020598481911044
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_50_7bda064a97",
+        "cv_rmse": 0.008664247436839098,
+        "mean_rmse": 10.211371604335316,
+        "normalized_score": 0.5800428239604648,
+        "realization_count": 5,
+        "recipe_label": "mnar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.08847385024947381
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "caveats": [],
+        "cohort_id": "cohort_full_grid_mnar_50_7bda064a97",
+        "cv_rmse": 0.006452375391945187,
+        "mean_rmse": 14.233508531384725,
+        "normalized_score": 1.0,
+        "realization_count": 5,
+        "recipe_label": "mnar_50",
+        "station_label": "full_grid",
+        "status": "available",
+        "std_rmse": 0.09183994018894868
+      }
+    ],
+    "total_cohort_count": 9,
+    "warnings": []
+  },
+  "generated_at": "2026-08-17T09:10:50.307909+00:00",
+  "numbering_status": "provisional",
+  "pack_grade": "reportable_with_caveats",
+  "pack_id": "human-pack-164fea79a2654502",
+  "schema": "imputebench.human-evidence-pack/v2",
+  "selection": {
+    "comparison_ids": [],
+    "excluded_count": 0,
+    "exclusions": [],
+    "query_summary": {
+      "mode": "multi_profile",
+      "per_profile": [
+        {
+          "recipe_profile_id": "a",
+          "selected": 120
+        },
+        {
+          "recipe_profile_id": "b",
+          "selected": 60
+        }
+      ],
+      "recipe_profile_ids": [
+        "a",
+        "b"
+      ],
+      "selected_ids_count": 180
+    },
+    "result_ids": [
+      "183a4efd-d24a-4ad0-9062-adf68bb86e04",
+      "6c5fee21-20eb-45ae-9fe5-bf867a0b9d66",
+      "8445f54e-0de9-4abd-aa78-70503971f420",
+      "c40ab25d-7c1b-48c8-8acb-1a4fc8220b95",
+      "d12808c7-b996-4318-b3d9-d0ef53ada6e5",
+      "1e59b2e0-03b5-439b-aec1-9c5d9f46dfd2",
+      "5b4a6d68-40b6-44ce-9d5d-623310da21e6",
+      "a0b8fc28-4737-4ed4-ad7f-4e12046856c5",
+      "b3f32ab1-5865-4856-8fb0-d003b8b92aaa",
+      "b59ce845-c597-489f-9c31-564e93a4ccdc",
+      "053b86b3-84f8-4a3a-b471-46a8a88856c6",
+      "1c9456c0-91e9-4afa-83c6-211e37c861a4",
+      "201811be-a5d2-478c-88bf-30a53aea1fc7",
+      "479931a4-4809-498b-8927-f67f3057067b",
+      "8da462eb-2438-4a81-ad68-33354f3365eb",
+      "8b5e5d6e-3955-43fb-b1ae-bd95a688ac54",
+      "c052a790-e71d-469a-a186-44e5c6b25911",
+      "c6f9a7de-534c-424e-8db2-053968348360",
+      "cdd836cb-13a1-4c86-8604-6ae150b9776f",
+      "f76e84d9-4ab4-47af-ada1-da2d3bb67f35",
+      "2a53a964-52dd-47aa-a8eb-662304317574",
+      "37d7d919-e820-4793-957f-717ae55fec79",
+      "7041b0bb-f2db-494f-b39d-b20f7471e4f4",
+      "8b7550e4-ce1e-4f8e-b625-cb94b467e619",
+      "ff882842-bdfd-4db6-a4a3-9ddefc0dce3b",
+      "0d8ed865-d3d5-438e-a2be-2ba2d8381334",
+      "21198986-26ae-4d68-9a63-6fb0328eb48c",
+      "56f59117-d08d-422c-929d-f21714e45812",
+      "cd269b7a-3b9f-47b0-bb6f-fc7168538107",
+      "eec4f7dd-9f1c-4242-add3-fadfc9da3dd3",
+      "20f9426c-228d-4922-9437-605fe8fdd05a",
+      "30a4fe5a-2f68-430e-b1fb-0867e12e907f",
+      "80d57c3f-d9b0-4eca-a275-7c6d0f10d47c",
+      "8e9c657a-4ce3-4326-8db6-a5ff4813c640",
+      "f20d2739-1d8c-4035-8fa3-43845eb49197",
+      "2be843ab-1436-494a-a800-c694730949b8",
+      "6932f7d1-9458-41a4-94e1-467a5eb592b8",
+      "84bbcbc6-e1d6-4939-837b-e36671cd0cb0",
+      "9cdcbd14-b29e-429d-8f84-5a21cbc7f42a",
+      "e055f9f5-c517-4f9f-82af-f9f8740646b5",
+      "4e96c0b7-d511-4c10-b46a-93d73c432d77",
+      "513a71f9-8e48-4830-aa2c-1a3a879d33bd",
+      "8473b9a9-265a-42b2-887b-408963b4e078",
+      "94070071-bee9-45ba-be14-8067d7149161",
+      "d66dc3eb-29f3-4544-8132-41bfdec0473a",
+      "36abeebc-c268-489e-ac84-c34ca75044de",
+      "4a8646ea-cb45-4c4e-a28f-19545199e87e",
+      "61c015d8-c543-4775-9ca4-cdaef953e73c",
+      "8c5e6cf6-eae0-4826-a7cc-82f780771a3d",
+      "e0946bc5-c668-4aa9-a589-86df77ad3f7f",
+      "3da3faa7-abfb-4f95-934e-82701ed1f34e",
+      "558970c2-0d4a-449d-b493-5dfd52471f24",
+      "55aef4ac-e4ef-4dd2-80b0-02065978ce54",
+      "a904fafa-8a4b-4276-8e2e-dc09b30d5410",
+      "dc4c2818-4577-4b87-a0c4-479674872ce7",
+      "1b21aa3f-e81d-44e0-b67b-c7b1373a0aff",
+      "2750c84e-21ee-4a1c-9ebb-ef24e602966c",
+      "3c9e1e40-b76a-476c-b857-7dca45b0e64c",
+      "4d80067b-81ce-45f4-b1b8-15ec2054b372",
+      "c8ef0b6c-7192-4170-aef4-cdd768a152bb",
+      "02b366bc-4f74-45c4-965a-bee49c8022f9",
+      "3de97c72-c110-431e-b60c-bb8459bbe3f2",
+      "71b191ef-b4bd-430c-a14f-d09bae34629b",
+      "8795f4b1-d279-47fe-baac-a9efdde53c42",
+      "e4137989-ae7e-4239-a2ec-9a8867959c66",
+      "303b2204-a123-42d5-97e0-0513c1377e01",
+      "4248a413-76ee-479e-a0bd-9fa7a2ff8156",
+      "9495eaf6-410e-40b5-8807-e22afe9e71e4",
+      "ef1d81f1-df2f-463e-83bf-841cbe427677",
+      "f87a271e-7476-4ba2-b0a7-e414734fab08",
+      "11330615-b10e-4af8-afb1-68ea3caf9421",
+      "5a17ddb1-05ab-4e07-ab29-abc6d14ccd8b",
+      "5acb88a8-451e-4907-8d60-eeeee968771f",
+      "b02f796a-52f1-41aa-9d84-7a1a637cb1f6",
+      "ed3f4189-f8c3-4602-8ea2-35db2f8edcc2",
+      "512e8d19-094e-49c1-81cc-4c6cc12a2723",
+      "78661be9-4f3b-46ad-ae54-0bf00b53c83f",
+      "912ea1ae-88bd-46e5-933d-b460e9a50e2d",
+      "d0ecddb2-420b-40ae-aeb1-1c55d994c8ee",
+      "d1cf312f-06a5-4633-acf4-c99a41232055",
+      "1404206d-6336-4d44-9f0c-ecc5ec939824",
+      "35e6823b-71df-46b9-baae-b41183e25651",
+      "3c9decbf-fb29-4dc9-a536-8e078f56588d",
+      "b9cf5c23-da2e-40f0-8131-97898689a0a8",
+      "d4a999d9-7434-4fdd-b568-fa901d572699",
+      "2bb3f902-ce1d-49ab-a0fa-6098ceeba71a",
+      "588ce991-e5c8-4709-8555-3ac2b2ced38f",
+      "6dab8c35-666c-49e8-9cdd-a9e2783b2910",
+      "a8b95529-10cb-4ec2-8b56-9d0cbd06ded8",
+      "ac9e2ded-42dc-4b59-9f79-3fbfc8c0121c",
+      "0a66fdd4-473c-42f4-a763-1e8b8064976a",
+      "21ed4636-a7dd-43f8-99c3-cb90fe43f057",
+      "72a5b5ee-a713-4d60-9262-b6ed746d70d4",
+      "74f7b253-7836-4f9a-8259-42fffb6b31a2",
+      "9d8c9ebd-e2b5-43ad-8d44-03ca668a7fd4",
+      "14826e0f-d3cb-49df-9642-1b1f3687f4bf",
+      "5ff95554-1f00-437f-959b-103ec0de12e1",
+      "853ba258-04d8-4976-9596-5d3122b20557",
+      "9b0ea683-5e74-4668-a87e-4df8f60498f8",
+      "e938faae-10be-4b2c-aa2d-dd1280a41f05",
+      "08a4ef99-1abc-4980-9057-d7df04119ee8",
+      "13e495f2-cdf9-47f8-8fea-b730b625b443",
+      "9ee3aa54-71ef-44fc-a68c-43ee5a16ede1",
+      "c04ae8f1-40c2-4df9-b92b-c8a2508567f7",
+      "eddad33b-fe0f-46ba-8820-bb1c16c11778",
+      "2b7f0667-52ce-4531-b85d-07e2886362c4",
+      "35ed62d3-978e-4b6b-8091-766b83b90a90",
+      "51e58331-b383-48e2-b6c5-dffdc3563898",
+      "adc01e53-c182-4866-9d6b-c2aed86e852c",
+      "f186acb0-f320-4c00-bc1c-bd14efbf7792",
+      "26f0a3a9-f134-4f98-af7f-5420d5887e2b",
+      "30d045fe-c104-4b72-be83-3984bc7fa98a",
+      "44c46f85-e4c2-4467-a91a-da8e9219ebf7",
+      "9936f231-b654-4b55-a108-edf6ff1290a3",
+      "e8c20864-7ad8-404a-8c4b-507e8dae39c6",
+      "0abb4b06-101a-414c-9950-ef5528e13921",
+      "13fe5215-cfb6-4a3f-a5f8-084a7a247f8d",
+      "5f0a949c-1c22-4ea2-859b-d2c845900856",
+      "64986cfc-ce66-4c29-a0b5-4201fd8a8f91",
+      "676a566d-54df-42fe-8191-04241bad720f",
+      "1645d8a0-5d19-4336-8dc0-17b8508521de",
+      "1ae0982d-9003-4c1d-958a-5a0efa18512c",
+      "d7d7d2e9-ca5f-484d-8124-4581102619ae",
+      "fa6109bc-e616-4865-a599-dce60d09f0b3",
+      "fd07004e-f17f-44c2-8482-5334218bd1b0",
+      "48f00cbb-a9b0-4521-978d-5aa702bc767e",
+      "57a279a3-a53d-42a3-be7d-4d28bed207bc",
+      "6d962858-afa7-416c-b259-d71d739dad5e",
+      "bdbccfc2-5c7f-4bac-bc14-41ca2a86522b",
+      "ca02ddd3-fd6c-4e7d-8b31-231d5f0fe234",
+      "14412a67-1a61-4a1b-972c-ebf358f97a81",
+      "1d70e95d-5329-444b-9d47-1f17eb9047b7",
+      "a30d1e42-171a-4f24-acab-c880baceafea",
+      "a966b12e-09f1-41e0-b9f7-4fe161463319",
+      "ef9a3869-2001-451e-a5eb-0a97a63f770b",
+      "2585abe6-d296-443c-94fa-2001ae4a6a92",
+      "5ce14ad7-cac7-43dc-9ae1-d82bfbd99cf1",
+      "66eb3ed7-3ebc-4ff7-9a83-7bef1eb47b06",
+      "a7401793-bcc3-485f-9f9b-6d463c5fbf7d",
+      "fa45c730-e884-40ec-8d4b-df1273b756c0",
+      "32aaa15c-ed59-4823-b528-95d148110310",
+      "4c1c79dd-7197-4a05-a28f-a8a4324f4cc6",
+      "4de3a9c2-1cf2-4441-a23b-7958ce52d42e",
+      "b19e2694-4a8e-4577-b903-fb3165071ca7",
+      "e536bb36-a135-4cd1-a7d4-d5e1038a0dc4",
+      "5e9c983e-7fc0-4844-8ad2-b31d38be6886",
+      "b4135935-d223-4e67-b2cd-9f8559bf04c8",
+      "daafba40-1a7b-4515-8c8a-66a32d476309",
+      "e398a0d4-1d8e-42bf-b621-04c528023125",
+      "e9babc31-c033-469b-a6b2-a325df71c3fa",
+      "04caba06-9ca5-4d5a-92fc-539c9fd4f3a7",
+      "7267b1cc-1c78-4086-9535-5ac2f7fac59b",
+      "99c64b61-3ff7-4b91-8098-3fd53d3856c8",
+      "e4191486-feb6-48ff-9874-37ecf2ed29ae",
+      "ee6335f0-b528-403c-aa72-ec235afe319f",
+      "28851d5f-7493-4715-8bc8-301c6b9029fc",
+      "4b27e003-5fc0-4cfb-8b62-5bb8887849d5",
+      "83599796-721e-4390-850c-59a3afc1d99f",
+      "e8aea730-8884-4369-9fe3-ce8ab0976d24",
+      "f3687e9c-6e14-4020-9256-4bc73333eef7",
+      "0c58a1a8-426f-4440-8142-d322912d80d6",
+      "125ff961-78d5-4e4c-b85b-4ca848c3f860",
+      "6ec30bcf-22a5-43c3-a38f-951106e95b0a",
+      "c56c6129-0754-429a-9495-5053a84560fa",
+      "c905e887-58ec-4408-a9e4-a69fac11be2f",
+      "10d64ea6-f3c7-4f58-97a4-f4b7fefcdca3",
+      "59014a8a-0189-4e22-b62b-0f474f3c2f93",
+      "635ef5d8-0635-499e-90c0-c0880b4b16a6",
+      "67434a29-7bbe-43b4-8ee0-6edf4e716059",
+      "928d9490-46e6-40cd-a1e3-ed25bf772043",
+      "666a918b-9f45-4f0c-97e9-219714c14299",
+      "7c6498a4-d45a-4471-95af-7a6cc9352ac0",
+      "97b1a2f2-d797-4989-9fcb-daeb98793074",
+      "9c6c56f0-afd5-44d9-affe-a691f5764c0b",
+      "f0a05708-cbe3-4ed7-baa8-3a6a85be5299",
+      "03518c43-306c-4646-9c0c-7c2ee01f2f4b",
+      "0e3df4ca-663e-44e7-aa77-c44231593065",
+      "1f87350f-763c-43a6-89de-d6a619ad4826",
+      "31f03d14-a610-460c-939b-ee639bb27671",
+      "fd8d920b-4bdf-4a7f-82f8-536ab380b741"
+    ],
+    "selected_count": 180
+  },
+  "source_export": {
+    "export_id": "batch_180t_241703ed",
+    "manifest_path": "provenance/source_manifest.json",
+    "schema": "imputebench.evidence-export/v1"
+  },
+  "statistics_status": "computed",
+  "title": "Evidence pack",
+  "warnings": [
+    "150 storyboard view(s) omitted by the 'representative' sampling policy; aggregate metrics and source summaries remain complete for every selected result."
+  ]
+}

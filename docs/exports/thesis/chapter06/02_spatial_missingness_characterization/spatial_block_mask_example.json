@@ -1,24 +1,14 @@
 {
-  "created_at": "2026-06-30T10:32:25.359363+00:00",
-  "is_placeholder": false,
+  "figure_id": "spatial_block_mask_example",
+  "status": "blocked",
+  "reason": "spatial_block_artifacts_missing",
+  "claim_level": "blocked",
+  "is_placeholder": true,
+  "created_at": "2026-08-17T22:24:00.765689+00:00",
   "source_results": [],
   "source_tables": [],
-  "source_mask_banks": [
-    "9965b798-55d8-4c72-a926-6da8c7b65e4b"
-  ],
-  "caveats": [],
-  "figure_id": "spatial_block_mask_example",
-  "status": "ready",
-  "claim_level": "descriptive",
-  "metric_visualized": "binary_node_hidden_indicator",
-  "aggregation": "single_realization_single_timestamp",
-  "realization_id": "test_r000",
-  "timestamp_index": 0,
-  "total_timestamps": 600,
-  "hidden_node_count": 44,
-  "total_nodes": 140,
-  "source_realizations": [
-    "test_r000"
-  ],
-  "graph_fingerprint": "sha256:1691d10769e12e8c48659d0a20c0fa0d8776aa38ccac0352c22d9b8373a26443"
+  "source_mask_banks": [],
+  "caveats": [
+    "spatial_block_artifacts_missing"
+  ]
 }

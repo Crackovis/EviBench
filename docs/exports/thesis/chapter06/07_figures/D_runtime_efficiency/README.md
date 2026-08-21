@@ -45,5 +45,5 @@ algorithm achieves both lower RMSE *and* shorter inference time).
 
 ---
 
-*Generated: 2026-06-30 01:31 UTC*  
+*Generated: 2026-08-17 22:32 UTC*  
 *Regenerate: `python -m imputebench st figures generate --section runtime --clean`*

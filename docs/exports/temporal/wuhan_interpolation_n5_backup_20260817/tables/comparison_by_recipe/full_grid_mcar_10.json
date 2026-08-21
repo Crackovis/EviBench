@@ -1,0 +1,66 @@
+{
+  "caption": "Table 0.5: Per-algorithm metrics for recipe mcar_10.",
+  "claim_level": "bounded_comparison",
+  "cohort_id": "cohort_full_grid_mcar_10_8426867839",
+  "comparability_status": "compatible",
+  "primary_metric": "rmse",
+  "recipe_display_label": "MCAR 10%",
+  "recipe_label": "mcar_10",
+  "rows": [
+    {
+      "algorithm_id": "linear_interpolation",
+      "evidence_status": "compatible",
+      "family": "naive",
+      "is_best": true,
+      "mean_mae": 2.594270107476089,
+      "mean_primary": 5.108043881566945,
+      "mean_runtime": 0.14773092000068572,
+      "median_primary": 5.120063731154612,
+      "n": 5,
+      "rank": 1,
+      "std_primary": 0.029698493539705384
+    },
+    {
+      "algorithm_id": "cubic_spline",
+      "evidence_status": "compatible",
+      "family": "classical",
+      "is_best": false,
+      "mean_mae": 2.5825224247562506,
+      "mean_primary": 5.108392006870764,
+      "mean_runtime": 3.28773871999947,
+      "median_primary": 5.112013453384293,
+      "n": 5,
+      "rank": 2,
+      "std_primary": 0.03309374852172477
+    },
+    {
+      "algorithm_id": "galpi",
+      "evidence_status": "compatible",
+      "family": "classical",
+      "is_best": false,
+      "mean_mae": 2.6033442971693335,
+      "mean_primary": 5.142246163612443,
+      "mean_runtime": 3.9948016399997868,
+      "median_primary": 5.1525280797536865,
+      "n": 5,
+      "rank": 3,
+      "std_primary": 0.026237820555351343
+    },
+    {
+      "algorithm_id": "nearest_interpolation",
+      "evidence_status": "compatible",
+      "family": "classical",
+      "is_best": false,
+      "mean_mae": 4.231587291210909,
+      "mean_primary": 8.29248673967064,
+      "mean_runtime": 0.21483190000035393,
+      "median_primary": 8.30011265035341,
+      "n": 5,
+      "rank": 4,
+      "std_primary": 0.04195409175909011
+    }
+  ],
+  "schema": "imputebench.human-comparison-table/v1",
+  "station_label": "full_grid",
+  "table_kind": "per_recipe"
+}

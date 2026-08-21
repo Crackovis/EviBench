@@ -1,0 +1,32 @@
+| Station | Recipe | Algorithm | Pollutant | mae | rmse |
+|---|---|---|---|---|---|
+| full_grid | MCAR 10% | gru_d | co | 0.2875 | 0.3591 |
+| full_grid | MCAR 10% | gru_d | no2 | 17.2 | 21.94 |
+| full_grid | MCAR 10% | gru_d | o3 | 31.1 | 39.83 |
+| full_grid | MCAR 10% | gru_d | pm10 | 25.97 | 34.4 |
+| full_grid | MCAR 10% | gru_d | pm25 | 18.31 | 26.4 |
+| full_grid | MCAR 10% | gru_d | so2 | 2.032 | 2.952 |
+| full_grid | MCAR 10% | gru_d | co | 0.2852 | 0.3561 |
+| full_grid | MCAR 10% | gru_d | no2 | 17.12 | 21.77 |
+| full_grid | MCAR 10% | gru_d | o3 | 31.17 | 40.35 |
+| full_grid | MCAR 10% | gru_d | pm10 | 26.25 | 34.72 |
+| full_grid | MCAR 10% | gru_d | pm25 | 18.75 | 27.36 |
+| full_grid | MCAR 10% | gru_d | so2 | 2.029 | 3.087 |
+| full_grid | MCAR 10% | gru_d | co | 0.2871 | 0.3594 |
+| full_grid | MCAR 10% | gru_d | no2 | 17.04 | 21.69 |
+| full_grid | MCAR 10% | gru_d | o3 | 31.66 | 40.77 |
+| full_grid | MCAR 10% | gru_d | pm10 | 26.03 | 34.19 |
+| full_grid | MCAR 10% | gru_d | pm25 | 18.67 | 27.43 |
+| full_grid | MCAR 10% | gru_d | so2 | 2.115 | 4.672 |
+| full_grid | MCAR 10% | gru_d | co | 0.2842 | 0.3545 |
+| full_grid | MCAR 10% | gru_d | no2 | 17.05 | 21.79 |
+| full_grid | MCAR 10% | gru_d | o3 | 31.26 | 40.36 |
+| full_grid | MCAR 10% | gru_d | pm10 | 26.14 | 34.26 |
+| full_grid | MCAR 10% | gru_d | pm25 | 18.77 | 27.79 |
+| full_grid | MCAR 10% | gru_d | so2 | 2.051 | 3.103 |
+| full_grid | MCAR 10% | gru_d | co | 0.287 | 0.3613 |
+| full_grid | MCAR 10% | gru_d | no2 | 17.02 | 21.7 |
+| full_grid | MCAR 10% | gru_d | o3 | 31.55 | 40.58 |
+| full_grid | MCAR 10% | gru_d | pm10 | 25.71 | 34.12 |
+| full_grid | MCAR 10% | gru_d | pm25 | 18.52 | 27.21 |
+| full_grid | MCAR 10% | gru_d | so2 | 2.012 | 2.978 |

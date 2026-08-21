@@ -1,0 +1,5 @@
+algorithm_id,display_name,accuracy_score,speed_score,stability_score,rate_robustness_score,mechanism_robustness_score,parameter_score,memory_score,cohort_coverage,dimension_coverage,status
+cubic_spline,Cubic Spline,0.8520431689571072,0.06147713706281435,0.18735723930519368,0.4174268950175965,0.6575853814704128,,,1.0,1.0,available
+galpi,Galpi,0.6071443826842077,0.012918804248312647,0.29730092926122326,0.0992094580081128,0.6857875625495193,,,1.0,1.0,available
+linear_interpolation,Linear Interpolation,0.9603402344902219,1.0,0.397289104311467,0.632237654689345,0.6786077484858941,,,1.0,1.0,available
+nearest_interpolation,Nearest Interpolation,0.07191443297968918,0.905723749577984,0.9963078417965097,1.0,0.682532104556365,,,1.0,1.0,available

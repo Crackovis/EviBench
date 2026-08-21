@@ -1,20 +1,20 @@
 {
-  "created_at": "2026-06-30T10:32:18.418592+00:00",
+  "created_at": "2026-08-17T22:23:53.945734+00:00",
   "is_placeholder": false,
   "source_results": [],
   "source_tables": [],
   "source_mask_banks": [],
   "caveats": [],
   "figure_id": "graph_visualization_grid",
-  "graph_fingerprint": "sha256:1691d10769e12e8c48659d0a20c0fa0d8776aa38ccac0352c22d9b8373a26443",
-  "graph_policy": "correlation_train_v1",
+  "graph_fingerprint": "sha256:c26d0d2aac2bece4eb8d6eff0003db1f0640763ff467a93cf928279fea9682ae",
+  "graph_policy": "distance_knn_geo_v1",
   "claim_level": "descriptive",
   "metric_visualized": "node_degree",
   "grid_shape": [
-    10,
-    14
+    1,
+    10
   ],
-  "degree_min": 14.0,
-  "degree_mean": 32.17142857142857,
-  "degree_max": 51.0
+  "degree_min": 4.0,
+  "degree_mean": 5.4,
+  "degree_max": 8.0
 }

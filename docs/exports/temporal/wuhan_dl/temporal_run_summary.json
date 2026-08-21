@@ -1,0 +1,303 @@
+{
+  "certification_report_path": "",
+  "classical_tasks": 0,
+  "completed_tasks": 0,
+  "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+  "dl_tasks": 1,
+  "errors": [
+    "execution failed"
+  ],
+  "event_log_path": "data/logs/wuhan_dl_smoke_events.jsonl",
+  "evidence_exported": true,
+  "failed_tasks": 1,
+  "gate_report_path": "",
+  "gates_run": false,
+  "manifest_path": "",
+  "payload": {
+    "certification": {},
+    "evidence": {
+      "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+      "errors": [],
+      "evidence_manifest_path": "docs\\exports\\temporal\\wuhan_dl\\temporal_evidence_manifest.json",
+      "figures_count": 5,
+      "output_dir": "docs\\exports\\temporal\\wuhan_dl",
+      "payload": {
+        "figures": [
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r000.png",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r001.png",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r002.png",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r003.png",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r004.png"
+        ],
+        "tables": [
+          "docs\\exports\\temporal\\wuhan_dl\\stats\\pairwise_tests.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\algorithm_summary.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\comparison_global.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\per_realization_metrics.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\pollutant_breakdown.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\comparison_by_recipe\\full_grid_mcar_10.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\availability.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\complexity.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\master_comparison.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\mechanism_robustness.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\rate_robustness.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\stability.csv",
+          "docs\\exports\\temporal\\wuhan_dl\\README.md",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\ranking_chart.md",
+          "docs\\exports\\temporal\\wuhan_dl\\stats\\significance_summary.md",
+          "docs\\exports\\temporal\\wuhan_dl\\stats\\STATUS.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\algorithm_summary.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\comparison_global.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\pollutant_breakdown.md",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\framework\\accuracy_runtime_pareto.md",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\framework\\radar_profile.md",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r000.md",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r001.md",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r002.md",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r003.md",
+          "docs\\exports\\temporal\\wuhan_dl\\figures\\storyboards\\full_grid_mcar_10_gru_d_test_r004.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\comparison_by_recipe\\full_grid_mcar_10.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\availability.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\complexity.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\master_comparison.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\mechanism_robustness.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\rate_robustness.md",
+          "docs\\exports\\temporal\\wuhan_dl\\tables\\framework\\stability.md"
+        ]
+      },
+      "profile_id": "temporal_official_v1",
+      "tables_count": 33,
+      "warnings": [
+        ""
+      ]
+    },
+    "gates": {},
+    "preflight": {
+      "blocking_reasons": [],
+      "checks": [
+        {
+          "check": "dataset_exists",
+          "detail": "shape=(52608, 1, 10, 6)",
+          "passed": true
+        },
+        {
+          "check": "algorithms_registered",
+          "detail": "algorithms=['saits']",
+          "passed": true
+        },
+        {
+          "check": "plugins_loadable",
+          "detail": "all discovered plugins validate",
+          "passed": true
+        },
+        {
+          "check": "mask_families_supported",
+          "detail": "families=['mcar']",
+          "passed": true
+        },
+        {
+          "check": "metrics_supported",
+          "detail": "metrics=['mae', 'rmse']",
+          "passed": true
+        },
+        {
+          "check": "runner_available",
+          "detail": "ExperimentRunner.execute available",
+          "passed": true
+        }
+      ],
+      "status": "PASS"
+    },
+    "preparation": {
+      "comparison_specs_created": 1,
+      "contracts_created": 0,
+      "contracts_existing": 1,
+      "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+      "drafts_created": 0,
+      "errors": [],
+      "mask_banks_created": 0,
+      "mask_banks_existing": 1,
+      "payload": {
+        "failed_step": "",
+        "plan": {
+          "algorithm_ids": [
+            "saits"
+          ],
+          "contract_specs": [
+            "BenchmarkContractCreationSpec(recipe_id='official_wuhan_dl_benchmark:mcar:10', dataset_id='c1b03ed1-dad4-444b-a06d-e85cb81378b6', family='mcar', rate=0.1, phase='test', name='Official LondonAQ Benchmark Contract \u2014 MCAR 0.1 \u2014 test', mask_bank_id='66b98ad7-30be-485d-99d8-1199e69f4ad6', existing_contract_id='32313089-65ac-4c04-9b88-80bf6e92a44a', metric_scope='global+pollutant+node', selection_phase_scope=('validation',), status='existing', requested_execution_class='scientific_dl', experiment_type='Deep Learning', algorithm_family_scope='dl_temporal', issues=(), warnings=(), payload={})"
+          ],
+          "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+          "global_issues": [],
+          "global_warnings": [],
+          "mask_bank_specs": [
+            "MaskBankGenerationSpec(recipe_id='official_wuhan_dl_benchmark:mcar:10', dataset_id='c1b03ed1-dad4-444b-a06d-e85cb81378b6', family='mcar', rate=0.1, phase='test', name='Official LondonAQ Mask Bank \u2014 MCAR 0.1 \u2014 test', artifact_dir='data/benchmark_mask_banks/official_londonaq/mcar/10/test', n_realizations=5, observed_only=True, seed_base=1729, status='existing', existing_bank_id='66b98ad7-30be-485d-99d8-1199e69f4ad6', match_quality='exact', issues=(), warnings=(), payload={})"
+          ],
+          "one_click_available": true,
+          "payload": {
+            "recipe_build_states": {
+              "official_wuhan_dl_benchmark:mcar:10": {
+                "bank_id": "66b98ad7-30be-485d-99d8-1199e69f4ad6",
+                "bank_issues": [],
+                "bank_status": "exact",
+                "contract_id": "32313089-65ac-4c04-9b88-80bf6e92a44a",
+                "contract_issues": [],
+                "contract_status": "exact",
+                "next_build_step": "create_plan"
+              }
+            }
+          },
+          "recipe_book_id": "official_wuhan_dl_benchmark",
+          "safe_to_create_comparisons": true,
+          "safe_to_create_contracts": false,
+          "safe_to_create_mask_banks": false,
+          "safe_to_create_plans": true,
+          "selected_recipe_ids": [
+            "official_wuhan_dl_benchmark:mcar:10"
+          ],
+          "steps": [
+            "PreparationAutomationStep(step_key='mask_banks', label='Mask banks', object_type='mask_bank', recipe_ids=('official_wuhan_dl_benchmark:mcar:10',), eligible_count=0, blocked_count=0, existing_count=1, status='done', issues=(), warnings=(), payload={})",
+            "PreparationAutomationStep(step_key='benchmark_contracts', label='Benchmark contracts', object_type='benchmark_contract', recipe_ids=('official_wuhan_dl_benchmark:mcar:10',), eligible_count=0, blocked_count=0, existing_count=1, status='done', issues=(), warnings=(), payload={})",
+            "PreparationAutomationStep(step_key='drafts_templates', label='Drafts / Templates', object_type='draft', recipe_ids=('official_wuhan_dl_benchmark:mcar:10',), eligible_count=0, blocked_count=0, existing_count=1, status='done', issues=(), warnings=(), payload={})",
+            "PreparationAutomationStep(step_key='plans', label='Experiment plans', object_type='plan', recipe_ids=('official_wuhan_dl_benchmark:mcar:10',), eligible_count=0, blocked_count=0, existing_count=1, status='done', issues=(), warnings=(), payload={})",
+            "PreparationAutomationStep(step_key='comparison_shells', label='Comparison benchmark shells', object_type='comparison_shell', recipe_ids=('official_wuhan_dl_benchmark:mcar:10',), eligible_count=0, blocked_count=0, existing_count=1, status='done', issues=(), warnings=(), payload={})"
+          ]
+        },
+        "prepared_binding_count": 1,
+        "prepared_bindings": {
+          "official_wuhan_dl_benchmark:mcar:10": {
+            "benchmark_contract_id": "32313089-65ac-4c04-9b88-80bf6e92a44a",
+            "benchmark_mask_bank_id": "66b98ad7-30be-485d-99d8-1199e69f4ad6",
+            "benchmark_phase_scope": [
+              "test"
+            ],
+            "benchmark_realization_ids": [
+              "test_r000",
+              "test_r001",
+              "test_r002",
+              "test_r003",
+              "test_r004",
+              "test_r005",
+              "test_r006",
+              "test_r007",
+              "test_r008",
+              "test_r009",
+              "test_r010",
+              "test_r011",
+              "test_r012",
+              "test_r013",
+              "test_r014",
+              "test_r015",
+              "test_r016",
+              "test_r017",
+              "test_r018",
+              "test_r019"
+            ],
+            "benchmark_selection_phase_scope": [
+              "validation"
+            ],
+            "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+            "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
+            "family": "mcar",
+            "rate": 0.1,
+            "recipe_book_id": "official_wuhan_dl_benchmark",
+            "recipe_id": "official_wuhan_dl_benchmark:mcar:10",
+            "shared_benchmark_required": true
+          }
+        },
+        "result": {
+          "action_key": "prepare_all_safe",
+          "created_comparison_spec_ids": [
+            "59284ba0-bd1b-4fc0-ad85-66e018e91a33"
+          ],
+          "created_contract_ids": [],
+          "created_draft_ids": [],
+          "created_mask_bank_ids": [],
+          "created_plan_ids": [],
+          "created_template_ids": [],
+          "errors": [],
+          "payload": {
+            "created_by_step": {
+              "comparison_specs": [
+                "59284ba0-bd1b-4fc0-ad85-66e018e91a33"
+              ],
+              "contracts": [],
+              "drafts": [],
+              "mask_banks": [],
+              "plans": [],
+              "templates": []
+            },
+            "failed_step": "",
+            "final_blockers": [],
+            "prepared_bindings": {
+              "official_wuhan_dl_benchmark:mcar:10": {
+                "benchmark_contract_id": "32313089-65ac-4c04-9b88-80bf6e92a44a",
+                "benchmark_mask_bank_id": "66b98ad7-30be-485d-99d8-1199e69f4ad6",
+                "benchmark_phase_scope": [
+                  "test"
+                ],
+                "benchmark_realization_ids": [
+                  "test_r000",
+                  "test_r001",
+                  "test_r002",
+                  "test_r003",
+                  "test_r004",
+                  "test_r005",
+                  "test_r006",
+                  "test_r007",
+                  "test_r008",
+                  "test_r009",
+                  "test_r010",
+                  "test_r011",
+                  "test_r012",
+                  "test_r013",
+                  "test_r014",
+                  "test_r015",
+                  "test_r016",
+                  "test_r017",
+                  "test_r018",
+                  "test_r019"
+                ],
+                "benchmark_selection_phase_scope": [
+                  "validation"
+                ],
+                "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+                "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
+                "family": "mcar",
+                "rate": 0.1,
+                "recipe_book_id": "official_wuhan_dl_benchmark",
+                "recipe_id": "official_wuhan_dl_benchmark:mcar:10",
+                "shared_benchmark_required": true
+              }
+            }
+          },
+          "skipped": [],
+          "warnings": [
+            "No missing drafts found.",
+            "No safe plan creation candidates found."
+          ]
+        },
+        "selected_recipe_count": 1
+      },
+      "plans_created": 0,
+      "plans_existing": 0,
+      "recipe_book_id": "official_wuhan_dl_benchmark",
+      "status": "ready",
+      "templates_created": 0,
+      "warnings": [
+        "No missing drafts found.",
+        "No safe plan creation candidates found."
+      ]
+    }
+  },
+  "preparation_report_path": "docs\\exports\\temporal\\wuhan_dl\\temporal_preparation_report.json",
+  "progress_file_path": "data/logs/wuhan_dl_smoke_progress.json",
+  "recipe_book_id": "official_wuhan_dl_benchmark",
+  "skipped_tasks": 0,
+  "status": "failed",
+  "tier": "core",
+  "total_tasks": 1,
+  "warnings": [
+    "No missing drafts found.",
+    "No safe plan creation candidates found."
+  ]
+}

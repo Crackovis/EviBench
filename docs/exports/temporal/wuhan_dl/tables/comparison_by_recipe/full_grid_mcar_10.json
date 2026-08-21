@@ -1,0 +1,27 @@
+{
+  "caption": "Table 0.2: Per-algorithm metrics for recipe mcar_10.",
+  "claim_level": "bounded_comparison",
+  "cohort_id": "cohort_full_grid_mcar_10_9446ee9d20",
+  "comparability_status": "descriptive",
+  "primary_metric": "rmse",
+  "recipe_display_label": "MCAR 10%",
+  "recipe_label": "mcar_10",
+  "rows": [
+    {
+      "algorithm_id": "gru_d",
+      "evidence_status": "descriptive",
+      "family": "dl_temporal",
+      "is_best": false,
+      "mean_mae": 15.90309671380148,
+      "mean_primary": 25.94973765770869,
+      "mean_runtime": null,
+      "median_primary": 25.988590672896617,
+      "n": 5,
+      "rank": null,
+      "std_primary": 0.1670280445441089
+    }
+  ],
+  "schema": "imputebench.human-comparison-table/v1",
+  "station_label": "full_grid",
+  "table_kind": "per_recipe"
+}

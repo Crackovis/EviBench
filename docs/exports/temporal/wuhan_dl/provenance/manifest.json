@@ -1,0 +1,671 @@
+{
+  "blocked_items": [],
+  "claim_level": "exploratory_only",
+  "claim_limits": [
+    "Claims are bounded to the selected dataset snapshot, benchmark contracts, evaluation supports, and metric definitions.",
+    "Caption numbering is provisional (no chapter set)."
+  ],
+  "cohorts": [
+    {
+      "algorithm_ids": [
+        "gru_d"
+      ],
+      "blocking_reasons": [],
+      "claim_level": "bounded_comparison",
+      "cohort_id": "cohort_full_grid_mcar_10_9446ee9d20",
+      "comparability_status": "descriptive",
+      "key": {
+        "benchmark_contract_id": "77f0c3ab-00af-47d0-9525-4d6cbf0b960d",
+        "benchmark_mask_bank_id": "0ab0780d-50e6-45dd-a719-225a9b4d8b92",
+        "comparison_phase_key": "test",
+        "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+        "dataset_snapshot_fingerprint": "",
+        "dataset_view_fingerprint": "",
+        "dataset_view_mode": "full_grid",
+        "declared_rate": 0.1,
+        "mechanism_family": "mcar",
+        "metric_schema_id": "",
+        "recipe_entry_id": "official_wuhan_dl_benchmark:mcar:10",
+        "station_grid_col": null,
+        "station_grid_row": null,
+        "station_id": "",
+        "station_label": "full_grid"
+      },
+      "ranking_allowed": false,
+      "realization_ids": [
+        "test_r000",
+        "test_r001",
+        "test_r002",
+        "test_r003",
+        "test_r004"
+      ],
+      "recipe_label": "mcar_10",
+      "result_ids": [
+        "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c",
+        "71114600-ad9f-4678-a769-6baa96135bdf",
+        "79e01bc6-e34f-4029-bc46-65175480a8b2",
+        "ade3bfed-970c-40b1-b678-92dccabe11e7",
+        "b7d9123c-8920-4e82-8934-54be6a1cd13e"
+      ],
+      "warnings": [
+        "HRE-COHORT-007"
+      ]
+    }
+  ],
+  "content_fingerprint": "fac7dacdc5230337df20165c21d9b74251eb76baf44a1427b1f2a7451ad8a262",
+  "coverage_ledger": {
+    "cohort_count": 1,
+    "database_matches": 5,
+    "database_unique_results": 5,
+    "invalid_summary_ids": [],
+    "missing_summary_ids": [],
+    "schema": "imputebench.human-selection-ledger/v1",
+    "selection_excluded": 0,
+    "selection_selected": 5,
+    "source_manifest_target_ids": 5,
+    "source_plan_targets": 5,
+    "source_reader_results": 5,
+    "source_summary_success": 5,
+    "storyboard_available": 5,
+    "storyboard_blocked": 0,
+    "storyboard_diagnostic": 0,
+    "storyboard_requested": 5
+  },
+  "dashboard_gallery_policy": "auto",
+  "environment": {
+    "device_truth_level": "configured_but_unverified",
+    "environment_digest": "b2d0eaccf552b37655f5fcc3de42e391590f79c7d7b4dedf9fc8e0b2f5826735",
+    "git_commit_hash": "c5676286ea8a4eff3bd558a55650578c63fe7c00",
+    "imputebench_version": "1.2.0",
+    "python_version": "3.12.13",
+    "requested_device": "True",
+    "selected_device": "cuda"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "role": "readme",
+      "sha256": "5c41181346d90e28ccf62b304f6ebbf606b79eece96054fe6f6ffc2f5dee429d",
+      "size_bytes": 5236
+    },
+    {
+      "path": "evidence_dashboard.html",
+      "role": "dashboard",
+      "sha256": "fdf58e69b20dca9607e8df9c26b7a22eb929fff88c693b9ae2ce41a388e65187",
+      "size_bytes": 164424
+    },
+    {
+      "path": "figures/framework/accuracy_runtime_pareto.json",
+      "role": "figure",
+      "sha256": "482377965f0cca0b21b2486318445ea5d420213865c795b7568ed9d789658729",
+      "size_bytes": 340
+    },
+    {
+      "path": "figures/framework/accuracy_runtime_pareto.md",
+      "role": "figure",
+      "sha256": "adf350390937ccbd5d3cd434a8c9e6c02b012bb61d633f5775fa6bce9f0f04e4",
+      "size_bytes": 182
+    },
+    {
+      "path": "figures/framework/radar_profile.json",
+      "role": "figure",
+      "sha256": "97842d6827d372d6f8bc9c41ff0e2ed47593832b8d636c2b66c4c31c6e725b54",
+      "size_bytes": 380
+    },
+    {
+      "path": "figures/framework/radar_profile.md",
+      "role": "figure",
+      "sha256": "8e0fe08cffd39afd22b0dd3f77a1a79e09ac4722f162716410a20f637069696a",
+      "size_bytes": 147
+    },
+    {
+      "path": "figures/ranking_chart.json",
+      "role": "figure",
+      "sha256": "ca2933ed1204654e5be0158d107ed725b1ac8e0069d8b4169eab059d1a5215ad",
+      "size_bytes": 241
+    },
+    {
+      "path": "figures/ranking_chart.md",
+      "role": "figure",
+      "sha256": "f51817e0e3b32f2faa7c2c4576a97bcf6711daa314d984e6a1e7d59f14b1fadc",
+      "size_bytes": 58
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r000.json",
+      "role": "figure",
+      "sha256": "4107d79e9cf938fcf0cc12f6f9da712415242bafff95fe18aee66167a693c0eb",
+      "size_bytes": 1409
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r000.md",
+      "role": "figure",
+      "sha256": "209c4ad4a2ec58945dbdf45b5b402eb9e5c1b496a6f93e05a1d0b0ae0abc6488",
+      "size_bytes": 674
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r000.png",
+      "role": "figure",
+      "sha256": "ba45b68b63e2b6d18198744b57549f3f2fb11008b45d8aa089287ad906c6c4ad",
+      "size_bytes": 94188
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r001.json",
+      "role": "figure",
+      "sha256": "9ff060f01b4194d4e2831c4e4b5413b5d85b25f68ab53fa00fb315f471306199",
+      "size_bytes": 1408
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r001.md",
+      "role": "figure",
+      "sha256": "3191b6fa2998e2c8f55a42308f5f36bf6d248c06a134148c7a3421af5d687263",
+      "size_bytes": 674
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r001.png",
+      "role": "figure",
+      "sha256": "2865b90ef6203f7da5c6b87e136f1593b94206d32a01beef68f6c2891f4f2a2e",
+      "size_bytes": 94158
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r002.json",
+      "role": "figure",
+      "sha256": "138d33fb2986bc504bb329b62b42de2955c2b2dbdbf5214518fe72261ea937e3",
+      "size_bytes": 1408
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r002.md",
+      "role": "figure",
+      "sha256": "9f09df1d9a928cf50a4d9e95b9635ca4d0388d55cdcd96cf71d896efa2d25344",
+      "size_bytes": 673
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r002.png",
+      "role": "figure",
+      "sha256": "69836c5fd6859353fa194dca3ea490f0c6416c2cc09140263383ce7fe1965a04",
+      "size_bytes": 93474
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r003.json",
+      "role": "figure",
+      "sha256": "ec0e4e0f2c450095e698ecc51f40fce05bfcbc407e7c054e99744424a1c00da9",
+      "size_bytes": 1407
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r003.md",
+      "role": "figure",
+      "sha256": "257acfba1a935b4dbf101d920c7c68f84484aef190b717d4d36fc4b38b4ad65b",
+      "size_bytes": 673
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r003.png",
+      "role": "figure",
+      "sha256": "ca6418e9efd847bb1cc9384c3c4ac3065467692f1feed8e91dcec466a276b688",
+      "size_bytes": 94854
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r004.json",
+      "role": "figure",
+      "sha256": "abf3ac8a44d03df573a2fdc22876141fc5b6d48e7e6ae1cf00d7a8ed1dd1093b",
+      "size_bytes": 1407
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r004.md",
+      "role": "figure",
+      "sha256": "0f6310c31d0fbd55f66299b796c794e3ba6e66eb5530059b270811d74e48086d",
+      "size_bytes": 673
+    },
+    {
+      "path": "figures/storyboards/full_grid_mcar_10_gru_d_test_r004.png",
+      "role": "figure",
+      "sha256": "f8b61ae1bbc054790dea5d3c24a5e3f4c242f77c9a4ce84fd591bd8eeaaee51f",
+      "size_bytes": 94327
+    },
+    {
+      "path": "provenance/blocked_items.json",
+      "role": "provenance",
+      "sha256": "15837561c4d3e6b00ca45c9ae7005b01e9d601a2e5df3a818b29cf2dc0cb1b35",
+      "size_bytes": 75
+    },
+    {
+      "path": "provenance/command.json",
+      "role": "provenance",
+      "sha256": "077e876d337c4ee7cc2cdf85909eb8b181c16b29aa36ab72893230753effd6c0",
+      "size_bytes": 1068
+    },
+    {
+      "path": "provenance/environment.json",
+      "role": "provenance",
+      "sha256": "92c6a60e90a6491f7cf30d19ecb0bebfa76597150aff0602f4f5d121acb6c5b8",
+      "size_bytes": 344
+    },
+    {
+      "path": "provenance/framework_metric_availability.json",
+      "role": "provenance",
+      "sha256": "88e22a1089c3a28e793bb876d21f917a47c85849eb3dbafbf25fd9d0ab71b6d7",
+      "size_bytes": 2126
+    },
+    {
+      "path": "provenance/framework_metric_policy.json",
+      "role": "provenance",
+      "sha256": "e3bfd7c1a5992c1f8414b52bfae5027f51b88af3e7f51ec5bab615a20da7e7c8",
+      "size_bytes": 308
+    },
+    {
+      "path": "provenance/id_map.json",
+      "role": "provenance",
+      "sha256": "90b98b5c9cf691dfbdc8a6505cad89cd5d371e87c74bf93246fae5bd7839e192",
+      "size_bytes": 2492
+    },
+    {
+      "path": "provenance/performance_trace.json",
+      "role": "provenance",
+      "sha256": "981205e403e88773d94bec35ea03577cb82814f96840026ee0d6a0494e000b37",
+      "size_bytes": 1949
+    },
+    {
+      "path": "provenance/selection.json",
+      "role": "provenance",
+      "sha256": "b1364c3ce8488022dc223c9fe8b7073dc23e4681cfb2177c047aad7f384c50f7",
+      "size_bytes": 1217
+    },
+    {
+      "path": "provenance/selection_ledger.json",
+      "role": "provenance",
+      "sha256": "abe5bfbcfa3540d74f5e8fe59d95d75a075c3cabf47ace5ce38f94c0855ac162",
+      "size_bytes": 501
+    },
+    {
+      "path": "provenance/source_manifest.json",
+      "role": "provenance",
+      "sha256": "52b5d7107bd032cffbf0b1737db3a0f69137e7bb2f85a88c036a051f559c6ac0",
+      "size_bytes": 34419
+    },
+    {
+      "path": "stats/STATUS.md",
+      "role": "statistics",
+      "sha256": "e18d5642bb8bba67dbf4073c13d78e2563a6610b0bc9d08969cee8daf27fd945",
+      "size_bytes": 142
+    },
+    {
+      "path": "stats/pairwise_tests.csv",
+      "role": "statistics",
+      "sha256": "2ba22bbe484651202e46c427ea915e7cab7d65730cc2ad52ff3e502dfc75d08d",
+      "size_bytes": 115
+    },
+    {
+      "path": "stats/pairwise_tests.json",
+      "role": "statistics",
+      "sha256": "050b38eaa39c28fe2dcf65e544b23b84a58dc2ae793ea6b67946523280b87f5e",
+      "size_bytes": 113
+    },
+    {
+      "path": "stats/significance_summary.md",
+      "role": "statistics",
+      "sha256": "ce9f1b51ee17baf1e511d2e3cffbfa44e28ccfc41f6d4013e112d08cb55ad7c8",
+      "size_bytes": 78
+    },
+    {
+      "path": "tables/algorithm_summary.csv",
+      "role": "table",
+      "sha256": "ecbb560bdf409b368318c6f84774297a41456c2ff4d0aa574d96a87a0cb0a809",
+      "size_bytes": 318
+    },
+    {
+      "path": "tables/algorithm_summary.md",
+      "role": "table",
+      "sha256": "c855c438a65c5ddce4f4acb96b7678f6b3bafdb2486ad9256563ba0deee51b0a",
+      "size_bytes": 417
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_10.csv",
+      "role": "table",
+      "sha256": "ecbb560bdf409b368318c6f84774297a41456c2ff4d0aa574d96a87a0cb0a809",
+      "size_bytes": 318
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_10.json",
+      "role": "table",
+      "sha256": "ed2f7c372ed3ac219ae60b444708195a1191b1b8cd3832c395bd397bd389204d",
+      "size_bytes": 820
+    },
+    {
+      "path": "tables/comparison_by_recipe/full_grid_mcar_10.md",
+      "role": "table",
+      "sha256": "d9d3a3a073bc3a438b910d2560f0142ad801a3e638ab1180f30f1f6127d46c84",
+      "size_bytes": 355
+    },
+    {
+      "path": "tables/comparison_global.csv",
+      "role": "table",
+      "sha256": "508f9e8c6e1c355844b01a45c4ab76e66295b65e6115c971233276b75c53235a",
+      "size_bytes": 229
+    },
+    {
+      "path": "tables/comparison_global.json",
+      "role": "table",
+      "sha256": "d05322f182f5a82cdac0df9ec046c20696b7b1b4af3fb0406ac514fd5f8dda18",
+      "size_bytes": 969
+    },
+    {
+      "path": "tables/comparison_global.md",
+      "role": "table",
+      "sha256": "2d924ca0a9561dbe66ea624eb9f4683515e0f24910022d1c645f11aa3d340da9",
+      "size_bytes": 326
+    },
+    {
+      "path": "tables/framework/availability.csv",
+      "role": "table",
+      "sha256": "51c4c831de464ee542e9b6ed42e5ce8c33692cf9da0c1f3063791121bf95c9e6",
+      "size_bytes": 729
+    },
+    {
+      "path": "tables/framework/availability.json",
+      "role": "table",
+      "sha256": "5b8ca5b58064267c8c3e3b020b9e1efeb2abda0ff47ffc121ad551fdba5729be",
+      "size_bytes": 2122
+    },
+    {
+      "path": "tables/framework/availability.md",
+      "role": "table",
+      "sha256": "2b7e20a701bff9949f77a56cf14bf48cf1745b8e163b7ea72db333217ee52bc8",
+      "size_bytes": 902
+    },
+    {
+      "path": "tables/framework/complexity.csv",
+      "role": "table",
+      "sha256": "1ced329fe5019c686c4c640ba5150fe8f90c67adbbb44b185549e49fb701590e",
+      "size_bytes": 249
+    },
+    {
+      "path": "tables/framework/complexity.json",
+      "role": "table",
+      "sha256": "0c78678806b1f6cbb8b1416925ebb9746f680ea49692f5facf576333a7fb4a87",
+      "size_bytes": 153
+    },
+    {
+      "path": "tables/framework/complexity.md",
+      "role": "table",
+      "sha256": "10858f15ed7ac15e589f63f256e5a71059f861afdb13a9d20210d4c39ea5a3e1",
+      "size_bytes": 345
+    },
+    {
+      "path": "tables/framework/master_comparison.csv",
+      "role": "table",
+      "sha256": "bb0e01f33a5b7f7562e0ec76c8e64067449827a4b251465e1ae6bccc7ac2e65f",
+      "size_bytes": 189
+    },
+    {
+      "path": "tables/framework/master_comparison.json",
+      "role": "table",
+      "sha256": "14b6374a57a16e094cde57153106ef699e263ed0ab32cb75ead6906b68042790",
+      "size_bytes": 217
+    },
+    {
+      "path": "tables/framework/master_comparison.md",
+      "role": "table",
+      "sha256": "5420b915f0257e34b51e0b842e9d639a5b6edac38a2d5419e897cdcb684a7099",
+      "size_bytes": 464
+    },
+    {
+      "path": "tables/framework/mechanism_robustness.csv",
+      "role": "table",
+      "sha256": "f9b6a18cc634b88c3592efd0b035833b4bee26260fc6d920bd3de87bde0312b5",
+      "size_bytes": 130
+    },
+    {
+      "path": "tables/framework/mechanism_robustness.json",
+      "role": "table",
+      "sha256": "c5193264bc3c546362974b1a596792a158b76abf1697f6fa88a6453100371ed3",
+      "size_bytes": 163
+    },
+    {
+      "path": "tables/framework/mechanism_robustness.md",
+      "role": "table",
+      "sha256": "011f2083acf713dcd366019faeea8751ed1630af6f1f86d908f7079b00f023cf",
+      "size_bytes": 319
+    },
+    {
+      "path": "tables/framework/rate_robustness.csv",
+      "role": "table",
+      "sha256": "f8648cf9236630d0a359f270049f0b54daf53cb31109319c3f2cd98cbdadb0a6",
+      "size_bytes": 181
+    },
+    {
+      "path": "tables/framework/rate_robustness.json",
+      "role": "table",
+      "sha256": "9909305387e4d0d04b50d8477b29cb98640d7f6ecdfe17327120707362e623a5",
+      "size_bytes": 158
+    },
+    {
+      "path": "tables/framework/rate_robustness.md",
+      "role": "table",
+      "sha256": "32d7e1c6cbb188adc2a0a52f75f5d61c9187786da766332917e1e319547a42cf",
+      "size_bytes": 437
+    },
+    {
+      "path": "tables/framework/stability.csv",
+      "role": "table",
+      "sha256": "a347778f3e4b485e5e742534eebe2a8c9422e3a5af53b8c0523c3436942b29a8",
+      "size_bytes": 127
+    },
+    {
+      "path": "tables/framework/stability.json",
+      "role": "table",
+      "sha256": "3b6adb072b7313e83b76e7e7c256203edacc770713fea9dcf4f6b91405fca489",
+      "size_bytes": 152
+    },
+    {
+      "path": "tables/framework/stability.md",
+      "role": "table",
+      "sha256": "df54c592e3a8ceac8d1a4185020c26e37a43983a65b829ac7388f45f33f57903",
+      "size_bytes": 314
+    },
+    {
+      "path": "tables/per_realization_metrics.csv",
+      "role": "table",
+      "sha256": "d1aeb90a1797fbb764ce98d796e2dfe941734133f9b4a2e0c3899d312df16c86",
+      "size_bytes": 787
+    },
+    {
+      "path": "tables/pollutant_breakdown.csv",
+      "role": "table",
+      "sha256": "be755fff0f5abd310c82fd2db7b9e5958263844c5557c3a0ce83ca8c06eb5722",
+      "size_bytes": 2074
+    },
+    {
+      "path": "tables/pollutant_breakdown.json",
+      "role": "table",
+      "sha256": "017c9d0f4fe98e7bf2bbdfde64517c256d4db941f2e6eaea754f557255751851",
+      "size_bytes": 7462
+    },
+    {
+      "path": "tables/pollutant_breakdown.md",
+      "role": "table",
+      "sha256": "85d0c5647fd4b3814448c542ca919617d0cd831103d18b8457caba5ec4a58b9b",
+      "size_bytes": 1770
+    }
+  ],
+  "framework_metrics": {
+    "availability": [
+      {
+        "available_count": 0,
+        "coverage": 0.0,
+        "expected_count": 0,
+        "metric_id": "accuracy",
+        "reasons": [
+          "no balanced cohort intersection"
+        ],
+        "source_quality": "exported_primary_metric",
+        "status": "unavailable"
+      },
+      {
+        "available_count": 0,
+        "coverage": 0.0,
+        "expected_count": 0,
+        "metric_id": "speed",
+        "reasons": [
+          "no admissible runtime evidence"
+        ],
+        "source_quality": "missing",
+        "status": "unavailable"
+      },
+      {
+        "available_count": 0,
+        "coverage": 0.0,
+        "expected_count": 0,
+        "metric_id": "stability",
+        "reasons": [
+          "fewer than 3 realizations per cell"
+        ],
+        "source_quality": "exported_primary_metric",
+        "status": "unavailable"
+      },
+      {
+        "available_count": 0,
+        "coverage": 0.0,
+        "expected_count": 0,
+        "metric_id": "rate_robustness",
+        "reasons": [
+          "no comparable rate pairs"
+        ],
+        "source_quality": "exported_primary_metric",
+        "status": "unavailable"
+      },
+      {
+        "available_count": 0,
+        "coverage": 0.0,
+        "expected_count": 0,
+        "metric_id": "mechanism_robustness",
+        "reasons": [
+          "incomplete MCAR/MAR/MNAR coverage"
+        ],
+        "source_quality": "exported_primary_metric",
+        "status": "unavailable"
+      },
+      {
+        "available_count": 0,
+        "coverage": 0.0,
+        "expected_count": 0,
+        "metric_id": "parameter_efficiency",
+        "reasons": [
+          "no explicit parameter evidence exported"
+        ],
+        "source_quality": "explicit_parameter_evidence",
+        "status": "unavailable"
+      },
+      {
+        "available_count": 0,
+        "coverage": 0.0,
+        "expected_count": 0,
+        "metric_id": "memory_efficiency",
+        "reasons": [
+          "memory is not instrumented; a missing value never becomes 1.0"
+        ],
+        "source_quality": "not_instrumented",
+        "status": "unavailable"
+      }
+    ],
+    "balanced_cohort_count": 0,
+    "charts": [
+      {
+        "blocking_reasons": [
+          "fewer than three available axes"
+        ],
+        "caption": "Radar blocked: fewer than three real axes are available.",
+        "chart_id": "radar_profile",
+        "chart_kind": "radar",
+        "data": {
+          "available_axes": [],
+          "policy_id": "human_multidimensional_relative_v1"
+        },
+        "status": "blocked",
+        "title": "Multi-dimensional relative profile"
+      },
+      {
+        "blocking_reasons": [
+          "fewer than two comparable algorithms"
+        ],
+        "caption": "Pareto blocked: fewer than two algorithms with comparable accuracy and runtime evidence.",
+        "chart_id": "accuracy_runtime_pareto",
+        "chart_kind": "pareto",
+        "data": {},
+        "status": "blocked",
+        "title": "Accuracy vs runtime Pareto front"
+      }
+    ],
+    "complexity_profiles": [],
+    "global_profiles": [],
+    "mechanism_robustness_profiles": [],
+    "min_coverage": 0.8,
+    "policy_id": "human_multidimensional_relative_v1",
+    "rate_robustness_profiles": [],
+    "schema": "imputebench.human-framework-metrics/v1",
+    "stability_profiles": [],
+    "total_cohort_count": 0,
+    "warnings": [
+      "framework_no_eligible_algorithms",
+      "framework_no_balanced_cohort_intersection"
+    ]
+  },
+  "generated_at": "2026-08-17T09:25:35.096868+00:00",
+  "numbering_status": "provisional",
+  "pack_grade": "exploratory",
+  "pack_id": "human-pack-b9691fd15fe04779",
+  "schema": "imputebench.human-evidence-pack/v2",
+  "selection": {
+    "comparison_ids": [],
+    "excluded_count": 0,
+    "exclusions": [],
+    "query_summary": {
+      "algorithm_ids": [],
+      "benchmark_contract_id": "",
+      "database_unique_results": 5,
+      "dataset_id": "",
+      "exclude_unscoped": false,
+      "execution_classes": [],
+      "experiment_id": "",
+      "families": [],
+      "graph_policies": [],
+      "include_unlinked": false,
+      "legacy_unscoped": true,
+      "limit": 200,
+      "mask_families": [],
+      "masking_ids": [],
+      "phases": [
+        "test"
+      ],
+      "rates": [],
+      "realization_ids": [],
+      "recipe_book_id": "official_wuhan_dl_benchmark",
+      "recipe_entry_ids": [],
+      "recipe_profile_id": "a",
+      "recipe_profile_ids": [
+        "a"
+      ],
+      "recipe_revision": null,
+      "result_ids": [],
+      "run_ids": [],
+      "scope_mode": "legacy_unscoped",
+      "selected_ids_count": 5,
+      "statuses": [],
+      "total_matched": 5,
+      "truncated": false
+    },
+    "result_ids": [
+      "79e01bc6-e34f-4029-bc46-65175480a8b2",
+      "b7d9123c-8920-4e82-8934-54be6a1cd13e",
+      "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c",
+      "71114600-ad9f-4678-a769-6baa96135bdf",
+      "ade3bfed-970c-40b1-b678-92dccabe11e7"
+    ],
+    "selected_count": 5
+  },
+  "source_export": {
+    "export_id": "batch_5t_d62b5e5f",
+    "manifest_path": "provenance/source_manifest.json",
+    "schema": "imputebench.evidence-export/v1"
+  },
+  "statistics_status": "blocked_insufficient_data",
+  "title": "Evidence pack",
+  "warnings": []
+}

@@ -1,6 +1,6 @@
 # Chapter 06 — Figure Gallery (`07_figures/`)
 
-Generated: 2026-06-30 01:31 UTC
+Generated: 2026-08-17 22:32 UTC
 Total figures: 19 (7 original + 12 extended gallery)
 Regenerate: `python -m imputebench st figures generate --clean`
 

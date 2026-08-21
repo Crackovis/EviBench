@@ -1,121 +1,49 @@
 [
   {
-    "graph_id": "graph_london_aq_correlation_train_v1_1691d107",
-    "dataset_id": "london_aq",
-    "graph_policy": "correlation_train_v1",
+    "graph_id": "graph_c1b03ed1-dad4-444b-a06d-e85cb81378b6_distance_knn_geo_v1_c26d0d2a",
+    "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+    "graph_policy": "distance_knn_geo_v1",
     "graph_params": {
       "self_loops": true,
       "normalize": "none",
-      "corr_threshold": 0.7,
-      "correlation_source": "train_only",
-      "split_id": "official_v1",
-      "split_fingerprint": "sha256:82b493d40d7110f3c5dbe2f830a1252032dd48fbf808f05bade5cc2e25c31c4b",
-      "train_index_start": 0,
-      "train_index_end": 360,
-      "total_time_count": 600,
-      "used_time_count": 360,
-      "excluded_time_count": 240,
-      "leakage_guard": "train_only_correlation",
-      "correlation_method": "pearson",
-      "correlation_feature_strategy": "flatten_time_feature",
-      "nan_policy": "replace_invalid_with_zero",
-      "invalid_correlation_count": 0,
-      "constant_series_count": 0,
-      "correlation_edge_policy": "threshold_abs_0.7",
-      "self_loop_policy": "added",
-      "normalization_policy": "none"
+      "knn_k": 3,
+      "distance_metric": "haversine_km",
+      "coordinate_source": "H:\\Documents\\Uncompressed\\byContext\\ResearchCenter\\TAKOUDJOU\\Technology\\Systems\\EviBench\\datasets\\wuhan_aq\\stations_metadata.csv",
+      "station_count": 10,
+      "coordinate_columns": [
+        "lat",
+        "lon"
+      ],
+      "station_order": [
+        "1325A",
+        "1326A",
+        "1327A",
+        "1328A",
+        "1329A",
+        "1330A",
+        "1331A",
+        "1333A",
+        "1334A",
+        "3153A"
+      ]
     },
-    "grid_rows": 10,
-    "grid_cols": 14,
-    "node_count": 140,
+    "grid_rows": 1,
+    "grid_cols": 10,
+    "node_count": 10,
     "node_index_policy": "row_major_runtime_grid_v1",
     "feature_order": [
-      "NO",
+      "PM25",
+      "PM10",
+      "SO2",
       "NO2",
-      "O3",
-      "SO2"
+      "CO",
+      "O3"
     ],
     "adjacency_path": "adjacency.npy",
     "node_mapping_path": "node_mapping.json",
-    "adjacency_fingerprint": "sha256:03ade6a5a5a0d32e076bf5794e54a328a5493517fd8612f2d7f1999decc6cd03",
-    "node_mapping_fingerprint": "sha256:6a57d86e7dd3172662aaf433a408cdd180e4398b8abef10e8b7cfd1b193e4fc4",
-    "graph_fingerprint": "sha256:1691d10769e12e8c48659d0a20c0fa0d8776aa38ccac0352c22d9b8373a26443",
-    "created_at": "2026-05-18T20:58:06.126035+00:00"
-  },
-  {
-    "graph_id": "graph_fa9c7108-176e-4c68-840d-6acf3a3e59e4_distance_knn_v1_6b6383b8",
-    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-    "graph_policy": "distance_knn_v1",
-    "graph_params": {
-      "self_loops": true,
-      "normalize": "none",
-      "knn_k": 4
-    },
-    "grid_rows": 10,
-    "grid_cols": 14,
-    "node_count": 140,
-    "node_index_policy": "row_major_runtime_grid_v1",
-    "feature_order": [
-      "NO",
-      "NO2",
-      "O3",
-      "SO2"
-    ],
-    "adjacency_path": "adjacency.npy",
-    "node_mapping_path": "node_mapping.json",
-    "adjacency_fingerprint": "sha256:287b1bd46b84cf25154f5c4f55eca6e776a9448508de4fd364c7989f2b3eebf1",
-    "node_mapping_fingerprint": "sha256:6a57d86e7dd3172662aaf433a408cdd180e4398b8abef10e8b7cfd1b193e4fc4",
-    "graph_fingerprint": "sha256:6b6383b859dcb85551f221c474ed687de844cc3191dc4e5c368849578c13d4ce",
-    "created_at": "2026-05-12T07:30:07.022648+00:00"
-  },
-  {
-    "graph_id": "graph_fa9c7108-176e-4c68-840d-6acf3a3e59e4_grid_4n_v1_ff68c2f5",
-    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-    "graph_policy": "grid_4n_v1",
-    "graph_params": {
-      "self_loops": true,
-      "normalize": "none"
-    },
-    "grid_rows": 10,
-    "grid_cols": 14,
-    "node_count": 140,
-    "node_index_policy": "row_major_runtime_grid_v1",
-    "feature_order": [
-      "NO",
-      "NO2",
-      "O3",
-      "SO2"
-    ],
-    "adjacency_path": "adjacency.npy",
-    "node_mapping_path": "node_mapping.json",
-    "adjacency_fingerprint": "sha256:2ae89a6b020120abbaa631d12bbb10e22c33c176d6cb4868790fc3330eb98cfd",
-    "node_mapping_fingerprint": "sha256:6a57d86e7dd3172662aaf433a408cdd180e4398b8abef10e8b7cfd1b193e4fc4",
-    "graph_fingerprint": "sha256:ff68c2f545d16f90d1e3b4a9b00305d1b291b92f29d9cd1557f2a1e30e9bd432",
-    "created_at": "2026-05-12T07:30:06.987907+00:00"
-  },
-  {
-    "graph_id": "graph_fa9c7108-176e-4c68-840d-6acf3a3e59e4_grid_8n_v1_e4d3c519",
-    "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",
-    "graph_policy": "grid_8n_v1",
-    "graph_params": {
-      "self_loops": true,
-      "normalize": "none"
-    },
-    "grid_rows": 10,
-    "grid_cols": 14,
-    "node_count": 140,
-    "node_index_policy": "row_major_runtime_grid_v1",
-    "feature_order": [
-      "NO",
-      "NO2",
-      "O3",
-      "SO2"
-    ],
-    "adjacency_path": "adjacency.npy",
-    "node_mapping_path": "node_mapping.json",
-    "adjacency_fingerprint": "sha256:9d03a2bdfa1e7f8a4240c10ec65744873411f37acdc05dc4f762e12074b4ceab",
-    "node_mapping_fingerprint": "sha256:6a57d86e7dd3172662aaf433a408cdd180e4398b8abef10e8b7cfd1b193e4fc4",
-    "graph_fingerprint": "sha256:e4d3c5194b5ac30ca62c968fa45e9a57741b8a9875a01227139f10ef74e5af74",
-    "created_at": "2026-05-12T07:30:07.004925+00:00"
+    "adjacency_fingerprint": "sha256:48c1866600538464c20d0d767e2893fb313799741c22b13775c8d2657c6fb114",
+    "node_mapping_fingerprint": "sha256:dba56c477e78dadba0828bad9d1dff65c326839233e7ade53a9cff50e9f0b00c",
+    "graph_fingerprint": "sha256:c26d0d2aac2bece4eb8d6eff0003db1f0640763ff467a93cf928279fea9682ae",
+    "created_at": "2026-08-17T08:05:42.949247+00:00"
   }
 ]

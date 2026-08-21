@@ -1,0 +1,76 @@
+{
+  "blocking_reasons": [],
+  "caption": "Macro balanced primary metric (X, lower is better) versus macro median measured runtime in seconds (Y, lower is better). The lower/lower non-dominated front is highlighted.",
+  "chart_id": "accuracy_runtime_pareto",
+  "chart_kind": "pareto",
+  "data": {
+    "front": [
+      "linear_interpolation"
+    ],
+    "series": [
+      {
+        "algorithm_id": "GALPI_V1",
+        "display_name": "Galpi V1",
+        "on_front": false,
+        "x_primary_metric": 12.191902807026517,
+        "y_runtime_seconds": 8.8807886
+      },
+      {
+        "algorithm_id": "GALPI_V2",
+        "display_name": "Galpi V2",
+        "on_front": false,
+        "x_primary_metric": 13.410033564918166,
+        "y_runtime_seconds": 13.99463395
+      },
+      {
+        "algorithm_id": "GALPI_V3",
+        "display_name": "Galpi V3",
+        "on_front": false,
+        "x_primary_metric": 13.384594395883964,
+        "y_runtime_seconds": 20.076109533333334
+      },
+      {
+        "algorithm_id": "GALPI_V4",
+        "display_name": "Galpi V4",
+        "on_front": false,
+        "x_primary_metric": 15.754553474893962,
+        "y_runtime_seconds": 13.216612366666666
+      },
+      {
+        "algorithm_id": "GALPI_V5",
+        "display_name": "Galpi V5",
+        "on_front": false,
+        "x_primary_metric": 12.191902807026517,
+        "y_runtime_seconds": 8.858692083333333
+      },
+      {
+        "algorithm_id": "GALPI_V6",
+        "display_name": "Galpi V6",
+        "on_front": false,
+        "x_primary_metric": 14.841189039738873,
+        "y_runtime_seconds": 11.771417099999999
+      },
+      {
+        "algorithm_id": "galpi",
+        "display_name": "Galpi",
+        "on_front": false,
+        "x_primary_metric": 13.445100008733272,
+        "y_runtime_seconds": 13.9183821
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "display_name": "Linear Interpolation",
+        "on_front": true,
+        "x_primary_metric": 10.384160800801588,
+        "y_runtime_seconds": 0.41018031666666666
+      }
+    ],
+    "x_direction": "lower",
+    "x_label": "Macro balanced RMSE",
+    "y_direction": "lower",
+    "y_label": "Macro median runtime (s)",
+    "y_log": true
+  },
+  "status": "available",
+  "title": "Accuracy vs runtime Pareto front"
+}

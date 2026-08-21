@@ -1,0 +1,48 @@
+{
+  "blocking_reasons": [],
+  "caption": "Macro balanced primary metric (X, lower is better) versus macro median measured runtime in seconds (Y, lower is better). The lower/lower non-dominated front is highlighted.",
+  "chart_id": "accuracy_runtime_pareto",
+  "chart_kind": "pareto",
+  "data": {
+    "front": [
+      "linear_interpolation"
+    ],
+    "series": [
+      {
+        "algorithm_id": "cubic_spline",
+        "display_name": "Cubic Spline",
+        "on_front": false,
+        "x_primary_metric": 8.365584832856355,
+        "y_runtime_seconds": 10.80243077777778
+      },
+      {
+        "algorithm_id": "galpi",
+        "display_name": "Galpi",
+        "on_front": false,
+        "x_primary_metric": 9.177202877623905,
+        "y_runtime_seconds": 12.951147361111111
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "display_name": "Linear Interpolation",
+        "on_front": true,
+        "x_primary_metric": 7.791348662982244,
+        "y_runtime_seconds": 0.3710567388888889
+      },
+      {
+        "algorithm_id": "nearest_interpolation",
+        "display_name": "Nearest Interpolation",
+        "on_front": false,
+        "x_primary_metric": 11.142614780196068,
+        "y_runtime_seconds": 0.49926337777777774
+      }
+    ],
+    "x_direction": "lower",
+    "x_label": "Macro balanced RMSE",
+    "y_direction": "lower",
+    "y_label": "Macro median runtime (s)",
+    "y_log": true
+  },
+  "status": "available",
+  "title": "Accuracy vs runtime Pareto front"
+}

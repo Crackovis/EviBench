@@ -1,0 +1,123 @@
+{
+  "blocking_reasons": [],
+  "caption": "Relative multi-dimensional profile over the balanced cohort intersection (policy human_multidimensional_relative_v1). Each axis is a relative score in [0,1]; missing dimensions are omitted, never zero. Rendered as small multiples (more than six algorithms).",
+  "chart_id": "radar_profile",
+  "chart_kind": "radar",
+  "data": {
+    "axes": [
+      {
+        "id": "accuracy",
+        "label": "Accuracy"
+      },
+      {
+        "id": "speed",
+        "label": "Speed"
+      },
+      {
+        "id": "stability",
+        "label": "Stability"
+      },
+      {
+        "id": "mechanism_robustness",
+        "label": "Mechanism robustness"
+      }
+    ],
+    "policy_id": "human_multidimensional_relative_v1",
+    "score_range": [
+      0.0,
+      1.0
+    ],
+    "series": [
+      {
+        "algorithm_id": "GALPI_V1",
+        "dimension_coverage": 0.8,
+        "display_name": "Galpi V1",
+        "scores": {
+          "accuracy": 0.6410472951222177,
+          "mechanism_robustness": 0.5446784779277896,
+          "speed": 0.197133734412386,
+          "stability": 0.21181773817977054
+        }
+      },
+      {
+        "algorithm_id": "GALPI_V2",
+        "dimension_coverage": 0.8,
+        "display_name": "Galpi V2",
+        "scores": {
+          "accuracy": 0.4180513932104695,
+          "mechanism_robustness": 0.5961829772428932,
+          "speed": 0.10917554834177101,
+          "stability": 0.5769496446885899
+        }
+      },
+      {
+        "algorithm_id": "GALPI_V3",
+        "dimension_coverage": 0.8,
+        "display_name": "Galpi V3",
+        "scores": {
+          "accuracy": 0.42365712760144364,
+          "mechanism_robustness": 0.5970500008108783,
+          "speed": 0.0,
+          "stability": 0.5854458240335213
+        }
+      },
+      {
+        "algorithm_id": "GALPI_V4",
+        "dimension_coverage": 0.8,
+        "display_name": "Galpi V4",
+        "scores": {
+          "accuracy": 0.0,
+          "mechanism_robustness": 0.6760881741315292,
+          "speed": 0.11698907100835114,
+          "stability": 0.8396126880317648
+        }
+      },
+      {
+        "algorithm_id": "GALPI_V5",
+        "dimension_coverage": 0.8,
+        "display_name": "Galpi V5",
+        "scores": {
+          "accuracy": 0.6410472951222177,
+          "mechanism_robustness": 0.5446784779277896,
+          "speed": 0.1976646839811409,
+          "stability": 0.21181773817977054
+        }
+      },
+      {
+        "algorithm_id": "GALPI_V6",
+        "dimension_coverage": 0.8,
+        "display_name": "Galpi V6",
+        "scores": {
+          "accuracy": 0.16337258331862972,
+          "mechanism_robustness": 0.643908508267605,
+          "speed": 0.13570339714160648,
+          "stability": 0.7467881328259983
+        }
+      },
+      {
+        "algorithm_id": "galpi",
+        "dimension_coverage": 0.8,
+        "display_name": "Galpi",
+        "scores": {
+          "accuracy": 0.41027398948874344,
+          "mechanism_robustness": 0.5924330939745841,
+          "speed": 0.10964454038170406,
+          "stability": 0.5130391709483132
+        }
+      },
+      {
+        "algorithm_id": "linear_interpolation",
+        "dimension_coverage": 0.8,
+        "display_name": "Linear Interpolation",
+        "scores": {
+          "accuracy": 1.0,
+          "mechanism_robustness": 0.5819074984682029,
+          "speed": 1.0,
+          "stability": 0.5524682912247488
+        }
+      }
+    ]
+  },
+  "status": "available",
+  "title": "Multi-dimensional relative profile"
+}

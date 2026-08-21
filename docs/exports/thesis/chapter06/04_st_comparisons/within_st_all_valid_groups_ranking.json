@@ -1,5 +1,23 @@
 [
   {
+    "result_id": "c93a9778-6c0d-464a-ac00-32f28143eb66",
+    "algorithm_id": "stgcn",
+    "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+    "mae": 33.83687210083008,
+    "rmse": 50.20882797241211,
+    "graph_policy": "distance_knn_geo_v1",
+    "graph_fingerprint": "sha256:c26d0d2aac2bece4eb8d6eff0003db1f0640763ff467a93cf928279fea9682ae",
+    "metric_scope": "global",
+    "benchmark_contract_id": "e3bddc67-b153-4315-8197-7266da37e25e",
+    "benchmark_mask_bank_id": "a2ffc9e8-f87f-49ce-ad76-6288cef7f4ba",
+    "benchmark_realization_id": "test_r000",
+    "evaluation_support_fingerprint": "sha256:c5c5cef2b5e6675e570b0746c04c473002f4f6373fb9bd972abd7f59f93272c8",
+    "graph_params": {},
+    "correlation_source": "",
+    "rank": 1,
+    "group_key": "c1b03ed1-dad4-444b-a06d-e85cb81378b6|e3bddc67-b153-4315-8197-7266da37e25e|a2ffc9e8-f87f-49ce-ad76-6288cef7f4ba|test_r000|sha256:c5c5cef2b5e6675e570b0746c04c473002f4f6373fb9bd972abd7f59f93272c8|distance_knn_geo_v1|sha256:c26d0d2aac2bece4eb8d6eff0003db1f0640763ff467a93cf928279fea9682ae|sha256:dba56c477e78dadba0828bad9d1dff65c326839233e7ade53a9cff50e9f0b00c|global"
+  },
+  {
     "result_id": "b2adf4e9-d381-41e7-a024-04fa55eeba20",
     "algorithm_id": "stgcn",
     "dataset_id": "fa9c7108-176e-4c68-840d-6acf3a3e59e4",

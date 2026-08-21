@@ -1,0 +1,448 @@
+{
+  "algorithms": [
+    "cubic_spline",
+    "galpi",
+    "linear_interpolation",
+    "nearest_interpolation"
+  ],
+  "any_best": true,
+  "caption": "Table 0.1: Primary per-recipe comparison under the selected benchmark contract.",
+  "direction": "lower",
+  "metric_name": "rmse",
+  "rows": [
+    {
+      "cells": [
+        {
+          "algorithm_id": "cubic_spline",
+          "comparable": true,
+          "count": 5,
+          "display": "5.3982 ± 0.2239 (n=5)",
+          "is_best": true,
+          "mean": 5.39822654793421,
+          "std": 0.223900034022531
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 5,
+          "display": "5.4847 ± 0.2370 (n=5)",
+          "is_best": false,
+          "mean": 5.484716001510892,
+          "std": 0.23697112196279949
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "5.3989 ± 0.2364 (n=5)",
+          "is_best": false,
+          "mean": 5.398859762528646,
+          "std": 0.23635609564672228
+        },
+        {
+          "algorithm_id": "nearest_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "8.5242 ± 0.2313 (n=5)",
+          "is_best": false,
+          "mean": 8.524158490453726,
+          "std": 0.23130331993411068
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mar_10_ccda6baa83",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.1,
+      "mechanism_family": "mar",
+      "recipe_display_label": "MAR 10%",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mar:10",
+      "recipe_label": "mar_10",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "cubic_spline",
+          "comparable": true,
+          "count": 5,
+          "display": "7.4363 ± 0.3525 (n=5)",
+          "is_best": false,
+          "mean": 7.436326102559422,
+          "std": 0.3524903812783832
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 5,
+          "display": "8.8595 ± 0.3341 (n=5)",
+          "is_best": false,
+          "mean": 8.859531965584022,
+          "std": 0.334123727108863
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "7.1430 ± 0.3182 (n=5)",
+          "is_best": true,
+          "mean": 7.142971838307252,
+          "std": 0.3182267077268868
+        },
+        {
+          "algorithm_id": "nearest_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "9.8552 ± 0.2905 (n=5)",
+          "is_best": false,
+          "mean": 9.85523280893304,
+          "std": 0.2905248274288718
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mar_30_eda88b3952",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.3,
+      "mechanism_family": "mar",
+      "recipe_display_label": "MAR 30%",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mar:30",
+      "recipe_label": "mar_30",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "cubic_spline",
+          "comparable": true,
+          "count": 5,
+          "display": "19.5414 ± 2.6500 (n=5)",
+          "is_best": false,
+          "mean": 19.541386331236005,
+          "std": 2.6499864300620817
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 5,
+          "display": "16.7084 ± 0.1355 (n=5)",
+          "is_best": false,
+          "mean": 16.70835163124817,
+          "std": 0.13551774467541575
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "13.3105 ± 0.4410 (n=5)",
+          "is_best": true,
+          "mean": 13.310534780992509,
+          "std": 0.44103014131862855
+        },
+        {
+          "algorithm_id": "nearest_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "15.4781 ± 0.4316 (n=5)",
+          "is_best": false,
+          "mean": 15.478103110391128,
+          "std": 0.4316257244155771
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mar_50_8348a0efd0",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.5,
+      "mechanism_family": "mar",
+      "recipe_display_label": "MAR 50%",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mar:50",
+      "recipe_label": "mar_50",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "cubic_spline",
+          "comparable": true,
+          "count": 5,
+          "display": "5.1084 ± 0.0331 (n=5)",
+          "is_best": false,
+          "mean": 5.108392006870764,
+          "std": 0.03309374852172477
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 5,
+          "display": "5.1422 ± 0.0262 (n=5)",
+          "is_best": false,
+          "mean": 5.142246163612443,
+          "std": 0.026237820555351343
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "5.1080 ± 0.0297 (n=5)",
+          "is_best": true,
+          "mean": 5.108043881566945,
+          "std": 0.029698493539705384
+        },
+        {
+          "algorithm_id": "nearest_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "8.2925 ± 0.0420 (n=5)",
+          "is_best": false,
+          "mean": 8.29248673967064,
+          "std": 0.04195409175909011
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mcar_10_8426867839",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.1,
+      "mechanism_family": "mcar",
+      "recipe_display_label": "MCAR 10%",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mcar:10",
+      "recipe_label": "mcar_10",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "cubic_spline",
+          "comparable": true,
+          "count": 5,
+          "display": "6.2541 ± 0.0382 (n=5)",
+          "is_best": false,
+          "mean": 6.254051681139339,
+          "std": 0.03817739852992152
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 5,
+          "display": "6.7225 ± 0.0530 (n=5)",
+          "is_best": false,
+          "mean": 6.722506813629074,
+          "std": 0.052953256258342435
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "6.0715 ± 0.0312 (n=5)",
+          "is_best": true,
+          "mean": 6.071545187473341,
+          "std": 0.031156628318011505
+        },
+        {
+          "algorithm_id": "nearest_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "8.8943 ± 0.0244 (n=5)",
+          "is_best": false,
+          "mean": 8.894270031723917,
+          "std": 0.024435321240829554
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mcar_30_bcfb4e1979",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.3,
+      "mechanism_family": "mcar",
+      "recipe_display_label": "MCAR 30%",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mcar:30",
+      "recipe_label": "mcar_30",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "cubic_spline",
+          "comparable": true,
+          "count": 5,
+          "display": "8.1425 ± 0.0450 (n=5)",
+          "is_best": false,
+          "mean": 8.142520083150592,
+          "std": 0.04502719287816916
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 5,
+          "display": "9.9044 ± 0.0309 (n=5)",
+          "is_best": false,
+          "mean": 9.904410253336856,
+          "std": 0.03086006691512134
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "7.6931 ± 0.0209 (n=5)",
+          "is_best": true,
+          "mean": 7.69308459374916,
+          "std": 0.020898134785616255
+        },
+        {
+          "algorithm_id": "nearest_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "10.2899 ± 0.0215 (n=5)",
+          "is_best": false,
+          "mean": 10.289881362889801,
+          "std": 0.021456559619180235
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mcar_50_88b8f7d7f7",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.5,
+      "mechanism_family": "mcar",
+      "recipe_display_label": "MCAR 50%",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mcar:50",
+      "recipe_label": "mcar_50",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "cubic_spline",
+          "comparable": true,
+          "count": 5,
+          "display": "6.8065 ± 0.0824 (n=5)",
+          "is_best": true,
+          "mean": 6.806547229766157,
+          "std": 0.08238979766105645
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 5,
+          "display": "7.1017 ± 0.0940 (n=5)",
+          "is_best": false,
+          "mean": 7.101703558874232,
+          "std": 0.0940394628901647
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "7.0710 ± 0.1072 (n=5)",
+          "is_best": false,
+          "mean": 7.071010168063836,
+          "std": 0.10724626538469448
+        },
+        {
+          "algorithm_id": "nearest_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "12.1189 ± 0.1277 (n=5)",
+          "is_best": false,
+          "mean": 12.118851502178932,
+          "std": 0.12765215112003897
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mnar_10_7617a7d65e",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.1,
+      "mechanism_family": "mnar",
+      "recipe_display_label": "MNAR 10%",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mnar:10",
+      "recipe_label": "mnar_10",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "cubic_spline",
+          "comparable": true,
+          "count": 5,
+          "display": "7.6809 ± 0.0590 (n=5)",
+          "is_best": true,
+          "mean": 7.680861753564372,
+          "std": 0.05902805087542562
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 5,
+          "display": "8.8985 ± 0.1870 (n=5)",
+          "is_best": false,
+          "mean": 8.898505190790596,
+          "std": 0.18699431947686104
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "8.1237 ± 0.1143 (n=5)",
+          "is_best": false,
+          "mean": 8.123711299234067,
+          "std": 0.11433493985134484
+        },
+        {
+          "algorithm_id": "nearest_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "12.7267 ± 0.1047 (n=5)",
+          "is_best": false,
+          "mean": 12.726742772321494,
+          "std": 0.10473032202768168
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mnar_30_a4eaab2521",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.3,
+      "mechanism_family": "mnar",
+      "recipe_display_label": "MNAR 30%",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mnar:30",
+      "recipe_label": "mnar_30",
+      "station_label": "full_grid"
+    },
+    {
+      "cells": [
+        {
+          "algorithm_id": "cubic_spline",
+          "comparable": true,
+          "count": 5,
+          "display": "9.1625 ± 0.0807 (n=5)",
+          "is_best": true,
+          "mean": 9.16245474350929,
+          "std": 0.08072043713157688
+        },
+        {
+          "algorithm_id": "galpi",
+          "comparable": true,
+          "count": 5,
+          "display": "13.6703 ± 0.1602 (n=5)",
+          "is_best": false,
+          "mean": 13.670298944575023,
+          "std": 0.16020598481911044
+        },
+        {
+          "algorithm_id": "linear_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "10.2114 ± 0.0885 (n=5)",
+          "is_best": false,
+          "mean": 10.211371604335316,
+          "std": 0.08847385024947381
+        },
+        {
+          "algorithm_id": "nearest_interpolation",
+          "comparable": true,
+          "count": 5,
+          "display": "14.2335 ± 0.0918 (n=5)",
+          "is_best": false,
+          "mean": 14.233508531384725,
+          "std": 0.09183994018894868
+        }
+      ],
+      "cohort_id": "cohort_full_grid_mnar_50_7bda064a97",
+      "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+      "declared_rate": 0.5,
+      "mechanism_family": "mnar",
+      "recipe_display_label": "MNAR 50%",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mnar:50",
+      "recipe_label": "mnar_50",
+      "station_label": "full_grid"
+    }
+  ],
+  "schema": "imputebench.human-comparison-table/v1",
+  "table_kind": "global_matrix"
+}

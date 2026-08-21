@@ -1,0 +1,5 @@
+algorithm_id,display_name,runtime_mean_ms,runtime_median_ms,runtime_std_ms,runtime_count,runtime_coverage,runtime_source_qualities,trainable_parameter_count,fitted_parameter_count,parameter_count_status,interpretability_class,interpretability_basis
+cubic_spline,Cubic Spline,6128.055062222222,3435.8577,4142.583572521116,45,1.0,native_timing_spans,,,unavailable,unclassified,No interpretability classification is declared for this algorithm.
+galpi,Galpi,7037.589702222222,4011.4084,4688.12890476731,45,1.0,native_timing_spans,,,unavailable,unclassified,No interpretability classification is declared for this algorithm.
+linear_interpolation,Linear Interpolation,291.0648444444444,238.2687,132.1408547912718,45,1.0,native_timing_spans,,,not_applicable,transparent_deterministic,Closed-form linear interpolation between observed endpoints; the output is a deterministic function of the two bracketing samples.
+nearest_interpolation,Nearest Interpolation,382.05486444444443,332.9518,139.99208192828777,45,1.0,native_timing_spans,,,not_applicable,transparent_deterministic,Deterministic nearest-observed-sample carry; fully auditable with no fitted parameters.

@@ -1,0 +1,151 @@
+{
+  "policy_id": "human_multidimensional_relative_v1",
+  "rows": [
+    {
+      "algorithm_id": "cubic_spline",
+      "caveats": [],
+      "declared_rate": 0.1,
+      "maximum_rmse": 6.806547229766157,
+      "mechanism_count": 3,
+      "minimum_rmse": 5.108392006870764,
+      "normalized_score": 0.7505115052358589,
+      "relative_range": 0.24948849476414117,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "galpi",
+      "caveats": [],
+      "declared_rate": 0.1,
+      "maximum_rmse": 7.101703558874232,
+      "mechanism_count": 3,
+      "minimum_rmse": 5.142246163612443,
+      "normalized_score": 0.7240862873228119,
+      "relative_range": 0.2759137126771881,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "linear_interpolation",
+      "caveats": [],
+      "declared_rate": 0.1,
+      "maximum_rmse": 7.071010168063836,
+      "mechanism_count": 3,
+      "minimum_rmse": 5.108043881566945,
+      "normalized_score": 0.722392382440261,
+      "relative_range": 0.27760761755973895,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "nearest_interpolation",
+      "caveats": [],
+      "declared_rate": 0.1,
+      "maximum_rmse": 12.118851502178932,
+      "mechanism_count": 3,
+      "minimum_rmse": 8.29248673967064,
+      "normalized_score": 0.6842634170556241,
+      "relative_range": 0.3157365829443759,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "cubic_spline",
+      "caveats": [],
+      "declared_rate": 0.3,
+      "maximum_rmse": 7.680861753564372,
+      "mechanism_count": 3,
+      "minimum_rmse": 6.254051681139339,
+      "normalized_score": 0.814238282343396,
+      "relative_range": 0.18576171765660396,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "galpi",
+      "caveats": [],
+      "declared_rate": 0.3,
+      "maximum_rmse": 8.898505190790596,
+      "mechanism_count": 3,
+      "minimum_rmse": 6.722506813629074,
+      "normalized_score": 0.755464729130737,
+      "relative_range": 0.24453527086926302,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "linear_interpolation",
+      "caveats": [],
+      "declared_rate": 0.3,
+      "maximum_rmse": 8.123711299234067,
+      "mechanism_count": 3,
+      "minimum_rmse": 6.071545187473341,
+      "normalized_score": 0.7473856423289917,
+      "relative_range": 0.25261435767100826,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "nearest_interpolation",
+      "caveats": [],
+      "declared_rate": 0.3,
+      "maximum_rmse": 12.726742772321494,
+      "mechanism_count": 3,
+      "minimum_rmse": 8.894270031723917,
+      "normalized_score": 0.6988646027377441,
+      "relative_range": 0.3011353972622559,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "cubic_spline",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 19.541386331236005,
+      "mechanism_count": 3,
+      "minimum_rmse": 8.142520083150592,
+      "normalized_score": 0.4166807792001507,
+      "relative_range": 0.5833192207998493,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "galpi",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 16.70835163124817,
+      "mechanism_count": 3,
+      "minimum_rmse": 9.904410253336856,
+      "normalized_score": 0.5927820093762872,
+      "relative_range": 0.40721799062371283,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "linear_interpolation",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 13.310534780992509,
+      "mechanism_count": 3,
+      "minimum_rmse": 7.69308459374916,
+      "normalized_score": 0.5779696098112386,
+      "relative_range": 0.42203039018876143,
+      "station_label": "full_grid",
+      "status": "available"
+    },
+    {
+      "algorithm_id": "nearest_interpolation",
+      "caveats": [],
+      "declared_rate": 0.5,
+      "maximum_rmse": 15.478103110391128,
+      "mechanism_count": 3,
+      "minimum_rmse": 10.289881362889801,
+      "normalized_score": 0.6648024818998495,
+      "relative_range": 0.3351975181001506,
+      "station_label": "full_grid",
+      "status": "available"
+    }
+  ],
+  "schema": "imputebench.human-framework-metrics/v1",
+  "table_kind": "mechanism_robustness"
+}

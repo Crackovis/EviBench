@@ -1,0 +1,9 @@
+algorithm_id,display_name,runtime_mean_ms,runtime_median_ms,runtime_std_ms,runtime_count,runtime_coverage,runtime_source_qualities,trainable_parameter_count,fitted_parameter_count,parameter_count_status,interpretability_class,interpretability_basis
+GALPI_V1,Galpi V1,8913.089765,10061.1086,3862.2043340094283,60,1.0,native_timing_spans,,,unavailable,unclassified,No interpretability classification is declared for this algorithm.
+GALPI_V2,Galpi V2,14274.844455,14272.209350000001,8451.957709754843,60,1.0,native_timing_spans,,,unavailable,unclassified,No interpretability classification is declared for this algorithm.
+GALPI_V3,Galpi V3,20222.053200000002,20772.50375,10826.280658839467,60,1.0,native_timing_spans,,,unavailable,unclassified,No interpretability classification is declared for this algorithm.
+GALPI_V4,Galpi V4,13277.466148333333,14652.69035,7081.476558277856,60,1.0,native_timing_spans,,,unavailable,unclassified,No interpretability classification is declared for this algorithm.
+GALPI_V5,Galpi V5,8788.755373333332,10028.1625,3815.5985226092994,60,1.0,native_timing_spans,,,unavailable,unclassified,No interpretability classification is declared for this algorithm.
+GALPI_V6,Galpi V6,11828.86671,14637.296849999999,5597.198132479925,60,1.0,native_timing_spans,,,unavailable,unclassified,No interpretability classification is declared for this algorithm.
+galpi,Galpi,14353.899021666666,14333.02045,8668.811598041062,60,1.0,native_timing_spans,,,unavailable,unclassified,No interpretability classification is declared for this algorithm.
+linear_interpolation,Linear Interpolation,414.3416533333333,466.2767,134.63446609352914,60,1.0,native_timing_spans,,,not_applicable,transparent_deterministic,Closed-form linear interpolation between observed endpoints; the output is a deterministic function of the two bracketing samples.

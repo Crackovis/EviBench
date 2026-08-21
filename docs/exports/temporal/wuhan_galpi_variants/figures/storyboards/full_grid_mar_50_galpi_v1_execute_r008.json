@@ -1,0 +1,65 @@
+{
+  "algorithm_label": "GALPI_V1",
+  "benchmark": {
+    "posture": "benchmark_ready"
+  },
+  "claim_limits": [
+    "Illustrates one deterministic bounded window; does not replace aggregate metrics.",
+    "Error panel is restricted to artificially hidden evaluation cells."
+  ],
+  "human_alias": "full_grid_mar_50_galpi_v1_execute_r008",
+  "image_relpath": "full_grid_mar_50_galpi_v1_execute_r008.png",
+  "mask": {
+    "evaluated_count": 464,
+    "realized_rate_in_window": 0.48333333333333334
+  },
+  "metrics_on_rendered_support": {
+    "mae": 26.912663068101036,
+    "rmse": 81.96740849109145
+  },
+  "pack_schema": "imputebench.human-evidence-pack/v2",
+  "pollutant": "pm25",
+  "recipe_label": "MAR 50%",
+  "render_mode": "four_panel",
+  "schema": "imputebench.human-storyboard/v1",
+  "source_shapes": {
+    "dataset_full": [
+      52608,
+      1,
+      10,
+      6
+    ],
+    "imputed_effective": [
+      96,
+      1,
+      10,
+      6
+    ],
+    "mask_effective": [
+      52608,
+      1,
+      10,
+      6
+    ],
+    "original_effective": [
+      96,
+      10
+    ]
+  },
+  "station": {
+    "col": null,
+    "label": "station_unknown",
+    "row": null,
+    "station_id": "",
+    "view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438"
+  },
+  "temporal_alignment": {
+    "absolute_start": 0,
+    "absolute_stop": 96,
+    "effective_start": 0,
+    "effective_stop": 96,
+    "support_slice_end": 52608,
+    "support_slice_start": 0
+  },
+  "warnings": []
+}

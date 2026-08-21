@@ -1,0 +1,990 @@
+{
+  "blocked_items": [],
+  "claim_limits": [],
+  "export_id": "batch_5t_d62b5e5f",
+  "gate_status": "",
+  "generated_at": "2026-08-17T09:25:33.733236+00:00",
+  "items": [
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\global_metrics.csv",
+          "sha256": "a84c4bf95b836592c3507dba183cfa52a73c80b87fef630cc88e88d6b30bab5a",
+          "size_bytes": 63
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\pollutant_metrics.csv",
+          "sha256": "dfde42e7afcfee6511e21cb0e872f89860e60e968f37b30d87fe407651a36a36",
+          "size_bytes": 273
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\runtime_breakdown.csv",
+          "sha256": "ecbecded297b568fd971a5a257205f5504bfb334825887c569b5fee60cf6ee94",
+          "size_bytes": 202
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\result_summary.json",
+          "sha256": "d705f9d33bc7f5e6af311afd1d67f88cc0bac3412d90972cd77e31068188a782",
+          "size_bytes": 6533
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\result_summary.md",
+          "sha256": "544220614f15a5883d1779b1170ef3f8cadf2b0b4ee02a7b5a497f726bc9a1fb",
+          "size_bytes": 3108
+        }
+      ],
+      "item_id": "result_summary",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "79e01bc6-e34f-4029-bc46-65175480a8b2"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\global_metrics.csv",
+          "sha256": "a84c4bf95b836592c3507dba183cfa52a73c80b87fef630cc88e88d6b30bab5a",
+          "size_bytes": 63
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\metric_table.json",
+          "sha256": "12cac00143a5151671cddab1fdbe61bfc4116204fe41c30ae14dd651cb5bd836",
+          "size_bytes": 88
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\metric_table.md",
+          "sha256": "72dd0d981202a919bf7c15c64fbd6eacae9277a00b7823487aa3463d02347c3e",
+          "size_bytes": 90
+        }
+      ],
+      "item_id": "metric_table",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "79e01bc6-e34f-4029-bc46-65175480a8b2"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\runtime_breakdown.csv",
+          "sha256": "ecbecded297b568fd971a5a257205f5504bfb334825887c569b5fee60cf6ee94",
+          "size_bytes": 202
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\runtime_breakdown.json",
+          "sha256": "44a5a93c6cacfa6a79dc6db3f7e9dbab8a97e132fb6fb6dbe87a11341cfc9ca9",
+          "size_bytes": 907
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\runtime_breakdown.md",
+          "sha256": "50e6244df7c4306e8285d093cf356b0c662c78fc8f6e51b6ae078bf93151f644",
+          "size_bytes": 366
+        }
+      ],
+      "item_id": "runtime_breakdown",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "79e01bc6-e34f-4029-bc46-65175480a8b2"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\result_storyboard.png",
+          "sha256": "ba45b68b63e2b6d18198744b57549f3f2fb11008b45d8aa089287ad906c6c4ad",
+          "size_bytes": 94188
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\result_storyboard.json",
+          "sha256": "5e576c450792b9c979881d38622627d73a915fb8b2bdc627a2de861781c365bc",
+          "size_bytes": 2769
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\result_storyboard.md",
+          "sha256": "461ce7635f821a8a496c3c1193ddf7e5d0c8b0aed7a49f82b78704f2e66ea907",
+          "size_bytes": 1007
+        }
+      ],
+      "item_id": "result_storyboard",
+      "provider_id": "storyboard",
+      "provider_version": "1",
+      "source_ids": [
+        "79e01bc6-e34f-4029-bc46-65175480a8b2"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\provenance_manifest.json",
+          "sha256": "e3278dd562ae0d26108223fd02e97e9935f8614ce2a3dbd971843b5b10bc60ee",
+          "size_bytes": 2155
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\provenance_manifest.md",
+          "sha256": "bf202b658420e2dfc117381f36de7a86ec0a2f1741d6d5f687b7b34a525299e6",
+          "size_bytes": 735
+        }
+      ],
+      "item_id": "provenance_manifest",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "79e01bc6-e34f-4029-bc46-65175480a8b2"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\comparison_ready_signal.json",
+          "sha256": "9f202a5fe2efd713707f9b9894f7237cb6cadbb755d8859a7a22191d158541cb",
+          "size_bytes": 298
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\comparison_ready_signal.md",
+          "sha256": "bfa63a232f764b70aa0a47ead58ab5caf64b12c0d81744ec78a42594fb8125f9",
+          "size_bytes": 214
+        }
+      ],
+      "item_id": "comparison_ready_signal",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "79e01bc6-e34f-4029-bc46-65175480a8b2"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\artifact_inventory.csv",
+          "sha256": "bfc0abc2312361e2b99d473c270230c468f2690ce66fb27f3c92c3744b2a499d",
+          "size_bytes": 617
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\artifact_inventory.json",
+          "sha256": "9e70896fb4ff139ed71bbe2fd991c2d38305f1b6c272b313eae3bedaf5b9065c",
+          "size_bytes": 1402
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r000\\artifact_inventory.md",
+          "sha256": "297041e39449b1ce7fb4f132fb08c9398e19d72387cc574b217a795c248f9a08",
+          "size_bytes": 782
+        }
+      ],
+      "item_id": "artifact_inventory",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "79e01bc6-e34f-4029-bc46-65175480a8b2"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\global_metrics.csv",
+          "sha256": "54ce0d80f57b89e42d8e5f3ee777a08654d7e76cdafae841192b0eaf5b9fc769",
+          "size_bytes": 63
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\pollutant_metrics.csv",
+          "sha256": "99fdaedcc572e0dafcf7db65eaba42a3d0adfb39f767a29c4ef58b67b8eda36b",
+          "size_bytes": 272
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\runtime_breakdown.csv",
+          "sha256": "4921e78c07f362ab3c0ce5a545dfe549874fd570875f61cc2621e38591c0c413",
+          "size_bytes": 203
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\result_summary.json",
+          "sha256": "d375f660d8b353495ea3bccff5815bc4c2f3c7642fef3a990158ffbd8d9e4cb6",
+          "size_bytes": 6533
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\result_summary.md",
+          "sha256": "c81c729e25e7d2c5c9177f67245a154162833a7ce4123e301bfb8e8c029822d3",
+          "size_bytes": 3108
+        }
+      ],
+      "item_id": "result_summary",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "b7d9123c-8920-4e82-8934-54be6a1cd13e"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\global_metrics.csv",
+          "sha256": "54ce0d80f57b89e42d8e5f3ee777a08654d7e76cdafae841192b0eaf5b9fc769",
+          "size_bytes": 63
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\metric_table.json",
+          "sha256": "1ee778c2606676cf255db3a24a33546627dd074e4cbcab9a028675e806e9c4ee",
+          "size_bytes": 88
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\metric_table.md",
+          "sha256": "97b5420d0aa9e538a84b64ab1761c1b544b3eb2583ff724b715d577f701ca3ed",
+          "size_bytes": 90
+        }
+      ],
+      "item_id": "metric_table",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "b7d9123c-8920-4e82-8934-54be6a1cd13e"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\runtime_breakdown.csv",
+          "sha256": "4921e78c07f362ab3c0ce5a545dfe549874fd570875f61cc2621e38591c0c413",
+          "size_bytes": 203
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\runtime_breakdown.json",
+          "sha256": "95abac06d2aae8093320d1e0d7cf1c14afed42dad779188487ca9f9164b4ae1b",
+          "size_bytes": 908
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\runtime_breakdown.md",
+          "sha256": "309d363c174b2d9f887074ec86be609491a02defaf4435502d49711c9f6571d0",
+          "size_bytes": 366
+        }
+      ],
+      "item_id": "runtime_breakdown",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "b7d9123c-8920-4e82-8934-54be6a1cd13e"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\result_storyboard.png",
+          "sha256": "2865b90ef6203f7da5c6b87e136f1593b94206d32a01beef68f6c2891f4f2a2e",
+          "size_bytes": 94158
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\result_storyboard.json",
+          "sha256": "14f6a1b05cd8093845869b8db00d78886715b3b0ea05419b8c41318089ecfb18",
+          "size_bytes": 2767
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\result_storyboard.md",
+          "sha256": "91022c76b213705dac06238072c6e1e22ebfbb0c956590b4a30f0a2084f623f8",
+          "size_bytes": 1007
+        }
+      ],
+      "item_id": "result_storyboard",
+      "provider_id": "storyboard",
+      "provider_version": "1",
+      "source_ids": [
+        "b7d9123c-8920-4e82-8934-54be6a1cd13e"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\provenance_manifest.json",
+          "sha256": "afc4ad2daf5ca958e61320baff743105f04e62ee157a1c7ea130bed14095b58a",
+          "size_bytes": 2155
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\provenance_manifest.md",
+          "sha256": "c362d5fc44df3ec5b7e675fb5a334ea478c20ffb2586834489e4b0453729b6bb",
+          "size_bytes": 735
+        }
+      ],
+      "item_id": "provenance_manifest",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "b7d9123c-8920-4e82-8934-54be6a1cd13e"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\comparison_ready_signal.json",
+          "sha256": "e684ed844772b60806b13cefcf54bf21778f0b3465681a516c4e72a32c650edd",
+          "size_bytes": 298
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\comparison_ready_signal.md",
+          "sha256": "bfa63a232f764b70aa0a47ead58ab5caf64b12c0d81744ec78a42594fb8125f9",
+          "size_bytes": 214
+        }
+      ],
+      "item_id": "comparison_ready_signal",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "b7d9123c-8920-4e82-8934-54be6a1cd13e"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\artifact_inventory.csv",
+          "sha256": "cedc50abaf0a79412042ea04e2118c4f1422d530d52438dcd20fbf335e60ee2d",
+          "size_bytes": 617
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\artifact_inventory.json",
+          "sha256": "83398b93c4e028d26b923c19139792a5b7d39db7f3f91604764c9c130a9c0274",
+          "size_bytes": 1402
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r001\\artifact_inventory.md",
+          "sha256": "7d2918a42f49630447cad74078ee68b60d0b689b8d0592ff695bee84df4dc48e",
+          "size_bytes": 782
+        }
+      ],
+      "item_id": "artifact_inventory",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "b7d9123c-8920-4e82-8934-54be6a1cd13e"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\global_metrics.csv",
+          "sha256": "9a73149c5a0c225f6f79adaee16b0e6a8a7cda7994d80979f1dd449243fc1d2f",
+          "size_bytes": 63
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\pollutant_metrics.csv",
+          "sha256": "3e14e909bc08140811f9398498bb48fa0f9f60baa2dc05908e26ceb5ee48e075",
+          "size_bytes": 274
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\runtime_breakdown.csv",
+          "sha256": "7883f1e19d48029d8da686229362461e002f610786be9dfa339e2f6ad76cdc04",
+          "size_bytes": 202
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\result_summary.json",
+          "sha256": "ae6644cfdadd9fcf5df1220dd44e437947653cd40b35dfe9544156af7ef6c031",
+          "size_bytes": 6534
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\result_summary.md",
+          "sha256": "f20530f627192a24ff58b12de1cdf3d86a9604c74d70a6d839b029729c2a3e84",
+          "size_bytes": 3108
+        }
+      ],
+      "item_id": "result_summary",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\global_metrics.csv",
+          "sha256": "9a73149c5a0c225f6f79adaee16b0e6a8a7cda7994d80979f1dd449243fc1d2f",
+          "size_bytes": 63
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\metric_table.json",
+          "sha256": "41bbe6de19f255bc0b68221f56d5e4959718ea2870a82578f926d4f80e2bd790",
+          "size_bytes": 88
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\metric_table.md",
+          "sha256": "57691388adbc923191ad8e3b5d036ce7a3db79d7612bb50fee1f8ae80354d08d",
+          "size_bytes": 90
+        }
+      ],
+      "item_id": "metric_table",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\runtime_breakdown.csv",
+          "sha256": "7883f1e19d48029d8da686229362461e002f610786be9dfa339e2f6ad76cdc04",
+          "size_bytes": 202
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\runtime_breakdown.json",
+          "sha256": "d776ac480d175212574f1cd08a68ce6f17881afdb83739771190a57fe74c8edb",
+          "size_bytes": 907
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\runtime_breakdown.md",
+          "sha256": "4d2141227e950ccf7e50e4fa4167b04732146fa7a59143a24283465b204fe88f",
+          "size_bytes": 366
+        }
+      ],
+      "item_id": "runtime_breakdown",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\result_storyboard.png",
+          "sha256": "69836c5fd6859353fa194dca3ea490f0c6416c2cc09140263383ce7fe1965a04",
+          "size_bytes": 93474
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\result_storyboard.json",
+          "sha256": "045544f1b347c2b04a562b9f197a47d9654fc530ef2bb4bbad5ec2a659c7fac4",
+          "size_bytes": 2768
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\result_storyboard.md",
+          "sha256": "882349c8c90b0675bed39d4808ce25f6d1acecc9e291c796670a49a5c440a0c5",
+          "size_bytes": 1006
+        }
+      ],
+      "item_id": "result_storyboard",
+      "provider_id": "storyboard",
+      "provider_version": "1",
+      "source_ids": [
+        "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\provenance_manifest.json",
+          "sha256": "3f2c83f76b0d5a1306e84a528ce7dee52ee2709363957eeab2cfb46b58a25a89",
+          "size_bytes": 2155
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\provenance_manifest.md",
+          "sha256": "7b9547306e5e8fbbc453fdb0ea53fdedfe37dd6223ce3ea01dbcd2a3f59249bd",
+          "size_bytes": 735
+        }
+      ],
+      "item_id": "provenance_manifest",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\comparison_ready_signal.json",
+          "sha256": "8ff20e6905e681b82c8cf4dba002cbcf2acc158370e5e59b5de9a482478ccaef",
+          "size_bytes": 298
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\comparison_ready_signal.md",
+          "sha256": "bfa63a232f764b70aa0a47ead58ab5caf64b12c0d81744ec78a42594fb8125f9",
+          "size_bytes": 214
+        }
+      ],
+      "item_id": "comparison_ready_signal",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\artifact_inventory.csv",
+          "sha256": "442795f3db87414d08781262bfcea2d607b9349ee9b991919f58fec4b1c0a07f",
+          "size_bytes": 617
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\artifact_inventory.json",
+          "sha256": "f07db4e40f3e10adda88f5b3a77a69408604bcdd02f5774e21f9f6e7ea94ba69",
+          "size_bytes": 1402
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r002\\artifact_inventory.md",
+          "sha256": "44b31bd2f0366f9c1fdf0a2b74d71120a30a83b5702a3087e07d81b98e22743f",
+          "size_bytes": 782
+        }
+      ],
+      "item_id": "artifact_inventory",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\global_metrics.csv",
+          "sha256": "de069c3c6f62d6bb75a4a75db90b44969e4610e29bd1ef84818dda172a89b6f8",
+          "size_bytes": 63
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\pollutant_metrics.csv",
+          "sha256": "70a3cb6bb4be5952e419b51079373a7ab60e98a9ea8ca896d7e01c47b7d8eed4",
+          "size_bytes": 272
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\runtime_breakdown.csv",
+          "sha256": "fbdb3136a59fc863622ebeba18766fc4f77e1ef71fcd170ce30fe6cccf9bde41",
+          "size_bytes": 203
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\result_summary.json",
+          "sha256": "f459c17467dc530ec3d1a03046303e20fbbdaa8a74541b9807497624f74925b8",
+          "size_bytes": 6533
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\result_summary.md",
+          "sha256": "067643ebf6b20fb35150ec7a42fa1fbb7d159234c509cf8672dc3dea663b7c29",
+          "size_bytes": 3108
+        }
+      ],
+      "item_id": "result_summary",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "71114600-ad9f-4678-a769-6baa96135bdf"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\global_metrics.csv",
+          "sha256": "de069c3c6f62d6bb75a4a75db90b44969e4610e29bd1ef84818dda172a89b6f8",
+          "size_bytes": 63
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\metric_table.json",
+          "sha256": "483fe80bc143625459a27589d8ed820ad1b4d9dd24b760efc01b9ecd8b604600",
+          "size_bytes": 88
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\metric_table.md",
+          "sha256": "170c4b35f25e8ff7be607912632cc1bba993817d910736d4ac5fa538e4a4dda5",
+          "size_bytes": 90
+        }
+      ],
+      "item_id": "metric_table",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "71114600-ad9f-4678-a769-6baa96135bdf"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\runtime_breakdown.csv",
+          "sha256": "fbdb3136a59fc863622ebeba18766fc4f77e1ef71fcd170ce30fe6cccf9bde41",
+          "size_bytes": 203
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\runtime_breakdown.json",
+          "sha256": "3c92107cef035ced368377d0c224fb80060eead671beb6e3e74147b0958b852c",
+          "size_bytes": 908
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\runtime_breakdown.md",
+          "sha256": "ddb66799ce34382ddd167ad0b3fec0b38e581c1b8d1895d5fbf74879e3f053ae",
+          "size_bytes": 366
+        }
+      ],
+      "item_id": "runtime_breakdown",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "71114600-ad9f-4678-a769-6baa96135bdf"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\result_storyboard.png",
+          "sha256": "ca6418e9efd847bb1cc9384c3c4ac3065467692f1feed8e91dcec466a276b688",
+          "size_bytes": 94854
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\result_storyboard.json",
+          "sha256": "13f12656afc981c4fd89f5174e1096c73177dd4c02885e8cbcaaad9b5d6afea2",
+          "size_bytes": 2766
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\result_storyboard.md",
+          "sha256": "392069b6c8d6a2cefb6196c8362e211edc9c35c6a8c69865a04b59311bbd09a6",
+          "size_bytes": 1006
+        }
+      ],
+      "item_id": "result_storyboard",
+      "provider_id": "storyboard",
+      "provider_version": "1",
+      "source_ids": [
+        "71114600-ad9f-4678-a769-6baa96135bdf"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\provenance_manifest.json",
+          "sha256": "5851aa20a080d827afe7b85b75e157c2d34e9d0707bc844e51157e888df70b4b",
+          "size_bytes": 2155
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\provenance_manifest.md",
+          "sha256": "eb16948bc7f6b4cf55c2304481429a0da52845d867cbf4058ddcd3914daaddce",
+          "size_bytes": 735
+        }
+      ],
+      "item_id": "provenance_manifest",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "71114600-ad9f-4678-a769-6baa96135bdf"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\comparison_ready_signal.json",
+          "sha256": "09bfa6ac91597c88aa504762eb3ba24f99e1f085b2d2550c57197426c1b68156",
+          "size_bytes": 298
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\comparison_ready_signal.md",
+          "sha256": "bfa63a232f764b70aa0a47ead58ab5caf64b12c0d81744ec78a42594fb8125f9",
+          "size_bytes": 214
+        }
+      ],
+      "item_id": "comparison_ready_signal",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "71114600-ad9f-4678-a769-6baa96135bdf"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\artifact_inventory.csv",
+          "sha256": "8cd0d3f6ce614392ae13c8d269e311647d8c4070efdd927e0113723555889b38",
+          "size_bytes": 617
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\artifact_inventory.json",
+          "sha256": "637fecb3721e71db3c00494bd0b57328066e7ace663e117ec8a9650f1840f603",
+          "size_bytes": 1402
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r003\\artifact_inventory.md",
+          "sha256": "34f442c109f12b661f37b003049cad77f1753ed31a4e6d3d7467d01af02ab8bf",
+          "size_bytes": 782
+        }
+      ],
+      "item_id": "artifact_inventory",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "71114600-ad9f-4678-a769-6baa96135bdf"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\global_metrics.csv",
+          "sha256": "b6e871c554d08917f881df41428b1fd3056dc164cf4bd7fd585d1ed2ea6418c4",
+          "size_bytes": 62
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\pollutant_metrics.csv",
+          "sha256": "99972ffb0ba9312901654b3851c6a44c1b21986d9e3ae942221e8cb6a25031f6",
+          "size_bytes": 273
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\runtime_breakdown.csv",
+          "sha256": "3a2db85d11e99c1d9372a49a8e04289cb60d50210dc27e441681d3102d73979c",
+          "size_bytes": 203
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\result_summary.json",
+          "sha256": "a5aa3017f27f00837246b9f15a0980743c59b9162d849dda83a5eee543e88c03",
+          "size_bytes": 6531
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\result_summary.md",
+          "sha256": "2a417e1cc4cac9bfdd5ada10c3fed2385cb50e95a6e4777ba4f09973c2a7df47",
+          "size_bytes": 3107
+        }
+      ],
+      "item_id": "result_summary",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "ade3bfed-970c-40b1-b678-92dccabe11e7"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\global_metrics.csv",
+          "sha256": "b6e871c554d08917f881df41428b1fd3056dc164cf4bd7fd585d1ed2ea6418c4",
+          "size_bytes": 62
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\metric_table.json",
+          "sha256": "7aa81c2dc396f8c856f43873d6e0cc7df4b8859b6cd8d9822b5efbb0eb146097",
+          "size_bytes": 87
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\metric_table.md",
+          "sha256": "23368c7c8b38ad9d5781c738805d6c0e2ead1e1141c22e1296f9f6e298a99aae",
+          "size_bytes": 90
+        }
+      ],
+      "item_id": "metric_table",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "ade3bfed-970c-40b1-b678-92dccabe11e7"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\runtime_breakdown.csv",
+          "sha256": "3a2db85d11e99c1d9372a49a8e04289cb60d50210dc27e441681d3102d73979c",
+          "size_bytes": 203
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\runtime_breakdown.json",
+          "sha256": "342e01a47b7fb63607ab77be760952572c2ca1cbf74d62a0016279d9ec0fdcb5",
+          "size_bytes": 908
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\runtime_breakdown.md",
+          "sha256": "254b5904074e0366c3f42144c3149d484e50026d796b8782288955464e9f44dd",
+          "size_bytes": 366
+        }
+      ],
+      "item_id": "runtime_breakdown",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "ade3bfed-970c-40b1-b678-92dccabe11e7"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\result_storyboard.png",
+          "sha256": "f8b61ae1bbc054790dea5d3c24a5e3f4c242f77c9a4ce84fd591bd8eeaaee51f",
+          "size_bytes": 94327
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\result_storyboard.json",
+          "sha256": "4cc92c2f45b535958a52ac68b007a25cc0535caa3b6cdfa84f85b1326436d67e",
+          "size_bytes": 2767
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\result_storyboard.md",
+          "sha256": "f7225e5370aad58fa64293168c42fc34b1f98c2655d74489e9e427cb0b6103bf",
+          "size_bytes": 1006
+        }
+      ],
+      "item_id": "result_storyboard",
+      "provider_id": "storyboard",
+      "provider_version": "1",
+      "source_ids": [
+        "ade3bfed-970c-40b1-b678-92dccabe11e7"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\provenance_manifest.json",
+          "sha256": "e070bfdcb9d5ca59e2a72f9ec6947b2ce01a9a0e4966f4b1c7e1325a63cd40b9",
+          "size_bytes": 2154
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\provenance_manifest.md",
+          "sha256": "9c38ad39fbbd083190fdb0e64ed0c94670a8f8b4ad66ea6d77984a5efebfdb99",
+          "size_bytes": 735
+        }
+      ],
+      "item_id": "provenance_manifest",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "ade3bfed-970c-40b1-b678-92dccabe11e7"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\comparison_ready_signal.json",
+          "sha256": "25ab33b8741f0f31e9a0b14fe943b150e2dce500b43c51a6643bc1f335f9b57d",
+          "size_bytes": 298
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\comparison_ready_signal.md",
+          "sha256": "bfa63a232f764b70aa0a47ead58ab5caf64b12c0d81744ec78a42594fb8125f9",
+          "size_bytes": 214
+        }
+      ],
+      "item_id": "comparison_ready_signal",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "ade3bfed-970c-40b1-b678-92dccabe11e7"
+      ],
+      "status": "exported",
+      "warnings": []
+    },
+    {
+      "files": [
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\artifact_inventory.csv",
+          "sha256": "b16fb43b879816e930c723ed51a924dc7f9edb89e586ca0d7ade84e638cc32b6",
+          "size_bytes": 617
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\artifact_inventory.json",
+          "sha256": "005aa30e002a311acf9afe419a91dc6600f57141356b61e1c6876f23cd8f2708",
+          "size_bytes": 1402
+        },
+        {
+          "path": "full_grid\\mcar_0.1\\gru_d\\test_r004\\artifact_inventory.md",
+          "sha256": "c8a26fbfdcb4ebd1ca2999996b89fe8b5f7fdddd3b7c618df7fefc50ef67d895",
+          "size_bytes": 782
+        }
+      ],
+      "item_id": "artifact_inventory",
+      "provider_id": "core_result",
+      "provider_version": "1",
+      "source_ids": [
+        "ade3bfed-970c-40b1-b678-92dccabe11e7"
+      ],
+      "status": "exported",
+      "warnings": []
+    }
+  ],
+  "preset": {
+    "preset_id": "",
+    "preset_revision": null
+  },
+  "schema": "imputebench.evidence-export/v1",
+  "scientific_scope": "scientific",
+  "selection": {
+    "preset_id": "",
+    "requested_items": [
+      "result_summary",
+      "metric_table",
+      "runtime_breakdown",
+      "result_storyboard",
+      "provenance_manifest",
+      "comparison_ready_signal",
+      "artifact_inventory"
+    ]
+  },
+  "targets": [
+    {
+      "target_id": "79e01bc6-e34f-4029-bc46-65175480a8b2"
+    },
+    {
+      "target_id": "b7d9123c-8920-4e82-8934-54be6a1cd13e"
+    },
+    {
+      "target_id": "27767c9a-3ff7-4fb2-ac1c-f1a7cbfb109c"
+    },
+    {
+      "target_id": "71114600-ad9f-4678-a769-6baa96135bdf"
+    },
+    {
+      "target_id": "ade3bfed-970c-40b1-b678-92dccabe11e7"
+    }
+  ],
+  "warnings": []
+}

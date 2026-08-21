@@ -1,20 +1,16 @@
 {
-  "created_at": "2026-06-30T01:30:17.330366+00:00",
-  "is_placeholder": false,
+  "figure_id": "training_curve",
+  "status": "blocked",
+  "reason": "training_history_missing",
+  "claim_level": "blocked",
+  "is_placeholder": true,
+  "created_at": "2026-08-17T22:30:06.378987+00:00",
   "source_results": [
     "c427e184-dc8c-4837-90f2-7b9f085236fd"
   ],
   "source_tables": [],
   "source_mask_banks": [],
-  "caveats": [],
-  "first_loss": 1376.5748291015625,
-  "last_loss": 269.5875549316406,
-  "best_loss": 269.5875549316406,
-  "best_epoch": 100.0,
-  "history_point_count": 100,
-  "figure_id": "training_curve",
-  "status": "ready",
-  "claim_level": "descriptive",
-  "algorithm_id": "stgcn",
-  "graph_policy": "grid_4n_v1"
+  "caveats": [
+    "training_history_missing"
+  ]
 }

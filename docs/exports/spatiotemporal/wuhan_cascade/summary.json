@@ -1,0 +1,27 @@
+{
+  "experiment_id": "exp_cascade",
+  "dataset": "wuhan_aq",
+  "graph": "distance_knn_geo_v1",
+  "cascade": "GALPI (temporal stabilization, input/preprocessing layer) -> STGCN (graph-aware refinement)",
+  "input_rule": "GALPI output used as input/preprocessing layer; original missingness mask preserved",
+  "protocol": "same as standalone STGCN lane: 50 epochs, 5 realizations, matched mask banks",
+  "n_runs": 6,
+  "n_results": 30,
+  "algorithms": [
+    "stgcn_galpi"
+  ],
+  "families": [
+    "mar",
+    "mcar",
+    "mnar",
+    "node_holdout",
+    "sensor_dropout",
+    "spatial_block"
+  ],
+  "rates": [
+    0.5
+  ],
+  "paired_baseline": "exp_st (stgcn), matched on (rate, family, realization)",
+  "paired_n_pairs": 30,
+  "device": "cuda"
+}

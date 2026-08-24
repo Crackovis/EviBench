@@ -1,0 +1,248 @@
+[
+  {
+    "rate": 0.5,
+    "family": "mar",
+    "method_a": "stgcn_galpi",
+    "method_b": "stgcn",
+    "cascade_rmse_mean": 29.890398025512695,
+    "cascade_rmse_std": 2.1213970439707017,
+    "stgcn_rmse_mean": 35.93211441040039,
+    "stgcn_rmse_std": 1.5092946192801089,
+    "delta_pct": -16.814252331165196,
+    "n": 5,
+    "wilcoxon_stat": 0.0,
+    "p_value": 0.0625,
+    "per_realization": [
+      {
+        "realization": "test_r000",
+        "cascade": 28.059635162353516,
+        "stgcn": 35.91781997680664
+      },
+      {
+        "realization": "test_r001",
+        "cascade": 27.89263343811035,
+        "stgcn": 33.78965759277344
+      },
+      {
+        "realization": "test_r002",
+        "cascade": 32.3282585144043,
+        "stgcn": 36.27830505371094
+      },
+      {
+        "realization": "test_r003",
+        "cascade": 28.55487823486328,
+        "stgcn": 35.249847412109375
+      },
+      {
+        "realization": "test_r004",
+        "cascade": 32.61658477783203,
+        "stgcn": 38.42494201660156
+      }
+    ]
+  },
+  {
+    "rate": 0.5,
+    "family": "mcar",
+    "method_a": "stgcn_galpi",
+    "method_b": "stgcn",
+    "cascade_rmse_mean": 28.382387924194337,
+    "cascade_rmse_std": 0.34154655862738714,
+    "stgcn_rmse_mean": 32.179498291015626,
+    "stgcn_rmse_std": 0.4009259498176911,
+    "delta_pct": -11.799781129221104,
+    "n": 5,
+    "wilcoxon_stat": 0.0,
+    "p_value": 0.0625,
+    "per_realization": [
+      {
+        "realization": "test_r000",
+        "cascade": 28.55377197265625,
+        "stgcn": 31.401599884033203
+      },
+      {
+        "realization": "test_r001",
+        "cascade": 28.80567741394043,
+        "stgcn": 32.515987396240234
+      },
+      {
+        "realization": "test_r002",
+        "cascade": 28.266389846801758,
+        "stgcn": 32.441246032714844
+      },
+      {
+        "realization": "test_r003",
+        "cascade": 27.79183578491211,
+        "stgcn": 32.25053787231445
+      },
+      {
+        "realization": "test_r004",
+        "cascade": 28.494264602661133,
+        "stgcn": 32.28812026977539
+      }
+    ]
+  },
+  {
+    "rate": 0.5,
+    "family": "mnar",
+    "method_a": "stgcn_galpi",
+    "method_b": "stgcn",
+    "cascade_rmse_mean": 34.94087677001953,
+    "cascade_rmse_std": 1.969128614503298,
+    "stgcn_rmse_mean": 45.527523040771484,
+    "stgcn_rmse_std": 0.9477569424922297,
+    "delta_pct": -23.25328848062137,
+    "n": 5,
+    "wilcoxon_stat": 0.0,
+    "p_value": 0.0625,
+    "per_realization": [
+      {
+        "realization": "test_r000",
+        "cascade": 36.227176666259766,
+        "stgcn": 45.06203079223633
+      },
+      {
+        "realization": "test_r001",
+        "cascade": 32.04844284057617,
+        "stgcn": 44.799747467041016
+      },
+      {
+        "realization": "test_r002",
+        "cascade": 34.34694290161133,
+        "stgcn": 45.729454040527344
+      },
+      {
+        "realization": "test_r003",
+        "cascade": 37.856632232666016,
+        "stgcn": 47.29061508178711
+      },
+      {
+        "realization": "test_r004",
+        "cascade": 34.225189208984375,
+        "stgcn": 44.755767822265625
+      }
+    ]
+  },
+  {
+    "rate": 0.5,
+    "family": "node_holdout",
+    "method_a": "stgcn_galpi",
+    "method_b": "stgcn",
+    "cascade_rmse_mean": 33.49727210998535,
+    "cascade_rmse_std": 1.8456962940847172,
+    "stgcn_rmse_mean": 34.09940147399902,
+    "stgcn_rmse_std": 2.558573875815862,
+    "delta_pct": -1.7658062546135813,
+    "n": 5,
+    "wilcoxon_stat": 3.0,
+    "p_value": 0.3125,
+    "per_realization": [
+      {
+        "realization": "test_r000",
+        "cascade": 36.43461227416992,
+        "stgcn": 37.552284240722656
+      },
+      {
+        "realization": "test_r001",
+        "cascade": 34.02132797241211,
+        "stgcn": 35.49505615234375
+      },
+      {
+        "realization": "test_r002",
+        "cascade": 31.782623291015625,
+        "stgcn": 31.1691951751709
+      },
+      {
+        "realization": "test_r003",
+        "cascade": 31.270238876342773,
+        "stgcn": 31.086563110351562
+      },
+      {
+        "realization": "test_r004",
+        "cascade": 33.97755813598633,
+        "stgcn": 35.19390869140625
+      }
+    ]
+  },
+  {
+    "rate": 0.5,
+    "family": "sensor_dropout",
+    "method_a": "stgcn_galpi",
+    "method_b": "stgcn",
+    "cascade_rmse_mean": 33.54648284912109,
+    "cascade_rmse_std": 2.404136795144116,
+    "stgcn_rmse_mean": 33.68516845703125,
+    "stgcn_rmse_std": 1.8723446040163794,
+    "delta_pct": -0.4117111900065724,
+    "n": 5,
+    "wilcoxon_stat": 6.0,
+    "p_value": 0.8125,
+    "per_realization": [
+      {
+        "realization": "test_r000",
+        "cascade": 36.84844970703125,
+        "stgcn": 36.02008819580078
+      },
+      {
+        "realization": "test_r001",
+        "cascade": 34.8628044128418,
+        "stgcn": 35.36164474487305
+      },
+      {
+        "realization": "test_r002",
+        "cascade": 29.87327766418457,
+        "stgcn": 30.932170867919922
+      },
+      {
+        "realization": "test_r003",
+        "cascade": 31.99582862854004,
+        "stgcn": 32.3869514465332
+      },
+      {
+        "realization": "test_r004",
+        "cascade": 34.15205383300781,
+        "stgcn": 33.7249870300293
+      }
+    ]
+  },
+  {
+    "rate": 0.5,
+    "family": "spatial_block",
+    "method_a": "stgcn_galpi",
+    "method_b": "stgcn",
+    "cascade_rmse_mean": 36.80719757080078,
+    "cascade_rmse_std": 1.5481386820230663,
+    "stgcn_rmse_mean": 37.45189743041992,
+    "stgcn_rmse_std": 1.552084522437332,
+    "delta_pct": -1.7214077359281856,
+    "n": 5,
+    "wilcoxon_stat": 3.0,
+    "p_value": 0.3125,
+    "per_realization": [
+      {
+        "realization": "test_r000",
+        "cascade": 33.895320892333984,
+        "stgcn": 34.54331970214844
+      },
+      {
+        "realization": "test_r001",
+        "cascade": 36.97256088256836,
+        "stgcn": 38.04326248168945
+      },
+      {
+        "realization": "test_r002",
+        "cascade": 36.92918395996094,
+        "stgcn": 38.545440673828125
+      },
+      {
+        "realization": "test_r003",
+        "cascade": 38.215232849121094,
+        "stgcn": 37.260372161865234
+      },
+      {
+        "realization": "test_r004",
+        "cascade": 38.02368927001953,
+        "stgcn": 38.86709213256836
+      }
+    ]
+  }
+]

@@ -17,3 +17,12 @@ rate,family,algorithm,n,rmse_mean,rmse_std,mae_mean,mae_std,PM25_rmse_mean,PM10_
 0.3,mnar,brits,20,46.875760,0.264304,30.726606,0.207658,nan,nan,nan,nan,nan,nan
 0.3,mnar,saits,20,11.848736,0.180825,6.964857,0.044689,nan,nan,nan,nan,nan,nan
 0.3,mnar,saits_lc,20,12.085618,0.193379,7.018355,0.049525,nan,nan,nan,nan,nan,nan
+0.5,mar,brits,20,28.941103,1.134110,17.668845,0.670900,nan,nan,nan,nan,nan,nan
+0.5,mar,saits,20,11.011545,0.420043,6.536527,0.319159,nan,nan,nan,nan,nan,nan
+0.5,mar,saits_lc,20,11.056938,0.435090,6.589826,0.350356,nan,nan,nan,nan,nan,nan
+0.5,mcar,brits,20,28.720481,0.067269,18.208255,0.034058,nan,nan,nan,nan,nan,nan
+0.5,mcar,saits,20,9.095008,0.058398,5.312022,0.012205,nan,nan,nan,nan,nan,nan
+0.5,mcar,saits_lc,20,8.966578,0.056019,5.240287,0.012574,nan,nan,nan,nan,nan,nan
+0.5,mnar,brits,20,48.024131,0.156616,31.527189,0.124274,nan,nan,nan,nan,nan,nan
+0.5,mnar,saits,20,12.731101,0.092169,7.417662,0.036791,nan,nan,nan,nan,nan,nan
+0.5,mnar,saits_lc,20,13.876168,0.106461,8.108341,0.042723,nan,nan,nan,nan,nan,nan

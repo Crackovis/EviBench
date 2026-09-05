@@ -1,0 +1,228 @@
+{
+  "artifacts": [
+    {
+      "portable_path": "repo://data/results/c190ccfb-08c1-4def-8885-823f890f17a4/183a4efd-d24a-4ad0-9062-adf68bb86e04/X_imputed.npy",
+      "role": "Predictions",
+      "state": "declared"
+    },
+    {
+      "portable_path": "repo://data/benchmark_mask_banks/official_wuhan_interpolation/mar/10/test/test_r000",
+      "role": "Mask",
+      "state": "declared"
+    },
+    {
+      "portable_path": "",
+      "role": "Checkpoint",
+      "state": "missing"
+    },
+    {
+      "portable_path": "",
+      "role": "Training history",
+      "state": "missing"
+    }
+  ],
+  "benchmark": {
+    "contract_id": "f55492f8-f0db-4e31-9861-3e2cc7637eb3",
+    "evaluation_support_fingerprint": "c20ecea7d5d435f8addbc5bb3795c002671eef03e467fabff9fc33b059b0ddba",
+    "has_contract": true,
+    "mask_bank_id": "20c9ee48-338f-4c95-913e-9dede901f7b6",
+    "missing_fields": [],
+    "posture": "benchmark_ready",
+    "realization_id": "test_r000",
+    "shared_benchmark_parity": true
+  },
+  "caveats": [],
+  "claim_limits": [
+    "Scientific. Metrics computed under a shared benchmark contract and may be ranked and compared."
+  ],
+  "execution": {
+    "actual_execution_class": "classical",
+    "algorithm_family_scope": "",
+    "is_dl": false,
+    "requested_execution_class": "classical"
+  },
+  "identity": {
+    "actual_execution_class": "classical",
+    "algorithm_family": "classical",
+    "algorithm_id": "cubic_spline",
+    "algorithm_name": "CubicSpline",
+    "algorithm_version": "1.0.0",
+    "completed_at": "2026-08-17T08:25:17.906445+00:00",
+    "created_at": "2026-08-17T08:25:17.906477+00:00",
+    "dataset_id": "c1b03ed1-dad4-444b-a06d-e85cb81378b6",
+    "dataset_name": "Wuhan Air Quality (Real)",
+    "dataset_snapshot_fingerprint": "",
+    "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+    "dataset_view_mode": "full_grid",
+    "declared_rate": 0.1,
+    "domain": "temporal_imputation",
+    "experiment_id": "",
+    "is_dl": false,
+    "mask_family": "mar",
+    "masking_id": "protocol:test_r000",
+    "masking_name": "",
+    "phase": "execute",
+    "realization_id": "",
+    "realization_index": null,
+    "realized_rate": null,
+    "recipe_book_id": "official_wuhan_interpolation_comparison",
+    "recipe_display_identity": {
+      "confidence": "medium",
+      "family": "mar",
+      "label": "MAR 10%",
+      "rate": 0.1,
+      "recipe_book_id": "official_wuhan_interpolation_comparison",
+      "recipe_entry_id": "official_wuhan_interpolation_comparison:mar:10",
+      "recipe_revision": null,
+      "source": "recipe_entry_id_parsed",
+      "warnings": []
+    },
+    "recipe_entry_id": "official_wuhan_interpolation_comparison:mar:10",
+    "recipe_revision": null,
+    "requested_execution_class": "classical",
+    "result_id": "183a4efd-d24a-4ad0-9062-adf68bb86e04",
+    "run_id": "c190ccfb-08c1-4def-8885-823f890f17a4",
+    "run_name": "official_wuhan_interpolation_comparison:mar:10:CubicSpline:official",
+    "station_grid_col": null,
+    "station_grid_row": null,
+    "station_id": "",
+    "station_label": "full_grid",
+    "status": "COMPLETED"
+  },
+  "metrics": {
+    "global": {
+      "mae": 2.747566267824387,
+      "rmse": 5.418991345662302,
+      "runtime_s": 3.1296464999995806
+    },
+    "node_summary": {
+      "coverage": 10,
+      "max": 3.22722635600788,
+      "mean": 2.717043580322688,
+      "median": 2.7321068147001295,
+      "metric": "mae",
+      "min": 2.0057056120357073,
+      "node_count": 10,
+      "worst_node_id": "node_6",
+      "worst_value": 3.22722635600788
+    },
+    "pollutant": {
+      "co": {
+        "mae": 0.07945737231082234,
+        "rmse": 0.1595678268814474
+      },
+      "no2": {
+        "mae": 3.9266293433815584,
+        "rmse": 6.711843085652311
+      },
+      "o3": {
+        "mae": 5.269257395813151,
+        "rmse": 8.305272722136609
+      },
+      "pm10": {
+        "mae": 3.15977003508393,
+        "rmse": 5.565788689753894
+      },
+      "pm25": {
+        "mae": 3.186874960991508,
+        "rmse": 5.073638788831269
+      },
+      "so2": {
+        "mae": 0.8634084993653546,
+        "rmse": 2.328332974638962
+      }
+    },
+    "split": {}
+  },
+  "provenance": {
+    "environment": {
+      "backend_device_reported": "",
+      "device_truth_level": "",
+      "environment_digest": "b2d0eaccf552b37655f5fcc3de42e391590f79c7d7b4dedf9fc8e0b2f5826735",
+      "git_commit_hash": "c5676286ea8a4eff3bd558a55650578c63fe7c00",
+      "imputebench_version": "1.2.0",
+      "python_version": "3.13.9",
+      "requested_device": "False",
+      "selected_device": ""
+    },
+    "recipe": {
+      "book_id": "official_wuhan_interpolation_comparison",
+      "definition_sha256": "",
+      "entry_id": "official_wuhan_interpolation_comparison:mar:10",
+      "materialization_id": "",
+      "profile_id": "a",
+      "revision": null
+    }
+  },
+  "runtime": {
+    "coverage": "5/5 stages",
+    "dataset_view_fingerprint": "4fbebeac49fb1e52112851175b1a18c00a575e10a19ae71fdb1eb0f21d3ab438",
+    "dataset_view_mode": "full_grid",
+    "effective_input_shape": [
+      52608,
+      1,
+      10,
+      6
+    ],
+    "effective_mask_shape": [
+      52608,
+      1,
+      10,
+      6
+    ],
+    "effective_output_shape": [
+      52608,
+      1,
+      10,
+      6
+    ],
+    "effective_support_fingerprint": "2832f41a2f06472578a49b559087d4b6c9572b909519577d2a7b24a22f654ea2",
+    "evaluated_points": 287496,
+    "full_dataset_shape": [
+      52608,
+      1,
+      10,
+      6
+    ],
+    "source_quality": "native_timing_spans",
+    "span_count": 5,
+    "span_ids": [
+      "238094af-0a50-49f0-9ae7-7503a519ab3c",
+      "1ee6c418-cd83-4d59-b4a7-4538b481ad83",
+      "a4c59bc0-6a43-4ef5-97ba-c17f1ce89db9",
+      "52790ea2-898c-4981-952e-163450edbd3c",
+      "fc82490b-4d00-4a34-a249-25f9b52cab36"
+    ],
+    "stages_ms": {
+      "fit": 84.4528,
+      "inference": 3131.7586,
+      "metrics": 57.2004,
+      "persistence": 0.0,
+      "total": 3277.035
+    },
+    "station_grid_col": null,
+    "station_grid_row": null,
+    "station_id": "",
+    "support_slice_end": 52608,
+    "support_slice_start": 0,
+    "support_source": "dataset_runtime_provider",
+    "timing_source": "runtime_timing_spans"
+  },
+  "schema": "imputebench.result-summary/v2",
+  "scientific_status": {
+    "badge": "[SCIENTIFIC]",
+    "claim_boundary": "Scientific. Metrics computed under a shared benchmark contract and may be ranked and compared.",
+    "is_failed": false,
+    "is_incomplete": false,
+    "is_mock": false,
+    "posture": "benchmark_ready"
+  },
+  "target": {
+    "id": "183a4efd-d24a-4ad0-9062-adf68bb86e04",
+    "type": "result"
+  },
+  "training": {
+    "reason": "classical single-shot result",
+    "status": "not_applicable"
+  }
+}
